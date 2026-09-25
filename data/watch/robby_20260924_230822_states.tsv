@@ -1,0 +1,36 @@
+layer	layerName	shortHash	fullHash	resolved	clips	count
+0	Base Layer	-1050389351	1202859280		idleCalm2	20
+0	Base Layer	-1346564644	-1575919260		WalkLeft|WalkForward	6
+0	Base Layer	-1061332458	1703109804		WalkForwardToIdle	6
+0	Base Layer	-372702304	-926236317		IdleCalm	4
+0	Base Layer	-305735421	1224271801		IdleToWalkForward	4
+0	Base Layer	-956973665	325781491	RobbyPadTakeOrderFast	RobbyPadTakeOrderFast	3
+0	Base Layer	336950523	-712749335	IdleLookVar1	IdleLookVar1	3
+0	Base Layer	-628397148	1736991184	IdleScratchHead	IdleScratchHead	2
+0	Base Layer	1597367066	2117476825		IdleCalm	1
+0	Base Layer	1721109824	1053072325		RobbyEmoteYes	1
+0	Base Layer	2090037616	1683726226		IdleTurnLeft	1
+0	Base Layer	1627266196	1258576461			1
+0	Base Layer	-2110103387	-869913825			1
+0	Base Layer	-1770187688	27107153	ShakeHead		1
+0	Base Layer	-331262521	476507385	IdleSwatFly	IdleSwatFly	1
+0	Base Layer	-2102769566	1994638045		IdleToRunForward	1
+0	Base Layer	1273428811	1144736776		RunLeft|RunForward	1
+0	Base Layer	-727907992	-1759410515		RobbyIdleToWalk180	1
+0	Base Layer	1712013045	-1646602863	ThumbsUp	ThumbsUp	1
+1	UpperBody	-542986255	368968313			2
+1	UpperBody	-884061178	634056736	UpperBody.RobbyCarryStick	RobbyCarryStick	1
+2	FullBody	-542986255	361517808			7
+2	FullBody	1013122127	2146947681		RobbyFallInjured	3
+2	FullBody	-196986847	756458264		RobbyInjured	3
+2	FullBody	-1097031545	-49776983		RobbyGetUpInjured	2
+2	FullBody	2012369782	1265248850		RobbyIdleToHide	1
+2	FullBody	1676335034	-1696775302		Robbyhide	1
+2	FullBody	-1037583724	-20986960		RobbyHideToIdle	1
+2	FullBody	-2032807382	-927274007		RobbyHitLegLeft	1
+2	FullBody	-60932618	764947366		RobbyHitFrontB	1
+2	FullBody	-1013376006	-90718880		RobbyPickupFirstStick	1
+2	FullBody	730743416	2058294489		RobbyPickupStick	1
+2	FullBody	652201644	-1954925600		RobbyBuildFire	1
+2	FullBody	-1348624161	-1380033300		RobbyHitMolotov	1
+3	Additive	-771901510	632975102			1
