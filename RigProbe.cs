@@ -681,7 +681,7 @@ public class RigProbe : SonsMod
             string locType;
             try
             {
-                locType = locator.GetIl2CppType().FullName;
+                locType = locator.Cast<Il2CppSystem.Object>().GetIl2CppType().FullName;
             }
             catch
             {
