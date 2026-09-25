@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ToniMacaroni/RedLoader/main/MetadataSchema.json",
+  "id": "RigProbe",
+  "name": "RigProbe",
+  "author": "JustinOros",
+  "version": "0.1.0",
+  "description": "Dumps NPC skinned mesh bones and compares them to the player rig",
+  "gameVersion": "1.0.0",
+  "platform": "Client",
+  "type": "Mod"
+}
