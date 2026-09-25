@@ -3,7 +3,7 @@
   "id": "RigProbe",
   "name": "RigProbe",
   "author": "JustinOros",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Dumps rig, mesh, material and animator data for every Sons of the Forest character to JSON for mod development",
   "gameVersion": "1.0.0",
   "platform": "Client",

@@ -656,12 +656,18 @@ public class RigProbe : SonsMod
         var outDir = Path.Combine(LoaderEnvironment.UserDataDirectory, "RigProbe");
         Directory.CreateDirectory(outDir);
 
+        var locators = new List<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>();
+        foreach (var locator in Iterate(Addressables.ResourceLocators))
+            if (locator != null)
+                locators.Add(locator);
+        RLog.Msg($"rigassets: {locators.Count} locators");
+
         if (filter.StartsWith("key:", StringComparison.OrdinalIgnoreCase))
         {
             var key = filter.Substring(4).Trim();
             var one = new StringBuilder();
-            one.AppendLine("label\tkey\tprimaryKey\tinternalId\ttype\tprovider");
-            var found = ResolveKey(one, key, key);
+            one.AppendLine("label\tlocator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
+            var found = ResolveKey(one, locators, key, key);
             var onePath = Path.Combine(outDir, $"assets_key_{Sanitize(key)}.tsv");
             File.WriteAllText(onePath, one.ToString());
             Say($"RigProbe: {found} locations for {key} written to {onePath}");
@@ -670,14 +676,8 @@ public class RigProbe : SonsMod
 
         var locSb = new StringBuilder();
         locSb.AppendLine("locatorId\ttype\tkeys");
-        var sb = new StringBuilder();
-        sb.AppendLine("locator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
-        int rows = 0;
-
-        foreach (var locator in Iterate(Addressables.ResourceLocators))
+        foreach (var locator in locators)
         {
-            if (locator == null)
-                continue;
             string locType;
             try
             {
@@ -687,7 +687,31 @@ public class RigProbe : SonsMod
             {
                 locType = "?";
             }
+            locSb.AppendLine($"{locator.LocatorId}\t{locType}\t?");
+            RLog.Msg($"rigassets: locator {locator.LocatorId} type {locType}");
+        }
+        var locPath = Path.Combine(outDir, "assets_locators.tsv");
+        File.WriteAllText(locPath, locSb.ToString());
 
+        var known = new StringBuilder();
+        known.AppendLine("label\tlocator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
+        int knownRows = 0;
+        foreach (var (label, key) in KnownKeys())
+        {
+            RLog.Msg($"rigassets: resolving {label} {key}");
+            knownRows += ResolveKey(known, locators, label, key);
+        }
+        File.WriteAllText(Path.Combine(outDir, "assets_known.tsv"), known.ToString());
+        RLog.Msg($"rigassets: {knownRows} known GUID locations");
+
+        var sb = new StringBuilder();
+        sb.AppendLine("locator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
+        int rows = 0;
+        var counts = new StringBuilder();
+        counts.AppendLine("locatorId\tkeys");
+        foreach (var locator in locators)
+        {
+            RLog.Msg($"rigassets: walking keys of {locator.LocatorId}");
             int keyCount = 0;
             foreach (var keyObj in Iterate(locator.Keys))
             {
@@ -709,28 +733,19 @@ public class RigProbe : SonsMod
                     continue;
                 foreach (var loc in Iterate(locs.Cast<Il2CppSystem.Collections.Generic.IEnumerable<IResourceLocation>>()))
                 {
-                    if (loc == null)
-                        continue;
-                    if (!Matches(filter, key, loc))
+                    if (loc == null || !Matches(filter, key, loc))
                         continue;
                     sb.AppendLine($"{locator.LocatorId}\t{key}\t{LocationRow(loc)}");
                     rows++;
                 }
             }
-            locSb.AppendLine($"{locator.LocatorId}\t{locType}\t{keyCount}");
+            counts.AppendLine($"{locator.LocatorId}\t{keyCount}");
+            RLog.Msg($"rigassets: {locator.LocatorId} had {keyCount} keys");
         }
 
         var suffix = filter.Length > 0 ? $"_{Sanitize(filter)}" : string.Empty;
         File.WriteAllText(Path.Combine(outDir, $"assets{suffix}.tsv"), sb.ToString());
-        File.WriteAllText(Path.Combine(outDir, "assets_locators.tsv"), locSb.ToString());
-
-        var known = new StringBuilder();
-        known.AppendLine("label\tkey\tprimaryKey\tinternalId\ttype\tprovider");
-        int knownRows = 0;
-        foreach (var (label, key) in KnownKeys())
-            knownRows += ResolveKey(known, label, key);
-        File.WriteAllText(Path.Combine(outDir, "assets_known.tsv"), known.ToString());
-
+        File.WriteAllText(Path.Combine(outDir, "assets_keycounts.tsv"), counts.ToString());
         Say($"RigProbe: {rows} catalog locations and {knownRows} known GUID locations written to {outDir}");
     }
 
@@ -773,32 +788,45 @@ public class RigProbe : SonsMod
         return keys;
     }
 
-    private static int ResolveKey(StringBuilder sb, string label, string key)
+    private static int ResolveKey(StringBuilder sb, List<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> locators, string label, string key)
     {
         int rows = 0;
+        Il2CppSystem.Object keyObj;
         try
         {
-            var keyObj = new Il2CppSystem.Object(Il2CppInterop.Runtime.IL2CPP.ManagedStringToIl2Cpp(key));
-            var handle = Addressables.LoadResourceLocationsAsync(keyObj, null);
-            var result = handle.WaitForCompletion();
-            if (result != null)
-            {
-                foreach (var loc in Iterate(result.Cast<Il2CppSystem.Collections.Generic.IEnumerable<IResourceLocation>>()))
-                {
-                    if (loc == null)
-                        continue;
-                    sb.AppendLine($"{label}\t{key}\t{LocationRow(loc)}");
-                    rows++;
-                }
-            }
+            keyObj = new Il2CppSystem.Object(Il2CppInterop.Runtime.IL2CPP.ManagedStringToIl2Cpp(key));
         }
         catch (Exception e)
         {
-            sb.AppendLine($"{label}\t{key}\terror: {e.Message}\t\t\t");
+            sb.AppendLine($"{label}\t\t{key}\terror: {e.Message}\t\t\t");
             return 0;
         }
+
+        foreach (var locator in locators)
+        {
+            Il2CppSystem.Collections.Generic.IList<IResourceLocation> locs = null;
+            bool ok;
+            try
+            {
+                ok = locator.Locate(keyObj, null, out locs);
+            }
+            catch
+            {
+                ok = false;
+            }
+            if (!ok || locs == null)
+                continue;
+            foreach (var loc in Iterate(locs.Cast<Il2CppSystem.Collections.Generic.IEnumerable<IResourceLocation>>()))
+            {
+                if (loc == null)
+                    continue;
+                sb.AppendLine($"{label}\t{locator.LocatorId}\t{key}\t{LocationRow(loc)}");
+                rows++;
+            }
+        }
+
         if (rows == 0)
-            sb.AppendLine($"{label}\t{key}\tnot found\t\t\t");
+            sb.AppendLine($"{label}\t\t{key}\tnot found\t\t\t");
         return rows;
     }
 

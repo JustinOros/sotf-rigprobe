@@ -34,7 +34,7 @@ Written to `Sons Of The Forest\UserData\RigProbe\`:
 
 - `characters\index.tsv` one line per character with rig family and player bone match
 - `characters\clips.tsv` every loaded animation clip, `characters\controllers.tsv` every loaded animator controller and who uses it
-- `assets.tsv` or `assets_<filter>.tsv`, `assets_locators.tsv` and `assets_known.tsv` (race and clothing GUIDs resolved) from `rigassets`
+- `assets_locators.tsv`, `assets_known.tsv` (race and clothing GUIDs resolved), `assets_keycounts.tsv` and `assets.tsv` or `assets_<filter>.tsv` from `rigassets`
 - `watch\<target>_<time>.log` and `_states.tsv` from `rigwatch`
 - `characters\rigfamilies.txt` characters grouped by shared skeleton
 - `characters\<source>_<name>.json` full data per character
