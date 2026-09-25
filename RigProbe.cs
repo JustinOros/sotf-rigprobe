@@ -164,16 +164,27 @@ public class RigProbe : SonsMod
                 skip.Add(t.GetInstanceID());
 
             var roots = new Dictionary<int, Transform>();
+            var members = new Dictionary<int, List<SkinnedMeshRenderer>>();
             foreach (var smr in Resources.FindObjectsOfTypeAll<SkinnedMeshRenderer>())
             {
                 if (!smr || !smr.gameObject.scene.IsValid() || skip.Contains(smr.transform.GetInstanceID()))
                     continue;
-                var root = smr.transform.root;
-                if (!roots.ContainsKey(root.GetInstanceID()))
-                    roots[root.GetInstanceID()] = root;
+                var root = CharacterRoot(smr);
+                if (!root)
+                    continue;
+                var key = root.GetInstanceID();
+                if (!roots.ContainsKey(key))
+                {
+                    roots[key] = root;
+                    members[key] = new List<SkinnedMeshRenderer>();
+                }
+                members[key].Add(smr);
             }
-            foreach (var root in roots.Values)
-                dumps.Add(DumpObject(root.gameObject, "scene", $"{root.name}_{root.GetInstanceID()}", null));
+            foreach (var kv in roots)
+            {
+                var root = kv.Value;
+                dumps.Add(DumpObject(root.gameObject, "scene", $"{root.name}_{kv.Key}", null, members[kv.Key]));
+            }
         }
 
         foreach (var d in dumps)
@@ -189,7 +200,7 @@ public class RigProbe : SonsMod
         Say($"RigProbe: {dumps.Count} characters written to {outDir}");
     }
 
-    private static CharacterDump DumpObject(GameObject go, string source, string name, Transform exclude)
+    private static CharacterDump DumpObject(GameObject go, string source, string name, Transform exclude, List<SkinnedMeshRenderer> only = null)
     {
         var root = go.transform;
         var dump = new CharacterDump
@@ -200,7 +211,7 @@ public class RigProbe : SonsMod
             Active = go.activeInHierarchy
         };
 
-        var smrs = go.GetComponentsInChildren<SkinnedMeshRenderer>(true)
+        var smrs = only ?? go.GetComponentsInChildren<SkinnedMeshRenderer>(true)
             .Where(r => r && !(exclude && IsUnder(r.transform, exclude)))
             .ToList();
 
@@ -219,6 +230,8 @@ public class RigProbe : SonsMod
         foreach (var a in go.GetComponentsInChildren<Animator>(true))
         {
             if (!a || (exclude && IsUnder(a.transform, exclude)))
+                continue;
+            if (only != null && a.transform != root && !rigIds.Contains(a.transform.GetInstanceID()))
                 continue;
             AddWithAncestors(a.transform, root, rigIds);
             dump.Animators.Add(DumpAnimator(a, root));
@@ -494,6 +507,44 @@ public class RigProbe : SonsMod
             return "n/a";
         var hit = names.Count(n => _playerBoneNames.Contains(n));
         return $"{hit}/{names.Count} ({hit * 100 / names.Count}%)";
+    }
+
+    private static Transform CharacterRoot(SkinnedMeshRenderer smr)
+    {
+        var t = smr.transform.parent;
+        while (t)
+        {
+            if (t.GetComponent<Animator>() || t.name.IndexOf("Poser", StringComparison.OrdinalIgnoreCase) >= 0)
+                return t;
+            t = t.parent;
+        }
+
+        var bone = smr.rootBone;
+        if (!bone && smr.bones != null && smr.bones.Length > 0)
+            bone = smr.bones[0];
+        var lca = CommonAncestor(smr.transform, bone);
+        return lca ? lca : smr.transform.parent ? smr.transform.parent : smr.transform;
+    }
+
+    private static Transform CommonAncestor(Transform a, Transform b)
+    {
+        if (!a || !b)
+            return null;
+        var chain = new HashSet<int>();
+        var t = a;
+        while (t)
+        {
+            chain.Add(t.GetInstanceID());
+            t = t.parent;
+        }
+        t = b;
+        while (t)
+        {
+            if (chain.Contains(t.GetInstanceID()))
+                return t;
+            t = t.parent;
+        }
+        return null;
     }
 
     private static void AddWithAncestors(Transform t, Transform root, HashSet<int> ids)

@@ -20,7 +20,7 @@ Run these in the in-game console.
 |---|---|
 | `rigprobe` | Dump the player, carry bodies, all actor prefabs and live actors |
 | `rigprobe <filter>` | Same, limited to actor types containing the filter, e.g. `rigprobe female` |
-| `rigscene` | Dump every skinned mesh root in the loaded scenes, including cutscene characters |
+| `rigscene` | Dump every character in the loaded scenes (posers, cutscene characters, props with skinned meshes), one file per character |
 | `rigspawn <Type> [variation]` | Spawn an actor in front of you so its live variant gets dumped, e.g. `rigspawn Virginia` |
 
 ## Output
