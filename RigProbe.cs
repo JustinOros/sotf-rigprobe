@@ -4,9 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Endnight.Animation;
+using HarmonyLib;
 using RedLoader;
 using RedLoader.Utils;
 using Sons.Ai.Vail;
+using Sons.Wearable.Clothing;
 using SonsSdk;
 using SonsSdk.Attributes;
 using TheForest.Utils;
@@ -21,7 +23,7 @@ public class RigProbe : SonsMod
 
     protected override void OnSdkInitialized()
     {
-        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigspawn <TypeName> [variation]");
+        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigspawn <TypeName> [variation], rigmap, rigtest [self|off]");
     }
 
     [DebugCommand("rigprobe")]
@@ -64,6 +66,342 @@ public class RigProbe : SonsMod
         catch (Exception e)
         {
             RLog.Error($"rigspawn {id} failed: {e.Message}");
+        }
+    }
+
+    private static readonly string[][] FemaleChains = BuildChains(true);
+    private static readonly string[][] PlayerChains = BuildChains(false);
+
+    private static bool _patched;
+    private static GameObject _clone;
+    private static bool _selfMode;
+    private static float _hipScale = 1f;
+    private static readonly List<Transform> DriveFemale = new();
+    private static readonly List<Transform> DrivePlayer = new();
+    private static readonly List<Quaternion> DriveOffset = new();
+    private static Transform _femaleHips;
+    private static Transform _playerHips;
+
+    private static string[][] BuildChains(bool female)
+    {
+        var chains = new List<string[]>();
+        chains.Add(female
+            ? new[] { "c_hip_SC", "C_spine0_SC", "C_spine1_SC", "C_spine2_SC", "C_neck0_SC", "C_neck1_SC", "C_head0_SC" }
+            : new[] { "Hips", "Spine", "Spine1", "Spine2", "Neck", "Neck1", "Head" });
+        foreach (var side in new[] { ("L", "l", "Left"), ("R", "r", "Right") })
+        {
+            var (u, l, p) = side;
+            chains.Add(female
+                ? new[] { $"{u}_armPrnt0_SC", $"{u}_arm0_SC", $"{u}_arm1_SC", $"{u}_hand00_SC" }
+                : new[] { $"{p}Shoulder", $"{p}Arm", $"{p}ForeArm", $"{p}Hand" });
+            chains.Add(female
+                ? new[] { $"{u}_leg0_SC", $"{u}_leg1_SC", $"{u}_foot00_SC", $"{u}_foot01_SC" }
+                : new[] { $"{p}UpLeg", $"{p}Leg", $"{p}Foot", $"{p}ToeBase" });
+            foreach (var (f, pf) in new[] { ("A", "Index"), ("B", "Middle"), ("C", "Ring"), ("D", "Pinky") })
+            {
+                chains.Add(female
+                    ? new[] { $"{l}_handAFinger{f}0_SC", $"{l}_handAFinger{f}1_SC", $"{l}_handAFinger{f}2_SC" }
+                    : new[] { $"{p}Hand{pf}1", $"{p}Hand{pf}2", $"{p}Hand{pf}3" });
+            }
+            chains.Add(female
+                ? new[] { $"{l}_handAThumbA0_SC", $"{l}_handAThumbA1_SC", $"{l}_handAThumbA2_SC" }
+                : new[] { $"{p}HandThumb1", $"{p}HandThumb2", $"{p}HandThumb3" });
+        }
+        return chains.ToArray();
+    }
+
+    [DebugCommand("rigmap")]
+    private static void MapCommand(string args)
+    {
+        try
+        {
+            var player = LocalPlayer.GameObject;
+            if (!player)
+            {
+                Say("Load into a game first");
+                return;
+            }
+            var source = FindCarryFemale(player);
+            if (!source)
+            {
+                Say("CarryBody/FemaleCannibal not found on the player");
+                return;
+            }
+            var sb = new StringBuilder();
+            BuildDrive(source, player, sb);
+            foreach (var a in player.GetComponentsInChildren<Animator>(true))
+                sb.AppendLine($"player animator {HierPath(a.transform)} avatar={(a.avatar ? a.avatar.name : "null")} isHuman={(a.avatar && a.avatar.isHuman)}");
+            foreach (var a in source.GetComponentsInChildren<Animator>(true))
+                sb.AppendLine($"carry animator {HierPath(a.transform)} avatar={(a.avatar ? a.avatar.name : "null")} isHuman={(a.avatar && a.avatar.isHuman)}");
+            var outPath = Path.Combine(LoaderEnvironment.UserDataDirectory, "RigMap.txt");
+            File.WriteAllText(outPath, sb.ToString());
+            Say($"RigMap: {DriveFemale.Count} bones mapped, written to {outPath}");
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigmap failed: {e}");
+        }
+    }
+
+    [DebugCommand("rigtest")]
+    private static void TestCommand(string args)
+    {
+        try
+        {
+            args = (args ?? string.Empty).Trim().ToLowerInvariant();
+            if (_clone)
+                UnityEngine.Object.Destroy(_clone);
+            _clone = null;
+            DriveFemale.Clear();
+            DrivePlayer.Clear();
+            DriveOffset.Clear();
+            if (args == "off")
+            {
+                Say("rigtest off");
+                return;
+            }
+
+            var player = LocalPlayer.GameObject;
+            if (!player)
+            {
+                Say("Load into a game first");
+                return;
+            }
+            var source = FindCarryFemale(player);
+            if (!source)
+            {
+                Say("CarryBody/FemaleCannibal not found on the player");
+                return;
+            }
+
+            if (!_patched)
+            {
+                new Harmony("RigProbe.RigTest").CreateClassProcessor(typeof(ClothingLateUpdatePatch)).Patch();
+                _patched = true;
+            }
+
+            _clone = UnityEngine.Object.Instantiate(source.gameObject);
+            _clone.name = "RigProbeFemale";
+            _clone.transform.SetParent(null, true);
+            PrepareClone(_clone);
+
+            var sb = new StringBuilder();
+            BuildDrive(_clone.transform, player, sb);
+            _selfMode = args == "self";
+            _clone.SetActive(true);
+            RLog.Msg(sb.ToString());
+            Say($"rigtest {(_selfMode ? "self" : "front")}: driving {DriveFemale.Count} bones");
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigtest failed: {e}");
+        }
+    }
+
+    private static Transform FindCarryFemale(GameObject player)
+    {
+        foreach (var t in player.GetComponentsInChildren<Transform>(true))
+        {
+            if (t.name == "FemaleCannibal" && t.parent && t.parent.name == "CarryBody")
+                return t;
+        }
+        return null;
+    }
+
+    private static void PrepareClone(GameObject clone)
+    {
+        foreach (var a in clone.GetComponentsInChildren<Animator>(true))
+            a.enabled = false;
+        foreach (var m in clone.GetComponentsInChildren<MonoBehaviour>(true))
+        {
+            try
+            {
+                UnityEngine.Object.DestroyImmediate(m);
+            }
+            catch
+            {
+                m.enabled = false;
+            }
+        }
+        foreach (var c in clone.GetComponentsInChildren<Collider>(true))
+            c.enabled = false;
+        foreach (var rb in clone.GetComponentsInChildren<Rigidbody>(true))
+            rb.isKinematic = true;
+        foreach (var r in clone.GetComponentsInChildren<SkinnedMeshRenderer>(true))
+        {
+            var keep = r.name == "C1:Female_lp" || r.name.StartsWith("C1:cb_female_");
+            r.enabled = keep;
+            if (!keep)
+                continue;
+            r.updateWhenOffscreen = true;
+            var t = r.transform;
+            while (t)
+            {
+                t.gameObject.SetActive(true);
+                t = t.parent;
+            }
+        }
+    }
+
+    private static void BuildDrive(Transform femaleRoot, GameObject player, StringBuilder sb)
+    {
+        DriveFemale.Clear();
+        DrivePlayer.Clear();
+        DriveOffset.Clear();
+        _femaleHips = null;
+        _playerHips = null;
+
+        var race = LocalPlayer.RaceSystem;
+        var root = race ? race._animationRoot : player.transform.Find("PlayerAnimator/Root");
+        var hips = root ? root.Find("Hips") : null;
+        if (!hips)
+        {
+            sb.AppendLine("player Hips not found");
+            return;
+        }
+
+        var fBones = new Dictionary<string, Transform>();
+        foreach (var t in femaleRoot.GetComponentsInChildren<Transform>(true))
+            if (!fBones.ContainsKey(t.name))
+                fBones[t.name] = t;
+        var pBones = new Dictionary<string, Transform>();
+        foreach (var t in hips.GetComponentsInChildren<Transform>(true))
+            if (!pBones.ContainsKey(t.name))
+                pBones[t.name] = t;
+
+        var fRest = CollectRest(femaleRoot.GetComponentsInChildren<SkinnedMeshRenderer>(true), fBones.Values);
+        var pRest = CollectRest(player.GetComponentsInChildren<SkinnedMeshRenderer>(true), pBones.Values);
+
+        for (int c = 0; c < FemaleChains.Length; c++)
+        {
+            var fc = FemaleChains[c];
+            var pc = PlayerChains[c];
+            for (int i = 0; i < fc.Length; i++)
+            {
+                fBones.TryGetValue("C1:" + fc[i], out var f);
+                pBones.TryGetValue(pc[i], out var p);
+                if (!f || !p)
+                {
+                    sb.AppendLine($"MISS {fc[i]} -> {pc[i]} female={(bool)f} player={(bool)p}");
+                    continue;
+                }
+                var hasF = fRest.TryGetValue(f.GetInstanceID(), out var rf);
+                var hasP = pRest.TryGetValue(p.GetInstanceID(), out var rp);
+                if (!hasF || !hasP)
+                {
+                    sb.AppendLine($"NOREST {fc[i]} -> {pc[i]} femaleRest={hasF} playerRest={hasP}");
+                    continue;
+                }
+
+                var align = Quaternion.identity;
+                float angle = 0f;
+                if (i + 1 < fc.Length && fBones.TryGetValue("C1:" + fc[i + 1], out var fChild) && pBones.TryGetValue(pc[i + 1], out var pChild)
+                    && fRest.TryGetValue(fChild.GetInstanceID(), out var rfc) && pRest.TryGetValue(pChild.GetInstanceID(), out var rpc))
+                {
+                    var df = Pos(rfc) - Pos(rf);
+                    var dp = Pos(rpc) - Pos(rp);
+                    if (df.sqrMagnitude > 1e-8f && dp.sqrMagnitude > 1e-8f)
+                    {
+                        align = Quaternion.FromToRotation(df, dp);
+                        angle = Vector3.Angle(df, dp);
+                    }
+                }
+
+                var offset = Quaternion.Inverse(rp.rotation) * (align * rf.rotation);
+                DriveFemale.Add(f);
+                DrivePlayer.Add(p);
+                DriveOffset.Add(offset);
+                sb.AppendLine($"MAP {fc[i]} -> {pc[i]} restAngle={angle:F1} fPos={Pos(rf)} pPos={Pos(rp)}");
+
+                if (c == 0 && i == 0)
+                {
+                    _femaleHips = f;
+                    _playerHips = p;
+                    var ph = Pos(rp).y;
+                    _hipScale = Mathf.Abs(ph) > 0.01f ? Pos(rf).y / ph : 1f;
+                    sb.AppendLine($"hips female={Pos(rf)} {rf.rotation.eulerAngles} player={Pos(rp)} {rp.rotation.eulerAngles} hipScale={_hipScale:F3}");
+                }
+            }
+        }
+    }
+
+    private static Dictionary<int, Matrix4x4> CollectRest(IEnumerable<SkinnedMeshRenderer> renderers, IEnumerable<Transform> allowed)
+    {
+        var ids = new HashSet<int>(allowed.Select(t => t.GetInstanceID()));
+        var rest = new Dictionary<int, Matrix4x4>();
+        foreach (var r in renderers)
+        {
+            var mesh = r.sharedMesh;
+            var bones = r.bones;
+            if (!mesh || bones == null)
+                continue;
+            var binds = mesh.bindposes;
+            if (binds == null)
+                continue;
+            int n = Math.Min(bones.Length, binds.Length);
+            for (int i = 0; i < n; i++)
+            {
+                var b = bones[i];
+                if (!b)
+                    continue;
+                var id = b.GetInstanceID();
+                if (!ids.Contains(id) || rest.ContainsKey(id))
+                    continue;
+                rest[id] = binds[i].inverse;
+            }
+        }
+        return rest;
+    }
+
+    private static Vector3 Pos(Matrix4x4 m)
+    {
+        return new Vector3(m.m03, m.m13, m.m23);
+    }
+
+    internal static void Drive()
+    {
+        if (!_clone || !_femaleHips || !_playerHips)
+            return;
+        var player = LocalPlayer.GameObject;
+        if (!player)
+            return;
+
+        var pt = player.transform;
+        var yaw = _selfMode ? Quaternion.identity : Quaternion.AngleAxis(180f, pt.up);
+        var anchor = _selfMode ? pt.position : pt.position + pt.forward * 2.5f;
+
+        var local = _playerHips.position - pt.position;
+        var vertical = Vector3.Project(local, pt.up);
+        local = local - vertical + vertical * _hipScale;
+        _femaleHips.position = anchor + yaw * local;
+
+        for (int i = 0; i < DriveFemale.Count; i++)
+        {
+            var f = DriveFemale[i];
+            var p = DrivePlayer[i];
+            if (!f || !p)
+                continue;
+            f.rotation = yaw * p.rotation * DriveOffset[i];
+        }
+    }
+
+    [HarmonyPatch(typeof(PlayerClothingSystem), nameof(PlayerClothingSystem.LateUpdate))]
+    private static class ClothingLateUpdatePatch
+    {
+        private static void Postfix(PlayerClothingSystem __instance)
+        {
+            try
+            {
+                if (_clone && __instance.IsLocalPlayer())
+                    Drive();
+            }
+            catch (Exception e)
+            {
+                RLog.Error($"rigtest drive failed: {e.Message}");
+                if (_clone)
+                    UnityEngine.Object.Destroy(_clone);
+                _clone = null;
+            }
         }
     }
 
