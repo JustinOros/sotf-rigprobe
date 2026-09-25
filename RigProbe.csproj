@@ -6,7 +6,7 @@
         <LangVersion>latest</LangVersion>
         <AssemblyName>RigProbe</AssemblyName>
         <RootNamespace>RigProbe</RootNamespace>
-        <Version>0.3.0</Version>
+        <Version>0.4.0</Version>
         <NoWarn>CS0436;CS1701;CS1702;MSB3277;MSB3106</NoWarn>
     </PropertyGroup>
 

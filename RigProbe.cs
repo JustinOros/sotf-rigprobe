@@ -8,11 +8,16 @@ using System.Text.Json;
 using RedLoader;
 using RedLoader.Utils;
 using Sons.Ai.Vail;
+using Sons.Multiplayer.Client;
 using Sons.Wearable.Clothing;
+using Sons.Wearable.Race;
 using SonsSdk;
 using SonsSdk.Attributes;
 using TheForest.Utils;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.AddressableAssets.ResourceLocators;
+using UnityEngine.ResourceManagement.ResourceLocations;
 
 namespace RigProbe;
 
@@ -21,9 +26,29 @@ public class RigProbe : SonsMod
     private static readonly JsonSerializerOptions Json = new() { WriteIndented = true };
     private static HashSet<string> _playerBoneNames = new();
 
+    private static readonly string[] EmoteNames =
+    {
+        "HappyThumbsUp", "ThumbsUp", "Nod", "HappyFistPump", "FistPump", "Confused", "HitHeadSmall", "HitHeadBig",
+        "ShakeHead", "NoHandUp", "Sad", "Happy", "Laugh", "WagFingerNo", "SkunkReact", "OnPlayerNod",
+        "OnPlayerCrash", "OnPlayerSmallHit", "Wave", "Point", "Cheer", "Dance", "Salute", "Clap", "Shrug"
+    };
+
+    private static Animator _watchAnimator;
+    private static string _watchTarget;
+    private static int[] _watchLast;
+    private static StreamWriter _watchLog;
+    private static Dictionary<int, string> _watchNames;
+    private static readonly Dictionary<string, WatchEntry> WatchSeen = new();
+    private static string _watchStatesPath;
+
+    public RigProbe()
+    {
+        OnUpdateCallback = OnUpdate;
+    }
+
     protected override void OnSdkInitialized()
     {
-        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigscene, rigspawn <TypeName> [variation]");
+        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigscene, rigassets [filter], rigwatch [player|robby|virginia|off], rigspawn <TypeName> [variation]");
     }
 
     [DebugCommand("rigprobe")]
@@ -49,6 +74,32 @@ public class RigProbe : SonsMod
         catch (Exception e)
         {
             RLog.Error($"rigscene failed: {e}");
+        }
+    }
+
+    [DebugCommand("rigassets")]
+    private static void AssetsCommand(string args)
+    {
+        try
+        {
+            DumpAddressables((args ?? string.Empty).Trim());
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigassets failed: {e}");
+        }
+    }
+
+    [DebugCommand("rigwatch")]
+    private static void WatchCommand(string args)
+    {
+        try
+        {
+            StartWatch((args ?? string.Empty).Trim().ToLowerInvariant());
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigwatch failed: {e}");
         }
     }
 
@@ -106,6 +157,16 @@ public class RigProbe : SonsMod
 
         if (!sceneMode)
         {
+            foreach (var setup in Resources.FindObjectsOfTypeAll<CoopPlayerRemoteSetup>())
+            {
+                if (!setup || !setup.gameObject.scene.IsValid() || IsUnder(setup.transform, player.transform))
+                    continue;
+                var go = setup.gameObject;
+                var d = DumpObject(go, "remotePlayer", $"{go.name}_{go.GetInstanceID()}", null);
+                AddPlayerData(d, go);
+                dumps.Add(d);
+            }
+
             if (carryRoot)
             {
                 for (int i = 0; i < carryRoot.childCount; i++)
@@ -156,6 +217,8 @@ public class RigProbe : SonsMod
                     dumps.Add(d);
                 }
             }
+
+            WriteClips(outDir);
         }
         else
         {
@@ -227,6 +290,7 @@ public class RigProbe : SonsMod
             AddWithAncestors(r.rootBone, root, rigIds);
         }
 
+        var animatorIds = new HashSet<int>();
         foreach (var a in go.GetComponentsInChildren<Animator>(true))
         {
             if (!a || (exclude && IsUnder(a.transform, exclude)))
@@ -234,21 +298,34 @@ public class RigProbe : SonsMod
             if (only != null && a.transform != root && !rigIds.Contains(a.transform.GetInstanceID()))
                 continue;
             AddWithAncestors(a.transform, root, rigIds);
+            animatorIds.Add(a.transform.GetInstanceID());
             dump.Animators.Add(DumpAnimator(a, root));
         }
 
         foreach (var t in go.GetComponentsInChildren<Transform>(true))
         {
-            if (!rigIds.Contains(t.GetInstanceID()))
-                continue;
-            dump.Rig.Add(new BoneInfo
+            var id = t.GetInstanceID();
+            var inRig = rigIds.Contains(id);
+            if (inRig)
             {
-                Path = RelPath(t, root),
-                Parent = t.parent && t != root ? RelPath(t.parent, root) : string.Empty,
-                LocalPosition = V3(t.localPosition),
-                LocalRotation = Q(t.localRotation),
-                LocalScale = V3(t.localScale)
-            });
+                dump.Rig.Add(new BoneInfo
+                {
+                    Path = RelPath(t, root),
+                    Parent = t.parent && t != root ? RelPath(t.parent, root) : string.Empty,
+                    LocalPosition = V3(t.localPosition),
+                    LocalRotation = Q(t.localRotation),
+                    LocalScale = V3(t.localScale)
+                });
+            }
+
+            if (exclude && IsUnder(t, exclude))
+                continue;
+            if (inRig || animatorIds.Contains(id) || t == root || t.parent == root)
+            {
+                var types = ComponentTypes(t);
+                if (types.Length > 0)
+                    dump.Components.Add($"{RelPath(t, root)}: {types}");
+            }
         }
 
         foreach (var r in smrs)
@@ -266,6 +343,29 @@ public class RigProbe : SonsMod
         return dump;
     }
 
+    private static string ComponentTypes(Transform t)
+    {
+        var names = new List<string>();
+        foreach (var c in t.GetComponents<Component>())
+        {
+            if (!c)
+                continue;
+            string n;
+            try
+            {
+                n = c.GetIl2CppType().FullName;
+            }
+            catch
+            {
+                n = c.GetType().FullName;
+            }
+            if (n == "UnityEngine.Transform")
+                continue;
+            names.Add(n);
+        }
+        return string.Join(", ", names);
+    }
+
     private static SmrInfo DumpSmr(SkinnedMeshRenderer r, Transform root)
     {
         var info = new SmrInfo
@@ -273,6 +373,9 @@ public class RigProbe : SonsMod
             Path = RelPath(r.transform, root),
             Enabled = r.enabled,
             Active = r.gameObject.activeInHierarchy,
+            Layer = r.gameObject.layer,
+            LayerName = LayerMask.LayerToName(r.gameObject.layer),
+            Shadow = r.shadowCastingMode.ToString(),
             RootBone = r.rootBone ? RelPath(r.rootBone, root) : string.Empty
         };
 
@@ -347,9 +450,12 @@ public class RigProbe : SonsMod
             Path = RelPath(a.transform, root),
             Enabled = a.enabled
         };
+
+        RuntimeAnimatorController controller = null;
         try
         {
-            info.Controller = a.runtimeAnimatorController ? a.runtimeAnimatorController.name : string.Empty;
+            controller = a.runtimeAnimatorController;
+            info.Controller = controller ? controller.name : string.Empty;
         }
         catch
         {
@@ -375,22 +481,391 @@ public class RigProbe : SonsMod
             }
         }
 
+        var clipNames = new List<string>();
+        if (controller)
+        {
+            try
+            {
+                var seen = new HashSet<string>();
+                foreach (var clip in controller.animationClips)
+                {
+                    if (!clip || !seen.Add(clip.name))
+                        continue;
+                    clipNames.Add(clip.name);
+                    info.Clips.Add(DescribeClip(clip));
+                }
+            }
+            catch
+            {
+            }
+        }
+
         try
         {
-            info.Layers = a.layerCount;
-            foreach (var p in a.parameters)
-                info.Parameters.Add($"{p.name}:{p.type}");
+            info.Initialized = a.isInitialized;
         }
         catch
         {
         }
 
+        if (!info.Initialized)
+            return info;
+
+        try
+        {
+            info.LayerCount = a.layerCount;
+            for (int i = 0; i < a.layerCount; i++)
+                info.Layers.Add(new LayerInfo { Index = i, Name = a.GetLayerName(i), Weight = R(a.GetLayerWeight(i)) });
+        }
+        catch
+        {
+        }
+
+        try
+        {
+            foreach (var p in a.parameters)
+                info.Parameters.Add($"{p.name}:{p.type}:{p.nameHash}");
+        }
+        catch
+        {
+        }
+
+        var candidates = clipNames.Concat(EmoteNames).Distinct().ToList();
+        for (int layer = 0; layer < info.Layers.Count; layer++)
+        {
+            foreach (var name in candidates)
+            {
+                var hash = Animator.StringToHash(name);
+                bool has;
+                try
+                {
+                    has = a.HasState(layer, hash);
+                }
+                catch
+                {
+                    has = false;
+                }
+                if (has)
+                    info.States.Add(new StateHit { Layer = layer, LayerName = info.Layers[layer].Name, Name = name, ShortHash = hash });
+            }
+
+            try
+            {
+                var st = a.GetCurrentAnimatorStateInfo(layer);
+                var clips = new List<string>();
+                foreach (var ci in a.GetCurrentAnimatorClipInfo(layer))
+                {
+                    var c = ci.clip;
+                    if (c)
+                        clips.Add(c.name);
+                }
+                info.Current.Add(new CurrentState
+                {
+                    Layer = layer,
+                    ShortHash = st.shortNameHash,
+                    FullHash = st.fullPathHash,
+                    NormalizedTime = R(st.normalizedTime),
+                    Clips = string.Join("|", clips)
+                });
+            }
+            catch
+            {
+            }
+        }
+
         return info;
+    }
+
+    private static ClipInfo DescribeClip(AnimationClip clip)
+    {
+        var ci = new ClipInfo
+        {
+            Name = clip.name,
+            Length = R(clip.length),
+            Loop = clip.isLooping,
+            FrameRate = R(clip.frameRate),
+            Legacy = clip.legacy,
+            HumanMotion = clip.humanMotion
+        };
+        try
+        {
+            var events = clip.events;
+            if (events != null)
+                ci.Events = events.Where(e => e != null).Select(e => $"{R(e.time)}:{e.functionName}").ToList();
+        }
+        catch
+        {
+        }
+        return ci;
+    }
+
+    private static void WriteClips(string outDir)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine("name\tlength\tloop\tframeRate\tlegacy\thumanMotion\tevents");
+        var seen = new HashSet<int>();
+        foreach (var clip in Resources.FindObjectsOfTypeAll<AnimationClip>())
+        {
+            if (!clip || !seen.Add(clip.GetInstanceID()))
+                continue;
+            var ci = DescribeClip(clip);
+            sb.AppendLine($"{ci.Name}\t{ci.Length}\t{ci.Loop}\t{ci.FrameRate}\t{ci.Legacy}\t{ci.HumanMotion}\t{string.Join(" ", ci.Events)}");
+        }
+        File.WriteAllText(Path.Combine(outDir, "clips.tsv"), sb.ToString());
+
+        var cb = new StringBuilder();
+        cb.AppendLine("controller\tclips\tusedBy");
+        var users = new Dictionary<string, HashSet<string>>();
+        foreach (var a in Resources.FindObjectsOfTypeAll<Animator>())
+        {
+            if (!a)
+                continue;
+            try
+            {
+                var c = a.runtimeAnimatorController;
+                if (!c)
+                    continue;
+                if (!users.TryGetValue(c.name, out var set))
+                    users[c.name] = set = new HashSet<string>();
+                if (set.Count < 20)
+                    set.Add(a.transform.root.name);
+            }
+            catch
+            {
+            }
+        }
+        foreach (var c in Resources.FindObjectsOfTypeAll<RuntimeAnimatorController>())
+        {
+            if (!c)
+                continue;
+            int count = 0;
+            try
+            {
+                count = c.animationClips.Length;
+            }
+            catch
+            {
+            }
+            users.TryGetValue(c.name, out var set);
+            cb.AppendLine($"{c.name}\t{count}\t{(set == null ? string.Empty : string.Join(", ", set))}");
+        }
+        File.WriteAllText(Path.Combine(outDir, "controllers.tsv"), cb.ToString());
+    }
+
+    private static void DumpAddressables(string filter)
+    {
+        var outDir = Path.Combine(LoaderEnvironment.UserDataDirectory, "RigProbe");
+        Directory.CreateDirectory(outDir);
+        var sb = new StringBuilder();
+        sb.AppendLine("locator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
+        int rows = 0;
+
+        var locators = Addressables.ResourceLocators;
+        var en = locators.GetEnumerator();
+        var move = en.Cast<Il2CppSystem.Collections.IEnumerator>();
+        while (move.MoveNext())
+        {
+            var locator = en.Current;
+            if (locator == null)
+                continue;
+            var map = locator.TryCast<ResourceLocationMap>();
+            if (map == null)
+            {
+                sb.AppendLine($"{locator.LocatorId}\t(not a ResourceLocationMap)\t\t\t\t");
+                continue;
+            }
+
+            foreach (var kv in map.Locations)
+            {
+                var key = kv.Key != null ? kv.Key.ToString() : string.Empty;
+                var list = kv.Value?.TryCast<Il2CppSystem.Collections.Generic.List<IResourceLocation>>();
+                if (list == null)
+                    continue;
+                for (int i = 0; i < list.Count; i++)
+                {
+                    var loc = list[i];
+                    if (loc == null)
+                        continue;
+                    var internalId = loc.InternalId ?? string.Empty;
+                    if (filter.Length > 0
+                        && key.IndexOf(filter, StringComparison.OrdinalIgnoreCase) < 0
+                        && internalId.IndexOf(filter, StringComparison.OrdinalIgnoreCase) < 0
+                        && (loc.PrimaryKey ?? string.Empty).IndexOf(filter, StringComparison.OrdinalIgnoreCase) < 0)
+                        continue;
+                    string type;
+                    try
+                    {
+                        type = loc.ResourceType?.FullName ?? string.Empty;
+                    }
+                    catch
+                    {
+                        type = string.Empty;
+                    }
+                    sb.AppendLine($"{map.LocatorId}\t{key}\t{loc.PrimaryKey}\t{internalId}\t{type}\t{loc.ProviderId}");
+                    rows++;
+                }
+            }
+        }
+
+        var name = filter.Length > 0 ? $"assets_{Sanitize(filter)}.tsv" : "assets.tsv";
+        var path = Path.Combine(outDir, name);
+        File.WriteAllText(path, sb.ToString());
+        Say($"RigProbe: {rows} addressable locations written to {path}");
+    }
+
+    private static void StartWatch(string target)
+    {
+        StopWatch();
+        if (target == "off")
+        {
+            Say("rigwatch off");
+            return;
+        }
+        if (target.Length == 0)
+            target = "player";
+
+        GameObject go = null;
+        if (target == "player")
+            go = LocalPlayer.GameObject;
+        else if (target == "robby")
+            go = ActorTools.GetRobby()?.gameObject;
+        else if (target == "virginia")
+            go = ActorTools.GetActors(VailActorTypeId.Virginia)?.FirstOrDefault(a => a)?.gameObject;
+
+        if (!go)
+        {
+            Say($"rigwatch: no {target} found");
+            return;
+        }
+
+        Animator best = null;
+        foreach (var a in go.GetComponentsInChildren<Animator>(true))
+        {
+            if (!a || !a.isInitialized || !a.runtimeAnimatorController)
+                continue;
+            if (!best || a.layerCount > best.layerCount)
+                best = a;
+        }
+        if (!best)
+        {
+            Say($"rigwatch: no initialized animator on {target}");
+            return;
+        }
+
+        _watchAnimator = best;
+        _watchTarget = target;
+        _watchLast = Enumerable.Repeat(int.MinValue, best.layerCount).ToArray();
+        WatchSeen.Clear();
+
+        _watchNames = new Dictionary<int, string>();
+        var layerNames = Enumerable.Range(0, best.layerCount).Select(best.GetLayerName).ToList();
+        foreach (var clip in best.runtimeAnimatorController.animationClips)
+        {
+            if (!clip)
+                continue;
+            _watchNames[Animator.StringToHash(clip.name)] = clip.name;
+            foreach (var ln in layerNames)
+                _watchNames[Animator.StringToHash($"{ln}.{clip.name}")] = $"{ln}.{clip.name}";
+        }
+        foreach (var n in EmoteNames)
+        {
+            _watchNames[Animator.StringToHash(n)] = n;
+            foreach (var ln in layerNames)
+                _watchNames[Animator.StringToHash($"{ln}.{n}")] = $"{ln}.{n}";
+        }
+
+        var dir = Path.Combine(LoaderEnvironment.UserDataDirectory, "RigProbe", "watch");
+        Directory.CreateDirectory(dir);
+        var stamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+        _watchLog = new StreamWriter(Path.Combine(dir, $"{target}_{stamp}.log")) { AutoFlush = true };
+        _watchStatesPath = Path.Combine(dir, $"{target}_{stamp}_states.tsv");
+        _watchLog.WriteLine("time\tlayer\tlayerName\tweight\tshortHash\tfullHash\tresolved\tclips");
+        Say($"rigwatch: watching {target} animator {best.name} ({best.layerCount} layers). rigwatch off to stop.");
+    }
+
+    private static void StopWatch()
+    {
+        if (_watchLog == null)
+            return;
+        try
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine("layer\tlayerName\tshortHash\tfullHash\tresolved\tclips\tcount");
+            foreach (var e in WatchSeen.Values.OrderBy(e => e.Layer).ThenByDescending(e => e.Count))
+                sb.AppendLine($"{e.Layer}\t{e.LayerName}\t{e.ShortHash}\t{e.FullHash}\t{e.Resolved}\t{e.Clips}\t{e.Count}");
+            File.WriteAllText(_watchStatesPath, sb.ToString());
+            _watchLog.Dispose();
+            Say($"rigwatch: {WatchSeen.Count} states written to {_watchStatesPath}");
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigwatch stop failed: {e.Message}");
+        }
+        _watchLog = null;
+        _watchAnimator = null;
+    }
+
+    private static void OnUpdate()
+    {
+        if (_watchLog == null)
+            return;
+        var a = _watchAnimator;
+        if (!a)
+        {
+            StopWatch();
+            return;
+        }
+
+        try
+        {
+            for (int i = 0; i < _watchLast.Length; i++)
+            {
+                var st = a.GetCurrentAnimatorStateInfo(i);
+                if (st.fullPathHash == _watchLast[i])
+                    continue;
+                _watchLast[i] = st.fullPathHash;
+
+                var clips = new List<string>();
+                foreach (var ci in a.GetCurrentAnimatorClipInfo(i))
+                {
+                    var c = ci.clip;
+                    if (c)
+                        clips.Add(c.name);
+                }
+                var clipText = string.Join("|", clips);
+                var layerName = a.GetLayerName(i);
+                var resolved = _watchNames.TryGetValue(st.fullPathHash, out var fn) ? fn
+                    : _watchNames.TryGetValue(st.shortNameHash, out var sn) ? sn : string.Empty;
+
+                _watchLog.WriteLine($"{Time.time:F2}\t{i}\t{layerName}\t{R(a.GetLayerWeight(i))}\t{st.shortNameHash}\t{st.fullPathHash}\t{resolved}\t{clipText}");
+
+                var key = $"{i}:{st.fullPathHash}";
+                if (!WatchSeen.TryGetValue(key, out var entry))
+                {
+                    entry = new WatchEntry
+                    {
+                        Layer = i,
+                        LayerName = layerName,
+                        ShortHash = st.shortNameHash,
+                        FullHash = st.fullPathHash,
+                        Resolved = resolved,
+                        Clips = clipText
+                    };
+                    WatchSeen[key] = entry;
+                }
+                entry.Count++;
+            }
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigwatch update failed: {e.Message}");
+            StopWatch();
+        }
     }
 
     private static void AddPlayerData(CharacterDump dump, GameObject player)
     {
-        var race = LocalPlayer.RaceSystem;
+        var race = player.GetComponentInChildren<PlayerRaceSystem>(true);
         if (race)
         {
             try
@@ -655,6 +1130,7 @@ public class CharacterDump
     public List<RaceInfo> Races { get; set; } = new();
     public List<ClothingInfo> Clothing { get; set; } = new();
     public List<AnimatorInfo> Animators { get; set; } = new();
+    public List<string> Components { get; set; } = new();
     public List<BoneInfo> Rig { get; set; } = new();
     public List<SmrInfo> SkinnedMeshes { get; set; } = new();
     public List<string> AttachedMeshes { get; set; } = new();
@@ -675,6 +1151,9 @@ public class SmrInfo
     public string Mesh { get; set; }
     public bool Enabled { get; set; }
     public bool Active { get; set; }
+    public int Layer { get; set; }
+    public string LayerName { get; set; }
+    public string Shadow { get; set; }
     public bool Readable { get; set; }
     public int Vertices { get; set; }
     public int SubMeshes { get; set; }
@@ -703,13 +1182,64 @@ public class AnimatorInfo
 {
     public string Path { get; set; }
     public bool Enabled { get; set; }
+    public bool Initialized { get; set; }
     public string Controller { get; set; } = string.Empty;
     public string Avatar { get; set; } = string.Empty;
     public bool IsHuman { get; set; }
     public bool IsValid { get; set; }
-    public int Layers { get; set; }
+    public int LayerCount { get; set; }
+    public List<LayerInfo> Layers { get; set; } = new();
     public Dictionary<string, string> HumanBones { get; set; } = new();
     public List<string> Parameters { get; set; } = new();
+    public List<ClipInfo> Clips { get; set; } = new();
+    public List<StateHit> States { get; set; } = new();
+    public List<CurrentState> Current { get; set; } = new();
+}
+
+public class LayerInfo
+{
+    public int Index { get; set; }
+    public string Name { get; set; }
+    public float Weight { get; set; }
+}
+
+public class ClipInfo
+{
+    public string Name { get; set; }
+    public float Length { get; set; }
+    public bool Loop { get; set; }
+    public float FrameRate { get; set; }
+    public bool Legacy { get; set; }
+    public bool HumanMotion { get; set; }
+    public List<string> Events { get; set; } = new();
+}
+
+public class StateHit
+{
+    public int Layer { get; set; }
+    public string LayerName { get; set; }
+    public string Name { get; set; }
+    public int ShortHash { get; set; }
+}
+
+public class CurrentState
+{
+    public int Layer { get; set; }
+    public int ShortHash { get; set; }
+    public int FullHash { get; set; }
+    public float NormalizedTime { get; set; }
+    public string Clips { get; set; }
+}
+
+public class WatchEntry
+{
+    public int Layer { get; set; }
+    public string LayerName { get; set; }
+    public int ShortHash { get; set; }
+    public int FullHash { get; set; }
+    public string Resolved { get; set; }
+    public string Clips { get; set; }
+    public int Count { get; set; }
 }
 
 public class RaceInfo

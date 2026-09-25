@@ -4,11 +4,12 @@ A RedLoader research mod for Sons of the Forest that dumps character data to JSO
 
 ## What it collects
 
-For the local player, the bodies the player can carry, every actor type prefab and every live actor:
+For the local player, remote players, the bodies the player can carry, every actor type prefab and every live actor:
 
 - Rig: every bone with its parent, local position, rotation and scale
-- Skinned meshes: mesh name, vertex count, bone list, bind pose rest position and rotation per bone, blendshape names, materials with shader and texture names
-- Animators: controller, avatar, humanoid flag, human bone map, parameters
+- Skinned meshes: mesh name, vertex count, render layer, shadow mode, bone list, bind pose rest position and rotation per bone, blendshape names, materials with shader and texture names
+- Components: script types on the root, its children, rig bones and animator objects
+- Animators: controller, avatar, humanoid flag, human bone map, layer names and weights, parameters with hashes, clips with length, loop flag and events, discovered states, current state per layer
 - Rig families: characters grouped by identical bone sets, with bone name overlap against the player rig
 - Player only: current race, all 8 race entries with head and arms Addressable GUIDs, every clothing piece with item id, slot, renderable GUID, default and worn flags
 
@@ -18,9 +19,12 @@ Run these in the in-game console.
 
 | Command | What it does |
 |---|---|
-| `rigprobe` | Dump the player, carry bodies, all actor prefabs and live actors |
+| `rigprobe` | Dump the player, remote players, carry bodies, all actor prefabs and live actors, plus all loaded clips and controllers |
 | `rigprobe <filter>` | Same, limited to actor types containing the filter, e.g. `rigprobe female` |
 | `rigscene` | Dump every character in the loaded scenes (posers, cutscene characters, props with skinned meshes), one file per character |
+| `rigassets [filter]` | Dump the Addressables catalog (keys, internal ids, types), optionally filtered, e.g. `rigassets female` |
+| `rigwatch [player\|robby\|virginia]` | Log every animator state change on the target while you play |
+| `rigwatch off` | Stop watching and write a summary of every state seen |
 | `rigspawn <Type> [variation]` | Spawn an actor in front of you so its live variant gets dumped, e.g. `rigspawn Virginia` |
 
 ## Output
@@ -28,11 +32,14 @@ Run these in the in-game console.
 Written to `Sons Of The Forest\UserData\RigProbe\`:
 
 - `characters\index.tsv` one line per character with rig family and player bone match
+- `characters\clips.tsv` every loaded animation clip, `characters\controllers.tsv` every loaded animator controller and who uses it
+- `assets.tsv` or `assets_<filter>.tsv` from `rigassets`
+- `watch\<target>_<time>.log` and `_states.tsv` from `rigwatch`
 - `characters\rigfamilies.txt` characters grouped by shared skeleton
 - `characters\<source>_<name>.json` full data per character
 - `scene\` the same layout for `rigscene`
 
-Each run replaces the previous output for that command.
+`rigprobe`, `rigscene` and `rigassets` replace their previous output. `rigwatch` files are timestamped.
 
 ## Build
 
