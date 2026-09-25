@@ -22,8 +22,6 @@ Run these in the in-game console.
 | `rigprobe` | Dump the player, remote players, carry bodies, all actor prefabs and live actors, plus all loaded clips and controllers |
 | `rigprobe <filter>` | Same, limited to actor types containing the filter, e.g. `rigprobe female` |
 | `rigscene` | Dump every character in the loaded scenes (posers, cutscene characters, props with skinned meshes), one file per character |
-| `rigassets [filter]` | Dump the Addressables catalog (keys, internal ids, types), optionally filtered, e.g. `rigassets female`, and resolve every race and clothing GUID |
-| `rigassets key:<key>` | Resolve a single Addressables key or GUID |
 | `rigwatch [player\|robby\|virginia]` | Log every animator state change on the target while you play |
 | `rigwatch off` | Stop watching and write a summary of every state seen |
 | `rigspawn <Type> [variation]` | Spawn an actor in front of you so its live variant gets dumped, e.g. `rigspawn Virginia` |
@@ -34,13 +32,19 @@ Written to `Sons Of The Forest\UserData\RigProbe\`:
 
 - `characters\index.tsv` one line per character with rig family and player bone match
 - `characters\clips.tsv` every loaded animation clip, `characters\controllers.tsv` every loaded animator controller and who uses it
-- `assets_locators.tsv`, `assets_known.tsv` (race and clothing GUIDs resolved), `assets_keycounts.tsv` and `assets.tsv` or `assets_<filter>.tsv` from `rigassets`
 - `watch\<target>_<time>.log` and `_states.tsv` from `rigwatch`
 - `characters\rigfamilies.txt` characters grouped by shared skeleton
 - `characters\<source>_<name>.json` full data per character
 - `scene\` the same layout for `rigscene`
 
-`rigprobe`, `rigscene` and `rigassets` replace their previous output. `rigwatch` files are timestamped.
+
+## Addressables catalog
+
+Walking the catalog from inside the game crashes it, so the catalog is decoded offline instead. `tools/decode_catalog.py` reads `SonsOfTheForest_Data\StreamingAssets\aa\catalog.json` and writes every key with its asset path, type and provider as TSV. Use it to resolve any AssetReference GUID to its asset.
+
+```
+python tools\decode_catalog.py "C:\Program Files (x86)\Steam\steamapps\common\Sons Of The Forest\SonsOfTheForest_Data\StreamingAssets\aa\catalog.json" data\assets.tsv
+```
 
 ## Build
 

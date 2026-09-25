@@ -15,8 +15,6 @@ using SonsSdk;
 using SonsSdk.Attributes;
 using TheForest.Utils;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.ResourceLocations;
 
 namespace RigProbe;
 
@@ -47,7 +45,7 @@ public class RigProbe : SonsMod
 
     protected override void OnSdkInitialized()
     {
-        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigscene, rigassets [filter], rigwatch [player|robby|virginia|off], rigspawn <TypeName> [variation]");
+        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigscene, rigwatch [player|robby|virginia|off], rigspawn <TypeName> [variation]");
     }
 
     [DebugCommand("rigprobe")]
@@ -73,19 +71,6 @@ public class RigProbe : SonsMod
         catch (Exception e)
         {
             RLog.Error($"rigscene failed: {e}");
-        }
-    }
-
-    [DebugCommand("rigassets")]
-    private static void AssetsCommand(string args)
-    {
-        try
-        {
-            DumpAddressables((args ?? string.Empty).Trim());
-        }
-        catch (Exception e)
-        {
-            RLog.Error($"rigassets failed: {e}");
         }
     }
 
@@ -649,220 +634,6 @@ public class RigProbe : SonsMod
             cb.AppendLine($"{c.name}\t{count}\t{(set == null ? string.Empty : string.Join(", ", set))}");
         }
         File.WriteAllText(Path.Combine(outDir, "controllers.tsv"), cb.ToString());
-    }
-
-    private static void DumpAddressables(string filter)
-    {
-        var outDir = Path.Combine(LoaderEnvironment.UserDataDirectory, "RigProbe");
-        Directory.CreateDirectory(outDir);
-
-        var locators = new List<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>();
-        foreach (var locator in Iterate(Addressables.ResourceLocators))
-            if (locator != null)
-                locators.Add(locator);
-        RLog.Msg($"rigassets: {locators.Count} locators");
-
-        if (filter.StartsWith("key:", StringComparison.OrdinalIgnoreCase))
-        {
-            var key = filter.Substring(4).Trim();
-            var one = new StringBuilder();
-            one.AppendLine("label\tlocator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
-            var found = ResolveKey(one, locators, key, key);
-            var onePath = Path.Combine(outDir, $"assets_key_{Sanitize(key)}.tsv");
-            File.WriteAllText(onePath, one.ToString());
-            Say($"RigProbe: {found} locations for {key} written to {onePath}");
-            return;
-        }
-
-        var locSb = new StringBuilder();
-        locSb.AppendLine("locatorId\ttype\tkeys");
-        foreach (var locator in locators)
-        {
-            string locType;
-            try
-            {
-                locType = locator.Cast<Il2CppSystem.Object>().GetIl2CppType().FullName;
-            }
-            catch
-            {
-                locType = "?";
-            }
-            locSb.AppendLine($"{locator.LocatorId}\t{locType}\t?");
-            RLog.Msg($"rigassets: locator {locator.LocatorId} type {locType}");
-        }
-        var locPath = Path.Combine(outDir, "assets_locators.tsv");
-        File.WriteAllText(locPath, locSb.ToString());
-
-        var known = new StringBuilder();
-        known.AppendLine("label\tlocator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
-        int knownRows = 0;
-        foreach (var (label, key) in KnownKeys())
-        {
-            RLog.Msg($"rigassets: resolving {label} {key}");
-            knownRows += ResolveKey(known, locators, label, key);
-        }
-        File.WriteAllText(Path.Combine(outDir, "assets_known.tsv"), known.ToString());
-        RLog.Msg($"rigassets: {knownRows} known GUID locations");
-
-        var sb = new StringBuilder();
-        sb.AppendLine("locator\tkey\tprimaryKey\tinternalId\ttype\tprovider");
-        int rows = 0;
-        var counts = new StringBuilder();
-        counts.AppendLine("locatorId\tkeys");
-        foreach (var locator in locators)
-        {
-            RLog.Msg($"rigassets: walking keys of {locator.LocatorId}");
-            int keyCount = 0;
-            foreach (var keyObj in Iterate(locator.Keys))
-            {
-                if (keyObj == null)
-                    continue;
-                keyCount++;
-                var key = keyObj.ToString();
-                Il2CppSystem.Collections.Generic.IList<IResourceLocation> locs = null;
-                bool ok;
-                try
-                {
-                    ok = locator.Locate(keyObj, null, out locs);
-                }
-                catch
-                {
-                    ok = false;
-                }
-                if (!ok || locs == null)
-                    continue;
-                foreach (var loc in Iterate(locs.Cast<Il2CppSystem.Collections.Generic.IEnumerable<IResourceLocation>>()))
-                {
-                    if (loc == null || !Matches(filter, key, loc))
-                        continue;
-                    sb.AppendLine($"{locator.LocatorId}\t{key}\t{LocationRow(loc)}");
-                    rows++;
-                }
-            }
-            counts.AppendLine($"{locator.LocatorId}\t{keyCount}");
-            RLog.Msg($"rigassets: {locator.LocatorId} had {keyCount} keys");
-        }
-
-        var suffix = filter.Length > 0 ? $"_{Sanitize(filter)}" : string.Empty;
-        File.WriteAllText(Path.Combine(outDir, $"assets{suffix}.tsv"), sb.ToString());
-        File.WriteAllText(Path.Combine(outDir, "assets_keycounts.tsv"), counts.ToString());
-        Say($"RigProbe: {rows} catalog locations and {knownRows} known GUID locations written to {outDir}");
-    }
-
-    private static List<(string, string)> KnownKeys()
-    {
-        var keys = new List<(string, string)>();
-        var player = LocalPlayer.GameObject;
-        if (!player)
-            return keys;
-
-        var race = player.GetComponentInChildren<PlayerRaceSystem>(true);
-        if (race && race._races != null)
-        {
-            for (int i = 0; i < race._races.Count; i++)
-            {
-                var r = race._races[i];
-                if (!r)
-                    continue;
-                var head = r.HeadAsset?.AssetGUID;
-                var arms = r.ArmsAsset?.AssetGUID;
-                if (!string.IsNullOrEmpty(head))
-                    keys.Add(($"race{i} {r.name} head", head));
-                if (!string.IsNullOrEmpty(arms))
-                    keys.Add(($"race{i} {r.name} arms", arms));
-            }
-        }
-
-        var clothing = player.GetComponentInChildren<PlayerClothingSystem>(true);
-        if (clothing && clothing._allClothing != null)
-        {
-            foreach (var c in clothing._allClothing)
-            {
-                if (!c)
-                    continue;
-                var guid = c.Renderable?.AssetGUID;
-                if (!string.IsNullOrEmpty(guid))
-                    keys.Add(($"clothing {c.ItemId} {c.name}", guid));
-            }
-        }
-        return keys;
-    }
-
-    private static int ResolveKey(StringBuilder sb, List<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> locators, string label, string key)
-    {
-        int rows = 0;
-        Il2CppSystem.Object keyObj;
-        try
-        {
-            keyObj = new Il2CppSystem.Object(Il2CppInterop.Runtime.IL2CPP.ManagedStringToIl2Cpp(key));
-        }
-        catch (Exception e)
-        {
-            sb.AppendLine($"{label}\t\t{key}\terror: {e.Message}\t\t\t");
-            return 0;
-        }
-
-        foreach (var locator in locators)
-        {
-            Il2CppSystem.Collections.Generic.IList<IResourceLocation> locs = null;
-            bool ok;
-            try
-            {
-                ok = locator.Locate(keyObj, null, out locs);
-            }
-            catch
-            {
-                ok = false;
-            }
-            if (!ok || locs == null)
-                continue;
-            foreach (var loc in Iterate(locs.Cast<Il2CppSystem.Collections.Generic.IEnumerable<IResourceLocation>>()))
-            {
-                if (loc == null)
-                    continue;
-                sb.AppendLine($"{label}\t{locator.LocatorId}\t{key}\t{LocationRow(loc)}");
-                rows++;
-            }
-        }
-
-        if (rows == 0)
-            sb.AppendLine($"{label}\t\t{key}\tnot found\t\t\t");
-        return rows;
-    }
-
-    private static bool Matches(string filter, string key, IResourceLocation loc)
-    {
-        if (filter.Length == 0)
-            return true;
-        return key.IndexOf(filter, StringComparison.OrdinalIgnoreCase) >= 0
-            || (loc.InternalId ?? string.Empty).IndexOf(filter, StringComparison.OrdinalIgnoreCase) >= 0
-            || (loc.PrimaryKey ?? string.Empty).IndexOf(filter, StringComparison.OrdinalIgnoreCase) >= 0;
-    }
-
-    private static string LocationRow(IResourceLocation loc)
-    {
-        string type;
-        try
-        {
-            type = loc.ResourceType?.FullName ?? string.Empty;
-        }
-        catch
-        {
-            type = string.Empty;
-        }
-        return $"{loc.PrimaryKey}\t{loc.InternalId}\t{type}\t{loc.ProviderId}";
-    }
-
-    private static IEnumerable<T> Iterate<T>(Il2CppSystem.Collections.Generic.IEnumerable<T> source)
-    {
-        if (source == null)
-            yield break;
-        var en = source.GetEnumerator();
-        if (en == null)
-            yield break;
-        var move = en.Cast<Il2CppSystem.Collections.IEnumerator>();
-        while (move.MoveNext())
-            yield return en.Current;
     }
 
     private static void StartWatch(string target)
