@@ -1,0 +1,273 @@
+{
+  "Name": "PressBadgeBadGuyIntro_3984826",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonBadGuy/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandWeapon/PressBadgeBadGuyIntro",
+  "Active": false,
+  "RigFamily": "cb3d90be",
+  "PlayerNameMatch": "0/5 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "PressBadgeBadGuyIntro",
+      "Enabled": true,
+      "Controller": "PressBadgeBadGuyIntroController",
+      "Avatar": "",
+      "IsHuman": false,
+      "IsValid": false,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "PressBadgeBadGuyIntro",
+      "Parent": "",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root",
+      "Parent": "PressBadgeBadGuyIntro",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/PartA",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0,
+        0,
+        0.15782
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/PartA/PartB",
+      "Parent": "Root/PartA",
+      "LocalPosition": [
+        -0,
+        0,
+        -0.08292
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/PartA/PartB/PartC",
+      "Parent": "Root/PartA/PartB",
+      "LocalPosition": [
+        -0,
+        0,
+        -0.0749
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/PartA/PartB/PartC/PartD",
+      "Parent": "Root/PartA/PartB/PartC",
+      "LocalPosition": [
+        -0,
+        0,
+        -0.07407
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/PartA/PartB/PartC/PartD/PartE",
+      "Parent": "Root/PartA/PartB/PartC/PartD",
+      "LocalPosition": [
+        -0,
+        0,
+        -0.07447
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "GEO/PressBadgeMesh",
+      "Mesh": "PressBadgeMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 154,
+      "SubMeshes": 1,
+      "RootBone": "Root/PartA",
+      "Bones": [
+        "Root/PartA",
+        "Root/PartA/PartB",
+        "Root/PartA/PartB/PartC",
+        "Root/PartA/PartB/PartC/PartD",
+        "Root/PartA/PartB/PartC/PartD/PartE"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/PartA",
+          "Position": [
+            0,
+            0,
+            0.15782
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/PartA/PartB",
+          "Position": [
+            0,
+            0,
+            0.0749
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/PartA/PartB/PartC",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/PartA/PartB/PartC/PartD",
+          "Position": [
+            0,
+            0,
+            -0.07407
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/PartA/PartB/PartC/PartD/PartE",
+          "Position": [
+            0,
+            0,
+            -0.14855
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "LabelPressA",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "LabelPressAAlbedo",
+            "_BaseColorMap": "LabelPressAAlbedo",
+            "_MaskMap": "LabelPressAMask",
+            "_NormalMap": "LabelPressANormal"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

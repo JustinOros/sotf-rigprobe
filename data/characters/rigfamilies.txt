@@ -1,0 +1,136 @@
+family 6e68c35c bones=32 playerNameMatch=0/32 (0%)
+  members: actorPrefab:Seagull, actorLive:Seagull_0, actorLive:Seagull_1, actorLive:Seagull_2, actorLive:Seagull_3, actorLive:Seagull_4, actorLive:Seagull_5, actorLive:Seagull_6, actorLive:Seagull_7, actorLive:Seagull_8, actorLive:Seagull_9, actorLive:Seagull_10, actorLive:Seagull_11, actorLive:Seagull_12, actorLive:Seagull_13, actorLive:Seagull_14, actorLive:Seagull_15
+  sample: C1:beak_joint1_bind C1:head_joint1_bind C1:leftTail_joint1_bind C1:leftWing_jnt1_bind C1:leftWing_jnt11_bind C1:leftWing_jnt13_bind C1:leftWing_jnt2_bind C1:leftWing_jnt3_bind C1:leftWing_jnt6_bind C1:leftWing_jnt7_bind C1:leftWing_jnt9_bind C1:lfoot_joint_bind C1:lleg_joint2_bind C1:lleg_joint3_bind C1:neck_joint1_bind C1:neck_joint2_bind C1:neck_joint3_bind C1:neck_joint4_bind C1:pelvis_joint_bind C1:rfoot_joint_bind C1:rightTail_joint1_bind C1:rightWing_jnt1_bind C1:rightWing_jnt11_bind C1:rightWing_jnt13_bind C1:rightWing_jnt2_bind
+
+family 18772f39 bones=91 playerNameMatch=0/91 (0%)
+  members: carry:MaleCannibal, actorPrefab:Carl, actorPrefab:Andy, actorPrefab:Danny, actorPrefab:Billy, actorPrefab:GoldMask, actorPrefab:MuddyMale, actorPrefab:SpongeTest, actorPrefab:PaintedMale, actorPrefab:Frank, actorPrefab:Eddy, actorPrefab:Greg, actorPrefab:Henry, actorPrefab:Igor
+  sample: C1:C_head0_SC C1:c_hip_SC C1:c_jaw_SC C1:C_neck0_SC C1:C_neck1_SC C1:c_shoulder_SC C1:C_spine0_SC C1:C_spine1_SC C1:C_spine2_SC C1:C_throatSlope00_JNT C1:L_ankleTwist00_JNT C1:L_arm0_SC C1:L_arm1_SC C1:L_arm2_SC C1:L_armPrnt0_SC C1:L_deltoidAnteriorSlope00_JNT C1:L_elbowSlope00_JNT C1:L_elbowTwist00_JNT C1:l_eye1_SC C1:L_foot00_SC C1:L_foot01_SC C1:L_hand00_SC C1:L_hand01_SC C1:l_handAFingerA0_SC C1:l_handAFingerA1_SC
+
+family e5ab1cff bones=67 playerNameMatch=0/67 (0%)
+  members: carry:FemaleCannibal, actorPrefab:Angel, actorPrefab:Brandy, actorPrefab:Crystal, actorPrefab:Destiny, actorPrefab:MuddyFemale, actorPrefab:Elise
+  sample: C1:C_head0_SC C1:c_hip_SC C1:c_jaw_SC C1:C_neck0_SC C1:C_neck1_SC C1:c_shoulder_SC C1:C_spine0_SC C1:C_spine1_SC C1:C_spine2_SC C1:L_arm0_SC C1:L_arm1_SC C1:L_armPrnt0_SC C1:l_eye1_SC C1:L_foot00_SC C1:L_foot01_SC C1:L_hand00_SC C1:L_hand01_SC C1:l_handAFingerA0_SC C1:l_handAFingerA1_SC C1:l_handAFingerA2_SC C1:l_handAFingerB0_SC C1:l_handAFingerB1_SC C1:l_handAFingerB2_SC C1:l_handAFingerC0_SC C1:l_handAFingerC1_SC
+
+family f8c8bc7e bones=63 playerNameMatch=0/63 (0%)
+  members: carry:MalePuffy, carry:FemalePuffy, actorPrefab:MrPuffy, actorPrefab:MissPuffy, actorPrefab:PuffyBossMale, actorPrefab:PuffyBossFemale
+  sample: C1:C_head0_SC C1:c_hip_SC C1:c_jaw_SC C1:C_neck0_SC C1:C_neck1_SC C1:c_shoulder_SC C1:C_spine0_SC C1:C_spine1_SC C1:C_spine2_SC C1:L_arm0_SC C1:L_arm1_SC C1:L_armPrnt0_SC C1:l_eye1_SC C1:L_foot00_SC C1:L_foot01_SC C1:L_hand00_SC C1:L_hand01_SC C1:l_handAFingerA0_SC C1:l_handAFingerA1_SC C1:l_handAFingerA2_SC C1:l_handAFingerB0_SC C1:l_handAFingerB1_SC C1:l_handAFingerB2_SC C1:l_handAFingerC0_SC C1:l_handAFingerC1_SC
+
+family 1b02206c bones=93 playerNameMatch=80/93 (86%)
+  members: actorPrefab:Robby, actorLive:Robby_0, actorLive:Robby_1
+  sample: Head Head1 Hips Jaw LeftArm LeftArmHelper1 LeftElbowHelper1 LeftEye LeftFoot LeftForeArm LeftForeArmTwistNew1 LeftForeArmTwistNew2 LeftForeArmTwistNew3 LeftForeArmTwistNew4 LeftHand LeftHand1 LeftHandIndex1 LeftHandIndex2 LeftHandIndex3 LeftHandIndex4 LeftHandMiddle1 LeftHandMiddle2 LeftHandMiddle3 LeftHandMiddle4 LeftHandPinky1
+
+family f7fc845b bones=161 playerNameMatch=0/161 (0%)
+  members: actorPrefab:Virginia, actorLive:Virginia_0
+  sample: C1:c_Forehead_SC C1:C_hairLongFkA00_SC C1:C_hairLongFkA01_SC C1:C_hairLongFkA02_SC C1:C_hairLongFkA03_SC C1:C_hairLongFkA04_SC C1:C_hairLongFkB00_SC C1:C_hairLongFkB01_SC C1:C_hairLongFkB02_SC C1:C_hairLongFkB03_SC C1:C_hairLongFkB04_SC C1:C_hairLongFkC00_SC C1:C_hairLongFkC01_SC C1:C_hairLongFkC02_SC C1:C_hairLongFkC03_SC C1:C_hairLongFkC04_SC C1:C_hairLongFkD00_SC C1:C_hairLongFkD01_SC C1:C_hairLongFkD02_SC C1:C_hairLongFkD03_SC C1:C_hairLongFkD04_SC C1:C_headA0_SC C1:c_jaw_SC C1:C_neckA0_SC C1:C_neckA1_SC
+
+family 9fde77f4 bones=91 playerNameMatch=0/91 (0%)
+  members: actorPrefab:Slug_Deprecated, actorPrefab:John2
+  sample: arm_L0_0_jnt arm_L0_1_jnt arm_L0_2_jnt arm_L0_end_jnt arm_R0_0_jnt arm_R0_1_jnt arm_R0_2_jnt arm_R0_end_jnt backArm_L0_0_jnt backArm_L0_1_jnt backArm_R0_0_jnt backArm_R0_1_jnt backArm_R0_2_jnt backArm_R0_end_jnt backNeck_C0_0_jnt backNeck_C0_1_jnt backShoulder_L0_shoulder_jnt backShoulder_R0_shoulder_jnt backSpine_C0_0_jnt backSpine_C0_1_jnt backSpine_C0_2_jnt backSpine_C0_3_jnt backSpine_C0_4_jnt finger_L0_0_jnt finger_L0_1_jnt
+
+family fcd908ad bones=86 playerNameMatch=0/86 (0%)
+  members: actorPrefab:HeavyMale, actorPrefab:FacelessMale
+  sample: C1:C_head0_SC C1:c_hip_SC C1:c_jaw_SC C1:C_neck0_SC C1:C_neck1_SC C1:c_shoulder_SC C1:C_spine0_SC C1:C_spine1_SC C1:C_spine2_SC C1:C_throatSlope00_JNT C1:L_ankleTwist00_JNT C1:L_arm0_SC C1:L_arm1_SC C1:L_arm2_SC C1:L_armPrnt0_SC C1:L_deltoidAnteriorSlope00_JNT C1:L_elbowSlope00_JNT C1:L_elbowTwist00_JNT C1:l_eye1_SC C1:L_foot00_SC C1:L_foot01_SC C1:L_hand00_SC C1:L_hand01_SC C1:l_handAFingerA0_SC C1:l_handAFingerA1_SC
+
+family e53f4f23 bones=90 playerNameMatch=0/90 (0%)
+  members: actorPrefab:FatMale, actorPrefab:FatFemale
+  sample: C1:C_belly_JNT C1:C_head0_SC C1:c_hip_SC C1:c_jaw_SC C1:C_neck0_SC C1:C_neck1_SC C1:c_root_SC C1:c_shoulder_SC C1:C_spine0_SC C1:C_spine1_SC C1:C_spine2_SC C1:C_throatSlope00_JNT C1:L_ankleTwist00_JNT C1:L_arm0_SC C1:L_arm1_SC C1:L_arm2_SC C1:L_armPrnt0_SC C1:L_breast_JNT C1:L_elbowTwist00_JNT C1:l_eye1_SC C1:L_foot00_SC C1:L_foot01_SC C1:L_hand00_SC C1:L_hand01_SC C1:l_handAFingerA0_SC
+
+family 6f6e32f4 bones=42 playerNameMatch=0/42 (0%)
+  members: actorPrefab:Demon, actorPrefab:DemonBoss
+  sample: eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt jaw_C0_0_jnt legBack_L0_0_jnt legBack_L0_1_jnt legBack_L0_2_jnt legBack_L0_3_jnt legBack_L0_end_jnt legBack_R0_0_jnt legBack_R0_1_jnt legBack_R0_2_jnt legBack_R0_3_jnt legBack_R0_end_jnt legFront_L0_0_jnt legFront_L0_1_jnt legFront_L0_2_jnt legFront_L0_3_jnt legFront_L0_end_jnt legFront_R0_0_jnt legFront_R0_1_jnt legFront_R0_2_jnt legFront_R0_3_jnt legFront_R0_end_jnt
+
+family 3485f157 bones=205 playerNameMatch=205/205 (100%)
+  members: player:LocalPlayer
+  sample: Base BaseBot01 BaseBot02 BaseBotEnd BaseLeft01 BaseLeft02 BaseLeftEnd BaseTop01 BaseTop02 BaseTopEnd ButtonBoxBone ColorButtonBone Head Head1 Hips Jaw1_Latino LeftArm LeftArmHelper1 LeftElbowHelper1 LeftEye_Latino LeftEyelidLow1_Latino LeftEyelidUp1_Latino LeftFoot LeftForeArm LeftForeArmSleeve1
+
+family 6e7f9a3b bones=47 playerNameMatch=0/47 (0%)
+  members: actorPrefab:Rabbit
+  sample: ear_L0_0_jnt ear_L0_1_jnt ear_R0_0_jnt ear_R0_1_jnt eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt footBack_L0_0_jnt footBack_R0_0_jnt footFront_L0_0_jnt footFront_R0_0_jnt legBack_L0_0_jnt legBack_L0_1_jnt legBack_L0_2_jnt legBack_L0_3_jnt legBack_L0_end_jnt legBack_R0_0_jnt legBack_R0_1_jnt legBack_R0_2_jnt legBack_R0_3_jnt legBack_R0_end_jnt legFront_L0_0_jnt legFront_L0_1_jnt legFront_L0_2_jnt
+
+family e37c3e52 bones=47 playerNameMatch=0/47 (0%)
+  members: actorPrefab:Squirrel
+  sample: arm_L0_0_jnt arm_L0_1_jnt arm_L0_2_jnt arm_L0_end_jnt arm_R0_0_jnt arm_R0_1_jnt arm_R0_2_jnt arm_R0_end_jnt ear_L0_0_jnt ear_L0_1_jnt ear_R0_0_jnt ear_R0_1_jnt eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt foot_L0_0_jnt foot_R0_0_jnt footBack_L0_0_jnt footBack_R0_0_jnt legBack_L0_0_jnt legBack_L0_1_jnt legBack_L0_2_jnt legBack_L0_3_jnt legBack_L0_end_jnt
+
+family 738a4b04 bones=83 playerNameMatch=0/83 (0%)
+  members: actorPrefab:Turtle
+  sample: C1:C_chin_JNT C1:C_cog_JNT C1:C_head_JNT C1:C_jaw_JNT C1:C_neckA_JNT C1:C_neckB_JNT C1:C_tailA_JNT C1:C_tailB_JNT C1:C_tailC_JNT C1:L_ankle_JNT C1:L_elbow_JNT C1:L_eye_JNT C1:L_eyeEnd_JNT C1:L_fingerA1_JNT C1:L_fingerA2_JNT C1:L_fingerA3_JNT C1:L_fingerAEnd_JNT C1:L_foot_JNT C1:L_handFlipperA_JNT C1:L_handFlipperAEnd_JNT C1:L_handFlipperB_JNT C1:L_handFlipperBEnd_JNT C1:L_handFlipperC_JNT C1:L_handFlipperCEnd_JNT C1:L_hip_JNT
+
+family f8e9e758 bones=45 playerNameMatch=0/45 (0%)
+  members: actorPrefab:Shark
+  sample: C1:C_analFin_JNT C1:C_analFinEnd_JNT C1:C_caudalLo_JNT C1:C_caudalLoEnd_JNT C1:C_caudalLoStart_JNT C1:C_caudalUp_JNT C1:C_caudalUpEnd_JNT C1:C_caudalUpStart_JNT C1:C_chin_JNT C1:C_cog_JNT C1:C_dorsalFirstFinA_JNT C1:C_dorsalFirstFinB_JNT C1:C_dorsalFirstFinEnd_JNT C1:C_dorsalSecondFin_JNT C1:C_dorsalSecondFinEnd_JNT C1:C_head_JNT C1:C_jaw_JNT C1:C_nose_JNT C1:C_root_JNT C1:C_spineA_JNT C1:C_spineB_JNT C1:C_spineC_JNT C1:C_spineD_JNT C1:C_spineE_JNT C1:C_tailA_JNT
+
+family 1bc4f22f bones=92 playerNameMatch=0/92 (0%)
+  members: actorPrefab:Eagle
+  sample: C1:C_head0_SC C1:c_hip_SC C1:c_jaw_SC C1:C_neck0_SC C1:C_neck1_SC C1:c_shoulder_SC C1:C_spine0_SC C1:C_spine1_SC C1:C_spine2_SC C1:C_tail00_SC C1:l_eye1_SC C1:L_foot00_SC C1:L_foot01_SC C1:L_leg0_SC C1:L_leg1_SC C1:L_talon00FkA00_SC C1:L_talon00FkA01_SC C1:L_talon00FkA02_SC C1:L_talon00FkA03_SC C1:L_talon01FkA00_SC C1:L_talon01FkA01_SC C1:L_talon01FkA02_SC C1:L_talon01FkA03_SC C1:L_talon02FkA00_SC C1:L_talon02FkA01_SC
+
+family fddde995 bones=78 playerNameMatch=0/78 (0%)
+  members: actorPrefab:Duck
+  sample: C1:C_head0_SC C1:c_hip_SC C1:c_jaw_SC C1:C_neck0_SC C1:C_neck1_SC C1:c_shoulder_SC C1:C_spine0_SC C1:C_spine1_SC C1:C_spine2_SC C1:C_tail00_SC C1:l_eye1_SC C1:L_foot00_SC C1:L_foot01_SC C1:L_leg0_SC C1:L_leg1_SC C1:L_talon00FkA00_SC C1:L_talon00FkA01_SC C1:L_talon00FkA02_SC C1:L_talon01FkA00_SC C1:L_talon01FkA01_SC C1:L_talon01FkA02_SC C1:L_talon02FkA00_SC C1:L_talon02FkA01_SC C1:L_talon02FkA02_SC C1:L_wing00Rachis00_SC
+
+family 9a1df90c bones=64 playerNameMatch=0/64 (0%)
+  members: actorPrefab:Timmy
+  sample: N1:C_head0_SC N1:c_hip_SC N1:c_jaw_SC N1:C_neck0_SC N1:C_neck1_SC N1:C_propA00_SC N1:c_shoulder_SC N1:C_spine0_SC N1:C_spine1_SC N1:C_spine2_SC N1:L_arm0_SC N1:L_arm1_SC N1:L_armPrnt0_SC N1:l_eye1_SC N1:L_foot00_SC N1:L_foot01_SC N1:L_hand00_SC N1:L_hand01_SC N1:l_handAFingerA0_SC N1:l_handAFingerA1_SC N1:l_handAFingerA2_SC N1:l_handAFingerB0_SC N1:l_handAFingerB1_SC N1:l_handAFingerB2_SC N1:l_handAFingerC0_SC
+
+family a821b994 bones=130 playerNameMatch=0/130 (0%)
+  members: actorPrefab:Fingers
+  sample: C1:Head_ANIM C1:Head_ANIM1 C1:Hips_ANIM C1:LeftArm_ANIM C1:LeftFoot_ANIM C1:LeftLeg_ANIM C1:LeftShoulder_ANIM C1:LeftToeBase_ANIM C1:LeftUpLeg_ANIM C1:lt_fingerBase_ANIM_01 C1:lt_fingerBase_ANIM_02 C1:lt_fingerBase_ANIM_03 C1:lt_fingerBase_ANIM_04 C1:lt_fingers_ANIM_01 C1:lt_fingers_ANIM_02 C1:lt_fingers_ANIM_02 1 C1:lt_fingers_ANIM_03 C1:lt_fingers_ANIM_04 C1:lt_fingers_ANIM_04 1 C1:lt_fingers_ANIM_05 C1:lt_fingers_ANIM_05 1 C1:lt_fingers_ANIM_06 C1:lt_fingers_ANIM_07 C1:lt_fingers_ANIM_07 1 C1:lt_fingers_ANIM_08
+
+family 8bfa00e6 bones=35 playerNameMatch=0/35 (0%)
+  members: actorPrefab:Moose
+  sample: moose_RIG_ref:C_head0_SC moose_RIG_ref:c_hip_SC moose_RIG_ref:c_jaw_SC moose_RIG_ref:C_neck0_SC moose_RIG_ref:C_neck1_SC moose_RIG_ref:c_shoulder_SC moose_RIG_ref:C_spine0_SC moose_RIG_ref:C_spine1_SC moose_RIG_ref:C_spine2_SC moose_RIG_ref:L_fwdLegBlend00_SC moose_RIG_ref:L_fwdLegBlend01_SC moose_RIG_ref:L_fwdLegBlend02_SC moose_RIG_ref:L_fwdLegBlend03_SC moose_RIG_ref:L_fwdLegBlend04_SC moose_RIG_ref:L_fwdLegBlend05_SC moose_RIG_ref:L_fwdLegPrnt0_SC moose_RIG_ref:L_rearLegBlend00_SC moose_RIG_ref:L_rearLegBlend01_SC moose_RIG_ref:L_rearLegBlend02_SC moose_RIG_ref:L_rearLegBlend03_SC moose_RIG_ref:L_rearLegBlend04_SC moose_RIG_ref:L_rearLegBlend05_SC moose_RIG_ref:R_fwdLegBlend00_SC moose_RIG_ref:R_fwdLegBlend01_SC moose_RIG_ref:R_fwdLegBlend02_SC
+
+family 1eac4d47 bones=53 playerNameMatch=0/53 (0%)
+  members: actorPrefab:Baby
+  sample: C_cog_JNT C_head_JNT C_IK_umbilicalA_JNT C_IK_umbilicalB_JNT C_IK_umbilicalC_JNT C_IK_umbilicalD_JNT C_IK_umbilicalE_JNT C_IK_umbilicalF_JNT C_IK_umbilicalG_JNT C_IK_umbilicalH_JNT C_IK_umbilicalI_JNT C_IK_umbilicalJ_JNT C_IK_umbilicalK_JNT C_IK_umbilicalL_JNT C_IK_umbilicalM_JNT C_IK_umbilicalN_JNT C_IK_umbilicalO_JNT C_IK_umbilicalP_JNT C_jaw_JNT C_neckA_JNT C_spineA_JNT C_spineB_JNT L_clavicle_JNT L_elbow_JNT L_fingerA1_JNT
+
+family 30ab5b06 bones=120 playerNameMatch=0/120 (0%)
+  members: actorPrefab:Twins
+  sample: C1:C_headA0_SC C1:C_headB0_SC C1:C_neckA0_SC C1:C_neckA1_SC C1:C_neckA2_SC C1:C_neckB0_SC C1:C_neckB1_SC C1:C_neckB2_SC C1:C_spineA0_SC C1:C_spineA1_SC C1:C_spineA2_SC C1:C_spineAHip_SC C1:C_spineAShoulder_SC C1:C_spineB0_SC C1:C_spineB1_SC C1:C_spineB2_SC C1:C_spineBHip_SC C1:C_spineBShoulder_SC C1:L_armA0_SC C1:L_armA1_SC C1:L_armA2_SC C1:L_armAPrnt0_SC C1:L_armB0_SC C1:L_armB1_SC C1:L_armB2_SC
+
+family af84940c bones=68 playerNameMatch=0/68 (0%)
+  members: actorPrefab:Bat
+  sample: arm_L0_0_jnt arm_L0_1_jnt arm_L0_2_jnt arm_L0_end_jnt arm_R0_0_jnt arm_R0_1_jnt arm_R0_2_jnt arm_R0_end_jnt ear_L0_0_jnt ear_L0_1_jnt ear_R0_0_jnt ear_R0_1_jnt eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt finger_L0_0_jnt finger_L0_1_jnt finger_L0_2_jnt finger_L1_0_jnt finger_L1_1_jnt finger_L1_2_jnt finger_L2_0_jnt finger_L2_1_jnt finger_L2_2_jnt
+
+family 3c775a14 bones=44 playerNameMatch=0/44 (0%)
+  members: actorPrefab:Deer
+  sample: ear_L0_0_jnt ear_L0_1_jnt ear_R0_0_jnt ear_R0_1_jnt eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt legBack_L0_0_jnt legBack_L0_1_jnt legBack_L0_2_jnt legBack_L0_3_jnt legBack_L0_end_jnt legBack_R0_0_jnt legBack_R0_1_jnt legBack_R0_2_jnt legBack_R0_3_jnt legBack_R0_end_jnt legFront_L0_0_jnt legFront_L0_1_jnt legFront_L0_2_jnt legFront_L0_3_jnt legFront_L0_end_jnt legFront_R0_0_jnt legFront_R0_1_jnt
+
+family 6abee69e bones=51 playerNameMatch=6/51 (11%)
+  members: actorPrefab:Bluebird
+  sample: Arm_L Arm_R Arm1_L Arm1_R Arm2_L Arm2_R ArmEnd_L ArmEnd_R Backtoe_L Backtoe_R Eye_L Eye_R Feather_L Feather_R Feather1_L Feather1_R FeatherOne_L FeatherOne_R FeatherOne1_L FeatherOne1_R FeatherThree_L FeatherThree_R FeatherThree1_L FeatherThree1_R FeatherTwo_L
+
+family a6eeb741 bones=47 playerNameMatch=6/47 (12%)
+  members: actorPrefab:Hummingbird
+  sample: Arm_L Arm_R Arm1_L Arm1_R Arm2_L Arm2_R ArmEnd_L ArmEnd_R Backtoe_L Backtoe_R Eye_L Eye_R Feather_L Feather_R Feather1_L Feather1_R FeatherOne_L FeatherOne_R FeatherOne1_L FeatherOne1_R FeatherTwo_L FeatherTwo_R FeatherTwo1_L FeatherTwo1_R Fronttoe_L
+
+family 944e4665 bones=42 playerNameMatch=0/42 (0%)
+  members: actorPrefab:KillerWhale
+  sample: chest_C0_0_jnt chest_C0_1_jnt dorsal_C0_0_jnt dorsal_C0_1_jnt dorsal_C0_2_jnt eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt flipper_L0_0_jnt flipper_L0_1_jnt flipper_L0_2_jnt flipper_R0_0_jnt flipper_R0_1_jnt flipper_R0_2_jnt flipperInner_L0_0_jnt flipperInner_L0_1_jnt flipperInner_R0_0_jnt flipperInner_R0_1_jnt flipperOuter_L0_0_jnt flipperOuter_L0_1_jnt flipperOuter_R0_0_jnt flipperOuter_R0_1_jnt jaw_C0_0_jnt neck_C0_0_jnt
+
+family 6e37eead bones=28 playerNameMatch=0/28 (0%)
+  members: actorPrefab:LandTurtle
+  sample: eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt legBack_L0_0_jnt legBack_L0_1_jnt legBack_L0_2_jnt legBack_L0_end_jnt legBack_R0_0_jnt legBack_R0_1_jnt legBack_R0_2_jnt legBack_R0_end_jnt legFront_L0_0_jnt legFront_L0_1_jnt legFront_L0_2_jnt legFront_L0_end_jnt legFront_R0_0_jnt legFront_R0_1_jnt legFront_R0_2_jnt legFront_R0_end_jnt neck_C0_0_jnt neck_C0_1_jnt neck_C0_2_jnt neck_C0_head_jnt root_C0_0_jnt
+
+family 29eaeb38 bones=156 playerNameMatch=0/156 (0%)
+  members: actorPrefab:CreepyVirginia
+  sample: Arm_L0_0_jnt Arm_L0_1_jnt Arm_L0_2_jnt Arm_L0_3_jnt Arm_L0_4_jnt Arm_L0_end_jnt Arm_L1_0_jnt Arm_L1_1_jnt Arm_L1_2_jnt Arm_L1_3_jnt Arm_L1_4_jnt Arm_L1_end_jnt Arm_R0_0_jnt Arm_R0_1_jnt Arm_R0_2_jnt Arm_R0_3_jnt Arm_R0_4_jnt Arm_R0_end_jnt Arm_R1_0_jnt Arm_R1_1_jnt Arm_R1_2_jnt Arm_R1_3_jnt Arm_R1_4_jnt Arm_R1_end_jnt BellyA_C0_0_jnt
+
+family 05389e38 bones=194 playerNameMatch=0/194 (0%)
+  members: actorPrefab:Armsy
+  sample: Arm_L0_0_jnt Arm_L0_1_jnt Arm_L0_2_jnt Arm_L0_3_jnt Arm_L0_4_jnt Arm_L0_5_jnt Arm_L0_end_jnt arm_L1_0_jnt arm_L1_1_jnt arm_L1_2_jnt arm_L1_3_jnt arm_L1_4_jnt arm_L1_end_jnt Arm_R0_0_jnt Arm_R0_1_jnt Arm_R0_2_jnt Arm_R0_3_jnt Arm_R0_4_jnt Arm_R0_end_jnt arm_R1_0_jnt Arm_R1_0_jnt arm_R1_1_jnt Arm_R1_1_jnt arm_R1_2_jnt Arm_R1_2_jnt
+
+family cf2eb3b7 bones=45 playerNameMatch=0/45 (0%)
+  members: actorPrefab:Raccoon
+  sample: arm_L0_0_jnt arm_L0_1_jnt arm_L0_2_jnt arm_L0_end_jnt arm_R0_0_jnt arm_R0_1_jnt arm_R0_2_jnt arm_R0_end_jnt ear_L0_0_jnt ear_L0_1_jnt ear_R0_0_jnt ear_R0_1_jnt eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt foot_L0_0_jnt foot_R0_0_jnt footBack_L0_0_jnt footBack_R0_0_jnt jaw_C1_0_jnt legBack_L0_0_jnt legBack_L0_1_jnt legBack_L0_2_jnt legBack_L0_end_jnt
+
+family bf07798a bones=190 playerNameMatch=0/190 (0%)
+  members: actorPrefab:Legsy
+  sample: arm_L0_0_jnt arm_L0_1_jnt arm_L0_2_jnt arm_L0_end_jnt arm_L2_0_jnt arm_L2_1_jnt arm_L2_2_jnt arm_L2_end_jnt arm_R0_0_jnt arm_R0_1_jnt arm_R0_2_jnt arm_R0_end_jnt arm_R1_0_jnt arm_R1_1_jnt arm_R1_2_jnt arm_R1_end_jnt arm_R2_0_jnt arm_R2_1_jnt arm_R2_2_jnt arm_R2_end_jnt control_L0_0_jnt control_L1_0_jnt control_L2_0_jnt control_L3_0_jnt control_L4_0_jnt
+
+family e84646dd bones=45 playerNameMatch=0/45 (0%)
+  members: actorPrefab:Holey
+  sample: control_L0_0_jnt control_L1_0_jnt control_L2_0_jnt control_L3_0_jnt control_L4_0_jnt control_L5_0_jnt control_L6_0_jnt control_R10_0_jnt control_R5_0_jnt control_R6_0_jnt control_R7_0_jnt control_R8_0_jnt control_R9_0_jnt foot_C0_ball_jnt foot_C0_ball1_jnt foot_L0_ball_jnt foot_L0_ball1_jnt foot_R0_ball_jnt foot_R0_ball1_jnt hips_C0_hips_jnt leg_C0_0_jnt leg_C0_1_jnt leg_C0_2_jnt leg_C0_3_jnt leg_C0_4_jnt
+
+family ff6449ba bones=47 playerNameMatch=0/47 (0%)
+  members: actorPrefab:Skunk
+  sample: arm_L0_0_jnt arm_L0_1_jnt arm_L0_2_jnt arm_L0_end_jnt arm_R0_0_jnt arm_R0_1_jnt arm_R0_2_jnt arm_R0_end_jnt ear_L0_0_jnt ear_L0_1_jnt ear_R0_0_jnt ear_R0_1_jnt eye_L0_eye_jnt eye_L0_eyeOver_jnt eye_R0_eye_jnt eye_R0_eyeOver_jnt foot_L0_0_jnt foot_R0_0_jnt footBack_L0_0_jnt footBack_R0_0_jnt jaw_C1_0_jnt legBack_L0_0_jnt legBack_L0_1_jnt legBack_L0_2_jnt legBack_L0_3_jnt
+

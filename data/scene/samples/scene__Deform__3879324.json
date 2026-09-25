@@ -1,0 +1,310 @@
+{
+  "Name": "_Deform__3879324",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (3)/_Deform_",
+  "Active": false,
+  "RigFamily": "98663b75",
+  "PlayerNameMatch": "0/7 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [],
+  "Rig": [
+    {
+      "Path": "_Deform_",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root",
+      "Parent": "_Deform_",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/joinC",
+      "Parent": "root",
+      "LocalPosition": [
+        -0.46151,
+        0.45164,
+        -0.37821
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/joinC/endC",
+      "Parent": "root/joinC",
+      "LocalPosition": [
+        -0.18576,
+        0.80298,
+        -0.13259
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointA",
+      "Parent": "root",
+      "LocalPosition": [
+        0.47966,
+        0.52649,
+        -0.18592
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointA/endA",
+      "Parent": "root/jointA",
+      "LocalPosition": [
+        0.13902,
+        0.87353,
+        -0.19646
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointB",
+      "Parent": "root",
+      "LocalPosition": [
+        0.00366,
+        0.18354,
+        0.34437
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointB/endB",
+      "Parent": "root/jointB",
+      "LocalPosition": [
+        0.18342,
+        0.96293,
+        0.37294
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "_SkinnedMesh_/BlueberryBushALOD0Mesh",
+      "Mesh": "BlueberryBushALOD0Mesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 1267,
+      "SubMeshes": 1,
+      "RootBone": "root",
+      "Bones": [
+        "root",
+        "root/jointA",
+        "root/jointA/endA",
+        "root/jointB",
+        "root/jointB/endB",
+        "root/joinC",
+        "root/joinC/endC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "root",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/jointA",
+          "Position": [
+            0.18884,
+            0.20728,
+            -0.0732
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/jointA/endA",
+          "Position": [
+            0.24358,
+            0.55119,
+            -0.15054
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/jointB",
+          "Position": [
+            0.00144,
+            0.07226,
+            0.13558
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/jointB/endB",
+          "Position": [
+            0.07366,
+            0.45136,
+            0.28241
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/joinC",
+          "Position": [
+            -0.1817,
+            0.17781,
+            -0.1489
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/joinC/endC",
+          "Position": [
+            -0.25483,
+            0.49395,
+            -0.2011
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "BlueBerryBushOptimized",
+          "Shader": "Sons/Trees/LeavesOptimized",
+          "Textures": {
+            "_BaseColorMap": "BlueberryBushAS",
+            "_NormalMap": "BlueberryBushNOTa",
+            "_Alpha": "BlueberryBushAAlphaMap1K"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

@@ -1,0 +1,2874 @@
+{
+  "Name": "Moose",
+  "Source": "actorPrefab",
+  "ActorType": "Moose",
+  "Path": "MooseActor",
+  "Active": false,
+  "RigFamily": "8bfa00e6",
+  "PlayerNameMatch": "0/35 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/MooseRig",
+      "Enabled": true,
+      "Controller": "MooseController",
+      "Avatar": "MooseRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "MooseActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "MooseActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+      "Parent": "VisualRoot/MooseRig",
+      "LocalPosition": [
+        -0,
+        1.76087,
+        -0.47137
+      ],
+      "LocalRotation": [
+        0.69266,
+        0.1422,
+        -0.69266,
+        -0.1422
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+      "LocalPosition": [
+        -0.001,
+        0.235,
+        0
+      ],
+      "LocalRotation": [
+        0.69266,
+        0.1422,
+        -0.69266,
+        0.1422
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+      "LocalPosition": [
+        -0.12764,
+        0.01837,
+        -0.14846
+      ],
+      "LocalRotation": [
+        0.70376,
+        0.37269,
+        -0.48743,
+        -0.3581
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+      "LocalPosition": [
+        -0.52794,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.06787,
+        -0.12447,
+        -0.47387,
+        0.86911
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+      "LocalPosition": [
+        -0.49958,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.02457,
+        0.08743,
+        0.26943,
+        0.95873
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+      "LocalPosition": [
+        -0.46083,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00372,
+        0.01875,
+        0.19458,
+        0.9807
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+      "LocalPosition": [
+        -0.16077,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.04569,
+        0.14533,
+        0.29643,
+        0.94283
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC/moose_RIG_ref:L_rearLegBlend05_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC",
+      "LocalPosition": [
+        -0.1092,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+      "LocalPosition": [
+        0.12764,
+        0.01837,
+        -0.14846
+      ],
+      "LocalRotation": [
+        -0.48743,
+        -0.3581,
+        0.70376,
+        0.37269
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+      "LocalPosition": [
+        -0.52794,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.06787,
+        0.12447,
+        -0.47387,
+        0.86911
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+      "LocalPosition": [
+        -0.49958,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.02457,
+        -0.08743,
+        0.26943,
+        0.95873
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+      "LocalPosition": [
+        -0.46083,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00372,
+        -0.01875,
+        0.19458,
+        0.9807
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+      "LocalPosition": [
+        -0.16077,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.04569,
+        -0.14533,
+        0.29643,
+        0.94283
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC/moose_RIG_ref:R_rearLegBlend05_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+      "LocalPosition": [
+        -0.1092,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+      "LocalPosition": [
+        -0.38687,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.21294,
+        0.97707
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+      "LocalPosition": [
+        -0.38806,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.12796,
+        0.99178
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+      "LocalPosition": [
+        -0.39179,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.15554,
+        0.98783
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+      "LocalPosition": [
+        -0.29549,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.25881,
+        0.96593
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+      "LocalPosition": [
+        -0.29146,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.68581,
+        -0.17222,
+        -0.68581,
+        -0.17222
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+      "LocalPosition": [
+        -0,
+        -0.12909,
+        0.07274
+      ],
+      "LocalRotation": [
+        0.34497,
+        -0,
+        0,
+        0.93861
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC",
+      "LocalPosition": [
+        0.0606,
+        0.1199,
+        0
+      ],
+      "LocalRotation": [
+        0.70015,
+        -0.09896,
+        -0.70015,
+        -0.09896
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+      "LocalPosition": [
+        0.51282,
+        -0.18068,
+        -0.22154
+      ],
+      "LocalRotation": [
+        0,
+        0.23693,
+        -0,
+        0.97153
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+      "LocalPosition": [
+        -0.77797,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.4398,
+        0.75839,
+        -0.20322,
+        -0.43603
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+      "LocalPosition": [
+        -0.37733,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.01968,
+        -0.06453,
+        0.29107,
+        0.95432
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+      "LocalPosition": [
+        -0.50797,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        3E-05,
+        -0.00099,
+        -0.0331,
+        0.99945
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+      "LocalPosition": [
+        -0.43244,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.01318,
+        0.04706,
+        0.26946,
+        0.96177
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+      "LocalPosition": [
+        -0.09986,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.02657,
+        -0.09059,
+        0.28014,
+        0.95531
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC/moose_RIG_ref:L_fwdLegBlend05_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+      "LocalPosition": [
+        -0.13144,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+      "LocalPosition": [
+        -0.51282,
+        -0.18068,
+        -0.22154
+      ],
+      "LocalRotation": [
+        -0,
+        0.97153,
+        0,
+        0.23693
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+      "LocalPosition": [
+        -0.77797,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.4398,
+        0.75839,
+        0.20322,
+        0.43603
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+      "LocalPosition": [
+        -0.37733,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.01968,
+        0.06453,
+        0.29107,
+        0.95432
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+      "LocalPosition": [
+        -0.50797,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -3E-05,
+        0.00099,
+        -0.0331,
+        0.99945
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+      "LocalPosition": [
+        -0.43244,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.01318,
+        -0.04706,
+        0.26946,
+        0.96177
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+      "LocalPosition": [
+        -0.09986,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.02657,
+        0.09059,
+        0.28014,
+        0.95531
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC/moose_RIG_ref:R_fwdLegBlend05_SC",
+      "Parent": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+      "LocalPosition": [
+        -0.13144,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:MooseMesh",
+      "Mesh": "moose_RIG_ref:MooseMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 8094,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+      "Bones": [
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC/moose_RIG_ref:R_rearLegBlend05_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC/moose_RIG_ref:L_rearLegBlend05_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC/moose_RIG_ref:R_fwdLegBlend05_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC/moose_RIG_ref:L_fwdLegBlend05_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+          "Position": [
+            -0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            0,
+            0.97153,
+            0,
+            0.23693
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+          "Position": [
+            0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            -0.48743,
+            -0.3581,
+            0.70376,
+            0.37269
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+          "Position": [
+            0.25806,
+            1.10161,
+            -0.4902
+          ],
+          "Rotation": [
+            -0.36683,
+            -0.54358,
+            0.35007,
+            0.66889
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC/moose_RIG_ref:R_rearLegBlend05_SC",
+          "Position": [
+            0.25197,
+            0.01417,
+            -0.55079
+          ],
+          "Rotation": [
+            -0.57283,
+            -0.28961,
+            0.76304,
+            0.07586
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+          "Position": [
+            0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            -0.48397,
+            -0.48939,
+            0.53455,
+            0.49043
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+          "Position": [
+            0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            -0.57283,
+            -0.28961,
+            0.76304,
+            0.07586
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+          "Position": [
+            0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            -0.56166,
+            -0.39696,
+            0.62691,
+            0.36598
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+          "Position": [
+            0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            0,
+            0.23693,
+            -0,
+            0.97153
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+          "Position": [
+            -0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            0.62691,
+            0.36598,
+            -0.56166,
+            -0.39696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+          "Position": [
+            -0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            0.70376,
+            0.37269,
+            -0.48743,
+            -0.3581
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+          "Position": [
+            -0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            0.53455,
+            0.49043,
+            -0.48397,
+            -0.48939
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+          "Position": [
+            -0.25806,
+            1.10161,
+            -0.4902
+          ],
+          "Rotation": [
+            -0.35007,
+            -0.66889,
+            0.36683,
+            0.54358
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC",
+          "Position": [
+            -0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            0.76304,
+            0.07586,
+            -0.57283,
+            -0.28961
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC/moose_RIG_ref:L_rearLegBlend05_SC",
+          "Position": [
+            -0.25197,
+            0.01417,
+            -0.55079
+          ],
+          "Rotation": [
+            0.76304,
+            0.07586,
+            -0.57283,
+            -0.28961
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+          "Position": [
+            0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            -0.67187,
+            -0.12571,
+            0.69874,
+            0.21107
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+          "Position": [
+            0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            -0.47546,
+            -0.4396,
+            0.5386,
+            0.53907
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+          "Position": [
+            0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            -0.4612,
+            -0.45458,
+            0.51998,
+            0.55702
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+          "Position": [
+            0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            -0.54893,
+            -0.34599,
+            0.66591,
+            0.36814
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+          "Position": [
+            0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.30164,
+            -0.6033,
+            0.37913,
+            0.63349
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC/moose_RIG_ref:R_fwdLegBlend05_SC",
+          "Position": [
+            0.1605,
+            0.00816,
+            0.72992
+          ],
+          "Rotation": [
+            -0.67187,
+            -0.12571,
+            0.69874,
+            0.21107
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+          "Position": [
+            -0,
+            1.60845,
+            -0.11579
+          ],
+          "Rotation": [
+            0.70705,
+            -0.00856,
+            -0.70705,
+            0.00856
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+          "Position": [
+            0,
+            1.61785,
+            0.27215
+          ],
+          "Rotation": [
+            -0.70015,
+            0.09896,
+            0.70015,
+            -0.09896
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+          "Position": [
+            0,
+            1.54448,
+            -0.56303
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+          "Position": [
+            0,
+            1.59444,
+            0.6236
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+          "Position": [
+            -0,
+            1.72643,
+            0.64859
+          ],
+          "Rotation": [
+            -0.70702,
+            -0.01114,
+            0.70702,
+            0.01114
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+          "Position": [
+            -0,
+            1.71712,
+            0.94393
+          ],
+          "Rotation": [
+            -0.68581,
+            0.17222,
+            0.68581,
+            -0.17222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+          "Position": [
+            0,
+            1.72573,
+            1.27355
+          ],
+          "Rotation": [
+            0.34497,
+            -0,
+            -0,
+            0.93861
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+          "Position": [
+            -0,
+            1.85482,
+            1.20081
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+          "Position": [
+            -0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            0.66591,
+            0.36814,
+            -0.54893,
+            -0.34599
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+          "Position": [
+            -0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.37913,
+            -0.63349,
+            0.30164,
+            0.6033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+          "Position": [
+            -0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            0.5386,
+            0.53907,
+            -0.47546,
+            -0.4396
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+          "Position": [
+            -0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            0.51998,
+            0.55702,
+            -0.4612,
+            -0.45458
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+          "Position": [
+            -0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            0.69874,
+            0.21107,
+            -0.67187,
+            -0.12571
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC/moose_RIG_ref:L_fwdLegBlend05_SC",
+          "Position": [
+            -0.1605,
+            0.00816,
+            0.72992
+          ],
+          "Rotation": [
+            0.69874,
+            0.21107,
+            -0.67187,
+            -0.12571
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+          "Position": [
+            0,
+            1.76087,
+            -0.47137
+          ],
+          "Rotation": [
+            0.69266,
+            0.1422,
+            -0.69266,
+            -0.1422
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Moose",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "MooseAlbedo",
+            "_MaskMap": "MooseMask",
+            "_NormalMap": "MooseNormal",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "MooseWetnessMask",
+            "_BloodMask": "MooseAlbedoBloodMask",
+            "_BloodRevealMask": "MooseAlbedoBloodReveal",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:MooseMesh_LOD1",
+      "Mesh": "moose_RIG_ref:MooseMesh_LOD1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 6996,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+      "Bones": [
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+          "Position": [
+            0,
+            1.76087,
+            -0.47137
+          ],
+          "Rotation": [
+            0.69266,
+            0.1422,
+            -0.69266,
+            -0.1422
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+          "Position": [
+            -0,
+            1.60845,
+            -0.11579
+          ],
+          "Rotation": [
+            0.70705,
+            -0.00856,
+            -0.70705,
+            0.00856
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+          "Position": [
+            0,
+            1.61785,
+            0.27215
+          ],
+          "Rotation": [
+            -0.70015,
+            0.09896,
+            0.70015,
+            -0.09896
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+          "Position": [
+            -0,
+            1.72643,
+            0.64859
+          ],
+          "Rotation": [
+            -0.70702,
+            -0.01114,
+            0.70702,
+            0.01114
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+          "Position": [
+            -0,
+            1.71712,
+            0.94393
+          ],
+          "Rotation": [
+            -0.68581,
+            0.17222,
+            0.68581,
+            -0.17222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+          "Position": [
+            -0,
+            1.85482,
+            1.20081
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+          "Position": [
+            0,
+            1.72573,
+            1.27355
+          ],
+          "Rotation": [
+            0.34497,
+            -0,
+            -0,
+            0.93861
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+          "Position": [
+            0,
+            1.59444,
+            0.6236
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+          "Position": [
+            -0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            0,
+            0.97153,
+            0,
+            0.23693
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+          "Position": [
+            0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.30164,
+            -0.6033,
+            0.37913,
+            0.63349
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+          "Position": [
+            0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            -0.47546,
+            -0.4396,
+            0.5386,
+            0.53907
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+          "Position": [
+            0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            -0.4612,
+            -0.45458,
+            0.51998,
+            0.55702
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+          "Position": [
+            0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            -0.54893,
+            -0.34599,
+            0.66591,
+            0.36814
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+          "Position": [
+            0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            -0.67187,
+            -0.12571,
+            0.69874,
+            0.21107
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+          "Position": [
+            0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            0,
+            0.23693,
+            -0,
+            0.97153
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+          "Position": [
+            -0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.37913,
+            -0.63349,
+            0.30164,
+            0.6033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+          "Position": [
+            -0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            0.5386,
+            0.53907,
+            -0.47546,
+            -0.4396
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+          "Position": [
+            -0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            0.51998,
+            0.55702,
+            -0.4612,
+            -0.45458
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+          "Position": [
+            -0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            0.66591,
+            0.36814,
+            -0.54893,
+            -0.34599
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+          "Position": [
+            -0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            0.69874,
+            0.21107,
+            -0.67187,
+            -0.12571
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+          "Position": [
+            0,
+            1.54448,
+            -0.56303
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+          "Position": [
+            0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            -0.48743,
+            -0.3581,
+            0.70376,
+            0.37269
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+          "Position": [
+            0.25806,
+            1.10161,
+            -0.4902
+          ],
+          "Rotation": [
+            -0.36683,
+            -0.54358,
+            0.35007,
+            0.66889
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+          "Position": [
+            0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            -0.48397,
+            -0.48939,
+            0.53455,
+            0.49043
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+          "Position": [
+            0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            -0.56166,
+            -0.39696,
+            0.62691,
+            0.36598
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+          "Position": [
+            0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            -0.57283,
+            -0.28961,
+            0.76304,
+            0.07586
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+          "Position": [
+            -0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            0.70376,
+            0.37269,
+            -0.48743,
+            -0.3581
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+          "Position": [
+            -0.25806,
+            1.10161,
+            -0.4902
+          ],
+          "Rotation": [
+            -0.35007,
+            -0.66889,
+            0.36683,
+            0.54358
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+          "Position": [
+            -0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            0.53455,
+            0.49043,
+            -0.48397,
+            -0.48939
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+          "Position": [
+            -0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            0.62691,
+            0.36598,
+            -0.56166,
+            -0.39696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC",
+          "Position": [
+            -0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            0.76304,
+            0.07586,
+            -0.57283,
+            -0.28961
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Moose",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "MooseAlbedo",
+            "_MaskMap": "MooseMask",
+            "_NormalMap": "MooseNormal",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "MooseWetnessMask",
+            "_BloodMask": "MooseAlbedoBloodMask",
+            "_BloodRevealMask": "MooseAlbedoBloodReveal",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:MooseMesh_LOD2",
+      "Mesh": "moose_RIG_ref:MooseMesh_LOD2",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 5158,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+      "Bones": [
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+          "Position": [
+            0,
+            1.76087,
+            -0.47137
+          ],
+          "Rotation": [
+            0.69266,
+            0.1422,
+            -0.69266,
+            -0.1422
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+          "Position": [
+            -0,
+            1.60845,
+            -0.11579
+          ],
+          "Rotation": [
+            0.70705,
+            -0.00856,
+            -0.70705,
+            0.00856
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+          "Position": [
+            0,
+            1.61785,
+            0.27215
+          ],
+          "Rotation": [
+            -0.70015,
+            0.09896,
+            0.70015,
+            -0.09896
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+          "Position": [
+            -0,
+            1.72643,
+            0.64859
+          ],
+          "Rotation": [
+            -0.70702,
+            -0.01114,
+            0.70702,
+            0.01114
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+          "Position": [
+            -0,
+            1.71712,
+            0.94393
+          ],
+          "Rotation": [
+            -0.68581,
+            0.17222,
+            0.68581,
+            -0.17222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+          "Position": [
+            -0,
+            1.85482,
+            1.20081
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+          "Position": [
+            0,
+            1.72573,
+            1.27355
+          ],
+          "Rotation": [
+            0.34497,
+            -0,
+            -0,
+            0.93861
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+          "Position": [
+            0,
+            1.59444,
+            0.6236
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+          "Position": [
+            -0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            0,
+            0.97153,
+            0,
+            0.23693
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+          "Position": [
+            0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.30164,
+            -0.6033,
+            0.37913,
+            0.63349
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+          "Position": [
+            0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            -0.47546,
+            -0.4396,
+            0.5386,
+            0.53907
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+          "Position": [
+            0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            -0.4612,
+            -0.45458,
+            0.51998,
+            0.55702
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+          "Position": [
+            0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            -0.54893,
+            -0.34599,
+            0.66591,
+            0.36814
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+          "Position": [
+            0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            -0.67187,
+            -0.12571,
+            0.69874,
+            0.21107
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+          "Position": [
+            0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            0,
+            0.23693,
+            -0,
+            0.97153
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+          "Position": [
+            -0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.37913,
+            -0.63349,
+            0.30164,
+            0.6033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+          "Position": [
+            -0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            0.5386,
+            0.53907,
+            -0.47546,
+            -0.4396
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+          "Position": [
+            -0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            0.51998,
+            0.55702,
+            -0.4612,
+            -0.45458
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+          "Position": [
+            -0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            0.66591,
+            0.36814,
+            -0.54893,
+            -0.34599
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+          "Position": [
+            -0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            0.69874,
+            0.21107,
+            -0.67187,
+            -0.12571
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+          "Position": [
+            0,
+            1.54448,
+            -0.56303
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+          "Position": [
+            0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            -0.48743,
+            -0.3581,
+            0.70376,
+            0.37269
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+          "Position": [
+            0.25806,
+            1.10161,
+            -0.4902
+          ],
+          "Rotation": [
+            -0.36683,
+            -0.54358,
+            0.35007,
+            0.66889
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+          "Position": [
+            0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            -0.48397,
+            -0.48939,
+            0.53455,
+            0.49043
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+          "Position": [
+            0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            -0.56166,
+            -0.39696,
+            0.62691,
+            0.36598
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+          "Position": [
+            0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            -0.57283,
+            -0.28961,
+            0.76304,
+            0.07586
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+          "Position": [
+            -0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            0.70376,
+            0.37269,
+            -0.48743,
+            -0.3581
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+          "Position": [
+            -0.25806,
+            1.10161,
+            -0.4902
+          ],
+          "Rotation": [
+            -0.35007,
+            -0.66889,
+            0.36683,
+            0.54358
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+          "Position": [
+            -0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            0.53455,
+            0.49043,
+            -0.48397,
+            -0.48939
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+          "Position": [
+            -0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            0.62691,
+            0.36598,
+            -0.56166,
+            -0.39696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC",
+          "Position": [
+            -0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            0.76304,
+            0.07586,
+            -0.57283,
+            -0.28961
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Moose",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "MooseAlbedo",
+            "_MaskMap": "MooseMask",
+            "_NormalMap": "MooseNormal",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "MooseWetnessMask",
+            "_BloodMask": "MooseAlbedoBloodMask",
+            "_BloodRevealMask": "MooseAlbedoBloodReveal",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/MooseRig/moose_RIG_ref:MooseSkinnedHeadRemoved",
+      "Mesh": "moose_RIG_ref:MooseSkinnedHeadRemoved",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 3891,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+      "Bones": [
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+        "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC",
+          "Position": [
+            0,
+            1.76087,
+            -0.47137
+          ],
+          "Rotation": [
+            0.69266,
+            0.1422,
+            -0.69266,
+            -0.1422
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC",
+          "Position": [
+            -0,
+            1.60845,
+            -0.11579
+          ],
+          "Rotation": [
+            -0.70705,
+            0.00856,
+            0.70705,
+            -0.00856
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC",
+          "Position": [
+            0,
+            1.61785,
+            0.27215
+          ],
+          "Rotation": [
+            -0.70015,
+            0.09897,
+            0.70015,
+            -0.09897
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC",
+          "Position": [
+            -0,
+            1.72643,
+            0.64859
+          ],
+          "Rotation": [
+            -0.70702,
+            -0.01114,
+            0.70702,
+            0.01114
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC",
+          "Position": [
+            0,
+            1.71712,
+            0.94393
+          ],
+          "Rotation": [
+            -0.68581,
+            0.17222,
+            0.68581,
+            -0.17222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC",
+          "Position": [
+            -0,
+            1.85482,
+            1.20081
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:C_neck0_SC/moose_RIG_ref:C_neck1_SC/moose_RIG_ref:C_neck2_SC/moose_RIG_ref:C_head0_SC/moose_RIG_ref:c_jaw_SC",
+          "Position": [
+            0,
+            1.72573,
+            1.27355
+          ],
+          "Rotation": [
+            0.34497,
+            -0,
+            -0,
+            0.93861
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC",
+          "Position": [
+            0,
+            1.59444,
+            0.6236
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC",
+          "Position": [
+            -0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            -0,
+            0.97153,
+            -0,
+            0.23693
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC",
+          "Position": [
+            0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.30164,
+            -0.6033,
+            0.37913,
+            0.63349
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC",
+          "Position": [
+            0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            -0.47546,
+            -0.4396,
+            0.5386,
+            0.53907
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC",
+          "Position": [
+            0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            -0.4612,
+            -0.45458,
+            0.51998,
+            0.55702
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC",
+          "Position": [
+            0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            -0.54893,
+            -0.34599,
+            0.66591,
+            0.36814
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:R_fwdLegPrnt0_SC/moose_RIG_ref:R_fwdLegBlend00_SC/moose_RIG_ref:R_fwdLegBlend01_SC/moose_RIG_ref:R_fwdLegBlend02_SC/moose_RIG_ref:R_fwdLegBlend03_SC/moose_RIG_ref:R_fwdLegBlend04_SC",
+          "Position": [
+            0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            -0.67187,
+            -0.12571,
+            0.69874,
+            0.21107
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC",
+          "Position": [
+            0.51282,
+            1.41376,
+            0.40205
+          ],
+          "Rotation": [
+            -0,
+            0.23693,
+            -0,
+            0.97153
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC",
+          "Position": [
+            -0.17781,
+            1.41376,
+            0.76021
+          ],
+          "Rotation": [
+            -0.37913,
+            -0.63349,
+            0.30164,
+            0.6033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC",
+          "Position": [
+            -0.18362,
+            1.09518,
+            0.55809
+          ],
+          "Rotation": [
+            0.5386,
+            0.53907,
+            -0.47546,
+            -0.4396
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC",
+          "Position": [
+            -0.1667,
+            0.58785,
+            0.5775
+          ],
+          "Rotation": [
+            0.51998,
+            0.55702,
+            -0.4612,
+            -0.45458
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC",
+          "Position": [
+            -0.14683,
+            0.15603,
+            0.56591
+          ],
+          "Rotation": [
+            0.66591,
+            0.36814,
+            -0.54893,
+            -0.34599
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:C_spine1_SC/moose_RIG_ref:C_spine2_SC/moose_RIG_ref:C_spine3_SC/moose_RIG_ref:c_shoulder_SC/moose_RIG_ref:L_fwdLegPrnt0_SC/moose_RIG_ref:L_fwdLegBlend00_SC/moose_RIG_ref:L_fwdLegBlend01_SC/moose_RIG_ref:L_fwdLegBlend02_SC/moose_RIG_ref:L_fwdLegBlend03_SC/moose_RIG_ref:L_fwdLegBlend04_SC",
+          "Position": [
+            -0.15944,
+            0.06914,
+            0.61348
+          ],
+          "Rotation": [
+            0.69874,
+            0.21107,
+            -0.67187,
+            -0.12571
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC",
+          "Position": [
+            0,
+            1.54448,
+            -0.56303
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC",
+          "Position": [
+            0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            -0.48743,
+            -0.3581,
+            0.70376,
+            0.37269
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC",
+          "Position": [
+            0.25806,
+            1.10161,
+            -0.49021
+          ],
+          "Rotation": [
+            -0.36683,
+            -0.54358,
+            0.35007,
+            0.66889
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC",
+          "Position": [
+            0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            -0.48397,
+            -0.48939,
+            0.53455,
+            0.49043
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC",
+          "Position": [
+            0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            -0.56166,
+            -0.39696,
+            0.62691,
+            0.36598
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:R_rearLegBlend00_SC/moose_RIG_ref:R_rearLegBlend01_SC/moose_RIG_ref:R_rearLegBlend02_SC/moose_RIG_ref:R_rearLegBlend03_SC/moose_RIG_ref:R_rearLegBlend04_SC",
+          "Position": [
+            0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            -0.57283,
+            -0.28961,
+            0.76304,
+            0.07586
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC",
+          "Position": [
+            -0.12764,
+            1.56285,
+            -0.71149
+          ],
+          "Rotation": [
+            0.70376,
+            0.37269,
+            -0.48743,
+            -0.3581
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC",
+          "Position": [
+            -0.25806,
+            1.10161,
+            -0.49021
+          ],
+          "Rotation": [
+            -0.35007,
+            -0.66889,
+            0.36683,
+            0.54358
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC",
+          "Position": [
+            -0.17615,
+            0.66842,
+            -0.72518
+          ],
+          "Rotation": [
+            0.53455,
+            0.49043,
+            -0.48397,
+            -0.48939
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC",
+          "Position": [
+            -0.19942,
+            0.2085,
+            -0.70795
+          ],
+          "Rotation": [
+            0.62691,
+            0.36598,
+            -0.56166,
+            -0.39696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MooseRig/moose_RIG_ref:C_spine0_SC/moose_RIG_ref:c_hip_SC/moose_RIG_ref:L_rearLegBlend00_SC/moose_RIG_ref:L_rearLegBlend01_SC/moose_RIG_ref:L_rearLegBlend02_SC/moose_RIG_ref:L_rearLegBlend03_SC/moose_RIG_ref:L_rearLegBlend04_SC",
+          "Position": [
+            -0.21569,
+            0.06304,
+            -0.64145
+          ],
+          "Rotation": [
+            0.76304,
+            0.07586,
+            -0.57283,
+            -0.28961
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "MooseSkinnedHeadRemoved",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "MooseSkinnedAHeadRemovedAlbedo",
+            "_BaseColorMap": "MooseSkinnedAHeadRemovedAlbedo",
+            "_MaskMap": "MooseSkinnedAHeadRemovedMask",
+            "_NormalMap": "MooseSkinnedAHeadRemovedNormal",
+            "_DetailMap": "SlugmutantDetailMap"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": [
+    "GrassPusher mesh=Sphere"
+  ]
+}

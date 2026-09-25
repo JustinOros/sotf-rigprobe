@@ -1,0 +1,499 @@
+{
+  "Name": "LavaFlowPoser (19)_2180180",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (19)",
+  "Active": false,
+  "RigFamily": "1fe8b216",
+  "PlayerNameMatch": "0/12 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "LavaFlowPoser (19)",
+      "Enabled": true,
+      "Controller": "",
+      "Avatar": "LavaFlowRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "LavaFlowPoser (19)",
+      "Parent": "",
+      "LocalPosition": [
+        976.78,
+        -182.27,
+        406.81
+      ],
+      "LocalRotation": [
+        -0.10129,
+        0.80588,
+        0.56902,
+        0.12855
+      ],
+      "LocalScale": [
+        0.24725,
+        0.24725,
+        0.24725
+      ]
+    },
+    {
+      "Path": "joint1",
+      "Parent": "LavaFlowPoser (19)",
+      "LocalPosition": [
+        -0,
+        -0.52,
+        -0.79
+      ],
+      "LocalRotation": [
+        0.29613,
+        0.64211,
+        0.29613,
+        0.64211
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2",
+      "Parent": "joint1",
+      "LocalPosition": [
+        -1.4287,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.33101,
+        0.94363
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3",
+      "Parent": "joint1/joint2",
+      "LocalPosition": [
+        -1.5247,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.00286,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4",
+      "Parent": "joint1/joint2/joint3",
+      "LocalPosition": [
+        -2.13436,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.00049,
+        0.03094,
+        -0.01591,
+        0.99939
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5",
+      "Parent": "joint1/joint2/joint3/joint4",
+      "LocalPosition": [
+        -1.98382,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.00231,
+        -0.1,
+        0.02294,
+        0.99472
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5/joint6",
+      "Parent": "joint1/joint2/joint3/joint4/joint5",
+      "LocalPosition": [
+        -1.92073,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.03018,
+        0.99954
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5/joint6/joint7",
+      "Parent": "joint1/joint2/joint3/joint4/joint5/joint6",
+      "LocalPosition": [
+        -1.89246,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00276,
+        0.16115,
+        0.01691,
+        0.98678
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8",
+      "Parent": "joint1/joint2/joint3/joint4/joint5/joint6/joint7",
+      "LocalPosition": [
+        -2.16,
+        0.08,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.00089,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9",
+      "Parent": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8",
+      "LocalPosition": [
+        -1.92097,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00072,
+        -0.09307,
+        -0.00765,
+        0.99563
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10",
+      "Parent": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9",
+      "LocalPosition": [
+        -1.95,
+        -0.1,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.0065,
+        0.99998
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11",
+      "Parent": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10",
+      "LocalPosition": [
+        -0.96,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.00022,
+        -0.15182,
+        0.00143,
+        0.98841
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12",
+      "Parent": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11",
+      "LocalPosition": [
+        -2.48,
+        -0.54,
+        -0
+      ],
+      "LocalRotation": [
+        -0.0851,
+        -0.70197,
+        -0.0851,
+        0.70197
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "WaterfallTallThin_LOD0",
+      "Mesh": "WaterfallTallThin_LOD0",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 4258,
+      "SubMeshes": 1,
+      "RootBone": "joint1",
+      "Bones": [
+        "joint1",
+        "joint1/joint2",
+        "joint1/joint2/joint3",
+        "joint1/joint2/joint3/joint4",
+        "joint1/joint2/joint3/joint4/joint5",
+        "joint1/joint2/joint3/joint4/joint5/joint6",
+        "joint1/joint2/joint3/joint4/joint5/joint6/joint7",
+        "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8",
+        "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9",
+        "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10",
+        "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11",
+        "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12"
+      ],
+      "BindRest": [
+        {
+          "Bone": "joint1",
+          "Position": [
+            -0,
+            -0.2439,
+            -0.45732
+          ],
+          "Rotation": [
+            0.29992,
+            0.64035,
+            0.29992,
+            0.64035
+          ]
+        },
+        {
+          "Bone": "joint1/joint2",
+          "Position": [
+            0,
+            -1.34146,
+            0.45732
+          ],
+          "Rotation": [
+            0.49498,
+            0.50497,
+            0.49498,
+            0.50497
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3",
+          "Position": [
+            0,
+            -2.86585,
+            0.4878
+          ],
+          "Rotation": [
+            0.49642,
+            0.50356,
+            0.49642,
+            0.50356
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4",
+          "Position": [
+            -0,
+            -5,
+            0.51829
+          ],
+          "Rotation": [
+            0.48834,
+            0.5114,
+            0.48834,
+            0.5114
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5",
+          "Position": [
+            0,
+            -6.98171,
+            0.60976
+          ],
+          "Rotation": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5/joint6",
+          "Position": [
+            0,
+            -8.90244,
+            0.60976
+          ],
+          "Rotation": [
+            0.48777,
+            0.51194,
+            0.48777,
+            0.51194
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5/joint6/joint7",
+          "Position": [
+            0,
+            -10.79268,
+            0.70122
+          ],
+          "Rotation": [
+            0.49647,
+            0.50351,
+            0.49647,
+            0.50351
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8",
+          "Position": [
+            0,
+            -12.95732,
+            0.73171
+          ],
+          "Rotation": [
+            0.49602,
+            0.50395,
+            0.49602,
+            0.50395
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9",
+          "Position": [
+            0,
+            -14.87805,
+            0.7622
+          ],
+          "Rotation": [
+            0.49213,
+            0.50775,
+            0.49213,
+            0.50775
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10",
+          "Position": [
+            -0,
+            -16.82927,
+            0.82317
+          ],
+          "Rotation": [
+            0.49602,
+            0.50395,
+            0.49602,
+            0.50395
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11",
+          "Position": [
+            -0,
+            -18.75,
+            0.85366
+          ],
+          "Rotation": [
+            0.49674,
+            0.50324,
+            0.49674,
+            0.50324
+          ]
+        },
+        {
+          "Bone": "joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12",
+          "Position": [
+            -0,
+            -21.09756,
+            0.88415
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "LavaFlowMatB",
+          "Shader": "Sons/LavaTess",
+          "Textures": {
+            "_Emission": "LavaENEmissiveCombined",
+            "_Albedo": "LavaAlbedoSmoothnessA",
+            "_Normal": "LavaENNormal",
+            "_LavaHeightMap": "LavaENHeight",
+            "_FlowMap": "LavaFlow"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

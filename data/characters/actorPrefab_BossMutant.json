@@ -1,0 +1,90 @@
+{
+  "Name": "BossMutant",
+  "Source": "actorPrefab",
+  "ActorType": "BossMutant",
+  "Path": "BossMutantActor",
+  "Active": false,
+  "RigFamily": "",
+  "PlayerNameMatch": "n/a",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/BossMutantRenderRig",
+      "Enabled": true,
+      "Controller": "BossMutantGeneratedController",
+      "Avatar": "BossMutantRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "BossMutantActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "BossMutantActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/BossMutantRenderRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [],
+  "AttachedMeshes": []
+}

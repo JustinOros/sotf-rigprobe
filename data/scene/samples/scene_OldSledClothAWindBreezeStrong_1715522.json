@@ -1,0 +1,1022 @@
+{
+  "Name": "OldSledClothAWindBreezeStrong_1715522",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "CaveBInternal-Any/ClothOldPickupSled (1)/OldSledClothAWindBreezeStrong",
+  "Active": false,
+  "RigFamily": "8eea31cb",
+  "PlayerNameMatch": "0/27 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "OldSledClothAWindBreezeStrong",
+      "Enabled": true,
+      "Controller": "Cloth",
+      "Avatar": "HangingClothAWindBreezeStrongAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "OldSledClothAWindBreezeStrong",
+      "Parent": "",
+      "LocalPosition": [
+        0.10583,
+        0.05727,
+        0.02761
+      ],
+      "LocalRotation": [
+        0.09421,
+        -0.68637,
+        0.00732,
+        0.72109
+      ],
+      "LocalScale": [
+        0.64313,
+        0.47845,
+        0.47845
+      ]
+    },
+    {
+      "Path": "joint26",
+      "Parent": "OldSledClothAWindBreezeStrong",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5",
+      "Parent": "joint26",
+      "LocalPosition": [
+        -0.12067,
+        -0.06506,
+        0.04939
+      ],
+      "LocalRotation": [
+        0.00165,
+        -0.01525,
+        -0.3366,
+        0.94152
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint0",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.21423,
+        -0.1391,
+        -0.43759
+      ],
+      "LocalRotation": [
+        0.02742,
+        0.00932,
+        0.28814,
+        0.95715
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint1",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.03679,
+        0.15286,
+        -0.1238
+      ],
+      "LocalRotation": [
+        -9E-05,
+        0.01599,
+        0.31841,
+        0.94782
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint2",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.15695,
+        -0.11806,
+        0.10499
+      ],
+      "LocalRotation": [
+        0.02408,
+        0.06142,
+        0.07806,
+        0.99476
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint3",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.0017,
+        -0.02225,
+        -0.4441
+      ],
+      "LocalRotation": [
+        0.03638,
+        -0.00425,
+        0.04768,
+        0.99819
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint4",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.00119,
+        0.00189,
+        0.32243
+      ],
+      "LocalRotation": [
+        0.04584,
+        -0.06869,
+        -0.03767,
+        0.99587
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint6",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.13717,
+        -0.04172,
+        0.34469
+      ],
+      "LocalRotation": [
+        0.04562,
+        0.02628,
+        0.06408,
+        0.99655
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint7",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.00633,
+        -0.09007,
+        -0.17436
+      ],
+      "LocalRotation": [
+        0.1405,
+        -0.25886,
+        -0.01006,
+        0.95559
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint8",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.15407,
+        -0.09632,
+        -0.4789
+      ],
+      "LocalRotation": [
+        0.17269,
+        -0.38265,
+        0.1634,
+        0.89278
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint9",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.02986,
+        0.03145,
+        0.47271
+      ],
+      "LocalRotation": [
+        0.0546,
+        0.12137,
+        0.05757,
+        0.98943
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint10",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.15769,
+        -0.34182,
+        0.19969
+      ],
+      "LocalRotation": [
+        0.03351,
+        -0.03005,
+        -0.02401,
+        0.9987
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint11",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.05787,
+        -0.38742,
+        -0.51612
+      ],
+      "LocalRotation": [
+        0.02781,
+        -0.17653,
+        -0.34384,
+        0.92187
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint12",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.06584,
+        -0.32809,
+        0.43186
+      ],
+      "LocalRotation": [
+        0.06301,
+        0.50473,
+        0.12905,
+        0.85125
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint13",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.05668,
+        -0.36223,
+        0.0642
+      ],
+      "LocalRotation": [
+        0.02075,
+        -0.0065,
+        -0.18104,
+        0.98323
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint14",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.17975,
+        -0.36233,
+        0.30391
+      ],
+      "LocalRotation": [
+        0.07844,
+        -0.03792,
+        -0.04078,
+        0.99536
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint15",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.08231,
+        -0.40036,
+        -0.27814
+      ],
+      "LocalRotation": [
+        0.1304,
+        0.13283,
+        -0.17987,
+        0.96592
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint16",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.18059,
+        -0.19263,
+        -0.23805
+      ],
+      "LocalRotation": [
+        0.06678,
+        -0.11823,
+        0.16866,
+        0.97628
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint17",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.11014,
+        0.11125,
+        0.3789
+      ],
+      "LocalRotation": [
+        0.0108,
+        0.01549,
+        0.06393,
+        0.99778
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint18",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.18512,
+        -0.23301,
+        -0.10176
+      ],
+      "LocalRotation": [
+        0.03722,
+        -0.02219,
+        0.10343,
+        0.99369
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint19",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.09587,
+        -0.37306,
+        -0.42368
+      ],
+      "LocalRotation": [
+        -0.04914,
+        -0.10371,
+        -0.34341,
+        0.93215
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint20",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.03564,
+        -0.30179,
+        0.26667
+      ],
+      "LocalRotation": [
+        0.00236,
+        -0.29152,
+        -0.06077,
+        0.95463
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint21",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.01714,
+        -0.33372,
+        0.28366
+      ],
+      "LocalRotation": [
+        0.03851,
+        0.13326,
+        -0.07318,
+        0.98763
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint22",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.17712,
+        -0.29829,
+        0.25656
+      ],
+      "LocalRotation": [
+        0.06553,
+        0.2187,
+        0.09785,
+        0.96866
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint23",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.03234,
+        -0.38,
+        -0.16319
+      ],
+      "LocalRotation": [
+        0.00225,
+        -0.1562,
+        -0.19743,
+        0.96779
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint24",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        0.1993,
+        -0.14664,
+        -0.5754
+      ],
+      "LocalRotation": [
+        0.09557,
+        -0.21255,
+        0.25765,
+        0.93771
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "joint26/joint5/joint25",
+      "Parent": "joint26/joint5",
+      "LocalPosition": [
+        -0.04098,
+        -0.29671,
+        0.32721
+      ],
+      "LocalRotation": [
+        0.0195,
+        -0.15925,
+        -0.07307,
+        0.98434
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "HangingClothAWindMesh",
+      "Mesh": "HangingClothAWindMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 2350,
+      "SubMeshes": 1,
+      "RootBone": "joint26",
+      "Bones": [
+        "joint26/joint5/joint0",
+        "joint26/joint5/joint1",
+        "joint26/joint5/joint2",
+        "joint26/joint5/joint3",
+        "joint26/joint5/joint4",
+        "joint26/joint5",
+        "joint26/joint5/joint6",
+        "joint26/joint5/joint7",
+        "joint26/joint5/joint8",
+        "joint26/joint5/joint9",
+        "joint26/joint5/joint10",
+        "joint26/joint5/joint11",
+        "joint26/joint5/joint12",
+        "joint26/joint5/joint13",
+        "joint26/joint5/joint14",
+        "joint26/joint5/joint15",
+        "joint26/joint5/joint16",
+        "joint26/joint5/joint17",
+        "joint26/joint5/joint18",
+        "joint26/joint5/joint19",
+        "joint26/joint5/joint20",
+        "joint26/joint5/joint21",
+        "joint26/joint5/joint22",
+        "joint26/joint5/joint23",
+        "joint26/joint5/joint24",
+        "joint26/joint5/joint25",
+        "joint26"
+      ],
+      "BindRest": [
+        {
+          "Bone": "joint26/joint5/joint0",
+          "Position": [
+            0.07572,
+            -0.33388,
+            -0.31841
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint1",
+          "Position": [
+            0.00948,
+            0.02851,
+            -0.06971
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint2",
+          "Position": [
+            0.06721,
+            -0.27616,
+            0.20064
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint3",
+          "Position": [
+            -0.05201,
+            -0.11649,
+            -0.37341
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint4",
+          "Position": [
+            -0.05125,
+            -0.09542,
+            0.38636
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5",
+          "Position": [
+            -0.0491,
+            -0.09594,
+            0.06849
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint6",
+          "Position": [
+            0.0578,
+            -0.20318,
+            0.42941
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint7",
+          "Position": [
+            -0.05875,
+            -0.18609,
+            -0.07762
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint8",
+          "Position": [
+            0.03415,
+            -0.26928,
+            -0.32008
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint9",
+          "Position": [
+            -0.04784,
+            -0.05521,
+            0.54121
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint10",
+          "Position": [
+            0.02915,
+            -0.50378,
+            0.28966
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint11",
+          "Position": [
+            -0.0357,
+            -0.51738,
+            -0.39649
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint12",
+          "Position": [
+            -0.05237,
+            -0.42031,
+            0.5534
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint13",
+          "Position": [
+            -0.05496,
+            -0.47121,
+            0.15345
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint14",
+          "Position": [
+            0.07201,
+            -0.53372,
+            0.42912
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint15",
+          "Position": [
+            -0.07866,
+            -0.5249,
+            -0.1054
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint16",
+          "Position": [
+            0.04332,
+            -0.3638,
+            -0.13701
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint17",
+          "Position": [
+            0.04592,
+            -0.0419,
+            0.44319
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint18",
+          "Position": [
+            0.04941,
+            -0.40414,
+            -0.00161
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint19",
+          "Position": [
+            -0.08942,
+            -0.51934,
+            -0.31657
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint20",
+          "Position": [
+            -0.07616,
+            -0.40359,
+            0.35985
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint21",
+          "Position": [
+            -0.03102,
+            -0.42994,
+            0.37346
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint22",
+          "Position": [
+            0.04247,
+            -0.46598,
+            0.37664
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint23",
+          "Position": [
+            -0.02567,
+            -0.48886,
+            -0.07342
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint24",
+          "Position": [
+            0.05046,
+            -0.34107,
+            -0.48478
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26/joint5/joint25",
+          "Position": [
+            -0.05204,
+            -0.39637,
+            0.41586
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "joint26",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "HangingClothA",
+          "Shader": "Sons/Uber",
+          "Textures": {
+            "_BaseColorMap": "ClothRippedAlbedo",
+            "_MaskMap": "ClothRippedMask",
+            "_NormalMap": "ClothRippedNormal"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

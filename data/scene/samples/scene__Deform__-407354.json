@@ -1,0 +1,415 @@
+{
+  "Name": "_Deform__-407354",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "GameManagers/Pooling/Pool_Greebles/YarrowALOD0(Clone)001/_Deform_",
+  "Active": false,
+  "RigFamily": "e79b1505",
+  "PlayerNameMatch": "0/10 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [],
+  "Rig": [
+    {
+      "Path": "_Deform_",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root",
+      "Parent": "_Deform_",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootA",
+      "Parent": "root",
+      "LocalPosition": [
+        0.03888,
+        -0.02249,
+        -0.18569
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.71338,
+        0.70078
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootA/jointA",
+      "Parent": "root/rootA",
+      "LocalPosition": [
+        -0.21605,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootA/jointA/endA",
+      "Parent": "root/rootA/jointA",
+      "LocalPosition": [
+        -0.75218,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootB",
+      "Parent": "root",
+      "LocalPosition": [
+        -0.1372,
+        -0.00973,
+        -0.00834
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.67749,
+        0.73553
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootB/jointB",
+      "Parent": "root/rootB",
+      "LocalPosition": [
+        -0.20264,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootB/jointB/endB",
+      "Parent": "root/rootB/jointB",
+      "LocalPosition": [
+        -0.74736,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootC",
+      "Parent": "root",
+      "LocalPosition": [
+        0.14191,
+        0,
+        0.16705
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.69967,
+        0.71447
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootC/JointC",
+      "Parent": "root/rootC",
+      "LocalPosition": [
+        -0.20531,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootC/JointC/endC",
+      "Parent": "root/rootC/JointC",
+      "LocalPosition": [
+        -0.72219,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "_SkinnedMesh_",
+      "Mesh": "YarrowAMeshLOD0",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 2703,
+      "SubMeshes": 1,
+      "RootBone": "root",
+      "Bones": [
+        "root",
+        "root/rootA",
+        "root/rootA/jointA",
+        "root/rootA/jointA/endA",
+        "root/rootB",
+        "root/rootB/jointB",
+        "root/rootB/jointB/endB",
+        "root/rootC",
+        "root/rootC/JointC",
+        "root/rootC/JointC/endC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "root",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootA",
+          "Position": [
+            0.03888,
+            -0.02249,
+            -0.18569
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.71338,
+            0.70078
+          ]
+        },
+        {
+          "Bone": "root/rootA/jointA",
+          "Position": [
+            0.04273,
+            0.19353,
+            -0.18569
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.71338,
+            0.70078
+          ]
+        },
+        {
+          "Bone": "root/rootA/jointA/endA",
+          "Position": [
+            0.05613,
+            0.94559,
+            -0.18569
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.71338,
+            0.70078
+          ]
+        },
+        {
+          "Bone": "root/rootB",
+          "Position": [
+            -0.1372,
+            -0.00973,
+            -0.00834
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.67749,
+            0.73553
+          ]
+        },
+        {
+          "Bone": "root/rootB/jointB",
+          "Position": [
+            -0.15382,
+            0.19223,
+            -0.00834
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.67749,
+            0.73553
+          ]
+        },
+        {
+          "Bone": "root/rootB/jointB/endB",
+          "Position": [
+            -0.21511,
+            0.93708,
+            -0.00834
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.67749,
+            0.73553
+          ]
+        },
+        {
+          "Bone": "root/rootC",
+          "Position": [
+            0.14191,
+            0,
+            0.16705
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.69967,
+            0.71447
+          ]
+        },
+        {
+          "Bone": "root/rootC/JointC",
+          "Position": [
+            0.13762,
+            0.20527,
+            0.16705
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.69967,
+            0.71447
+          ]
+        },
+        {
+          "Bone": "root/rootC/JointC/endC",
+          "Position": [
+            0.12251,
+            0.92731,
+            0.16705
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0.69967,
+            0.71447
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "YarrowA",
+          "Shader": "Sons/Trees/LeavesOptimized",
+          "Textures": {
+            "_BaseColorMap": "YarrowAAlbedo",
+            "_NormalMap": "YarrowANOT",
+            "_Alpha": "YarrowAAlpha"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

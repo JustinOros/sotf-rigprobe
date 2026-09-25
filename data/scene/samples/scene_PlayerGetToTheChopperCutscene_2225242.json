@@ -1,0 +1,4836 @@
+{
+  "Name": "PlayerGetToTheChopperCutscene_2225242",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "Cutscenes/GetToTheChopperCutsceneSceneSetup/PlayerGetToTheChopperCutscene",
+  "Active": false,
+  "RigFamily": "a240987b",
+  "PlayerNameMatch": "118/122 (96%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "PlayerGetToTheChopperCutscene",
+      "Enabled": true,
+      "Controller": "PlayerGetToTheChopperCutscene",
+      "Avatar": "playerTactiRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "PlayerGetToTheChopperCutscene",
+      "Parent": "",
+      "LocalPosition": [
+        -2.7557,
+        -5.72571,
+        27.4547
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root",
+      "Parent": "PlayerGetToTheChopperCutscene",
+      "LocalPosition": [
+        4.7836,
+        1.09271,
+        -12.35218
+      ],
+      "LocalRotation": [
+        0.0235,
+        -0.09306,
+        0.00547,
+        0.99537
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.00019,
+        0,
+        0.08209
+      ],
+      "LocalRotation": [
+        -2E-05,
+        -0.0116,
+        -0.00416,
+        0.99992
+      ],
+      "LocalScale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "Path": "Root/Hips/LeftUpLeg",
+      "Parent": "Root/Hips",
+      "LocalPosition": [
+        -0.2505,
+        -0.08725,
+        -0.00043
+      ],
+      "LocalRotation": [
+        0.11611,
+        -0.00903,
+        0.04349,
+        0.99224
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/LeftUpLeg/LeftLeg",
+      "Parent": "Root/Hips/LeftUpLeg",
+      "LocalPosition": [
+        -0.08217,
+        -1.09975,
+        0.02557
+      ],
+      "LocalRotation": [
+        0.18435,
+        -0.02685,
+        0.0021,
+        0.98249
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+      "Parent": "Root/Hips/LeftUpLeg/LeftLeg",
+      "LocalPosition": [
+        -0.08318,
+        -1.09938,
+        -0.00592
+      ],
+      "LocalRotation": [
+        -0.06053,
+        0.0123,
+        -0.04418,
+        0.99711
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+      "Parent": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+      "LocalPosition": [
+        0.00477,
+        -0.18572,
+        0.35839
+      ],
+      "LocalRotation": [
+        -0.26191,
+        -0,
+        -0,
+        0.96509
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToeBase1",
+      "Parent": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+      "LocalPosition": [
+        -0.00059,
+        -0,
+        0.20131
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/RightUpLeg",
+      "Parent": "Root/Hips",
+      "LocalPosition": [
+        0.25054,
+        -0.08696,
+        0.00115
+      ],
+      "LocalRotation": [
+        0.94649,
+        -0.03459,
+        0.02015,
+        0.32024
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/RightUpLeg/RightLeg",
+      "Parent": "Root/Hips/RightUpLeg",
+      "LocalPosition": [
+        0.09279,
+        1.0954,
+        0.11081
+      ],
+      "LocalRotation": [
+        0.16936,
+        -0.10138,
+        0.00646,
+        0.9803
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/RightUpLeg/RightLeg/RightFoot",
+      "Parent": "Root/Hips/RightUpLeg/RightLeg",
+      "LocalPosition": [
+        0.09431,
+        1.09846,
+        -0.00928
+      ],
+      "LocalRotation": [
+        0.06739,
+        0.00309,
+        -0.0722,
+        0.99511
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+      "Parent": "Root/Hips/RightUpLeg/RightLeg/RightFoot",
+      "LocalPosition": [
+        -0.00477,
+        0.19554,
+        -0.35952
+      ],
+      "LocalRotation": [
+        -0.00369,
+        0,
+        -0,
+        0.99999
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToeBase1",
+      "Parent": "Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+      "LocalPosition": [
+        0.00058,
+        0.00121,
+        -0.20131
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine",
+      "Parent": "Root/Hips",
+      "LocalPosition": [
+        -0.00317,
+        0.25429,
+        0.00255
+      ],
+      "LocalRotation": [
+        0.00626,
+        0.00396,
+        0.01033,
+        0.99992
+      ],
+      "LocalScale": [
+        1.00001,
+        1.00001,
+        1.00001
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1",
+      "Parent": "Root/Hips/Spine",
+      "LocalPosition": [
+        -0.00267,
+        0.50856,
+        0.00806
+      ],
+      "LocalRotation": [
+        0.01265,
+        0.00786,
+        0.00038,
+        0.99989
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/LeftRibs",
+      "Parent": "Root/Hips/Spine/Spine1",
+      "LocalPosition": [
+        -0.27536,
+        0.17717,
+        0.2386
+      ],
+      "LocalRotation": [
+        0.00589,
+        0.00403,
+        -0.00952,
+        0.99993
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/RightRibs",
+      "Parent": "Root/Hips/Spine/Spine1",
+      "LocalPosition": [
+        0.27317,
+        0.16679,
+        0.23122
+      ],
+      "LocalRotation": [
+        0.00589,
+        0.00403,
+        -0.00952,
+        0.99993
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2",
+      "Parent": "Root/Hips/Spine/Spine1",
+      "LocalPosition": [
+        0.0019,
+        0.25431,
+        0.0021
+      ],
+      "LocalRotation": [
+        0.00589,
+        0.00403,
+        -0.00952,
+        0.99993
+      ],
+      "LocalScale": [
+        0.99999,
+        0.99999,
+        0.99999
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2",
+      "LocalPosition": [
+        -0.15978,
+        0.26687,
+        -0.09864
+      ],
+      "LocalRotation": [
+        0.84186,
+        -0.53918,
+        0.02373,
+        -0.0003
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder",
+      "LocalPosition": [
+        0.00102,
+        0.32582,
+        -4E-05
+      ],
+      "LocalRotation": [
+        -0.04951,
+        -0.06484,
+        -0.43776,
+        0.89538
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm",
+      "LocalPosition": [
+        0,
+        0.63421,
+        0
+      ],
+      "LocalRotation": [
+        -0.18299,
+        -0.04647,
+        0.02674,
+        0.98165
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftElbowHelper1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm",
+      "LocalPosition": [
+        0.00177,
+        0.0113,
+        0.01038
+      ],
+      "LocalRotation": [
+        0.02705,
+        0.00153,
+        0.00205,
+        0.99963
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm",
+      "LocalPosition": [
+        0.0009,
+        0.02624,
+        0.00315
+      ],
+      "LocalRotation": [
+        -0.05274,
+        0.25359,
+        -0.00943,
+        0.96583
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1",
+      "LocalPosition": [
+        0.00133,
+        0.22292,
+        0.00145
+      ],
+      "LocalRotation": [
+        -0.00333,
+        -0.21561,
+        -0.00104,
+        0.97647
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmSleeve1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2",
+      "LocalPosition": [
+        0.0027,
+        0.30547,
+        0.00086
+      ],
+      "LocalRotation": [
+        0.09147,
+        -0.10013,
+        -0.71325,
+        0.68767
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmSleeve1/LeftForeArmSleeve2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmSleeve1",
+      "LocalPosition": [
+        -0.0994,
+        -0.0024,
+        0.00248
+      ],
+      "LocalRotation": [
+        0.01981,
+        0.0497,
+        0.04647,
+        0.99749
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2",
+      "LocalPosition": [
+        0.00179,
+        0.23714,
+        0.00244
+      ],
+      "LocalRotation": [
+        -0.00725,
+        -0.37597,
+        -0.001,
+        0.9266
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftForeArmTwistNew4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3",
+      "LocalPosition": [
+        0.0036,
+        0.22287,
+        0.00363
+      ],
+      "LocalRotation": [
+        0.01815,
+        0.96689,
+        0.00351,
+        0.25453
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3",
+      "LocalPosition": [
+        0.00383,
+        0.2371,
+        0.00386
+      ],
+      "LocalRotation": [
+        0.07402,
+        0.41974,
+        -0.07034,
+        0.90188
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHand1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        -0.02773,
+        0.08923,
+        -0.04074
+      ],
+      "LocalRotation": [
+        0.7068,
+        -0.7068,
+        0.02085,
+        -0.02085
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandHelper1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        0.00096,
+        -0.01399,
+        0.00242
+      ],
+      "LocalRotation": [
+        0.03487,
+        -0.69361,
+        0.02628,
+        0.71903
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        0.00137,
+        0.2026,
+        -0.08224
+      ],
+      "LocalRotation": [
+        0.0278,
+        -0.11166,
+        -0.08821,
+        0.98943
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1",
+      "LocalPosition": [
+        0.00943,
+        0.12178,
+        0.00402
+      ],
+      "LocalRotation": [
+        0.01256,
+        0.00546,
+        -0.2865,
+        0.95798
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2",
+      "LocalPosition": [
+        0.00589,
+        0.06417,
+        0.00239
+      ],
+      "LocalRotation": [
+        0.01142,
+        -0.03386,
+        -0.10976,
+        0.99332
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3",
+      "LocalPosition": [
+        0,
+        0.0614,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0.67616,
+        -0,
+        0.73675
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndexHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3",
+      "LocalPosition": [
+        -0.0007,
+        -0.00013,
+        -0.00015
+      ],
+      "LocalRotation": [
+        -8E-05,
+        0.00041,
+        0.00206,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndexHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2",
+      "LocalPosition": [
+        -0.0066,
+        0.00068,
+        -0.00186
+      ],
+      "LocalRotation": [
+        -0.00726,
+        -0.00369,
+        0.14167,
+        0.98988
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndexHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1",
+      "LocalPosition": [
+        -0.00412,
+        -0.00363,
+        -0.00123
+      ],
+      "LocalRotation": [
+        -0.03506,
+        0.004,
+        0.0755,
+        0.99652
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndexPalm1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        -0.01869,
+        0.0915,
+        -0.08856
+      ],
+      "LocalRotation": [
+        -0.03482,
+        -0.01806,
+        0.02121,
+        0.99901
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        -0.01262,
+        0.20938,
+        -0.02478
+      ],
+      "LocalRotation": [
+        0.04858,
+        -0.05422,
+        -0.19226,
+        0.97864
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1",
+      "LocalPosition": [
+        0.00294,
+        0.13791,
+        0.00192
+      ],
+      "LocalRotation": [
+        0.01403,
+        0.00848,
+        -0.28665,
+        0.9579
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2",
+      "LocalPosition": [
+        0.00296,
+        0.07064,
+        0.00336
+      ],
+      "LocalRotation": [
+        0.01552,
+        -0.03281,
+        -0.22294,
+        0.97416
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3",
+      "LocalPosition": [
+        0,
+        0.06583,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0.83296,
+        -0,
+        0.55333
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddleHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3",
+      "LocalPosition": [
+        -0.00522,
+        0.00013,
+        7E-05
+      ],
+      "LocalRotation": [
+        -0.00359,
+        -0.00081,
+        0.07031,
+        0.99752
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddleHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2",
+      "LocalPosition": [
+        -0.00709,
+        0.00032,
+        -0.00048
+      ],
+      "LocalRotation": [
+        -0.00711,
+        -0.00507,
+        0.13545,
+        0.99075
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddleHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1",
+      "LocalPosition": [
+        -0.00604,
+        -0.00579,
+        -0.00049
+      ],
+      "LocalRotation": [
+        -0.00461,
+        0.00147,
+        0.12308,
+        0.99239
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        -0.03572,
+        0.19629,
+        0.08228
+      ],
+      "LocalRotation": [
+        0.0568,
+        0.00973,
+        -0.19293,
+        0.97952
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1",
+      "LocalPosition": [
+        0.012,
+        0.08628,
+        -0.00033
+      ],
+      "LocalRotation": [
+        0.01039,
+        0.00806,
+        -0.3235,
+        0.94614
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2",
+      "LocalPosition": [
+        0.00088,
+        0.0559,
+        0.0004
+      ],
+      "LocalRotation": [
+        0.00507,
+        0.02816,
+        -0.21292,
+        0.97665
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3",
+      "LocalPosition": [
+        0,
+        0.05532,
+        0
+      ],
+      "LocalRotation": [
+        -0.70697,
+        0.70697,
+        -0.01392,
+        0.01392
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinkyHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3",
+      "LocalPosition": [
+        -0.00531,
+        0.00015,
+        -0.00048
+      ],
+      "LocalRotation": [
+        -0.00484,
+        -0.00411,
+        0.10683,
+        0.99426
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinkyHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2",
+      "LocalPosition": [
+        -0.00639,
+        0.0001,
+        -0.00032
+      ],
+      "LocalRotation": [
+        -0.00509,
+        -0.00448,
+        0.10872,
+        0.99405
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinkyHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1",
+      "LocalPosition": [
+        -0.00681,
+        -0.00516,
+        -0.00028
+      ],
+      "LocalRotation": [
+        0.05162,
+        0.00297,
+        0.1254,
+        0.99076
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinkyPalm1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        -0.04958,
+        0.08235,
+        0.05376
+      ],
+      "LocalRotation": [
+        0.07682,
+        -0.01956,
+        -0.00602,
+        0.99684
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        -0.03372,
+        0.20548,
+        0.02355
+      ],
+      "LocalRotation": [
+        0.10182,
+        0.02253,
+        -0.25486,
+        0.96134
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1",
+      "LocalPosition": [
+        0.00926,
+        0.12357,
+        0.00122
+      ],
+      "LocalRotation": [
+        -0.00169,
+        0.00704,
+        -0.24095,
+        0.97051
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2",
+      "LocalPosition": [
+        0.00585,
+        0.06218,
+        0.00267
+      ],
+      "LocalRotation": [
+        0.01992,
+        -0.04149,
+        -0.20547,
+        0.97758
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3",
+      "LocalPosition": [
+        -0.00492,
+        0.06547,
+        -0.0002
+      ],
+      "LocalRotation": [
+        -0.70711,
+        0.70711,
+        -0,
+        -0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRingHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3",
+      "LocalPosition": [
+        -0.00335,
+        -0.00016,
+        0.00013
+      ],
+      "LocalRotation": [
+        -0.00491,
+        -0.00342,
+        0.09985,
+        0.99498
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRingHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2",
+      "LocalPosition": [
+        -0.00603,
+        0.00058,
+        -0.00035
+      ],
+      "LocalRotation": [
+        -0.00548,
+        -0.00385,
+        0.10875,
+        0.99405
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRingHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1",
+      "LocalPosition": [
+        -0.00711,
+        -0.00612,
+        -0.00045
+      ],
+      "LocalRotation": [
+        0.00854,
+        0.01147,
+        0.13975,
+        0.99008
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRingPalm1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        -0.03928,
+        0.0854,
+        0.00632
+      ],
+      "LocalRotation": [
+        0.04811,
+        -0.04579,
+        -0.03373,
+        0.99722
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+      "LocalPosition": [
+        0.03946,
+        0.02733,
+        -0.07457
+      ],
+      "LocalRotation": [
+        -0.34358,
+        -0.61369,
+        0.15602,
+        0.69354
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1",
+      "LocalPosition": [
+        0.03567,
+        0.0982,
+        -0.00883
+      ],
+      "LocalRotation": [
+        0.01239,
+        0.00562,
+        -0.25144,
+        0.96778
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2",
+      "LocalPosition": [
+        0.01104,
+        0.08401,
+        0.00122
+      ],
+      "LocalRotation": [
+        -0.02181,
+        0.00722,
+        -0.03651,
+        0.99907
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3",
+      "LocalPosition": [
+        -0,
+        0.06585,
+        0
+      ],
+      "LocalRotation": [
+        -0.70711,
+        0.70711,
+        -0,
+        0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumbHelper2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3",
+      "LocalPosition": [
+        -0.00264,
+        -0.00041,
+        -0.00051
+      ],
+      "LocalRotation": [
+        0.01144,
+        -0.00233,
+        -0.0468,
+        0.99884
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArmHelper1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder",
+      "LocalPosition": [
+        -0,
+        0.336,
+        -0
+      ],
+      "LocalRotation": [
+        -0.09521,
+        -0.03467,
+        -0.17421,
+        0.97948
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/Neck",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2",
+      "LocalPosition": [
+        -0,
+        0.36221,
+        -0.09995
+      ],
+      "LocalRotation": [
+        0.24351,
+        -0.03878,
+        0.00644,
+        0.9691
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/Neck",
+      "LocalPosition": [
+        0.00091,
+        0.14006,
+        -0.0007
+      ],
+      "LocalRotation": [
+        -0.38731,
+        -0.00233,
+        0.08409,
+        0.9181
+      ],
+      "LocalScale": [
+        1.00043,
+        1.00043,
+        1.00043
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1/Head",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1",
+      "LocalPosition": [
+        -0.00258,
+        0.14025,
+        -0.01521
+      ],
+      "LocalRotation": [
+        -0.27733,
+        -0.04284,
+        0.02357,
+        0.95953
+      ],
+      "LocalScale": [
+        0.99948,
+        0.99981,
+        0.99922
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1/Throat",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1",
+      "LocalPosition": [
+        -0.01121,
+        0.06888,
+        0.17964
+      ],
+      "LocalRotation": [
+        -0.28745,
+        -0.04309,
+        0.02312,
+        0.95655
+      ],
+      "LocalScale": [
+        0.9995,
+        0.99987,
+        0.99921
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2",
+      "LocalPosition": [
+        0.15978,
+        0.26687,
+        -0.09864
+      ],
+      "LocalRotation": [
+        0.03956,
+        0.06634,
+        0.52362,
+        0.84845
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder",
+      "LocalPosition": [
+        -0.0009,
+        -0.32595,
+        -8E-05
+      ],
+      "LocalRotation": [
+        0.00433,
+        -0.06632,
+        -0.38838,
+        0.9191
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm",
+      "LocalPosition": [
+        0.01665,
+        -0.6319,
+        -0.00388
+      ],
+      "LocalRotation": [
+        -0.18049,
+        -0.17831,
+        0.00067,
+        0.96728
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightElbowHelper1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm",
+      "LocalPosition": [
+        -0.00075,
+        -0.0104,
+        -0.01152
+      ],
+      "LocalRotation": [
+        0.07213,
+        0.02599,
+        -0.18205,
+        0.9803
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm",
+      "LocalPosition": [
+        -0.00138,
+        -0.02638,
+        -0.00418
+      ],
+      "LocalRotation": [
+        -0.0115,
+        0.25232,
+        -0.018,
+        0.96741
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1",
+      "LocalPosition": [
+        -0.00601,
+        -0.22519,
+        -0.00212
+      ],
+      "LocalRotation": [
+        -0.00409,
+        -0.2419,
+        -0.00114,
+        0.97029
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+      "LocalPosition": [
+        -0.00986,
+        -0.36258,
+        -0.00281
+      ],
+      "LocalRotation": [
+        -0.00124,
+        0.21052,
+        -0.00132,
+        0.97759
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1/RightForeArmSleeve2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1",
+      "LocalPosition": [
+        -0.00203,
+        -0.09954,
+        -0.00171
+      ],
+      "LocalRotation": [
+        -0.04228,
+        0.0797,
+        0.9959,
+        -0.00645
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+      "LocalPosition": [
+        -0.00664,
+        -0.23956,
+        -0.00103
+      ],
+      "LocalRotation": [
+        -0.008,
+        -0.39699,
+        -0.00105,
+        0.91779
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightForeArmTwistNew4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3",
+      "LocalPosition": [
+        -0.00598,
+        -0.2252,
+        0.00037
+      ],
+      "LocalRotation": [
+        0.01781,
+        0.95946,
+        0.00332,
+        0.28126
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3",
+      "LocalPosition": [
+        -0.00637,
+        -0.23957,
+        0.00038
+      ],
+      "LocalRotation": [
+        -0.01021,
+        0.40254,
+        -0.01186,
+        0.91527
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHand1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.00558,
+        -0.09527,
+        0.02189
+      ],
+      "LocalRotation": [
+        0.7068,
+        -0.7068,
+        0.02085,
+        -0.02085
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandHelper1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.02013,
+        0.01453,
+        0.0027
+      ],
+      "LocalRotation": [
+        0.08669,
+        -0.68148,
+        -0.04447,
+        0.72532
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.00335,
+        -0.20513,
+        0.08219
+      ],
+      "LocalRotation": [
+        0.00209,
+        -0.11441,
+        -0.13383,
+        0.98438
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1",
+      "LocalPosition": [
+        -0.01071,
+        -0.11355,
+        -0.00041
+      ],
+      "LocalRotation": [
+        -0.00802,
+        0.00283,
+        -0.24781,
+        0.96877
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2",
+      "LocalPosition": [
+        -0.00699,
+        -0.06411,
+        -0.00034
+      ],
+      "LocalRotation": [
+        0.01101,
+        -0.03499,
+        -0.06355,
+        0.9973
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3",
+      "LocalPosition": [
+        -0,
+        -0.0614,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0.67616,
+        -0,
+        0.73675
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndexHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3",
+      "LocalPosition": [
+        0.00141,
+        -0.00013,
+        0.00022
+      ],
+      "LocalRotation": [
+        -0.00066,
+        0.0003,
+        -0.02248,
+        0.99975
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndexHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2",
+      "LocalPosition": [
+        0.00582,
+        -0.00064,
+        0.00134
+      ],
+      "LocalRotation": [
+        0.00325,
+        -0.00263,
+        0.12041,
+        0.99272
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndexHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1",
+      "LocalPosition": [
+        0.00523,
+        0.00444,
+        0.00114
+      ],
+      "LocalRotation": [
+        -0.01957,
+        0.00333,
+        0.09903,
+        0.99489
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndexPalm1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        -0.00117,
+        -0.09686,
+        0.07011
+      ],
+      "LocalRotation": [
+        -0.03482,
+        -0.01806,
+        0.02121,
+        0.99901
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.02196,
+        -0.21318,
+        0.0245
+      ],
+      "LocalRotation": [
+        -0.01965,
+        -0.04834,
+        -0.18979,
+        0.98044
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1",
+      "LocalPosition": [
+        -0.01084,
+        -0.12853,
+        -0.00335
+      ],
+      "LocalRotation": [
+        -0.00558,
+        0.01225,
+        -0.25058,
+        0.968
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2",
+      "LocalPosition": [
+        -0.00362,
+        -0.07058,
+        -0.00409
+      ],
+      "LocalRotation": [
+        0.00425,
+        -0.03326,
+        -0.186,
+        0.98198
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3",
+      "LocalPosition": [
+        0,
+        -0.06583,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0.83296,
+        -0,
+        0.55333
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddleHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3",
+      "LocalPosition": [
+        0.00434,
+        -0.00014,
+        -0.00027
+      ],
+      "LocalRotation": [
+        0.00162,
+        -0.00226,
+        0.05124,
+        0.99868
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddleHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2",
+      "LocalPosition": [
+        0.0057,
+        -0.0003,
+        0.0001
+      ],
+      "LocalRotation": [
+        0.00299,
+        -0.00705,
+        0.1169,
+        0.99311
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddleHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1",
+      "LocalPosition": [
+        0.00624,
+        0.00527,
+        0.00025
+      ],
+      "LocalRotation": [
+        0.02248,
+        -0.00551,
+        0.11983,
+        0.99252
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddlePalm1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.00558,
+        -0.09527,
+        0.02189
+      ],
+      "LocalRotation": [
+        -0.00598,
+        -0.06289,
+        -0.00405,
+        0.99799
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.0265,
+        -0.18534,
+        -0.08522
+      ],
+      "LocalRotation": [
+        -0.00288,
+        0.03356,
+        -0.25452,
+        0.96648
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1",
+      "LocalPosition": [
+        -0.00896,
+        -0.09333,
+        -0.00146
+      ],
+      "LocalRotation": [
+        -0.00451,
+        0.01269,
+        -0.30342,
+        0.95276
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2",
+      "LocalPosition": [
+        -0.00207,
+        -0.05587,
+        -0.00022
+      ],
+      "LocalRotation": [
+        -0.00762,
+        0.02907,
+        -0.15279,
+        0.9878
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3",
+      "LocalPosition": [
+        0,
+        -0.05532,
+        0
+      ],
+      "LocalRotation": [
+        0.70697,
+        -0.70697,
+        0.01392,
+        -0.01392
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinkyHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3",
+      "LocalPosition": [
+        0.00391,
+        -0.00019,
+        0.00015
+      ],
+      "LocalRotation": [
+        0.0023,
+        -0.00482,
+        0.07668,
+        0.99704
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinkyHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2",
+      "LocalPosition": [
+        0.00661,
+        -0.00025,
+        -0
+      ],
+      "LocalRotation": [
+        0.00275,
+        -0.00594,
+        0.0984,
+        0.99513
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinkyHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1",
+      "LocalPosition": [
+        0.00827,
+        0.00682,
+        0.00014
+      ],
+      "LocalRotation": [
+        0.07244,
+        -0.00897,
+        0.15777,
+        0.98477
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinkyPalm1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.02293,
+        -0.08961,
+        -0.07367
+      ],
+      "LocalRotation": [
+        0.07983,
+        -0.01961,
+        -0.00631,
+        0.9966
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.0282,
+        -0.20689,
+        -0.02975
+      ],
+      "LocalRotation": [
+        0.02072,
+        0.04176,
+        -0.28723,
+        0.95673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1",
+      "LocalPosition": [
+        -0.00335,
+        -0.1172,
+        -0.00088
+      ],
+      "LocalRotation": [
+        -0.01677,
+        0.01033,
+        -0.2205,
+        0.97519
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2",
+      "LocalPosition": [
+        -0.00526,
+        -0.06227,
+        -0.00163
+      ],
+      "LocalRotation": [
+        0.00412,
+        -0.04173,
+        -0.15065,
+        0.9877
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3",
+      "LocalPosition": [
+        0.00233,
+        -0.06512,
+        -0.00021
+      ],
+      "LocalRotation": [
+        -0.70711,
+        0.70711,
+        -0,
+        0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRingHelper6",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3",
+      "LocalPosition": [
+        0.00198,
+        0.00011,
+        0.0001
+      ],
+      "LocalRotation": [
+        0.00175,
+        -0.00353,
+        0.07187,
+        0.99741
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRingHelper5",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2",
+      "LocalPosition": [
+        0.00584,
+        -0.00052,
+        0.00086
+      ],
+      "LocalRotation": [
+        0.0023,
+        -0.00532,
+        0.09845,
+        0.99513
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRingHelper4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1",
+      "LocalPosition": [
+        0.00708,
+        0.00675,
+        0.00106
+      ],
+      "LocalRotation": [
+        0.04235,
+        0.00096,
+        0.15132,
+        0.98758
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRingPalm1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        0.0149,
+        -0.09203,
+        -0.02575
+      ],
+      "LocalRotation": [
+        0.05012,
+        -0.04575,
+        -0.03397,
+        0.99712
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+      "LocalPosition": [
+        -0.0358,
+        -0.02674,
+        0.07509
+      ],
+      "LocalRotation": [
+        -0.23905,
+        -0.6607,
+        0.08618,
+        0.70633
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1",
+      "LocalPosition": [
+        -0.02502,
+        -0.10172,
+        0.00472
+      ],
+      "LocalRotation": [
+        -0.00049,
+        0.0082,
+        -0.29955,
+        0.95405
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2",
+      "LocalPosition": [
+        -0.00056,
+        -0.08461,
+        -0.00455
+      ],
+      "LocalRotation": [
+        0.04264,
+        0.01208,
+        0.17011,
+        0.98443
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3",
+      "LocalPosition": [
+        -0,
+        -0.06585,
+        0
+      ],
+      "LocalRotation": [
+        -0.70711,
+        0.70711,
+        -0,
+        -0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumbHelper2",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3",
+      "LocalPosition": [
+        0.00379,
+        6E-05,
+        0.00142
+      ],
+      "LocalRotation": [
+        0.00369,
+        -0.01068,
+        -0.07928,
+        0.99679
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArmHelper1",
+      "Parent": "Root/Hips/Spine/Spine1/Spine2/RightShoulder",
+      "LocalPosition": [
+        0,
+        -0.336,
+        -0
+      ],
+      "LocalRotation": [
+        -0.09521,
+        -0.03462,
+        -0.17434,
+        0.97946
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "PROXY/new_boots1",
+      "Mesh": "new_boots1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 657,
+      "SubMeshes": 1,
+      "RootBone": "Root",
+      "Bones": [
+        "Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+        "Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToeBase1",
+        "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+        "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToeBase1",
+        "Root/Hips/RightUpLeg/RightLeg",
+        "Root/Hips/LeftUpLeg/LeftLeg",
+        "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+        "Root",
+        "Root/Hips/RightUpLeg/RightLeg/RightFoot"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+          "Position": [
+            0.1738,
+            0.00933,
+            0.0813
+          ],
+          "Rotation": [
+            1,
+            0,
+            -0,
+            0.00144
+          ]
+        },
+        {
+          "Bone": "Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToeBase1",
+          "Position": [
+            0.17404,
+            0.00908,
+            0.16182
+          ],
+          "Rotation": [
+            1,
+            0,
+            -0,
+            0.00144
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+          "Position": [
+            -0.16481,
+            0.00933,
+            0.08129
+          ],
+          "Rotation": [
+            0.00157,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToeBase1",
+          "Position": [
+            -0.16504,
+            0.00908,
+            0.16182
+          ],
+          "Rotation": [
+            0.00157,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/RightUpLeg/RightLeg",
+          "Position": [
+            0.13797,
+            0.52538,
+            -0.01808
+          ],
+          "Rotation": [
+            0.99852,
+            0.00014,
+            -0.00254,
+            -0.05424
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg/LeftLeg",
+          "Position": [
+            -0.13346,
+            0.52509,
+            -0.01202
+          ],
+          "Rotation": [
+            0.05424,
+            -0.00254,
+            -0.00014,
+            0.99852
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+          "Position": [
+            -0.16671,
+            0.0882,
+            -0.06216
+          ],
+          "Rotation": [
+            0.00157,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root",
+          "Position": [
+            0,
+            0,
+            -0.08209
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/RightUpLeg/RightLeg/RightFoot",
+          "Position": [
+            0.17571,
+            0.08819,
+            -0.06216
+          ],
+          "Rotation": [
+            1,
+            0,
+            -0,
+            -0.00225
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DefaultHDMaterial",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MaskMap": "DefaultMaskMap",
+            "_NormalMap": "DefaultNormalMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "PROXY/new_jacket1",
+      "Mesh": "new_jacket1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 1038,
+      "SubMeshes": 1,
+      "RootBone": "Root",
+      "Bones": [
+        "Root/Hips/Spine/Spine1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3",
+        "Root/Hips/Spine/Spine1/Spine2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinkyPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+        "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1/Head",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftElbowHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArmHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightForeArmTwistNew4",
+        "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftForeArmTwistNew4",
+        "Root/Hips/Spine/Spine1/Spine2/Neck",
+        "Root/Hips/Spine",
+        "Root/Hips/LeftUpLeg",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinkyPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightElbowHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder",
+        "Root",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm",
+        "Root/Hips",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm",
+        "Root/Hips/Spine/Spine1/RightRibs",
+        "Root/Hips/RightUpLeg",
+        "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1/Throat",
+        "Root/Hips/Spine/Spine1/LeftRibs",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArmHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Hips/Spine/Spine1",
+          "Position": [
+            0,
+            1.30573,
+            0.00093
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3",
+          "Position": [
+            0.51467,
+            1.19615,
+            0.05136
+          ],
+          "Rotation": [
+            -0.0667,
+            -0.39679,
+            0.4779,
+            0.78085
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2",
+          "Position": [
+            0,
+            1.40746,
+            0.00124
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinkyPalm1",
+          "Position": [
+            -0.61558,
+            1.11961,
+            0.08585
+          ],
+          "Rotation": [
+            0.94953,
+            -0.29211,
+            -0.00759,
+            0.11407
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+          "Position": [
+            -0.57879,
+            1.14267,
+            0.09478
+          ],
+          "Rotation": [
+            0.93361,
+            -0.29606,
+            -0.01256,
+            0.20139
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1/Head",
+          "Position": [
+            0,
+            1.65705,
+            0.00091
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+          "Position": [
+            0.58043,
+            1.14287,
+            0.09637
+          ],
+          "Rotation": [
+            -0.22752,
+            0.00364,
+            0.29135,
+            0.92916
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm",
+          "Position": [
+            -0.18445,
+            1.46646,
+            -0.05532
+          ],
+          "Rotation": [
+            0.90935,
+            -0.41453,
+            -0.01584,
+            0.03155
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+          "Position": [
+            0.44891,
+            1.24943,
+            0.00633
+          ],
+          "Rotation": [
+            -0.2335,
+            -0.07628,
+            0.423,
+            0.8722
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftElbowHelper1",
+          "Position": [
+            -0.37962,
+            1.29651,
+            -0.03903
+          ],
+          "Rotation": [
+            0.88136,
+            -0.43857,
+            -0.08029,
+            0.15626
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1",
+          "Position": [
+            0.3871,
+            1.29951,
+            -0.03599
+          ],
+          "Rotation": [
+            -0.31605,
+            0.11437,
+            0.36415,
+            0.86858
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArmHelper1",
+          "Position": [
+            0.18811,
+            1.46522,
+            -0.05593
+          ],
+          "Rotation": [
+            -0.0313,
+            -0.01642,
+            0.41444,
+            0.90939
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1",
+          "Position": [
+            -0.56788,
+            1.13456,
+            0.12682
+          ],
+          "Rotation": [
+            0.57429,
+            -0.46867,
+            -0.51405,
+            0.43162
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightForeArmTwistNew4",
+          "Position": [
+            0.57648,
+            1.14606,
+            0.09367
+          ],
+          "Rotation": [
+            -0.46617,
+            0.66212,
+            0.06772,
+            0.58284
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1",
+          "Position": [
+            0,
+            1.6037,
+            -0.0162
+          ],
+          "Rotation": [
+            0.15433,
+            -0,
+            -0,
+            0.98802
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandHelper1",
+          "Position": [
+            -0.57912,
+            1.15023,
+            0.09084
+          ],
+          "Rotation": [
+            0.64641,
+            -0.41649,
+            -0.61603,
+            -0.17086
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm",
+          "Position": [
+            0.37917,
+            1.30599,
+            -0.03902
+          ],
+          "Rotation": [
+            -0.19248,
+            -0.09973,
+            0.43505,
+            0.87392
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1",
+          "Position": [
+            -0.38335,
+            1.29398,
+            -0.03443
+          ],
+          "Rotation": [
+            0.86862,
+            -0.36416,
+            0.11421,
+            0.31597
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2",
+          "Position": [
+            -0.44583,
+            1.2456,
+            0.00688
+          ],
+          "Rotation": [
+            0.87231,
+            -0.42268,
+            -0.07529,
+            0.23398
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3",
+          "Position": [
+            -0.51231,
+            1.19413,
+            0.05083
+          ],
+          "Rotation": [
+            0.77892,
+            -0.47819,
+            -0.40059,
+            0.0644
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftForeArmTwistNew4",
+          "Position": [
+            -0.5748,
+            1.14576,
+            0.09214
+          ],
+          "Rotation": [
+            0.58597,
+            -0.07008,
+            0.65928,
+            0.46591
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/Neck",
+          "Position": [
+            0,
+            1.55235,
+            -0.03874
+          ],
+          "Rotation": [
+            0.21278,
+            0,
+            0,
+            0.9771
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine",
+          "Position": [
+            0,
+            1.10227,
+            0.00031
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg",
+          "Position": [
+            -0.10028,
+            0.96562,
+            -2E-05
+          ],
+          "Rotation": [
+            0.02822,
+            -0.00253,
+            -0.0002,
+            0.9996
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1",
+          "Position": [
+            0.54861,
+            1.16863,
+            0.07403
+          ],
+          "Rotation": [
+            -0.32823,
+            0.13404,
+            0.35399,
+            0.86544
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinkyPalm1",
+          "Position": [
+            0.61052,
+            1.10754,
+            0.08407
+          ],
+          "Rotation": [
+            -0.14072,
+            0.00801,
+            0.28659,
+            0.94763
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightElbowHelper1",
+          "Position": [
+            0.38358,
+            1.30232,
+            -0.04072
+          ],
+          "Rotation": [
+            -0.15651,
+            -0.07973,
+            0.43851,
+            0.88139
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandHelper1",
+          "Position": [
+            0.58063,
+            1.15086,
+            0.09328
+          ],
+          "Rotation": [
+            0.15017,
+            -0.60048,
+            0.42931,
+            0.65769
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder",
+          "Position": [
+            -0.06391,
+            1.51343,
+            -0.03822
+          ],
+          "Rotation": [
+            0.82201,
+            -0.56494,
+            0.06032,
+            -0.03871
+          ]
+        },
+        {
+          "Bone": "Root",
+          "Position": [
+            0,
+            0,
+            -0.08209
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm",
+          "Position": [
+            -0.37545,
+            1.30046,
+            -0.03743
+          ],
+          "Rotation": [
+            0.8739,
+            -0.43508,
+            -0.10029,
+            0.19223
+          ]
+        },
+        {
+          "Bone": "Root/Hips",
+          "Position": [
+            0,
+            1.00054,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1",
+          "Position": [
+            0.57054,
+            1.13827,
+            0.12941
+          ],
+          "Rotation": [
+            -0.44068,
+            -0.51478,
+            0.4559,
+            0.57703
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm",
+          "Position": [
+            0.18445,
+            1.46647,
+            -0.05532
+          ],
+          "Rotation": [
+            -0.03181,
+            -0.0153,
+            0.4144,
+            0.90941
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/RightRibs",
+          "Position": [
+            0.1084,
+            1.37561,
+            0.09415
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/RightUpLeg",
+          "Position": [
+            0.10028,
+            0.96562,
+            -4E-05
+          ],
+          "Rotation": [
+            0.9996,
+            0.00034,
+            -0.00251,
+            0.02822
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/Neck/Neck1/Throat",
+          "Position": [
+            0,
+            1.59134,
+            0.0518
+          ],
+          "Rotation": [
+            -0.01045,
+            0,
+            0,
+            0.99995
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/LeftRibs",
+          "Position": [
+            -0.11107,
+            1.37561,
+            0.09531
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArmHelper1",
+          "Position": [
+            -0.18811,
+            1.46522,
+            -0.05593
+          ],
+          "Rotation": [
+            0.90934,
+            -0.41456,
+            -0.01646,
+            0.03127
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder",
+          "Position": [
+            0.06391,
+            1.51343,
+            -0.03822
+          ],
+          "Rotation": [
+            0.03871,
+            0.06032,
+            0.56495,
+            0.82201
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DefaultHDMaterial",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MaskMap": "DefaultMaskMap",
+            "_NormalMap": "DefaultNormalMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "PROXY/new_pants1",
+      "Mesh": "new_pants1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 1072,
+      "SubMeshes": 1,
+      "RootBone": "Root",
+      "Bones": [
+        "Root/Hips/Spine",
+        "Root/Hips/LeftUpLeg",
+        "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+        "Root/Hips/RightUpLeg/RightLeg",
+        "Root/Hips/LeftUpLeg/LeftLeg",
+        "Root/Hips/RightUpLeg",
+        "Root",
+        "Root/Hips",
+        "Root/Hips/RightUpLeg/RightLeg/RightFoot"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Hips/Spine",
+          "Position": [
+            0,
+            1.10227,
+            0.00031
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg",
+          "Position": [
+            -0.10028,
+            0.96562,
+            -2E-05
+          ],
+          "Rotation": [
+            0.02822,
+            -0.00253,
+            -0.0002,
+            0.9996
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+          "Position": [
+            -0.16671,
+            0.0882,
+            -0.06216
+          ],
+          "Rotation": [
+            0.00157,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/RightUpLeg/RightLeg",
+          "Position": [
+            0.13797,
+            0.52538,
+            -0.01808
+          ],
+          "Rotation": [
+            0.99852,
+            0.00014,
+            -0.00254,
+            -0.05424
+          ]
+        },
+        {
+          "Bone": "Root/Hips/LeftUpLeg/LeftLeg",
+          "Position": [
+            -0.13346,
+            0.52509,
+            -0.01202
+          ],
+          "Rotation": [
+            0.05424,
+            -0.00254,
+            -0.00014,
+            0.99852
+          ]
+        },
+        {
+          "Bone": "Root/Hips/RightUpLeg",
+          "Position": [
+            0.10028,
+            0.96562,
+            -4E-05
+          ],
+          "Rotation": [
+            0.9996,
+            0.00034,
+            -0.00251,
+            0.02822
+          ]
+        },
+        {
+          "Bone": "Root",
+          "Position": [
+            0,
+            0,
+            -0.08209
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips",
+          "Position": [
+            0,
+            1.00054,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/Hips/RightUpLeg/RightLeg/RightFoot",
+          "Position": [
+            0.17571,
+            0.08819,
+            -0.06216
+          ],
+          "Rotation": [
+            1,
+            0,
+            -0,
+            -0.00225
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DefaultHDMaterial",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MaskMap": "DefaultMaskMap",
+            "_NormalMap": "DefaultNormalMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "PROXY/LeftArmMesh1",
+      "Mesh": "LeftArmMesh1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 196,
+      "SubMeshes": 1,
+      "RootBone": "Root/Hips/Spine/Spine1/Spine2",
+      "Bones": [
+        "Root/Hips/Spine/Spine1/Spine2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftForeArmTwistNew4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHand1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumbHelper2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndexHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndexHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndexHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddleHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddleHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddleHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRingHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRingHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRingHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinkyHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinkyHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinkyHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndexPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRingPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinkyPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmSleeve1",
+        "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmSleeve1/LeftForeArmSleeve2"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2",
+          "Position": [
+            0,
+            -0.00124,
+            1.40746
+          ],
+          "Rotation": [
+            0.70711,
+            0,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2",
+          "Position": [
+            -0.44583,
+            -0.00688,
+            1.2456
+          ],
+          "Rotation": [
+            0.78227,
+            -0.24565,
+            -0.35212,
+            -0.45137
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3",
+          "Position": [
+            -0.51231,
+            -0.05083,
+            1.19413
+          ],
+          "Rotation": [
+            -0.59632,
+            0.05487,
+            0.62139,
+            0.50524
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftForeArmTwistNew4",
+          "Position": [
+            -0.5748,
+            -0.09214,
+            1.14576
+          ],
+          "Rotation": [
+            0.74379,
+            -0.51574,
+            0.41663,
+            -0.0849
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand",
+          "Position": [
+            -0.57879,
+            -0.09478,
+            1.14267
+          ],
+          "Rotation": [
+            -0.80257,
+            0.20046,
+            0.21823,
+            0.51776
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHand1",
+          "Position": [
+            -0.60515,
+            -0.12238,
+            1.12833
+          ],
+          "Rotation": [
+            0.54111,
+            -0.19916,
+            0.43181,
+            0.69359
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1",
+          "Position": [
+            -0.56788,
+            -0.12682,
+            1.13456
+          ],
+          "Rotation": [
+            0.71128,
+            0.03209,
+            -0.69489,
+            -0.10088
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2",
+          "Position": [
+            -0.56762,
+            -0.16291,
+            1.11321
+          ],
+          "Rotation": [
+            0.70311,
+            0.11218,
+            -0.67906,
+            -0.17868
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3",
+          "Position": [
+            -0.57073,
+            -0.19171,
+            1.0956
+          ],
+          "Rotation": [
+            0.68244,
+            0.20303,
+            -0.64992,
+            -0.26582
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4",
+          "Position": [
+            -0.57254,
+            -0.21216,
+            1.07909
+          ],
+          "Rotation": [
+            0.64752,
+            0.2716,
+            0.62612,
+            0.339
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumbHelper2",
+          "Position": [
+            -0.57072,
+            -0.19177,
+            1.09571
+          ],
+          "Rotation": [
+            0.68264,
+            0.20266,
+            -0.64987,
+            -0.26571
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1",
+          "Position": [
+            -0.61803,
+            -0.15613,
+            1.09423
+          ],
+          "Rotation": [
+            0.79326,
+            -0.17546,
+            -0.33586,
+            -0.47659
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2",
+          "Position": [
+            -0.64509,
+            -0.17815,
+            1.05998
+          ],
+          "Rotation": [
+            0.79513,
+            -0.1666,
+            -0.33358,
+            -0.47826
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3",
+          "Position": [
+            -0.65873,
+            -0.18969,
+            1.04138
+          ],
+          "Rotation": [
+            -0.79127,
+            0.0669,
+            0.30466,
+            0.52592
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4",
+          "Position": [
+            -0.6692,
+            -0.20045,
+            1.02194
+          ],
+          "Rotation": [
+            -0.37697,
+            -0.30632,
+            0.75949,
+            0.43271
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndexHelper6",
+          "Position": [
+            -0.65892,
+            -0.18978,
+            1.0416
+          ],
+          "Rotation": [
+            -0.79134,
+            0.06818,
+            0.30504,
+            0.52544
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndexHelper5",
+          "Position": [
+            -0.64519,
+            -0.1782,
+            1.06009
+          ],
+          "Rotation": [
+            0.79512,
+            -0.16782,
+            -0.33393,
+            -0.47762
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndex1/LeftHandIndexHelper4",
+          "Position": [
+            -0.61803,
+            -0.15613,
+            1.09423
+          ],
+          "Rotation": [
+            0.79324,
+            -0.17668,
+            -0.33621,
+            -0.47595
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1",
+          "Position": [
+            -0.62741,
+            -0.13552,
+            1.08686
+          ],
+          "Rotation": [
+            -0.7627,
+            0.21596,
+            0.2881,
+            0.53726
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2",
+          "Position": [
+            -0.66195,
+            -0.15299,
+            1.04753
+          ],
+          "Rotation": [
+            -0.76664,
+            0.20153,
+            0.27792,
+            0.5426
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3",
+          "Position": [
+            -0.67857,
+            -0.16105,
+            1.02608
+          ],
+          "Rotation": [
+            -0.76779,
+            0.11584,
+            0.25992,
+            0.57403
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4",
+          "Position": [
+            -0.69111,
+            -0.16932,
+            1.00445
+          ],
+          "Rotation": [
+            0.64135,
+            -0.54225,
+            0.49572,
+            -0.22114
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddleHelper6",
+          "Position": [
+            -0.67921,
+            -0.16114,
+            1.02646
+          ],
+          "Rotation": [
+            -0.76798,
+            0.11603,
+            0.25959,
+            0.5739
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddleHelper5",
+          "Position": [
+            -0.66218,
+            -0.15301,
+            1.04772
+          ],
+          "Rotation": [
+            -0.76684,
+            0.20168,
+            0.27761,
+            0.54241
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandMiddle1/LeftHandMiddleHelper4",
+          "Position": [
+            -0.62741,
+            -0.13552,
+            1.08686
+          ],
+          "Rotation": [
+            -0.7629,
+            0.21611,
+            0.28779,
+            0.53708
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1",
+          "Position": [
+            -0.63574,
+            -0.11584,
+            1.08424
+          ],
+          "Rotation": [
+            -0.72432,
+            0.25006,
+            0.19341,
+            0.61272
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2",
+          "Position": [
+            -0.66238,
+            -0.12195,
+            1.04289
+          ],
+          "Rotation": [
+            -0.73816,
+            0.23065,
+            0.17969,
+            0.60797
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3",
+          "Position": [
+            -0.67433,
+            -0.12503,
+            1.02114
+          ],
+          "Rotation": [
+            -0.72969,
+            0.19446,
+            0.21187,
+            0.62036
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4",
+          "Position": [
+            -0.69029,
+            -0.12912,
+            1.00069
+          ],
+          "Rotation": [
+            0.58848,
+            -0.28885,
+            0.37847,
+            0.65347
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRingHelper6",
+          "Position": [
+            -0.67485,
+            -0.12499,
+            1.02151
+          ],
+          "Rotation": [
+            -0.72986,
+            0.1946,
+            0.21152,
+            0.62024
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRingHelper5",
+          "Position": [
+            -0.66269,
+            -0.12193,
+            1.04305
+          ],
+          "Rotation": [
+            -0.73837,
+            0.23074,
+            0.17936,
+            0.60778
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRing1/LeftHandRingHelper4",
+          "Position": [
+            -0.63574,
+            -0.11584,
+            1.08424
+          ],
+          "Rotation": [
+            -0.72452,
+            0.25016,
+            0.19308,
+            0.61254
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1",
+          "Position": [
+            -0.63743,
+            -0.09251,
+            1.07817
+          ],
+          "Rotation": [
+            -0.68733,
+            0.26698,
+            0.22627,
+            0.63647
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2",
+          "Position": [
+            -0.65641,
+            -0.09464,
+            1.04904
+          ],
+          "Rotation": [
+            -0.71271,
+            0.18906,
+            0.15424,
+            0.65765
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3",
+          "Position": [
+            -0.66666,
+            -0.09593,
+            1.0292
+          ],
+          "Rotation": [
+            -0.71561,
+            0.20197,
+            0.14018,
+            0.6538
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4",
+          "Position": [
+            -0.67711,
+            -0.09733,
+            1.00975
+          ],
+          "Rotation": [
+            0.5741,
+            -0.35597,
+            0.37028,
+            0.63765
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinkyHelper6",
+          "Position": [
+            -0.66671,
+            -0.09593,
+            1.02923
+          ],
+          "Rotation": [
+            -0.71578,
+            0.20208,
+            0.13981,
+            0.65366
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinkyHelper5",
+          "Position": [
+            -0.65686,
+            -0.09464,
+            1.04927
+          ],
+          "Rotation": [
+            -0.71294,
+            0.18914,
+            0.15393,
+            0.65746
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinky1/LeftHandPinkyHelper4",
+          "Position": [
+            -0.63743,
+            -0.09251,
+            1.07817
+          ],
+          "Rotation": [
+            -0.68755,
+            0.26708,
+            0.22593,
+            0.63632
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandIndexPalm1",
+          "Position": [
+            -0.59994,
+            -0.14064,
+            1.13268
+          ],
+          "Rotation": [
+            0.8116,
+            -0.20033,
+            -0.25046,
+            -0.4883
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandRingPalm1",
+          "Position": [
+            -0.61037,
+            -0.10411,
+            1.12397
+          ],
+          "Rotation": [
+            -0.769,
+            0.15934,
+            0.22516,
+            0.57668
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandPinkyPalm1",
+          "Position": [
+            -0.61558,
+            -0.08585,
+            1.11961
+          ],
+          "Rotation": [
+            -0.75208,
+            0.20119,
+            0.21192,
+            0.59075
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandHelper1",
+          "Position": [
+            -0.57912,
+            -0.09084,
+            1.15023
+          ],
+          "Rotation": [
+            -0.33626,
+            -0.1411,
+            0.7301,
+            0.5779
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmSleeve1",
+          "Position": [
+            -0.54294,
+            -0.07149,
+            1.17023
+          ],
+          "Rotation": [
+            -0.63697,
+            -0.402,
+            -0.02414,
+            0.65733
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmSleeve1/LeftForeArmSleeve2",
+          "Position": [
+            -0.57082,
+            -0.08993,
+            1.14864
+          ],
+          "Rotation": [
+            -0.63681,
+            -0.3965,
+            -0.02937,
+            0.6606
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DefaultHDMaterial",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MaskMap": "DefaultMaskMap",
+            "_NormalMap": "DefaultNormalMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "PROXY/RightArmTattooMesh1",
+      "Mesh": "RightArmTattooMesh1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 797,
+      "SubMeshes": 1,
+      "RootBone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+      "Bones": [
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightForeArmTwistNew4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHand1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumbHelper2",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndexPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddlePalm1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRingPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinkyPalm1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandHelper1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndexHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndexHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndexHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddleHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddleHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddleHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinkyHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinkyHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinkyHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRingHelper6",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRingHelper5",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRingHelper4",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1",
+        "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1/RightForeArmSleeve2"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2",
+          "Position": [
+            0.44891,
+            -0.00633,
+            1.24943
+          ],
+          "Rotation": [
+            0.45163,
+            -0.35305,
+            0.24517,
+            0.78185
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3",
+          "Position": [
+            0.51467,
+            -0.05136,
+            1.19615
+          ],
+          "Rotation": [
+            0.50498,
+            -0.6185,
+            0.05735,
+            0.59931
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightForeArmTwistNew4",
+          "Position": [
+            0.57648,
+            -0.09367,
+            1.14606
+          ],
+          "Rotation": [
+            0.08249,
+            0.42031,
+            0.51607,
+            0.74176
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand",
+          "Position": [
+            0.58043,
+            -0.09637,
+            1.14287
+          ],
+          "Rotation": [
+            0.49613,
+            -0.20344,
+            0.20858,
+            0.8179
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHand1",
+          "Position": [
+            0.60187,
+            -0.11994,
+            1.1201
+          ],
+          "Rotation": [
+            -0.71093,
+            0.43677,
+            0.19417,
+            0.51586
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1",
+          "Position": [
+            0.57054,
+            -0.12941,
+            1.13827
+          ],
+          "Rotation": [
+            0.09642,
+            -0.68637,
+            -0.04164,
+            0.71963
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2",
+          "Position": [
+            0.57107,
+            -0.16743,
+            1.12057
+          ],
+          "Rotation": [
+            0.17328,
+            -0.6711,
+            -0.1226,
+            0.71033
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3",
+          "Position": [
+            0.57484,
+            -0.19799,
+            1.10639
+          ],
+          "Rotation": [
+            0.20181,
+            -0.67797,
+            -0.08013,
+            0.70229
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4",
+          "Position": [
+            0.57909,
+            -0.22184,
+            1.09606
+          ],
+          "Rotation": [
+            -0.43993,
+            0.55325,
+            -0.3367,
+            0.6221
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumbHelper2",
+          "Position": [
+            0.57481,
+            -0.19804,
+            1.1065
+          ],
+          "Rotation": [
+            0.20181,
+            -0.67797,
+            -0.08013,
+            0.70229
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndexPalm1",
+          "Position": [
+            0.59755,
+            -0.13787,
+            1.12637
+          ],
+          "Rotation": [
+            0.46661,
+            -0.23579,
+            0.20968,
+            0.82626
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddlePalm1",
+          "Position": [
+            0.60187,
+            -0.11994,
+            1.1201
+          ],
+          "Rotation": [
+            0.50419,
+            -0.2537,
+            0.17244,
+            0.80727
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRingPalm1",
+          "Position": [
+            0.6062,
+            -0.102,
+            1.11382
+          ],
+          "Rotation": [
+            0.5558,
+            -0.21145,
+            0.16708,
+            0.78642
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinkyPalm1",
+          "Position": [
+            0.61052,
+            -0.08407,
+            1.10754
+          ],
+          "Rotation": [
+            0.57057,
+            -0.19698,
+            0.20831,
+            0.76958
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandHelper1",
+          "Position": [
+            0.58063,
+            -0.09328,
+            1.15086
+          ],
+          "Rotation": [
+            -0.57125,
+            0.72817,
+            0.12103,
+            -0.35887
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1",
+          "Position": [
+            0.62196,
+            -0.16017,
+            1.09793
+          ],
+          "Rotation": [
+            0.45365,
+            -0.32518,
+            0.19283,
+            0.80702
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2",
+          "Position": [
+            0.6465,
+            -0.18344,
+            1.06731
+          ],
+          "Rotation": [
+            0.45523,
+            -0.32317,
+            0.18391,
+            0.80902
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3",
+          "Position": [
+            0.6597,
+            -0.19662,
+            1.04949
+          ],
+          "Rotation": [
+            0.50266,
+            -0.29709,
+            0.08326,
+            0.80755
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4",
+          "Position": [
+            0.67034,
+            -0.20843,
+            1.03076
+          ],
+          "Rotation": [
+            -0.42663,
+            0.76492,
+            0.27854,
+            -0.39409
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndexHelper6",
+          "Position": [
+            0.66048,
+            -0.19696,
+            1.05003
+          ],
+          "Rotation": [
+            0.50266,
+            -0.29709,
+            0.08326,
+            0.80755
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndexHelper5",
+          "Position": [
+            0.6466,
+            -0.18348,
+            1.06742
+          ],
+          "Rotation": [
+            0.45523,
+            -0.32317,
+            0.18391,
+            0.80902
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandIndex1/RightHandIndexHelper4",
+          "Position": [
+            0.62196,
+            -0.16017,
+            1.09793
+          ],
+          "Rotation": [
+            0.45365,
+            -0.32518,
+            0.19283,
+            0.80702
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1",
+          "Position": [
+            0.6328,
+            -0.1398,
+            1.0898
+          ],
+          "Rotation": [
+            0.50595,
+            -0.27622,
+            0.22178,
+            0.78647
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2",
+          "Position": [
+            0.66213,
+            -0.1589,
+            1.05188
+          ],
+          "Rotation": [
+            0.51107,
+            -0.26663,
+            0.20691,
+            0.79051
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3",
+          "Position": [
+            0.67829,
+            -0.16855,
+            1.03072
+          ],
+          "Rotation": [
+            0.54197,
+            -0.25225,
+            0.12036,
+            0.79256
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4",
+          "Position": [
+            0.69051,
+            -0.17865,
+            1.0097
+          ],
+          "Rotation": [
+            0.19964,
+            0.52059,
+            0.51804,
+            0.64867
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddleHelper6",
+          "Position": [
+            0.67894,
+            -0.16857,
+            1.03109
+          ],
+          "Rotation": [
+            0.54197,
+            -0.25225,
+            0.12036,
+            0.79256
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddleHelper5",
+          "Position": [
+            0.66216,
+            -0.1589,
+            1.0519
+          ],
+          "Rotation": [
+            0.51107,
+            -0.26663,
+            0.20691,
+            0.79051
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandMiddle1/RightHandMiddleHelper4",
+          "Position": [
+            0.6328,
+            -0.1398,
+            1.0898
+          ],
+          "Rotation": [
+            0.50595,
+            -0.27622,
+            0.22178,
+            0.78647
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1",
+          "Position": [
+            0.63298,
+            -0.0954,
+            1.07827
+          ],
+          "Rotation": [
+            0.60392,
+            -0.21514,
+            0.26937,
+            0.71863
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2",
+          "Position": [
+            0.65439,
+            -0.09996,
+            1.04782
+          ],
+          "Rotation": [
+            0.62407,
+            -0.14679,
+            0.18796,
+            0.74408
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3",
+          "Position": [
+            0.66401,
+            -0.10331,
+            1.0279
+          ],
+          "Rotation": [
+            0.62025,
+            -0.13211,
+            0.20021,
+            0.74683
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4",
+          "Position": [
+            0.67425,
+            -0.10664,
+            1.00857
+          ],
+          "Rotation": [
+            -0.65905,
+            0.39324,
+            0.33748,
+            0.54508
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinkyHelper6",
+          "Position": [
+            0.66406,
+            -0.10331,
+            1.02793
+          ],
+          "Rotation": [
+            0.62025,
+            -0.13211,
+            0.20021,
+            0.74683
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinkyHelper5",
+          "Position": [
+            0.65513,
+            -0.09988,
+            1.04816
+          ],
+          "Rotation": [
+            0.62407,
+            -0.14679,
+            0.18796,
+            0.74408
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandPinky1/RightHandPinkyHelper4",
+          "Position": [
+            0.63298,
+            -0.0954,
+            1.07827
+          ],
+          "Rotation": [
+            0.60392,
+            -0.21514,
+            0.26937,
+            0.71863
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1",
+          "Position": [
+            0.63571,
+            -0.11882,
+            1.08239
+          ],
+          "Rotation": [
+            0.58445,
+            -0.17284,
+            0.24293,
+            0.75467
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2",
+          "Position": [
+            0.66126,
+            -0.12802,
+            1.04415
+          ],
+          "Rotation": [
+            0.57884,
+            -0.15968,
+            0.22296,
+            0.76794
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3",
+          "Position": [
+            0.6726,
+            -0.13347,
+            1.02254
+          ],
+          "Rotation": [
+            0.59075,
+            -0.19361,
+            0.18801,
+            0.76038
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4",
+          "Position": [
+            0.68681,
+            -0.13936,
+            1.0015
+          ],
+          "Rotation": [
+            -0.67062,
+            0.40473,
+            0.28082,
+            0.55462
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRingHelper6",
+          "Position": [
+            0.67312,
+            -0.13346,
+            1.0229
+          ],
+          "Rotation": [
+            0.59075,
+            -0.19361,
+            0.18801,
+            0.76038
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRing2/RightHandRingHelper5",
+          "Position": [
+            0.66172,
+            -0.12803,
+            1.04439
+          ],
+          "Rotation": [
+            0.57884,
+            -0.15968,
+            0.22296,
+            0.76794
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmTwistNew3/RightHand/RightHandRing1/RightHandRingHelper4",
+          "Position": [
+            0.63571,
+            -0.11882,
+            1.08239
+          ],
+          "Rotation": [
+            0.58445,
+            -0.17284,
+            0.24293,
+            0.75467
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1",
+          "Position": [
+            0.54861,
+            -0.07403,
+            1.16863
+          ],
+          "Rotation": [
+            0.37987,
+            -0.15553,
+            0.34509,
+            0.84405
+          ]
+        },
+        {
+          "Bone": "Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightForeArmTwistNew1/RightForeArmTwistNew2/RightForeArmSleeve1/RightForeArmSleeve2",
+          "Position": [
+            0.57593,
+            -0.09273,
+            1.1465
+          ],
+          "Rotation": [
+            -0.14434,
+            -0.39253,
+            0.83821,
+            -0.34999
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DefaultHDMaterial",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MaskMap": "DefaultMaskMap",
+            "_NormalMap": "DefaultNormalMap"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

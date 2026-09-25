@@ -1,0 +1,2920 @@
+{
+  "Name": "Shark",
+  "Source": "actorPrefab",
+  "ActorType": "Shark",
+  "Path": "SharkActor",
+  "Active": false,
+  "RigFamily": "f8e9e758",
+  "PlayerNameMatch": "0/45 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/SharkRig",
+      "Enabled": true,
+      "Controller": "SharkController",
+      "Avatar": "SharkRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "SharkActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "SharkActor",
+      "LocalPosition": [
+        0,
+        -0.22,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT",
+      "Parent": "VisualRoot/SharkRig",
+      "LocalPosition": [
+        -0,
+        0.82351,
+        0.08
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+      "LocalPosition": [
+        -0,
+        0.92322,
+        0.13691
+      ],
+      "LocalRotation": [
+        0.41197,
+        -0.5747,
+        -0.41197,
+        0.5747
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+      "LocalPosition": [
+        -0.50396,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.20848,
+        0.97803
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT/C1:C_dorsalFirstFinEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+      "LocalPosition": [
+        -0.60559,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.2831,
+        0.64796,
+        0.2831,
+        0.64796
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+      "LocalPosition": [
+        -0,
+        0,
+        0.15
+      ],
+      "LocalRotation": [
+        -0,
+        0.70711,
+        0,
+        0.70711
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+      "LocalPosition": [
+        -0.60476,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+      "LocalPosition": [
+        -0.68238,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+      "LocalPosition": [
+        -0.40227,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+      "LocalPosition": [
+        -0.48664,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+      "LocalPosition": [
+        -0.44951,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.09983,
+        0.995
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+      "LocalPosition": [
+        0.20376,
+        -0.62133,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.1656,
+        0.98619
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT/C1:C_chin_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+      "LocalPosition": [
+        -0.73951,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.18613,
+        -0.68217,
+        -0.18613,
+        0.68217
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_nose_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+      "LocalPosition": [
+        -1.13114,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+      "LocalPosition": [
+        -0.49452,
+        -0.47606,
+        -0.89582
+      ],
+      "LocalRotation": [
+        -0.13875,
+        -0.80219,
+        0.20483,
+        0.5434
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+      "LocalPosition": [
+        -0.6,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00086,
+        -0.0654,
+        -0.01306,
+        0.99777
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+      "LocalPosition": [
+        -0.55,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0.0654,
+        -0,
+        0.99786
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT/C1:L_pectoralFinEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+      "LocalPosition": [
+        -0.7,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+      "LocalPosition": [
+        -0.49452,
+        -0.47606,
+        0.89582
+      ],
+      "LocalRotation": [
+        0.20483,
+        -0.5434,
+        -0.13875,
+        0.80219
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+      "LocalPosition": [
+        0.6,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00086,
+        0.0654,
+        0.01306,
+        0.99777
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT",
+      "LocalPosition": [
+        0.55,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0.0654,
+        -0,
+        0.99786
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT/C1:R_pectoralFinEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+      "LocalPosition": [
+        0.7,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+      "LocalPosition": [
+        -0,
+        0,
+        -0.15
+      ],
+      "LocalRotation": [
+        0,
+        -0.70711,
+        0,
+        0.70711
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+      "LocalPosition": [
+        -0.5738,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+      "LocalPosition": [
+        -0.69551,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+      "LocalPosition": [
+        -0.66943,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+      "LocalPosition": [
+        -0.66943,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+      "LocalPosition": [
+        -0.44925,
+        0.29351,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.38268,
+        0.92388
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT/C1:C_dorsalSecondFinEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+      "LocalPosition": [
+        -0.22675,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.2706,
+        0.65328,
+        0.2706,
+        0.65328
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+      "LocalPosition": [
+        -0.58249,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+      "LocalPosition": [
+        -0.25857,
+        -0.33933,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.44274,
+        0.89665
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT/C1:C_analFinEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+      "LocalPosition": [
+        -0.23404,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.31307,
+        0.63403,
+        -0.31307,
+        0.63403
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+      "LocalPosition": [
+        -0.53902,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+      "LocalPosition": [
+        -0.57814,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+      "LocalPosition": [
+        -0.11515,
+        -0.13291,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.63795,
+        0.77008
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+      "LocalPosition": [
+        -0.62807,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.23421,
+        0.97219
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT/C1:C_caudalLoEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+      "LocalPosition": [
+        -0.85445,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.31102,
+        0.63503,
+        -0.31102,
+        0.63503
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+      "LocalPosition": [
+        -0.16099,
+        0.11858,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.53561,
+        0.84447
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+      "LocalPosition": [
+        -0.45926,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.24946,
+        0.96839
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT/C1:C_caudalUpEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+      "LocalPosition": [
+        -1.0796,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.2178,
+        0.67273,
+        0.2178,
+        0.67273
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_tailEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+      "LocalPosition": [
+        -0.51294,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+      "LocalPosition": [
+        -0.24463,
+        -0.37602,
+        0.53604
+      ],
+      "LocalRotation": [
+        0.29651,
+        0.43149,
+        0.15263,
+        0.83821
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT/C1:L_pelvicFinEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+      "LocalPosition": [
+        -0.85,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+      "LocalPosition": [
+        -0.24462,
+        -0.37602,
+        -0.53604
+      ],
+      "LocalRotation": [
+        -0.15263,
+        0.83821,
+        -0.29651,
+        0.43149
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT/C1:R_pelvicFinEnd_JNT",
+      "Parent": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+      "LocalPosition": [
+        0.85,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        1,
+        -0,
+        -0,
+        -0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/SharkRig/C1:SharkBody",
+      "Mesh": "C1:SharkBody",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 7870,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+      "Bones": [
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+          "Position": [
+            0,
+            0.82351,
+            0.08
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -0.07
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -0.6438
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -1.33931
+          ],
+          "Rotation": [
+            -0,
+            -0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -2.00874
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -2.67816
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -3.26065
+          ],
+          "Rotation": [
+            -0,
+            -0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -3.79967
+          ],
+          "Rotation": [
+            -0,
+            -0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -4.37782
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+          "Position": [
+            -0,
+            1.35753,
+            -4.73457
+          ],
+          "Rotation": [
+            0.2178,
+            -0.67273,
+            -0.2178,
+            0.67273
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+          "Position": [
+            -0,
+            0.6906,
+            -4.49297
+          ],
+          "Rotation": [
+            -0.4511,
+            -0.54453,
+            0.4511,
+            0.54453
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+          "Position": [
+            -0,
+            0.07349,
+            -4.60982
+          ],
+          "Rotation": [
+            -0.31102,
+            -0.63503,
+            0.31102,
+            0.63503
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+          "Position": [
+            -0,
+            0.48418,
+            -3.51923
+          ],
+          "Rotation": [
+            -0.31307,
+            -0.63403,
+            0.31307,
+            0.63403
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+          "Position": [
+            -0,
+            1.11702,
+            -3.12742
+          ],
+          "Rotation": [
+            0.2706,
+            -0.65328,
+            -0.2706,
+            0.65328
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+          "Position": [
+            -0.53604,
+            0.44749,
+            -1.58393
+          ],
+          "Rotation": [
+            0.10173,
+            -0.2876,
+            0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+          "Position": [
+            0.53604,
+            0.44749,
+            -1.58393
+          ],
+          "Rotation": [
+            0.10173,
+            0.2876,
+            -0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            0.23
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            0.83476
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+          "Position": [
+            0,
+            0.82351,
+            1.51713
+          ],
+          "Rotation": [
+            0,
+            0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            1.9194
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            2.40604
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            -0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            2.85555
+          ],
+          "Rotation": [
+            0.07059,
+            0.70357,
+            0.07059,
+            0.70357
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+          "Position": [
+            -0,
+            0.25504,
+            2.53241
+          ],
+          "Rotation": [
+            0.18613,
+            0.68217,
+            0.18613,
+            0.68217
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+          "Position": [
+            -0.89582,
+            0.34745,
+            1.32928
+          ],
+          "Rotation": [
+            0.04672,
+            -0.18299,
+            0.24295,
+            0.95148
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+          "Position": [
+            0.89582,
+            0.34745,
+            1.32928
+          ],
+          "Rotation": [
+            0.04672,
+            0.18299,
+            -0.24295,
+            0.95148
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+          "Position": [
+            -0,
+            1.74673,
+            0.21691
+          ],
+          "Rotation": [
+            0.41197,
+            -0.5747,
+            -0.41197,
+            0.5747
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+          "Position": [
+            -0,
+            2.224,
+            0.05507
+          ],
+          "Rotation": [
+            0.2831,
+            -0.64796,
+            -0.2831,
+            0.64796
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+          "Position": [
+            -0,
+            0.94209,
+            -4.53881
+          ],
+          "Rotation": [
+            0.37873,
+            -0.59713,
+            -0.37873,
+            0.59713
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+          "Position": [
+            -1.81253,
+            -0.13709,
+            0.83787
+          ],
+          "Rotation": [
+            0.07878,
+            -0.3054,
+            0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+          "Position": [
+            -1.38481,
+            0.08032,
+            1.10673
+          ],
+          "Rotation": [
+            0.06408,
+            -0.2444,
+            0.22677,
+            0.9406
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+          "Position": [
+            1.81253,
+            -0.13709,
+            0.83787
+          ],
+          "Rotation": [
+            0.07878,
+            0.3054,
+            -0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT",
+          "Position": [
+            1.3848,
+            0.08032,
+            1.10673
+          ],
+          "Rotation": [
+            0.06408,
+            0.2444,
+            -0.22677,
+            0.9406
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Shark",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "SharkAlbedo",
+            "_MaskMap": "SharkMask",
+            "_NormalMap": "SharkNormal",
+            "_SubsurfaceMaskMap": "SharkScattering",
+            "_ThicknessMap": "SharkThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "SharkWetmask",
+            "_BloodMask": "SharkBloodMask",
+            "_BloodRevealMask": "SharkBloodMaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:SharkBody_LOD1",
+      "Mesh": "C1:SharkBody_LOD1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 4452,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+      "Bones": [
+        "VisualRoot/SharkRig/C1:C_root_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_tailEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT/C1:C_caudalUpEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT/C1:C_caudalLoEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT/C1:C_analFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT/C1:C_dorsalSecondFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT/C1:L_pelvicFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT/C1:R_pelvicFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_nose_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT/C1:C_chin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT/C1:L_pectoralFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT/C1:R_pectoralFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT/C1:C_dorsalFirstFinEnd_JNT"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT",
+          "Position": [
+            0,
+            0.82351,
+            0.08
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+          "Position": [
+            0,
+            0.82351,
+            0.08
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -0.07
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -0.6438
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -1.33931
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -2.00874
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -2.67816
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -3.26065
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -3.79967
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -4.37782
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_tailEnd_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -4.89076
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+          "Position": [
+            -0,
+            0.94209,
+            -4.53881
+          ],
+          "Rotation": [
+            0.37873,
+            -0.59713,
+            -0.37873,
+            0.59713
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+          "Position": [
+            -0,
+            1.35753,
+            -4.73457
+          ],
+          "Rotation": [
+            0.2178,
+            -0.67273,
+            -0.2178,
+            0.67273
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT/C1:C_caudalUpEnd_JNT",
+          "Position": [
+            -0,
+            1.99026,
+            -5.60931
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+          "Position": [
+            -0,
+            0.6906,
+            -4.49297
+          ],
+          "Rotation": [
+            -0.4511,
+            -0.54453,
+            0.4511,
+            0.54453
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+          "Position": [
+            -0,
+            0.07349,
+            -4.60982
+          ],
+          "Rotation": [
+            -0.31102,
+            -0.63503,
+            0.31102,
+            0.63503
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT/C1:C_caudalLoEnd_JNT",
+          "Position": [
+            -0,
+            -0.60154,
+            -5.13366
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+          "Position": [
+            -0,
+            0.48418,
+            -3.51923
+          ],
+          "Rotation": [
+            -0.31307,
+            -0.63403,
+            0.31307,
+            0.63403
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT/C1:C_analFinEnd_JNT",
+          "Position": [
+            -0,
+            0.29836,
+            -3.66151
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+          "Position": [
+            -0,
+            1.11702,
+            -3.12742
+          ],
+          "Rotation": [
+            0.2706,
+            -0.65328,
+            -0.2706,
+            0.65328
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT/C1:C_dorsalSecondFinEnd_JNT",
+          "Position": [
+            -0,
+            1.27736,
+            -3.28775
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+          "Position": [
+            -0.53604,
+            0.44749,
+            -1.58393
+          ],
+          "Rotation": [
+            0.10173,
+            -0.2876,
+            0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT/C1:L_pelvicFinEnd_JNT",
+          "Position": [
+            -1.07396,
+            0.01249,
+            -2.07781
+          ],
+          "Rotation": [
+            0.10173,
+            -0.2876,
+            0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+          "Position": [
+            0.53604,
+            0.44749,
+            -1.58393
+          ],
+          "Rotation": [
+            0.10173,
+            0.2876,
+            -0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT/C1:R_pelvicFinEnd_JNT",
+          "Position": [
+            1.07396,
+            0.01249,
+            -2.07781
+          ],
+          "Rotation": [
+            0.89782,
+            -0.31759,
+            -0.2876,
+            -0.10173
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            0.23
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            0.83476
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+          "Position": [
+            0,
+            0.82351,
+            1.51713
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            1.9194
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            2.40604
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            2.85555
+          ],
+          "Rotation": [
+            0.07059,
+            0.70357,
+            0.07059,
+            0.70357
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_nose_JNT",
+          "Position": [
+            -0,
+            0.59879,
+            3.96415
+          ],
+          "Rotation": [
+            0.07059,
+            0.70357,
+            0.07059,
+            0.70357
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+          "Position": [
+            -0,
+            0.25504,
+            2.53241
+          ],
+          "Rotation": [
+            0.18613,
+            0.68217,
+            0.18613,
+            0.68217
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT/C1:C_chin_JNT",
+          "Position": [
+            -0,
+            -0.12055,
+            3.16944
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+          "Position": [
+            -0.89582,
+            0.34745,
+            1.32928
+          ],
+          "Rotation": [
+            0.04672,
+            -0.18299,
+            0.24295,
+            0.95148
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+          "Position": [
+            -1.38481,
+            0.08032,
+            1.10673
+          ],
+          "Rotation": [
+            0.06408,
+            -0.2444,
+            0.22677,
+            0.9406
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+          "Position": [
+            -1.81253,
+            -0.13709,
+            0.83787
+          ],
+          "Rotation": [
+            0.07878,
+            -0.3054,
+            0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT/C1:L_pectoralFinEnd_JNT",
+          "Position": [
+            -2.3129,
+            -0.39027,
+            0.4189
+          ],
+          "Rotation": [
+            0.07878,
+            -0.3054,
+            0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+          "Position": [
+            0.89582,
+            0.34745,
+            1.32928
+          ],
+          "Rotation": [
+            0.04672,
+            0.18299,
+            -0.24295,
+            0.95148
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT",
+          "Position": [
+            1.3848,
+            0.08032,
+            1.10673
+          ],
+          "Rotation": [
+            0.06408,
+            0.2444,
+            -0.22677,
+            0.9406
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+          "Position": [
+            1.81253,
+            -0.13709,
+            0.83787
+          ],
+          "Rotation": [
+            0.07878,
+            0.3054,
+            -0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT/C1:R_pectoralFinEnd_JNT",
+          "Position": [
+            2.3129,
+            -0.39027,
+            0.41891
+          ],
+          "Rotation": [
+            0.07878,
+            0.3054,
+            -0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+          "Position": [
+            -0,
+            1.74673,
+            0.21691
+          ],
+          "Rotation": [
+            0.41197,
+            -0.5747,
+            -0.41197,
+            0.5747
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+          "Position": [
+            -0,
+            2.224,
+            0.05507
+          ],
+          "Rotation": [
+            0.2831,
+            -0.64796,
+            -0.2831,
+            0.64796
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT/C1:C_dorsalFirstFinEnd_JNT",
+          "Position": [
+            -0,
+            2.66836,
+            -0.35637
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Shark",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "SharkAlbedo",
+            "_MaskMap": "SharkMask",
+            "_NormalMap": "SharkNormal",
+            "_SubsurfaceMaskMap": "SharkScattering",
+            "_ThicknessMap": "SharkThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "SharkWetmask",
+            "_BloodMask": "SharkBloodMask",
+            "_BloodRevealMask": "SharkBloodMaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/SharkRig/C1:SharkBody_LOD2",
+      "Mesh": "C1:SharkBody_LOD2",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 1998,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+      "Bones": [
+        "VisualRoot/SharkRig/C1:C_root_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_tailEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT/C1:C_caudalUpEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT/C1:C_caudalLoEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT/C1:C_analFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT/C1:C_dorsalSecondFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT/C1:L_pelvicFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT/C1:R_pelvicFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_nose_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT/C1:C_chin_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT/C1:L_pectoralFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT/C1:R_pectoralFinEnd_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+        "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT/C1:C_dorsalFirstFinEnd_JNT"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT",
+          "Position": [
+            0,
+            0.82351,
+            0.08
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT",
+          "Position": [
+            0,
+            0.82351,
+            0.08
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -0.07
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -0.6438
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -1.33931
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -2.00874
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -2.67816
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -3.26065
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -3.79967
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -4.37782
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_tailEnd_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            -4.89076
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT",
+          "Position": [
+            -0,
+            0.94209,
+            -4.53881
+          ],
+          "Rotation": [
+            0.37873,
+            -0.59713,
+            -0.37873,
+            0.59713
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT",
+          "Position": [
+            -0,
+            1.35753,
+            -4.73457
+          ],
+          "Rotation": [
+            0.2178,
+            -0.67273,
+            -0.2178,
+            0.67273
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalUpStart_JNT/C1:C_caudalUp_JNT/C1:C_caudalUpEnd_JNT",
+          "Position": [
+            -0,
+            1.99026,
+            -5.60931
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT",
+          "Position": [
+            -0,
+            0.6906,
+            -4.49297
+          ],
+          "Rotation": [
+            -0.4511,
+            -0.54453,
+            0.4511,
+            0.54453
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT",
+          "Position": [
+            -0,
+            0.07349,
+            -4.60982
+          ],
+          "Rotation": [
+            -0.31102,
+            -0.63503,
+            0.31102,
+            0.63503
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_tailG_JNT/C1:C_tailH_JNT/C1:C_caudalLoStart_JNT/C1:C_caudalLo_JNT/C1:C_caudalLoEnd_JNT",
+          "Position": [
+            -0,
+            -0.60154,
+            -5.13366
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT",
+          "Position": [
+            -0,
+            0.48418,
+            -3.51923
+          ],
+          "Rotation": [
+            -0.31307,
+            -0.63403,
+            0.31307,
+            0.63403
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_tailF_JNT/C1:C_analFin_JNT/C1:C_analFinEnd_JNT",
+          "Position": [
+            -0,
+            0.29836,
+            -3.66151
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT",
+          "Position": [
+            -0,
+            1.11702,
+            -3.12742
+          ],
+          "Rotation": [
+            0.2706,
+            -0.65328,
+            -0.2706,
+            0.65328
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:C_tailD_JNT/C1:C_tailE_JNT/C1:C_dorsalSecondFin_JNT/C1:C_dorsalSecondFinEnd_JNT",
+          "Position": [
+            -0,
+            1.27736,
+            -3.28775
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT",
+          "Position": [
+            -0.53604,
+            0.44749,
+            -1.58393
+          ],
+          "Rotation": [
+            0.10173,
+            -0.2876,
+            0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:L_pelvicFin_JNT/C1:L_pelvicFinEnd_JNT",
+          "Position": [
+            -1.07396,
+            0.01249,
+            -2.07781
+          ],
+          "Rotation": [
+            0.10173,
+            -0.2876,
+            0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT",
+          "Position": [
+            0.53604,
+            0.44749,
+            -1.58393
+          ],
+          "Rotation": [
+            0.10173,
+            0.2876,
+            -0.31759,
+            0.89782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT/C1:R_pelvicFin_JNT/C1:R_pelvicFinEnd_JNT",
+          "Position": [
+            1.07396,
+            0.01249,
+            -2.07781
+          ],
+          "Rotation": [
+            0.89782,
+            -0.31759,
+            -0.2876,
+            -0.10173
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            0.23
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            0.83476
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT",
+          "Position": [
+            0,
+            0.82351,
+            1.51713
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            1.9194
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            2.40604
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT",
+          "Position": [
+            -0,
+            0.82351,
+            2.85555
+          ],
+          "Rotation": [
+            0.07059,
+            0.70357,
+            0.07059,
+            0.70357
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_nose_JNT",
+          "Position": [
+            -0,
+            0.59879,
+            3.96415
+          ],
+          "Rotation": [
+            0.07059,
+            0.70357,
+            0.07059,
+            0.70357
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+          "Position": [
+            -0,
+            0.25504,
+            2.53241
+          ],
+          "Rotation": [
+            0.18613,
+            0.68217,
+            0.18613,
+            0.68217
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_spineC_JNT/C1:C_spineD_JNT/C1:C_spineE_JNT/C1:C_head_JNT/C1:C_jaw_JNT/C1:C_chin_JNT",
+          "Position": [
+            -0,
+            -0.12055,
+            3.16944
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT",
+          "Position": [
+            -0.89582,
+            0.34745,
+            1.32928
+          ],
+          "Rotation": [
+            0.04672,
+            -0.18299,
+            0.24295,
+            0.95148
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT",
+          "Position": [
+            -1.38481,
+            0.08032,
+            1.10673
+          ],
+          "Rotation": [
+            0.06408,
+            -0.2444,
+            0.22677,
+            0.9406
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT",
+          "Position": [
+            -1.81253,
+            -0.13709,
+            0.83787
+          ],
+          "Rotation": [
+            0.07878,
+            -0.3054,
+            0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:L_pectoralFinA_JNT/C1:L_pectoralFinB_JNT/C1:L_pectoralFinC_JNT/C1:L_pectoralFinEnd_JNT",
+          "Position": [
+            -2.3129,
+            -0.39027,
+            0.4189
+          ],
+          "Rotation": [
+            0.07878,
+            -0.3054,
+            0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT",
+          "Position": [
+            0.89582,
+            0.34745,
+            1.32928
+          ],
+          "Rotation": [
+            0.04672,
+            0.18299,
+            -0.24295,
+            0.95148
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT",
+          "Position": [
+            1.3848,
+            0.08032,
+            1.10673
+          ],
+          "Rotation": [
+            0.06408,
+            0.2444,
+            -0.22677,
+            0.9406
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT",
+          "Position": [
+            1.81253,
+            -0.13709,
+            0.83787
+          ],
+          "Rotation": [
+            0.07878,
+            0.3054,
+            -0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:R_pectoralFinA_JNT/C1:R_pectoralFinB_JNT/C1:R_pectoralFinC_JNT/C1:R_pectoralFinEnd_JNT",
+          "Position": [
+            2.3129,
+            -0.39027,
+            0.41891
+          ],
+          "Rotation": [
+            0.07878,
+            0.3054,
+            -0.22209,
+            0.92261
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT",
+          "Position": [
+            -0,
+            1.74673,
+            0.21691
+          ],
+          "Rotation": [
+            0.41197,
+            -0.5747,
+            -0.41197,
+            0.5747
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT",
+          "Position": [
+            -0,
+            2.224,
+            0.05507
+          ],
+          "Rotation": [
+            0.2831,
+            -0.64796,
+            -0.2831,
+            0.64796
+          ]
+        },
+        {
+          "Bone": "VisualRoot/SharkRig/C1:C_root_JNT/C1:C_cog_JNT/C1:C_dorsalFirstFinA_JNT/C1:C_dorsalFirstFinB_JNT/C1:C_dorsalFirstFinEnd_JNT",
+          "Position": [
+            -0,
+            2.66836,
+            -0.35637
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Shark",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "SharkAlbedo",
+            "_MaskMap": "SharkMask",
+            "_NormalMap": "SharkNormal",
+            "_SubsurfaceMaskMap": "SharkScattering",
+            "_ThicknessMap": "SharkThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "SharkWetmask",
+            "_BloodMask": "SharkBloodMask",
+            "_BloodRevealMask": "SharkBloodMaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

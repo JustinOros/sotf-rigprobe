@@ -1,0 +1,392 @@
+{
+  "Name": "SalmonFX_3574970",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "JumpingSalmon/SalmonJumpSpawner (13)/SalmonFX",
+  "Active": false,
+  "RigFamily": "e6540699",
+  "PlayerNameMatch": "0/9 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "SalmonFX",
+      "Enabled": true,
+      "Controller": "SalmonJumpController",
+      "Avatar": "SalmonRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "SalmonFX",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT",
+      "Parent": "SalmonFX",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_spineA_JNT",
+      "Parent": "C1:C_cog_JNT",
+      "LocalPosition": [
+        -0,
+        0,
+        0.045
+      ],
+      "LocalRotation": [
+        -0,
+        0.70711,
+        0,
+        0.70711
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+      "Parent": "C1:C_cog_JNT/C1:C_spineA_JNT",
+      "LocalPosition": [
+        -0.0675,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT",
+      "Parent": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+      "LocalPosition": [
+        -0.04582,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT/C1:C_head_JNT",
+      "Parent": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT",
+      "LocalPosition": [
+        -0.02995,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0.70711,
+        0,
+        0.70711
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+      "Parent": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT/C1:C_head_JNT",
+      "LocalPosition": [
+        0,
+        -0.02799,
+        -0.01076
+      ],
+      "LocalRotation": [
+        0.03546,
+        0.70622,
+        0.03546,
+        0.70622
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_tailA_JNT",
+      "Parent": "C1:C_cog_JNT",
+      "LocalPosition": [
+        -0,
+        0,
+        -0.06
+      ],
+      "LocalRotation": [
+        -0,
+        -0.70711,
+        0,
+        0.70711
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+      "Parent": "C1:C_cog_JNT/C1:C_tailA_JNT",
+      "LocalPosition": [
+        -0.09,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+      "Parent": "C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+      "LocalPosition": [
+        -0.0775,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "C1:Salmon",
+      "Mesh": "C1:Salmon",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 4055,
+      "SubMeshes": 1,
+      "RootBone": "C1:C_cog_JNT",
+      "Bones": [
+        "C1:C_cog_JNT",
+        "C1:C_cog_JNT/C1:C_spineA_JNT",
+        "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+        "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT",
+        "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT/C1:C_head_JNT",
+        "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+        "C1:C_cog_JNT/C1:C_tailA_JNT",
+        "C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+        "C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT"
+      ],
+      "BindRest": [
+        {
+          "Bone": "C1:C_cog_JNT",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_spineA_JNT",
+          "Position": [
+            -0,
+            0,
+            0.045
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT",
+          "Position": [
+            -0,
+            -0,
+            0.1125
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT",
+          "Position": [
+            -0,
+            -0,
+            0.15832
+          ],
+          "Rotation": [
+            -0,
+            0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT/C1:C_head_JNT",
+          "Position": [
+            0,
+            0,
+            0.18827
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_spineA_JNT/C1:C_spineB_JNT/C1:C_neckA_JNT/C1:C_head_JNT/C1:C_jaw_JNT",
+          "Position": [
+            0,
+            -0.02799,
+            0.17752
+          ],
+          "Rotation": [
+            0.03546,
+            0.70622,
+            0.03546,
+            0.70622
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_tailA_JNT",
+          "Position": [
+            -0,
+            0,
+            -0.06
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT",
+          "Position": [
+            -0,
+            0,
+            -0.15
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        },
+        {
+          "Bone": "C1:C_cog_JNT/C1:C_tailA_JNT/C1:C_tailB_JNT/C1:C_tailC_JNT",
+          "Position": [
+            -0,
+            0,
+            -0.2275
+          ],
+          "Rotation": [
+            0,
+            -0.70711,
+            0,
+            0.70711
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Salmon",
+          "Shader": "Sons/Weapons/Lit BloodReveal Small Drops",
+          "Textures": {
+            "_BaseColorMap": "SalmonAlbedo",
+            "_MaskMap": "SalmonMask",
+            "_NormalMap": "SalmonNormal"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

@@ -1,0 +1,3137 @@
+{
+  "Name": "Hummingbird",
+  "Source": "actorPrefab",
+  "ActorType": "Hummingbird",
+  "Path": "HummingBirdActor",
+  "Active": false,
+  "RigFamily": "a6eeb741",
+  "PlayerNameMatch": "6/47 (12%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig",
+      "Enabled": true,
+      "Controller": "HummingBirdController",
+      "Avatar": "HummingbirdRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "HummingBirdActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "HummingBirdActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root",
+      "Parent": "VisualRoot/HummingbirdRenderRig",
+      "LocalPosition": [
+        -0,
+        0.00279,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root",
+      "LocalPosition": [
+        -0,
+        0.02623,
+        -0.0125
+      ],
+      "LocalRotation": [
+        0,
+        0.94151,
+        0.33698,
+        0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "LocalPosition": [
+        0.00597,
+        -0.00307,
+        -0.00248
+      ],
+      "LocalRotation": [
+        0.60042,
+        0.2973,
+        0.68826,
+        0.27821
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+      "LocalPosition": [
+        -0.01257,
+        -1E-05,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.13129,
+        0.99134
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+      "LocalPosition": [
+        -0.01253,
+        -6E-05,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.0024,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+      "LocalPosition": [
+        -0.00026,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00961,
+        -0.06084,
+        -0.15579,
+        0.98587
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Backtoe_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+      "LocalPosition": [
+        0.00016,
+        0.00167,
+        5E-05
+      ],
+      "LocalRotation": [
+        0.50783,
+        0.50783,
+        -0.49205,
+        0.49205
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+      "LocalPosition": [
+        -2E-05,
+        -0.00153,
+        9E-05
+      ],
+      "LocalRotation": [
+        -0.01685,
+        0.01944,
+        0.71073,
+        0.703
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L/Fronttoe1_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+      "LocalPosition": [
+        -0.00398,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.02268,
+        0.99974
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "LocalPosition": [
+        -0.00597,
+        -0.00307,
+        -0.00248
+      ],
+      "LocalRotation": [
+        -0.2782,
+        0.68826,
+        -0.2973,
+        0.60042
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+      "LocalPosition": [
+        0.01257,
+        1E-05,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.12894,
+        0.99165
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+      "LocalPosition": [
+        0.01253,
+        0.00012,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.00476,
+        0.99999
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+      "LocalPosition": [
+        0.00026,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00961,
+        -0.06084,
+        -0.15579,
+        0.98587
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Backtoe_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+      "LocalPosition": [
+        -0.00016,
+        -0.00167,
+        -5E-05
+      ],
+      "LocalRotation": [
+        -0.50783,
+        0.50783,
+        -0.49205,
+        -0.49205
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+      "LocalPosition": [
+        2E-05,
+        0.00153,
+        -9E-05
+      ],
+      "LocalRotation": [
+        -0.01685,
+        0.01944,
+        0.71073,
+        0.703
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R/Fronttoe1_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+      "LocalPosition": [
+        0.00398,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.02268,
+        0.99974
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "LocalPosition": [
+        0,
+        0.01493,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+      "LocalPosition": [
+        0,
+        0.01493,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+      "LocalPosition": [
+        0,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.23828,
+        0.23828,
+        -0.66575,
+        0.66575
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+      "LocalPosition": [
+        -0.01571,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+      "LocalPosition": [
+        -0.0026,
+        0.00718,
+        -0.0062
+      ],
+      "LocalRotation": [
+        0.70703,
+        -0.70703,
+        0.01068,
+        0.01068
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+      "LocalPosition": [
+        -0.0026,
+        -0.00718,
+        -0.0062
+      ],
+      "LocalRotation": [
+        0.01068,
+        -0.01068,
+        0.70703,
+        0.70703
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Jaw",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+      "LocalPosition": [
+        0.0006,
+        -0,
+        -0.0072
+      ],
+      "LocalRotation": [
+        0.54142,
+        -0.54142,
+        0.45482,
+        -0.45482
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+      "LocalPosition": [
+        0.00016,
+        -0.01185,
+        0.00294
+      ],
+      "LocalRotation": [
+        -0.18956,
+        -0.67436,
+        0.71247,
+        -0.0412
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+      "LocalPosition": [
+        -0.01213,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.92755,
+        -0.10848,
+        0.04846,
+        0.35431
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+      "LocalPosition": [
+        -0.01245,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -1E-05,
+        -0.00015,
+        0.03569,
+        0.99936
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+      "LocalPosition": [
+        -0.00926,
+        -1E-05,
+        0
+      ],
+      "LocalRotation": [
+        -0.00054,
+        0.00018,
+        0.00079,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L",
+      "LocalPosition": [
+        -0.00232,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00159,
+        0.07148,
+        0.02987,
+        0.99699
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+      "LocalPosition": [
+        -0.01038,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.56876,
+        -0.08892,
+        -0.11786,
+        0.80914
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L/Feather1_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+      "LocalPosition": [
+        -0.01589,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+      "LocalPosition": [
+        -0.00103,
+        0.00019,
+        -0.00374
+      ],
+      "LocalRotation": [
+        -0.54994,
+        -0.36254,
+        -0.35259,
+        0.66468
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L/FeatherOne1_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+      "LocalPosition": [
+        -0.00912,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+      "LocalPosition": [
+        -0.00154,
+        0.00097,
+        -0.00803
+      ],
+      "LocalRotation": [
+        -0.52517,
+        -0.45411,
+        -0.46148,
+        0.55229
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L/FeatherTwo1_L",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+      "LocalPosition": [
+        -0.00916,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+      "LocalPosition": [
+        -0.00016,
+        -0.01185,
+        0.00294
+      ],
+      "LocalRotation": [
+        0.0412,
+        0.71247,
+        0.67436,
+        -0.18956
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+      "LocalPosition": [
+        0.01213,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.92755,
+        -0.10848,
+        0.04846,
+        0.35431
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+      "LocalPosition": [
+        0.01245,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -1E-05,
+        -0.00014,
+        0.03493,
+        0.99939
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+      "LocalPosition": [
+        0.00926,
+        3E-05,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00054,
+        0.00018,
+        0.00156,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R",
+      "LocalPosition": [
+        0.00232,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00159,
+        0.07148,
+        0.02987,
+        0.99699
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+      "LocalPosition": [
+        0.01038,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.56876,
+        -0.08892,
+        -0.11786,
+        0.80914
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R/Feather1_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+      "LocalPosition": [
+        0.01589,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+      "LocalPosition": [
+        0.00103,
+        -0.00019,
+        0.00374
+      ],
+      "LocalRotation": [
+        -0.54994,
+        -0.36254,
+        -0.35259,
+        0.66468
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R/FeatherOne1_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+      "LocalPosition": [
+        0.00912,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+      "LocalPosition": [
+        0.00154,
+        -0.00096,
+        0.00803
+      ],
+      "LocalRotation": [
+        -0.52482,
+        -0.45451,
+        -0.46106,
+        0.55264
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R/FeatherTwo1_R",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+      "LocalPosition": [
+        0.00916,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "LocalPosition": [
+        -0,
+        -0.01372,
+        0.00389
+      ],
+      "LocalRotation": [
+        0.60606,
+        0.36426,
+        -0.60606,
+        -0.36426
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail/Tail1",
+      "Parent": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+      "LocalPosition": [
+        -0.01038,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/GEO/HummingbirdMesh",
+      "Mesh": "HummingbirdMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 6242,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "Bones": [
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R/FeatherTwo1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L/Feather1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L/FeatherOne1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Jaw",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R/FeatherOne1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L/FeatherTwo1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R/Feather1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail/Tail1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L/Fronttoe1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R/Fronttoe1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+        "VisualRoot/HummingbirdRenderRig/Root",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Backtoe_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Backtoe_R"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R/FeatherTwo1_R",
+          "Position": [
+            0.02763,
+            0.02948,
+            -0.01167
+          ],
+          "Rotation": [
+            0.00278,
+            0.04289,
+            -0.62325,
+            0.78084
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R",
+          "Position": [
+            0.03288,
+            0.04688,
+            -0.01043
+          ],
+          "Rotation": [
+            0.71408,
+            0.04925,
+            -0.00443,
+            0.69831
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+          "Position": [
+            0.03519,
+            0.04703,
+            -0.01061
+          ],
+          "Rotation": [
+            0.71262,
+            0.07769,
+            0.06756,
+            0.69396
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+          "Position": [
+            0.04535,
+            0.04916,
+            -0.01073
+          ],
+          "Rotation": [
+            0.17876,
+            0.04672,
+            -0.0463,
+            0.98169
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L/Feather1_L",
+          "Position": [
+            -0.0611,
+            0.04798,
+            -0.01245
+          ],
+          "Rotation": [
+            0.98169,
+            0.0463,
+            0.04672,
+            -0.17876
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L/FeatherOne1_L",
+          "Position": [
+            -0.04293,
+            0.03675,
+            -0.01182
+          ],
+          "Rotation": [
+            0.90515,
+            0.41541,
+            0.01416,
+            -0.08913
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Jaw",
+          "Position": [
+            0,
+            0.06721,
+            0.01365
+          ],
+          "Rotation": [
+            0.64322,
+            0,
+            0,
+            0.76568
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+          "Position": [
+            0.00016,
+            0.04482,
+            -0.00334
+          ],
+          "Rotation": [
+            -0.39483,
+            0.16459,
+            0.10267,
+            0.89804
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+          "Position": [
+            -0.03695,
+            0.04359,
+            -0.01091
+          ],
+          "Rotation": [
+            0.90515,
+            0.41541,
+            0.01416,
+            -0.08913
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+          "Position": [
+            0.03695,
+            0.04359,
+            -0.01091
+          ],
+          "Rotation": [
+            0.08913,
+            0.01416,
+            -0.41541,
+            0.90515
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+          "Position": [
+            0,
+            0.02089,
+            -0.02422
+          ],
+          "Rotation": [
+            0.69336,
+            0.13873,
+            0.69336,
+            0.13873
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+          "Position": [
+            -0.00016,
+            0.04482,
+            -0.00334
+          ],
+          "Rotation": [
+            0.89804,
+            -0.10267,
+            0.16459,
+            0.39483
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R/FeatherOne1_R",
+          "Position": [
+            0.04293,
+            0.03675,
+            -0.01182
+          ],
+          "Rotation": [
+            0.08913,
+            0.01416,
+            -0.41541,
+            0.90515
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+          "Position": [
+            -0.03519,
+            0.04703,
+            -0.01061
+          ],
+          "Rotation": [
+            -0.69396,
+            0.06756,
+            -0.07769,
+            0.71262
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+          "Position": [
+            -0.04535,
+            0.04916,
+            -0.01073
+          ],
+          "Rotation": [
+            0.98169,
+            0.0463,
+            0.04672,
+            -0.17876
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L/FeatherTwo1_L",
+          "Position": [
+            -0.02763,
+            0.02948,
+            -0.01167
+          ],
+          "Rotation": [
+            0.78084,
+            0.62325,
+            0.04289,
+            -0.00278
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R/Feather1_R",
+          "Position": [
+            0.0611,
+            0.04798,
+            -0.01245
+          ],
+          "Rotation": [
+            0.17876,
+            0.04672,
+            -0.0463,
+            0.98169
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+          "Position": [
+            -0.02562,
+            0.0384,
+            -0.01102
+          ],
+          "Rotation": [
+            0.78084,
+            0.62325,
+            0.04289,
+            -0.00278
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail/Tail1",
+          "Position": [
+            0,
+            0.01689,
+            -0.0338
+          ],
+          "Rotation": [
+            0.69336,
+            0.13873,
+            0.69336,
+            0.13873
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+          "Position": [
+            0.02367,
+            0.04629,
+            -0.00974
+          ],
+          "Rotation": [
+            0.71438,
+            0.05023,
+            -0.00567,
+            0.69792
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+          "Position": [
+            -0.02367,
+            0.04629,
+            -0.00974
+          ],
+          "Rotation": [
+            -0.69793,
+            -0.00514,
+            -0.04968,
+            0.71442
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+          "Position": [
+            -0,
+            0.02902,
+            -0.0125
+          ],
+          "Rotation": [
+            0,
+            0.94151,
+            0.33698,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+          "Position": [
+            -0,
+            0.06781,
+            0.00645
+          ],
+          "Rotation": [
+            0.70711,
+            -0.70711,
+            -0,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L",
+          "Position": [
+            -0.03288,
+            0.04688,
+            -0.01043
+          ],
+          "Rotation": [
+            -0.69831,
+            -0.00443,
+            -0.04925,
+            0.71408
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+          "Position": [
+            0.02562,
+            0.0384,
+            -0.01102
+          ],
+          "Rotation": [
+            0.00278,
+            0.04289,
+            -0.62325,
+            0.78084
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+          "Position": [
+            -0.00912,
+            0.00078,
+            -0.00819
+          ],
+          "Rotation": [
+            0.60497,
+            0.38687,
+            -0.53574,
+            -0.44422
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+          "Position": [
+            -0.00929,
+            0.00051,
+            -0.00659
+          ],
+          "Rotation": [
+            0.73578,
+            -0.0052,
+            -0.6772,
+            0.00249
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_R",
+          "Position": [
+            0.00718,
+            0.07041,
+            0.01265
+          ],
+          "Rotation": [
+            -0,
+            0.99989,
+            -0,
+            0.0151
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+          "Position": [
+            0.00753,
+            0.0126,
+            -0.012
+          ],
+          "Rotation": [
+            0.44676,
+            -0.53362,
+            -0.38975,
+            0.60312
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L/Fronttoe1_L",
+          "Position": [
+            -0.00962,
+            0.00055,
+            -0.00262
+          ],
+          "Rotation": [
+            0.73571,
+            0.01149,
+            -0.67708,
+            -0.01288
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R/Fronttoe1_R",
+          "Position": [
+            0.00962,
+            0.00055,
+            -0.00262
+          ],
+          "Rotation": [
+            0.01288,
+            -0.67708,
+            -0.01149,
+            0.73571
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+          "Position": [
+            -0.00753,
+            0.0126,
+            -0.012
+          ],
+          "Rotation": [
+            0.60404,
+            0.38832,
+            -0.53467,
+            -0.4455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+          "Position": [
+            0.00597,
+            0.02507,
+            -0.01253
+          ],
+          "Rotation": [
+            0.51184,
+            -0.47156,
+            -0.46426,
+            0.54783
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+          "Position": [
+            0.00929,
+            0.00051,
+            -0.00659
+          ],
+          "Rotation": [
+            -0.00249,
+            -0.6772,
+            0.0052,
+            0.73578
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_L",
+          "Position": [
+            -0.00718,
+            0.07041,
+            0.01265
+          ],
+          "Rotation": [
+            0,
+            0.0151,
+            0,
+            0.99989
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+          "Position": [
+            0.00912,
+            0.00078,
+            -0.00819
+          ],
+          "Rotation": [
+            0.44422,
+            -0.53574,
+            -0.38687,
+            0.60497
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root",
+          "Position": [
+            0,
+            0.00279,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+          "Position": [
+            -0,
+            0.04056,
+            -0.00303
+          ],
+          "Rotation": [
+            -0,
+            0.94151,
+            0.33698,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+          "Position": [
+            -0.00597,
+            0.02507,
+            -0.01253
+          ],
+          "Rotation": [
+            -0.54783,
+            -0.46426,
+            0.47156,
+            0.51184
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+          "Position": [
+            -0.01138,
+            0.04548,
+            -0.0079
+          ],
+          "Rotation": [
+            -0.69729,
+            -0.02994,
+            -0.07525,
+            0.7122
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Backtoe_L",
+          "Position": [
+            -0.00915,
+            0.00069,
+            -0.00978
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+          "Position": [
+            -0.00915,
+            0.00053,
+            -0.00811
+          ],
+          "Rotation": [
+            0.50783,
+            0.50783,
+            -0.49205,
+            -0.49205
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+          "Position": [
+            0.00915,
+            0.00053,
+            -0.00811
+          ],
+          "Rotation": [
+            0.49205,
+            -0.49205,
+            -0.50783,
+            0.50783
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+          "Position": [
+            -0,
+            0.05211,
+            0.00645
+          ],
+          "Rotation": [
+            0,
+            0.94151,
+            0.33698,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+          "Position": [
+            -0,
+            0.05211,
+            0.00645
+          ],
+          "Rotation": [
+            0.70711,
+            -0.70711,
+            -0,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+          "Position": [
+            0.01138,
+            0.04548,
+            -0.0079
+          ],
+          "Rotation": [
+            0.7122,
+            0.07525,
+            -0.02994,
+            0.69729
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Backtoe_R",
+          "Position": [
+            0.00915,
+            0.00069,
+            -0.00978
+          ],
+          "Rotation": [
+            -0,
+            1,
+            0,
+            -0
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "HummingBird",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HummingBirdAlbedo",
+            "_BaseColorMap": "HummingBirdAlbedo",
+            "_MaskMap": "HummingBirdMask",
+            "_NormalMap": "HummingBirdNormal"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/GEO/HummingbirdMesh_LOD1",
+      "Mesh": "HummingbirdMesh_LOD1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 2703,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "Bones": [
+        "VisualRoot/HummingbirdRenderRig/Root/Spine",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L/Feather1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L/FeatherOne1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L/FeatherTwo1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Jaw",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R/Feather1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R/FeatherOne1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R/FeatherTwo1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail/Tail1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Backtoe_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L/Fronttoe1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Backtoe_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R/Fronttoe1_R"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+          "Position": [
+            -0,
+            0.02902,
+            -0.0125
+          ],
+          "Rotation": [
+            0,
+            0.94151,
+            0.33698,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+          "Position": [
+            -0,
+            0.04056,
+            -0.00303
+          ],
+          "Rotation": [
+            -0,
+            0.94151,
+            0.33698,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+          "Position": [
+            -0,
+            0.05211,
+            0.00645
+          ],
+          "Rotation": [
+            0,
+            0.94151,
+            0.33698,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+          "Position": [
+            -0.00016,
+            0.04482,
+            -0.00334
+          ],
+          "Rotation": [
+            0.89804,
+            -0.10267,
+            0.16459,
+            0.39483
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+          "Position": [
+            -0.01138,
+            0.04548,
+            -0.0079
+          ],
+          "Rotation": [
+            -0.69729,
+            -0.02994,
+            -0.07525,
+            0.7122
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+          "Position": [
+            -0.02367,
+            0.04629,
+            -0.00974
+          ],
+          "Rotation": [
+            -0.69793,
+            -0.00514,
+            -0.04968,
+            0.71442
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+          "Position": [
+            -0.03519,
+            0.04703,
+            -0.01061
+          ],
+          "Rotation": [
+            -0.69396,
+            0.06756,
+            -0.07769,
+            0.71262
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+          "Position": [
+            -0.04535,
+            0.04916,
+            -0.01073
+          ],
+          "Rotation": [
+            0.98169,
+            0.0463,
+            0.04672,
+            -0.17876
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L/Feather1_L",
+          "Position": [
+            -0.0611,
+            0.04798,
+            -0.01245
+          ],
+          "Rotation": [
+            0.98169,
+            0.0463,
+            0.04672,
+            -0.17876
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+          "Position": [
+            -0.03695,
+            0.04359,
+            -0.01091
+          ],
+          "Rotation": [
+            0.90515,
+            0.41541,
+            0.01416,
+            -0.08913
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L/FeatherOne1_L",
+          "Position": [
+            -0.04293,
+            0.03675,
+            -0.01182
+          ],
+          "Rotation": [
+            0.90515,
+            0.41541,
+            0.01416,
+            -0.08913
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+          "Position": [
+            -0.02562,
+            0.0384,
+            -0.01102
+          ],
+          "Rotation": [
+            0.78084,
+            0.62325,
+            0.04289,
+            -0.00278
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L/FeatherTwo1_L",
+          "Position": [
+            -0.02763,
+            0.02948,
+            -0.01167
+          ],
+          "Rotation": [
+            0.78084,
+            0.62325,
+            0.04289,
+            -0.00278
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+          "Position": [
+            -0,
+            0.05211,
+            0.00645
+          ],
+          "Rotation": [
+            0.70711,
+            -0.70711,
+            -0,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+          "Position": [
+            -0,
+            0.06781,
+            0.00645
+          ],
+          "Rotation": [
+            0.70711,
+            -0.70711,
+            -0,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Jaw",
+          "Position": [
+            0,
+            0.06721,
+            0.01365
+          ],
+          "Rotation": [
+            0.64322,
+            0,
+            0,
+            0.76568
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_L",
+          "Position": [
+            -0.00718,
+            0.07041,
+            0.01265
+          ],
+          "Rotation": [
+            0,
+            0.0151,
+            0,
+            0.99989
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_R",
+          "Position": [
+            0.00718,
+            0.07041,
+            0.01265
+          ],
+          "Rotation": [
+            -0,
+            0.99989,
+            -0,
+            0.0151
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+          "Position": [
+            0.00016,
+            0.04482,
+            -0.00334
+          ],
+          "Rotation": [
+            -0.39483,
+            0.16459,
+            0.10267,
+            0.89804
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+          "Position": [
+            0.01138,
+            0.04548,
+            -0.0079
+          ],
+          "Rotation": [
+            0.7122,
+            0.07525,
+            -0.02994,
+            0.69729
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+          "Position": [
+            0.02367,
+            0.04629,
+            -0.00974
+          ],
+          "Rotation": [
+            0.71438,
+            0.05023,
+            -0.00567,
+            0.69792
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+          "Position": [
+            0.03519,
+            0.04703,
+            -0.01061
+          ],
+          "Rotation": [
+            0.71262,
+            0.07769,
+            0.06756,
+            0.69396
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+          "Position": [
+            0.04535,
+            0.04916,
+            -0.01073
+          ],
+          "Rotation": [
+            0.17876,
+            0.04672,
+            -0.0463,
+            0.98169
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R/Feather1_R",
+          "Position": [
+            0.0611,
+            0.04798,
+            -0.01245
+          ],
+          "Rotation": [
+            0.17876,
+            0.04672,
+            -0.0463,
+            0.98169
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+          "Position": [
+            0.03695,
+            0.04359,
+            -0.01091
+          ],
+          "Rotation": [
+            0.08913,
+            0.01416,
+            -0.41541,
+            0.90515
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R/FeatherOne1_R",
+          "Position": [
+            0.04293,
+            0.03675,
+            -0.01182
+          ],
+          "Rotation": [
+            0.08913,
+            0.01416,
+            -0.41541,
+            0.90515
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+          "Position": [
+            0.02562,
+            0.0384,
+            -0.01102
+          ],
+          "Rotation": [
+            0.00278,
+            0.04289,
+            -0.62325,
+            0.78084
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R/FeatherTwo1_R",
+          "Position": [
+            0.02763,
+            0.02948,
+            -0.01167
+          ],
+          "Rotation": [
+            0.00278,
+            0.04289,
+            -0.62325,
+            0.78084
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+          "Position": [
+            0,
+            0.02089,
+            -0.02422
+          ],
+          "Rotation": [
+            0.69336,
+            0.13873,
+            0.69336,
+            0.13873
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail/Tail1",
+          "Position": [
+            0,
+            0.01689,
+            -0.0338
+          ],
+          "Rotation": [
+            0.69336,
+            0.13873,
+            0.69336,
+            0.13873
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+          "Position": [
+            -0.00597,
+            0.02507,
+            -0.01253
+          ],
+          "Rotation": [
+            -0.54783,
+            -0.46426,
+            0.47156,
+            0.51184
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+          "Position": [
+            -0.00753,
+            0.0126,
+            -0.012
+          ],
+          "Rotation": [
+            0.60404,
+            0.38832,
+            -0.53467,
+            -0.4455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+          "Position": [
+            -0.00912,
+            0.00078,
+            -0.00819
+          ],
+          "Rotation": [
+            0.60497,
+            0.38687,
+            -0.53574,
+            -0.44422
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+          "Position": [
+            -0.00915,
+            0.00053,
+            -0.00811
+          ],
+          "Rotation": [
+            0.50783,
+            0.50783,
+            -0.49205,
+            -0.49205
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Backtoe_L",
+          "Position": [
+            -0.00915,
+            0.00069,
+            -0.00978
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+          "Position": [
+            -0.00929,
+            0.00051,
+            -0.00659
+          ],
+          "Rotation": [
+            0.73578,
+            -0.0052,
+            -0.6772,
+            0.00249
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L/Fronttoe1_L",
+          "Position": [
+            -0.00962,
+            0.00055,
+            -0.00262
+          ],
+          "Rotation": [
+            0.73571,
+            0.01149,
+            -0.67708,
+            -0.01288
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+          "Position": [
+            0.00597,
+            0.02507,
+            -0.01253
+          ],
+          "Rotation": [
+            0.51184,
+            -0.47156,
+            -0.46426,
+            0.54783
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+          "Position": [
+            0.00753,
+            0.0126,
+            -0.012
+          ],
+          "Rotation": [
+            0.44676,
+            -0.53362,
+            -0.38975,
+            0.60312
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+          "Position": [
+            0.00912,
+            0.00078,
+            -0.00819
+          ],
+          "Rotation": [
+            0.44422,
+            -0.53574,
+            -0.38687,
+            0.60497
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+          "Position": [
+            0.00915,
+            0.00053,
+            -0.00811
+          ],
+          "Rotation": [
+            0.49205,
+            -0.49205,
+            -0.50783,
+            0.50783
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Backtoe_R",
+          "Position": [
+            0.00915,
+            0.00069,
+            -0.00978
+          ],
+          "Rotation": [
+            -0,
+            1,
+            0,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+          "Position": [
+            0.00929,
+            0.00051,
+            -0.00659
+          ],
+          "Rotation": [
+            -0.00249,
+            -0.6772,
+            0.0052,
+            0.73578
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R/Fronttoe1_R",
+          "Position": [
+            0.00962,
+            0.00055,
+            -0.00262
+          ],
+          "Rotation": [
+            0.01288,
+            -0.67708,
+            -0.01149,
+            0.73571
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "HummingBird",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HummingBirdAlbedo",
+            "_BaseColorMap": "HummingBirdAlbedo",
+            "_MaskMap": "HummingBirdMask",
+            "_NormalMap": "HummingBirdNormal"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/HummingbirdRenderRig/GEO/HummingbirdMesh_LOD2",
+      "Mesh": "HummingbirdMesh_LOD2",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 1332,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+      "Bones": [
+        "VisualRoot/HummingbirdRenderRig/Root/Spine",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L/Feather1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L/FeatherOne1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L/FeatherTwo1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Jaw",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R/Feather1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R/FeatherOne1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R/FeatherTwo1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail/Tail1",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Backtoe_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L/Fronttoe1_L",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Backtoe_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+        "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R/Fronttoe1_R"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine",
+          "Position": [
+            -0,
+            0.02902,
+            -0.0125
+          ],
+          "Rotation": [
+            0,
+            0.94151,
+            0.33698,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1",
+          "Position": [
+            -0,
+            0.04056,
+            -0.00303
+          ],
+          "Rotation": [
+            -0,
+            0.94151,
+            0.33698,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2",
+          "Position": [
+            -0,
+            0.05211,
+            0.00645
+          ],
+          "Rotation": [
+            0,
+            0.94151,
+            0.33698,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L",
+          "Position": [
+            -0.00016,
+            0.04482,
+            -0.00334
+          ],
+          "Rotation": [
+            0.89804,
+            -0.10267,
+            0.16459,
+            0.39483
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L",
+          "Position": [
+            -0.01138,
+            0.04548,
+            -0.0079
+          ],
+          "Rotation": [
+            -0.69729,
+            -0.02994,
+            -0.07525,
+            0.7122
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L",
+          "Position": [
+            -0.02367,
+            0.04629,
+            -0.00974
+          ],
+          "Rotation": [
+            -0.69793,
+            -0.00514,
+            -0.04968,
+            0.71442
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L",
+          "Position": [
+            -0.03519,
+            0.04703,
+            -0.01061
+          ],
+          "Rotation": [
+            -0.69396,
+            0.06756,
+            -0.07769,
+            0.71262
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L",
+          "Position": [
+            -0.04535,
+            0.04916,
+            -0.01073
+          ],
+          "Rotation": [
+            0.98169,
+            0.0463,
+            0.04672,
+            -0.17876
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/Feather_L/Feather1_L",
+          "Position": [
+            -0.0611,
+            0.04798,
+            -0.01245
+          ],
+          "Rotation": [
+            0.98169,
+            0.0463,
+            0.04672,
+            -0.17876
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L",
+          "Position": [
+            -0.03695,
+            0.04359,
+            -0.01091
+          ],
+          "Rotation": [
+            0.90515,
+            0.41541,
+            0.01416,
+            -0.08913
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/Arm2_L/ArmEnd_L/FeatherOne_L/FeatherOne1_L",
+          "Position": [
+            -0.04293,
+            0.03675,
+            -0.01182
+          ],
+          "Rotation": [
+            0.90515,
+            0.41541,
+            0.01416,
+            -0.08913
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L",
+          "Position": [
+            -0.02562,
+            0.0384,
+            -0.01102
+          ],
+          "Rotation": [
+            0.78084,
+            0.62325,
+            0.04289,
+            -0.00278
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_L/Arm_L/Arm1_L/FeatherTwo_L/FeatherTwo1_L",
+          "Position": [
+            -0.02763,
+            0.02948,
+            -0.01167
+          ],
+          "Rotation": [
+            0.78084,
+            0.62325,
+            0.04289,
+            -0.00278
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck",
+          "Position": [
+            -0,
+            0.05211,
+            0.00645
+          ],
+          "Rotation": [
+            0.70711,
+            -0.70711,
+            -0,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1",
+          "Position": [
+            -0,
+            0.06781,
+            0.00645
+          ],
+          "Rotation": [
+            0.70711,
+            -0.70711,
+            -0,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Jaw",
+          "Position": [
+            0,
+            0.06721,
+            0.01365
+          ],
+          "Rotation": [
+            0.64322,
+            0,
+            0,
+            0.76568
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_L",
+          "Position": [
+            -0.00718,
+            0.07041,
+            0.01265
+          ],
+          "Rotation": [
+            0,
+            0.0151,
+            0,
+            0.99989
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Neck/Neck1/Eye_R",
+          "Position": [
+            0.00718,
+            0.07041,
+            0.01265
+          ],
+          "Rotation": [
+            -0,
+            0.99989,
+            -0,
+            0.0151
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R",
+          "Position": [
+            0.00016,
+            0.04482,
+            -0.00334
+          ],
+          "Rotation": [
+            -0.39483,
+            0.16459,
+            0.10267,
+            0.89804
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R",
+          "Position": [
+            0.01138,
+            0.04548,
+            -0.0079
+          ],
+          "Rotation": [
+            0.7122,
+            0.07525,
+            -0.02994,
+            0.69729
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R",
+          "Position": [
+            0.02367,
+            0.04629,
+            -0.00974
+          ],
+          "Rotation": [
+            0.71438,
+            0.05023,
+            -0.00567,
+            0.69792
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R",
+          "Position": [
+            0.03519,
+            0.04703,
+            -0.01061
+          ],
+          "Rotation": [
+            0.71262,
+            0.07769,
+            0.06756,
+            0.69396
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R",
+          "Position": [
+            0.04535,
+            0.04916,
+            -0.01073
+          ],
+          "Rotation": [
+            0.17876,
+            0.04672,
+            -0.0463,
+            0.98169
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/Feather_R/Feather1_R",
+          "Position": [
+            0.0611,
+            0.04798,
+            -0.01245
+          ],
+          "Rotation": [
+            0.17876,
+            0.04672,
+            -0.0463,
+            0.98169
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R",
+          "Position": [
+            0.03695,
+            0.04359,
+            -0.01091
+          ],
+          "Rotation": [
+            0.08913,
+            0.01416,
+            -0.41541,
+            0.90515
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/Arm2_R/ArmEnd_R/FeatherOne_R/FeatherOne1_R",
+          "Position": [
+            0.04293,
+            0.03675,
+            -0.01182
+          ],
+          "Rotation": [
+            0.08913,
+            0.01416,
+            -0.41541,
+            0.90515
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R",
+          "Position": [
+            0.02562,
+            0.0384,
+            -0.01102
+          ],
+          "Rotation": [
+            0.00278,
+            0.04289,
+            -0.62325,
+            0.78084
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Spine1/Spine2/Shoulder_R/Arm_R/Arm1_R/FeatherTwo_R/FeatherTwo1_R",
+          "Position": [
+            0.02763,
+            0.02948,
+            -0.01167
+          ],
+          "Rotation": [
+            0.00278,
+            0.04289,
+            -0.62325,
+            0.78084
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail",
+          "Position": [
+            0,
+            0.02089,
+            -0.02422
+          ],
+          "Rotation": [
+            0.69336,
+            0.13873,
+            0.69336,
+            0.13873
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Tail/Tail1",
+          "Position": [
+            0,
+            0.01689,
+            -0.0338
+          ],
+          "Rotation": [
+            0.69336,
+            0.13873,
+            0.69336,
+            0.13873
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L",
+          "Position": [
+            -0.00597,
+            0.02507,
+            -0.01253
+          ],
+          "Rotation": [
+            -0.54783,
+            -0.46426,
+            0.47156,
+            0.51184
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L",
+          "Position": [
+            -0.00753,
+            0.0126,
+            -0.012
+          ],
+          "Rotation": [
+            0.60404,
+            0.38832,
+            -0.53467,
+            -0.4455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L",
+          "Position": [
+            -0.00912,
+            0.00078,
+            -0.00819
+          ],
+          "Rotation": [
+            0.60497,
+            0.38687,
+            -0.53574,
+            -0.44422
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L",
+          "Position": [
+            -0.00915,
+            0.00053,
+            -0.00811
+          ],
+          "Rotation": [
+            0.50783,
+            0.50783,
+            -0.49205,
+            -0.49205
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Backtoe_L",
+          "Position": [
+            -0.00915,
+            0.00069,
+            -0.00978
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L",
+          "Position": [
+            -0.00929,
+            0.00051,
+            -0.00659
+          ],
+          "Rotation": [
+            0.73578,
+            -0.0052,
+            -0.6772,
+            0.00249
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_L/Leg1_L/Leg2_L/LegEnd_L/Fronttoe_L/Fronttoe1_L",
+          "Position": [
+            -0.00962,
+            0.00055,
+            -0.00262
+          ],
+          "Rotation": [
+            0.73571,
+            0.01149,
+            -0.67708,
+            -0.01288
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R",
+          "Position": [
+            0.00597,
+            0.02507,
+            -0.01253
+          ],
+          "Rotation": [
+            0.51184,
+            -0.47156,
+            -0.46426,
+            0.54783
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R",
+          "Position": [
+            0.00753,
+            0.0126,
+            -0.012
+          ],
+          "Rotation": [
+            0.44676,
+            -0.53362,
+            -0.38975,
+            0.60312
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R",
+          "Position": [
+            0.00912,
+            0.00078,
+            -0.00819
+          ],
+          "Rotation": [
+            0.44422,
+            -0.53574,
+            -0.38687,
+            0.60497
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R",
+          "Position": [
+            0.00915,
+            0.00053,
+            -0.00811
+          ],
+          "Rotation": [
+            0.49205,
+            -0.49205,
+            -0.50783,
+            0.50783
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Backtoe_R",
+          "Position": [
+            0.00915,
+            0.00069,
+            -0.00978
+          ],
+          "Rotation": [
+            -0,
+            1,
+            0,
+            -0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R",
+          "Position": [
+            0.00929,
+            0.00051,
+            -0.00659
+          ],
+          "Rotation": [
+            -0.00249,
+            -0.6772,
+            0.0052,
+            0.73578
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HummingbirdRenderRig/Root/Spine/Leg_R/Leg1_R/Leg2_R/LegEnd_R/Fronttoe_R/Fronttoe1_R",
+          "Position": [
+            0.00962,
+            0.00055,
+            -0.00262
+          ],
+          "Rotation": [
+            0.01288,
+            -0.67708,
+            -0.01149,
+            0.73571
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "HummingBird",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HummingBirdAlbedo",
+            "_BaseColorMap": "HummingBirdAlbedo",
+            "_MaskMap": "HummingBirdMask",
+            "_NormalMap": "HummingBirdNormal"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

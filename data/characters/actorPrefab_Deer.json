@@ -1,0 +1,4243 @@
+{
+  "Name": "Deer",
+  "Source": "actorPrefab",
+  "ActorType": "Deer",
+  "Path": "DeerActor",
+  "Active": false,
+  "RigFamily": "3c775a14",
+  "PlayerNameMatch": "0/44 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/DeerRenderRig",
+      "Enabled": true,
+      "Controller": "DeerController",
+      "Avatar": "DeerRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "DeerActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "DeerActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        1.00047,
+        -0.16497
+      ],
+      "LocalRotation": [
+        0.71783,
+        0,
+        0,
+        0.69621
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0.08398,
+        -0.00533,
+        0.00614
+      ],
+      "LocalRotation": [
+        0.06163,
+        0.68787,
+        0.10004,
+        0.71626
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+      "LocalPosition": [
+        -0.33052,
+        -0.00017,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.22357,
+        0.97469
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+      "LocalPosition": [
+        -0.26681,
+        1E-05,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.29028,
+        0.95694
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+      "LocalPosition": [
+        -0.2283,
+        0.0003,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.00067,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+      "LocalPosition": [
+        -0.09794,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        0.08398,
+        -0.00533,
+        0.00614
+      ],
+      "LocalRotation": [
+        0.10004,
+        0.71626,
+        0.06163,
+        0.68787
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+      "LocalPosition": [
+        -0.33052,
+        -0.00017,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.22357,
+        0.97469
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+      "LocalPosition": [
+        -0.26681,
+        1E-05,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.29028,
+        0.95694
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+      "LocalPosition": [
+        -0.2283,
+        0.0003,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.00067,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+      "LocalPosition": [
+        -0.09794,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        0,
+        0.13903,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+      "LocalPosition": [
+        0,
+        0.13902,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+      "LocalPosition": [
+        0,
+        0.13902,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+      "LocalPosition": [
+        0,
+        0.13903,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "LocalPosition": [
+        0,
+        0.08892,
+        0.00549
+      ],
+      "LocalRotation": [
+        -0.2035,
+        0.00127,
+        0.00151,
+        0.97907
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+      "LocalPosition": [
+        -0.00083,
+        0.15303,
+        -0.0221
+      ],
+      "LocalRotation": [
+        -0.16477,
+        0.00182,
+        0.00532,
+        0.98632
+      ],
+      "LocalScale": [
+        1.00556,
+        1.00556,
+        1.00556
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+      "LocalPosition": [
+        -0.00021,
+        0.15234,
+        -0.02671
+      ],
+      "LocalRotation": [
+        -0.16993,
+        -0,
+        0.00027,
+        0.98546
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+      "LocalPosition": [
+        0.0008,
+        0.15268,
+        -0.02554
+      ],
+      "LocalRotation": [
+        -0.17726,
+        0.00273,
+        -0.00737,
+        0.98413
+      ],
+      "LocalScale": [
+        0.99447,
+        0.99447,
+        0.99447
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.08151,
+        0,
+        -0,
+        0.99667
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.06321,
+        0.08696,
+        -0.00735
+      ],
+      "LocalRotation": [
+        0.81703,
+        -0.30194,
+        -0.07378,
+        0.48564
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+      "LocalPosition": [
+        -0.11599,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.0388,
+        -0.10429,
+        -0.17803,
+        0.97771
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.07411,
+        0.08696,
+        -0.00735
+      ],
+      "LocalRotation": [
+        -0.48564,
+        -0.07378,
+        0.30194,
+        0.81703
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+      "LocalPosition": [
+        0.11599,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.0388,
+        -0.10429,
+        -0.17803,
+        0.97771
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.05912,
+        0.04007,
+        0.09865
+      ],
+      "LocalRotation": [
+        0.05889,
+        -0.54135,
+        0.03769,
+        0.83788
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.05912,
+        0.04007,
+        0.09865
+      ],
+      "LocalRotation": [
+        0.00033,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.07002,
+        0.04007,
+        0.09865
+      ],
+      "LocalRotation": [
+        0.05889,
+        0.54135,
+        -0.03769,
+        0.83788
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.07002,
+        0.04007,
+        0.09865
+      ],
+      "LocalRotation": [
+        0.00033,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0,
+        -0.0482,
+        0.22542
+      ],
+      "LocalRotation": [
+        -0.54552,
+        0,
+        -0,
+        0.8381
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "LocalPosition": [
+        -0.06407,
+        0.01689,
+        -0.0138
+      ],
+      "LocalRotation": [
+        0.65206,
+        0.24721,
+        -0.52445,
+        0.48853
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+      "LocalPosition": [
+        -0.14608,
+        0.00025,
+        0.00016
+      ],
+      "LocalRotation": [
+        0.528,
+        -0.0035,
+        -0.30505,
+        0.79256
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+      "LocalPosition": [
+        -0.17354,
+        -0.00019,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.23931,
+        0.97094
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+      "LocalPosition": [
+        -0.27726,
+        -8E-05,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.15357,
+        0.98814
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+      "LocalPosition": [
+        -0.19384,
+        0.00014,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.00038,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+      "LocalPosition": [
+        -0.08316,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "LocalPosition": [
+        0.06407,
+        0.01689,
+        -0.0138
+      ],
+      "LocalRotation": [
+        -0.48853,
+        -0.52445,
+        -0.24721,
+        0.65206
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+      "LocalPosition": [
+        0.14608,
+        -0.00025,
+        -0.00016
+      ],
+      "LocalRotation": [
+        -0.0035,
+        -0.528,
+        0.79256,
+        0.30505
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+      "LocalPosition": [
+        -0.17354,
+        -0.00019,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.23931,
+        0.97094
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+      "LocalPosition": [
+        -0.27726,
+        -8E-05,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.15357,
+        0.98814
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+      "LocalPosition": [
+        -0.19384,
+        0.00014,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.00038,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+      "LocalPosition": [
+        -0.08316,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        -0.20348,
+        -0.0096
+      ],
+      "LocalRotation": [
+        0.2301,
+        0.66862,
+        0.2301,
+        0.66862
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+      "Parent": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+      "LocalPosition": [
+        -0.1156,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.32433,
+        0.94594
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/DeerRenderRig/GEO/DeerCutOffMesh",
+      "Mesh": "DeerCutOffMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 7256,
+      "SubMeshes": 2,
+      "RootBone": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            0,
+            1.00047,
+            -0.16497
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+          "Position": [
+            0,
+            0.99622,
+            -0.02601
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+          "Position": [
+            0,
+            0.99197,
+            0.11295
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+          "Position": [
+            0,
+            0.98772,
+            0.2519
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+          "Position": [
+            0,
+            0.98347,
+            0.39086
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+          "Position": [
+            0,
+            0.97526,
+            0.47956
+          ],
+          "Rotation": [
+            0.56113,
+            -0.0002,
+            0.00196,
+            0.82772
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0.0014,
+            1.05245,
+            0.61353
+          ],
+          "Rotation": [
+            0.41707,
+            -0.00199,
+            0.00733,
+            0.90884
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0.00395,
+            1.17202,
+            0.7116
+          ],
+          "Rotation": [
+            0.25657,
+            -0.00332,
+            0.00713,
+            0.96649
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+          "Position": [
+            -0.00545,
+            1.31726,
+            0.76513
+          ],
+          "Rotation": [
+            0.08118,
+            -0,
+            -0,
+            0.9967
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0.00545,
+            1.31726,
+            0.76513
+          ],
+          "Rotation": [
+            -0.00033,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            -0.54134,
+            0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+          "Position": [
+            -0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+          "Position": [
+            -0.06866,
+            1.40422,
+            0.75773
+          ],
+          "Rotation": [
+            0.81687,
+            -0.30196,
+            -0.07368,
+            0.48591
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+          "Position": [
+            -0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            0.82589,
+            -0.19763,
+            -0.25545,
+            0.46217
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+          "Position": [
+            -0.00545,
+            1.26921,
+            0.99059
+          ],
+          "Rotation": [
+            -0.5458,
+            -0,
+            -0,
+            0.83792
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            0.54134,
+            -0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+          "Position": [
+            0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+          "Position": [
+            0.06866,
+            1.40422,
+            0.75773
+          ],
+          "Rotation": [
+            -0.48591,
+            -0.07368,
+            0.30196,
+            0.81687
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+          "Position": [
+            0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            -0.46217,
+            -0.25545,
+            0.19763,
+            0.82589
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+          "Position": [
+            -0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.80466,
+            0.54858,
+            -0.18767,
+            -0.12795
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+          "Position": [
+            -0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+          "Position": [
+            -0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+          "Position": [
+            -0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+          "Position": [
+            -0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+          "Position": [
+            -0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+          "Position": [
+            0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.12795,
+            -0.18767,
+            -0.54858,
+            0.80466
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+          "Position": [
+            0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+          "Position": [
+            0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+          "Position": [
+            0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+          "Position": [
+            0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+          "Position": [
+            0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+          "Position": [
+            -0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.55706,
+            0.40709,
+            0.56343,
+            0.45443
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+          "Position": [
+            -0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.63398,
+            0.27225,
+            0.65076,
+            0.31696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+          "Position": [
+            -0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.52765,
+            0.44455,
+            0.53074,
+            0.49222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+          "Position": [
+            -0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+          "Position": [
+            -0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.01628,
+            -0.36806
+          ],
+          "Rotation": [
+            0.64016,
+            0.30033,
+            0.64016,
+            0.30033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            -0,
+            0.92738,
+            -0.44196
+          ],
+          "Rotation": [
+            0.50815,
+            0.49172,
+            0.50815,
+            0.49172
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+          "Position": [
+            0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.56343,
+            0.45443,
+            0.55706,
+            0.40709
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+          "Position": [
+            0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.65076,
+            0.31696,
+            0.63398,
+            0.27225
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+          "Position": [
+            0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.53074,
+            0.49222,
+            0.52765,
+            0.44455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+          "Position": [
+            0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+          "Position": [
+            0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DeerCutOpen",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "DeerCutOffAlbedo",
+            "_BaseColorMap": "DeerCutOffAlbedo",
+            "_MaskMap": "DeerCutOffMask",
+            "_NormalMap": "DeerCutOffNormal",
+            "_SubsurfaceMaskMap": "DeerCutOffScattering",
+            "_ThicknessMap": "DeerCutOffThickness"
+          }
+        },
+        {
+          "Name": "Deer",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "DeerAlbedoWetnessMask",
+            "_BloodMask": "DeerAlbedoBloodMask",
+            "_BloodRevealMask": "DeerAlbedoBloodRevealMask",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/GEO/DeerMesh",
+      "Mesh": "DeerMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 6646,
+      "SubMeshes": 3,
+      "RootBone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+          "Position": [
+            -0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            0.82589,
+            -0.19763,
+            -0.25545,
+            0.46217
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+          "Position": [
+            0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+          "Position": [
+            0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+          "Position": [
+            0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+          "Position": [
+            -0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.80466,
+            0.54858,
+            -0.18767,
+            -0.12795
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+          "Position": [
+            -0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+          "Position": [
+            0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.53074,
+            0.49222,
+            0.52765,
+            0.44455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+          "Position": [
+            0,
+            0.99197,
+            0.11295
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+          "Position": [
+            -0.00545,
+            1.26921,
+            0.99059
+          ],
+          "Rotation": [
+            -0.5458,
+            0,
+            -0,
+            0.83792
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+          "Position": [
+            0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+          "Position": [
+            0,
+            0.98772,
+            0.2519
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0.00545,
+            1.31726,
+            0.76513
+          ],
+          "Rotation": [
+            -0.00033,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+          "Position": [
+            -0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+          "Position": [
+            0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+          "Position": [
+            -0,
+            0.97526,
+            0.47956
+          ],
+          "Rotation": [
+            0.56114,
+            -0.0002,
+            0.00196,
+            0.82772
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            0.54134,
+            -0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0.00395,
+            1.17202,
+            0.7116
+          ],
+          "Rotation": [
+            0.25657,
+            -0.00332,
+            0.00713,
+            0.96649
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            0,
+            1.00047,
+            -0.16497
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            -0.54134,
+            0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+          "Position": [
+            0,
+            0.99622,
+            -0.02601
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+          "Position": [
+            0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+          "Position": [
+            0.06866,
+            1.40422,
+            0.75773
+          ],
+          "Rotation": [
+            -0.48591,
+            -0.07368,
+            0.30196,
+            0.81687
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+          "Position": [
+            0,
+            0.98347,
+            0.39086
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+          "Position": [
+            -0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+          "Position": [
+            -0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            -0,
+            0.92738,
+            -0.44196
+          ],
+          "Rotation": [
+            0.50815,
+            0.49172,
+            0.50815,
+            0.49172
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+          "Position": [
+            -0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+          "Position": [
+            -0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.63398,
+            0.27225,
+            0.65076,
+            0.31696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+          "Position": [
+            -0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+          "Position": [
+            0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.56343,
+            0.45443,
+            0.55706,
+            0.40709
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.01628,
+            -0.36806
+          ],
+          "Rotation": [
+            0.64016,
+            0.30033,
+            0.64016,
+            0.30033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+          "Position": [
+            0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+          "Position": [
+            -0.06866,
+            1.40422,
+            0.75772
+          ],
+          "Rotation": [
+            0.81687,
+            -0.30196,
+            -0.07368,
+            0.48591
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+          "Position": [
+            -0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.55706,
+            0.40709,
+            0.56343,
+            0.45443
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+          "Position": [
+            0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.65076,
+            0.31696,
+            0.63398,
+            0.27225
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+          "Position": [
+            0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.12795,
+            -0.18767,
+            -0.54858,
+            0.80466
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+          "Position": [
+            0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+          "Position": [
+            0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            -0.46217,
+            -0.25545,
+            0.19763,
+            0.82589
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+          "Position": [
+            -0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.52765,
+            0.44455,
+            0.53074,
+            0.49222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+          "Position": [
+            -0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+          "Position": [
+            -0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0.0014,
+            1.05245,
+            0.61353
+          ],
+          "Rotation": [
+            0.41707,
+            -0.00199,
+            0.00733,
+            0.90884
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Deer",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "DeerAlbedoWetnessMask",
+            "_BloodMask": "DeerAlbedoBloodMask",
+            "_BloodRevealMask": "DeerAlbedoBloodRevealMask",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        },
+        {
+          "Name": "DeerEye",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "DeerAlbedo",
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness"
+          }
+        },
+        {
+          "Name": "DeerWhiskers",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "DeerAlbedo",
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/GEO/DeerMesh_LOD1",
+      "Mesh": "DeerMesh_LOD1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 5043,
+      "SubMeshes": 3,
+      "RootBone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            0,
+            1.00047,
+            -0.16497
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+          "Position": [
+            0,
+            0.99622,
+            -0.02601
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+          "Position": [
+            0,
+            0.99197,
+            0.11295
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+          "Position": [
+            0,
+            0.98772,
+            0.2519
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+          "Position": [
+            0,
+            0.98347,
+            0.39086
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+          "Position": [
+            -0,
+            0.97526,
+            0.47956
+          ],
+          "Rotation": [
+            0.56113,
+            -0.0002,
+            0.00196,
+            0.82772
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0.0014,
+            1.05245,
+            0.61353
+          ],
+          "Rotation": [
+            0.41707,
+            -0.00199,
+            0.00733,
+            0.90884
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0.00395,
+            1.17202,
+            0.7116
+          ],
+          "Rotation": [
+            0.25657,
+            -0.00332,
+            0.00713,
+            0.96649
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0.00545,
+            1.31726,
+            0.76513
+          ],
+          "Rotation": [
+            -0.00033,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            -0.54134,
+            0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+          "Position": [
+            -0.06866,
+            1.40422,
+            0.75773
+          ],
+          "Rotation": [
+            0.81687,
+            -0.30196,
+            -0.07368,
+            0.48591
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+          "Position": [
+            -0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            0.82589,
+            -0.19763,
+            -0.25545,
+            0.46217
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+          "Position": [
+            -0.00545,
+            1.26921,
+            0.99059
+          ],
+          "Rotation": [
+            -0.5458,
+            -0,
+            -0,
+            0.83792
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            0.54134,
+            -0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+          "Position": [
+            0.06866,
+            1.40422,
+            0.75773
+          ],
+          "Rotation": [
+            -0.48591,
+            -0.07368,
+            0.30196,
+            0.81687
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+          "Position": [
+            0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            -0.46217,
+            -0.25545,
+            0.19763,
+            0.82589
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+          "Position": [
+            -0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.80466,
+            0.54858,
+            -0.18767,
+            -0.12795
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+          "Position": [
+            -0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+          "Position": [
+            -0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+          "Position": [
+            -0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+          "Position": [
+            -0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+          "Position": [
+            -0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+          "Position": [
+            0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.12795,
+            -0.18767,
+            -0.54858,
+            0.80466
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+          "Position": [
+            0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+          "Position": [
+            0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+          "Position": [
+            0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+          "Position": [
+            0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+          "Position": [
+            0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+          "Position": [
+            -0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.55706,
+            0.40709,
+            0.56343,
+            0.45443
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+          "Position": [
+            -0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.63398,
+            0.27225,
+            0.65076,
+            0.31696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+          "Position": [
+            -0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.52765,
+            0.44455,
+            0.53074,
+            0.49222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+          "Position": [
+            -0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+          "Position": [
+            -0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.01628,
+            -0.36806
+          ],
+          "Rotation": [
+            0.64016,
+            0.30033,
+            0.64016,
+            0.30033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            -0,
+            0.92738,
+            -0.44196
+          ],
+          "Rotation": [
+            0.50815,
+            0.49172,
+            0.50815,
+            0.49172
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+          "Position": [
+            0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.56343,
+            0.45443,
+            0.55706,
+            0.40709
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+          "Position": [
+            0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.65076,
+            0.31696,
+            0.63398,
+            0.27225
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+          "Position": [
+            0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.53074,
+            0.49222,
+            0.52765,
+            0.44455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+          "Position": [
+            0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+          "Position": [
+            0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Deer",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "DeerAlbedoWetnessMask",
+            "_BloodMask": "DeerAlbedoBloodMask",
+            "_BloodRevealMask": "DeerAlbedoBloodRevealMask",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        },
+        {
+          "Name": "DeerEye",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "DeerAlbedo",
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness"
+          }
+        },
+        {
+          "Name": "DeerWhiskers",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "DeerAlbedo",
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/GEO/DeerMesh_LOD2",
+      "Mesh": "DeerMesh_LOD2",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 3136,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            0,
+            1.00047,
+            -0.16497
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+          "Position": [
+            0,
+            0.99622,
+            -0.02601
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+          "Position": [
+            0,
+            0.99197,
+            0.11295
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+          "Position": [
+            0,
+            0.98772,
+            0.2519
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+          "Position": [
+            0,
+            0.98347,
+            0.39086
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+          "Position": [
+            -0,
+            0.97526,
+            0.47956
+          ],
+          "Rotation": [
+            0.56113,
+            -0.0002,
+            0.00196,
+            0.82772
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0.0014,
+            1.05245,
+            0.61353
+          ],
+          "Rotation": [
+            0.41707,
+            -0.00199,
+            0.00733,
+            0.90884
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0.00395,
+            1.17202,
+            0.7116
+          ],
+          "Rotation": [
+            0.25657,
+            -0.00332,
+            0.00713,
+            0.96649
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0.00545,
+            1.31726,
+            0.76513
+          ],
+          "Rotation": [
+            -0.00033,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            -0.54134,
+            0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt",
+          "Position": [
+            -0.06866,
+            1.40422,
+            0.75773
+          ],
+          "Rotation": [
+            0.81687,
+            -0.30196,
+            -0.07368,
+            0.48591
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_L0_0_jnt/ear_L0_1_jnt",
+          "Position": [
+            -0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            0.82589,
+            -0.19763,
+            -0.25545,
+            0.46217
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+          "Position": [
+            -0.00545,
+            1.26921,
+            0.99059
+          ],
+          "Rotation": [
+            -0.5458,
+            -0,
+            -0,
+            0.83792
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.06457,
+            1.35739,
+            0.86375
+          ],
+          "Rotation": [
+            0.05861,
+            0.54134,
+            -0.03787,
+            0.8379
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt",
+          "Position": [
+            0.06866,
+            1.40422,
+            0.75773
+          ],
+          "Rotation": [
+            -0.48591,
+            -0.07368,
+            0.30196,
+            0.81687
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/ear_R0_0_jnt/ear_R0_1_jnt",
+          "Position": [
+            0.16224,
+            1.46974,
+            0.73765
+          ],
+          "Rotation": [
+            -0.46217,
+            -0.25545,
+            0.19763,
+            0.82589
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+          "Position": [
+            -0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.80466,
+            0.54858,
+            -0.18767,
+            -0.12795
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+          "Position": [
+            -0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+          "Position": [
+            -0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+          "Position": [
+            -0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+          "Position": [
+            -0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+          "Position": [
+            -0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+          "Position": [
+            0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.12795,
+            -0.18767,
+            -0.54858,
+            0.80466
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+          "Position": [
+            0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+          "Position": [
+            0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+          "Position": [
+            0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+          "Position": [
+            0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+          "Position": [
+            0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+          "Position": [
+            -0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.55706,
+            0.40709,
+            0.56343,
+            0.45443
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+          "Position": [
+            -0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.63398,
+            0.27225,
+            0.65076,
+            0.31696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+          "Position": [
+            -0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.52765,
+            0.44455,
+            0.53074,
+            0.49222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+          "Position": [
+            -0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+          "Position": [
+            -0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.01628,
+            -0.36806
+          ],
+          "Rotation": [
+            0.64016,
+            0.30033,
+            0.64016,
+            0.30033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            -0,
+            0.92738,
+            -0.44196
+          ],
+          "Rotation": [
+            0.50815,
+            0.49172,
+            0.50815,
+            0.49172
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+          "Position": [
+            0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.56343,
+            0.45443,
+            0.55706,
+            0.40709
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+          "Position": [
+            0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.65076,
+            0.31696,
+            0.63398,
+            0.27225
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+          "Position": [
+            0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.53074,
+            0.49222,
+            0.52765,
+            0.44455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+          "Position": [
+            0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+          "Position": [
+            0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Deer",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "DeerAlbedo",
+            "_MaskMap": "DeerMask",
+            "_NormalMap": "DeerNormal",
+            "_SubsurfaceMaskMap": "DeerScattering",
+            "_ThicknessMap": "DeerThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "DeerAlbedoWetnessMask",
+            "_BloodMask": "DeerAlbedoBloodMask",
+            "_BloodRevealMask": "DeerAlbedoBloodRevealMask",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/DeerRenderRig/GEO/DeerSkinnedAHeadRemoved",
+      "Mesh": "DeerSkinnedAHeadRemoved",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 5055,
+      "SubMeshes": 2,
+      "RootBone": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+        "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt",
+          "Position": [
+            0,
+            -0,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            0,
+            1.00047,
+            -0.16497
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+          "Position": [
+            0,
+            0.99622,
+            -0.02601
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+          "Position": [
+            0,
+            0.99197,
+            0.11295
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+          "Position": [
+            0,
+            0.98772,
+            0.2519
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+          "Position": [
+            0,
+            0.98347,
+            0.39086
+          ],
+          "Rotation": [
+            0.71783,
+            0,
+            -0,
+            0.69621
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+          "Position": [
+            0,
+            0.97526,
+            0.47956
+          ],
+          "Rotation": [
+            0.56113,
+            -0.0002,
+            0.00196,
+            0.82772
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0.0014,
+            1.05245,
+            0.61353
+          ],
+          "Rotation": [
+            0.41707,
+            -0.00199,
+            0.00733,
+            0.90884
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0.00395,
+            1.17202,
+            0.7116
+          ],
+          "Rotation": [
+            0.25657,
+            -0.00332,
+            0.00713,
+            0.96649
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0.00545,
+            1.31726,
+            0.76513
+          ],
+          "Rotation": [
+            -0.00033,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+          "Position": [
+            -0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.80466,
+            0.54858,
+            -0.18767,
+            -0.12795
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+          "Position": [
+            -0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+          "Position": [
+            -0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+          "Position": [
+            -0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+          "Position": [
+            -0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+          "Position": [
+            -0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+          "Position": [
+            0.06407,
+            0.99675,
+            0.40816
+          ],
+          "Rotation": [
+            0.12795,
+            -0.18767,
+            -0.54858,
+            0.80466
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+          "Position": [
+            0.11179,
+            0.86068,
+            0.43152
+          ],
+          "Rotation": [
+            -0.40218,
+            -0.5816,
+            0.40218,
+            0.5816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+          "Position": [
+            0.11179,
+            0.69825,
+            0.37043
+          ],
+          "Rotation": [
+            -0.52967,
+            -0.46845,
+            0.52967,
+            0.46845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+          "Position": [
+            0.11179,
+            0.42307,
+            0.40439
+          ],
+          "Rotation": [
+            -0.45145,
+            -0.54424,
+            0.45145,
+            0.54424
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+          "Position": [
+            0.11179,
+            0.23259,
+            0.36844
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.54441,
+            0.45125,
+            0.54441
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+          "Position": [
+            0.11179,
+            0.15087,
+            0.35301
+          ],
+          "Rotation": [
+            -0.45125,
+            -0.5444,
+            0.45125,
+            0.5444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+          "Position": [
+            -0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.55706,
+            0.40709,
+            0.56343,
+            0.45443
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+          "Position": [
+            -0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.63398,
+            0.27225,
+            0.65076,
+            0.31696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+          "Position": [
+            -0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.52765,
+            0.44455,
+            0.53074,
+            0.49222
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+          "Position": [
+            -0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+          "Position": [
+            -0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.52736,
+            0.4449,
+            0.53041,
+            0.49257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.01628,
+            -0.36806
+          ],
+          "Rotation": [
+            0.64016,
+            0.30033,
+            0.64016,
+            0.30033
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            -0,
+            0.92738,
+            -0.44196
+          ],
+          "Rotation": [
+            0.50815,
+            0.49172,
+            0.50815,
+            0.49172
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+          "Position": [
+            0.08398,
+            0.9945,
+            -0.17048
+          ],
+          "Rotation": [
+            0.56343,
+            0.45443,
+            0.55706,
+            0.40709
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+          "Position": [
+            0.09509,
+            0.67538,
+            -0.25583
+          ],
+          "Rotation": [
+            0.65076,
+            0.31696,
+            0.63398,
+            0.27225
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+          "Position": [
+            0.09636,
+            0.4732,
+            -0.42993
+          ],
+          "Rotation": [
+            0.53074,
+            0.49222,
+            0.52765,
+            0.44455
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+          "Position": [
+            0.10583,
+            0.24679,
+            -0.45759
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        },
+        {
+          "Bone": "VisualRoot/DeerRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+          "Position": [
+            0.10989,
+            0.14965,
+            -0.46946
+          ],
+          "Rotation": [
+            0.53041,
+            0.49257,
+            0.52736,
+            0.4449
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DefaultHDMaterial",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MaskMap": "DefaultMaskMap",
+            "_NormalMap": "DefaultNormalMap"
+          }
+        },
+        {
+          "Name": "DefaultHDMaterial",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MaskMap": "DefaultMaskMap",
+            "_NormalMap": "DefaultNormalMap"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": [
+    "GrassPusher mesh=Sphere"
+  ]
+}

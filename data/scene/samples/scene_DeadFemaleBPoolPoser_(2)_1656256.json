@@ -1,0 +1,3343 @@
+{
+  "Name": "DeadFemaleBPoolPoser (2)_1656256",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "CaveAInternal-Local/SetDressingBlockOut/DeadFemaleBPoolPoser (2)",
+  "Active": false,
+  "RigFamily": "19b9a8ac",
+  "PlayerNameMatch": "0/87 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "DeadFemaleBPoolPoser (2)",
+      "Enabled": false,
+      "Controller": "",
+      "Avatar": "DeadFemaleRenderRigAvatar",
+      "IsHuman": true,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {
+        "Hips": "C1:c_hip_SC",
+        "LeftUpperLeg": "C1:L_leg0_SC",
+        "RightUpperLeg": "C1:R_leg0_SC",
+        "LeftLowerLeg": "C1:L_leg1_SC",
+        "RightLowerLeg": "C1:R_leg1_SC",
+        "LeftFoot": "C1:L_foot00_SC",
+        "RightFoot": "C1:R_foot00_SC",
+        "Spine": "C1:C_spine0_SC",
+        "Chest": "C1:C_spine1_SC",
+        "Neck": "C1:C_neck0_SC",
+        "Head": "C1:C_head0_SC",
+        "LeftUpperArm": "C1:L_arm0_SC",
+        "RightUpperArm": "C1:R_arm0_SC",
+        "LeftLowerArm": "C1:L_arm1_SC",
+        "RightLowerArm": "C1:R_arm1_SC",
+        "LeftHand": "C1:L_hand00_SC",
+        "RightHand": "C1:R_hand00_SC",
+        "LeftToes": "C1:L_foot01_SC",
+        "RightToes": "C1:R_foot01_SC",
+        "LeftEye": "C1:l_eye1_SC",
+        "RightEye": "C1:r_eye1_SC",
+        "Jaw": "C1:c_jaw_SC",
+        "Left Thumb Proximal": "C1:l_handAThumbA0_SC",
+        "Left Thumb Intermediate": "C1:l_handAThumbA1_SC",
+        "Left Thumb Distal": "C1:l_handAThumbA2_SC",
+        "Left Ring Proximal": "C1:l_handAFingerCPrnt0_SC",
+        "Left Ring Intermediate": "C1:l_handAFingerC0_SC",
+        "Left Ring Distal": "C1:l_handAFingerC1_SC",
+        "Left Little Proximal": "C1:l_handAFingerDPrnt0_SC",
+        "Left Little Intermediate": "C1:l_handAFingerD0_SC",
+        "Left Little Distal": "C1:l_handAFingerD1_SC",
+        "Right Thumb Proximal": "C1:r_handAThumbA0_SC",
+        "Right Thumb Intermediate": "C1:r_handAThumbA1_SC",
+        "Right Thumb Distal": "C1:r_handAThumbA2_SC",
+        "Right Ring Proximal": "C1:r_handAFingerCPrnt0_SC",
+        "Right Ring Intermediate": "C1:r_handAFingerC0_SC",
+        "Right Ring Distal": "C1:r_handAFingerC1_SC",
+        "Right Little Proximal": "C1:r_handAFingerDPrnt0_SC",
+        "Right Little Intermediate": "C1:r_handAFingerD0_SC",
+        "Right Little Distal": "C1:r_handAFingerD1_SC",
+        "UpperChest": "C1:C_spine2_SC",
+        "Left Middle Intermediate": "C1:l_handAFingerB0_SC",
+        "Left Middle Distal": "C1:l_handAFingerB2_SC",
+        "Left Index Intermediate": "C1:l_handAFingerA0_SC",
+        "Left Index Distal": "C1:l_handAFingerA1_SC",
+        "Right Index Intermediate": "C1:r_handAFingerA0_SC",
+        "Right Index Distal": "C1:r_handAFingerA1_SC",
+        "Right Middle Intermediate": "C1:r_handAFingerB0_SC",
+        "Right Middle Distal": "C1:r_handAFingerB1_SC"
+      },
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "DeadFemaleBPoolPoser (2)",
+      "Parent": "",
+      "LocalPosition": [
+        -431.613,
+        12.187,
+        1452.13
+      ],
+      "LocalRotation": [
+        -0.6981,
+        0.11995,
+        0.10581,
+        0.69791
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC",
+      "Parent": "DeadFemaleBPoolPoser (2)",
+      "LocalPosition": [
+        -0,
+        0,
+        -0.08209
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC",
+      "Parent": "C1:c_root_SC",
+      "LocalPosition": [
+        0.004,
+        0.988,
+        0.08
+      ],
+      "LocalRotation": [
+        -0.01452,
+        -0.07199,
+        -0.19715,
+        0.97762
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC",
+      "LocalPosition": [
+        -0,
+        0.08155,
+        0
+      ],
+      "LocalRotation": [
+        0.50042,
+        -0.48575,
+        -0.5828,
+        0.4171
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_belly_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC",
+      "LocalPosition": [
+        0.01711,
+        0.16057,
+        0
+      ],
+      "LocalRotation": [
+        0.54317,
+        -0.45273,
+        -0.54317,
+        -0.45273
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC",
+      "LocalPosition": [
+        -0.08022,
+        -0.01469,
+        -0
+      ],
+      "LocalRotation": [
+        -0.02397,
+        -0.00031,
+        -0.14839,
+        0.98864
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC",
+      "LocalPosition": [
+        -0.16308,
+        0.00271,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00325,
+        -0.02581,
+        0.18669,
+        0.98207
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC",
+      "LocalPosition": [
+        -0.12105,
+        0.00791,
+        -0
+      ],
+      "LocalRotation": [
+        -0.02712,
+        -0.08792,
+        -0.04875,
+        0.99456
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC",
+      "LocalPosition": [
+        -0.0654,
+        -0.0103,
+        0.0105
+      ],
+      "LocalRotation": [
+        0.10216,
+        0.10023,
+        0.26676,
+        0.95308
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC",
+      "LocalPosition": [
+        -0.07284,
+        0.01088,
+        -0
+      ],
+      "LocalRotation": [
+        0.54159,
+        -0.45462,
+        -0.54159,
+        -0.45462
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "LocalPosition": [
+        -0.00011,
+        -0.03438,
+        0.0189
+      ],
+      "LocalRotation": [
+        0.12793,
+        0,
+        -0,
+        0.99178
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC/C1:C_throatSlope00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC",
+      "LocalPosition": [
+        -0,
+        -0.04084,
+        0.05596
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_eye1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "LocalPosition": [
+        -0.03961,
+        0.03868,
+        0.09569
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_lwrEyeLid_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "LocalPosition": [
+        -0.03948,
+        0.04982,
+        0.08392
+      ],
+      "LocalRotation": [
+        0.23778,
+        -0.03722,
+        0.00967,
+        0.97056
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_uprEyeLid_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "LocalPosition": [
+        -0.03929,
+        0.03882,
+        0.08841
+      ],
+      "LocalRotation": [
+        0.23778,
+        -0.03722,
+        0.00967,
+        0.97056
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_eye1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "LocalPosition": [
+        0.02463,
+        0.03868,
+        0.09654
+      ],
+      "LocalRotation": [
+        -0.00018,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_lwrEyeLid_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "LocalPosition": [
+        0.02411,
+        0.0498,
+        0.08387
+      ],
+      "LocalRotation": [
+        0.20875,
+        0.14471,
+        -0.01213,
+        0.96713
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_uprEyeLid_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+      "LocalPosition": [
+        0.02404,
+        0.03735,
+        0.08324
+      ],
+      "LocalRotation": [
+        0.20875,
+        0.14471,
+        -0.01213,
+        0.96713
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC",
+      "LocalPosition": [
+        -0,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.46096,
+        0.53621,
+        0.46096,
+        0.53621
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC",
+      "LocalPosition": [
+        -0.01112,
+        0.14136,
+        0.00126
+      ],
+      "LocalRotation": [
+        -0.09593,
+        -0.04706,
+        0.02062,
+        0.99406
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC",
+      "LocalPosition": [
+        -0.139,
+        -0.015,
+        0.014
+      ],
+      "LocalRotation": [
+        -0.10165,
+        0.132,
+        0.0206,
+        0.98581
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC",
+      "LocalPosition": [
+        -0.23898,
+        0.00582,
+        -0.01043
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.10702,
+        0.99426
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC",
+      "LocalPosition": [
+        -0.15006,
+        0.0244,
+        0.02051
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC",
+      "LocalPosition": [
+        -0,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.80269,
+        -0.0617,
+        0.00882,
+        0.59314
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC",
+      "LocalPosition": [
+        -0.07694,
+        0.01491,
+        -0.01055
+      ],
+      "LocalRotation": [
+        0.01025,
+        0.00584,
+        0.27992,
+        0.95995
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+      "LocalPosition": [
+        -0.08853,
+        0.05067,
+        0.01266
+      ],
+      "LocalRotation": [
+        0.04351,
+        0.05415,
+        -0.07146,
+        0.99502
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC/C1:l_handAFingerA1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC",
+      "LocalPosition": [
+        -0.03561,
+        0.00182,
+        -0.00786
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.24866,
+        0.96859
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC/C1:l_handAFingerA1_SC/C1:l_handAFingerA2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC/C1:l_handAFingerA1_SC",
+      "LocalPosition": [
+        -0.02135,
+        -0.00401,
+        -0.00356
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+      "LocalPosition": [
+        -0.08442,
+        0.04508,
+        -0.00999
+      ],
+      "LocalRotation": [
+        -0.05732,
+        0.01405,
+        0.13878,
+        0.98856
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC/C1:l_handAFingerB1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC",
+      "LocalPosition": [
+        -0.03783,
+        0.00242,
+        -0.00254
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.04131,
+        0.99915
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC/C1:l_handAFingerB1_SC/C1:l_handAFingerB2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC/C1:l_handAFingerB1_SC",
+      "LocalPosition": [
+        -0.02498,
+        -0.00647,
+        0.00011
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+      "LocalPosition": [
+        -0.02103,
+        0.01131,
+        -0.00979
+      ],
+      "LocalRotation": [
+        0.00188,
+        0.00169,
+        -0.18044,
+        0.98358
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC",
+      "LocalPosition": [
+        -0.06663,
+        -0.0008,
+        -0.01499
+      ],
+      "LocalRotation": [
+        -0.15896,
+        -0.06057,
+        0.34039,
+        0.92477
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC/C1:l_handAFingerC1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC",
+      "LocalPosition": [
+        -0.03315,
+        -0.00107,
+        0.001
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.06209,
+        0.99807
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC/C1:l_handAFingerC1_SC/C1:l_handAFingerC2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC/C1:l_handAFingerC1_SC",
+      "LocalPosition": [
+        -0.02184,
+        -0.01034,
+        0.00399
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+      "LocalPosition": [
+        -0.02195,
+        0.00395,
+        -0.02781
+      ],
+      "LocalRotation": [
+        -0.13997,
+        -0.11986,
+        -0.15343,
+        0.97083
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC",
+      "LocalPosition": [
+        -0.05882,
+        -0.00131,
+        0.0054
+      ],
+      "LocalRotation": [
+        -0.04164,
+        0.00063,
+        0.36818,
+        0.92882
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC/C1:l_handAFingerD1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC",
+      "LocalPosition": [
+        -0.02354,
+        -0.0081,
+        0.00357
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.03878,
+        0.99925
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC/C1:l_handAFingerD1_SC/C1:l_handAFingerD2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC/C1:l_handAFingerD1_SC",
+      "LocalPosition": [
+        -0.01642,
+        -0.0066,
+        0.00424
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+      "LocalPosition": [
+        -0.02635,
+        0.01372,
+        0.0226
+      ],
+      "LocalRotation": [
+        0.45045,
+        0.28535,
+        -0.11829,
+        0.83767
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC/C1:l_handAThumbA1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC",
+      "LocalPosition": [
+        -0.03907,
+        0.00276,
+        -0.01548
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.18544,
+        0.98266
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC/C1:l_handAThumbA1_SC/C1:l_handAThumbA2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC/C1:l_handAThumbA1_SC",
+      "LocalPosition": [
+        -0.02804,
+        0.00092,
+        -0.00773
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_wristTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC",
+      "LocalPosition": [
+        -0.15006,
+        0.0244,
+        0.02051
+      ],
+      "LocalRotation": [
+        0.80521,
+        -0,
+        0,
+        0.59298
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_elbowTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC",
+      "LocalPosition": [
+        -0.23449,
+        0.00721,
+        -0.01107
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC",
+      "LocalPosition": [
+        0.01112,
+        0.14136,
+        0.00126
+      ],
+      "LocalRotation": [
+        0.03227,
+        0.9937,
+        -0.01871,
+        -0.10565
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC",
+      "LocalPosition": [
+        -0.17644,
+        -0.02517,
+        -0.02666
+      ],
+      "LocalRotation": [
+        0.6458,
+        -0.03768,
+        0.10722,
+        0.755
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC",
+      "LocalPosition": [
+        -0.23898,
+        0.00582,
+        0.01043
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.24194,
+        0.97029
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC",
+      "LocalPosition": [
+        -0.15005,
+        0.02439,
+        -0.02052
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC",
+      "LocalPosition": [
+        -0,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.80269,
+        0.0617,
+        0.00882,
+        0.59314
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC",
+      "LocalPosition": [
+        -0.07694,
+        0.01489,
+        0.01055
+      ],
+      "LocalRotation": [
+        -0.17766,
+        0.4189,
+        0.45218,
+        0.76714
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+      "LocalPosition": [
+        -0.08853,
+        0.05067,
+        -0.01266
+      ],
+      "LocalRotation": [
+        -0.04653,
+        -0.05158,
+        -0.01465,
+        0.99748
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC/C1:r_handAFingerA1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC",
+      "LocalPosition": [
+        -0.03561,
+        0.00182,
+        0.00786
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.09471,
+        0.9955
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC/C1:r_handAFingerA1_SC/C1:r_handAFingerA2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC/C1:r_handAFingerA1_SC",
+      "LocalPosition": [
+        -0.02135,
+        -0.00401,
+        0.00356
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+      "LocalPosition": [
+        -0.08442,
+        0.04508,
+        0.00999
+      ],
+      "LocalRotation": [
+        0.05881,
+        -0.00495,
+        -0.01694,
+        0.99811
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC/C1:r_handAFingerB1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC",
+      "LocalPosition": [
+        -0.03783,
+        0.00242,
+        0.00254
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.04131,
+        0.99915
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC/C1:r_handAFingerB1_SC/C1:r_handAFingerB2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC/C1:r_handAFingerB1_SC",
+      "LocalPosition": [
+        -0.02498,
+        -0.00647,
+        -0.00011
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+      "LocalPosition": [
+        -0.02103,
+        0.01131,
+        0.00979
+      ],
+      "LocalRotation": [
+        -0.00198,
+        -0.00158,
+        -0.12411,
+        0.99227
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC",
+      "LocalPosition": [
+        -0.06663,
+        -0.0008,
+        0.01499
+      ],
+      "LocalRotation": [
+        0.14757,
+        0.0846,
+        0.19215,
+        0.96651
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC/C1:r_handAFingerC1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC",
+      "LocalPosition": [
+        -0.03315,
+        -0.00107,
+        -0.001
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.06209,
+        0.99807
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC/C1:r_handAFingerC1_SC/C1:r_handAFingerC2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC/C1:r_handAFingerC1_SC",
+      "LocalPosition": [
+        -0.02184,
+        -0.01034,
+        -0.00399
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+      "LocalPosition": [
+        -0.02195,
+        0.00395,
+        0.02781
+      ],
+      "LocalRotation": [
+        0.13997,
+        0.11986,
+        -0.15343,
+        0.97083
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC",
+      "LocalPosition": [
+        -0.05882,
+        -0.00131,
+        -0.0054
+      ],
+      "LocalRotation": [
+        0.04123,
+        0.00586,
+        0.21897,
+        0.97484
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC/C1:r_handAFingerD1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC",
+      "LocalPosition": [
+        -0.02354,
+        -0.0081,
+        -0.00357
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.03878,
+        0.99925
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC/C1:r_handAFingerD1_SC/C1:r_handAFingerD2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC/C1:r_handAFingerD1_SC",
+      "LocalPosition": [
+        -0.01642,
+        -0.0066,
+        -0.00424
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+      "LocalPosition": [
+        -0.02635,
+        0.01372,
+        -0.0226
+      ],
+      "LocalRotation": [
+        -0.46598,
+        -0.25922,
+        -0.07037,
+        0.84304
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC/C1:r_handAThumbA1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC",
+      "LocalPosition": [
+        -0.03907,
+        0.00276,
+        0.01548
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.03007,
+        0.99955
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC/C1:r_handAThumbA1_SC/C1:r_handAThumbA2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC/C1:r_handAThumbA1_SC",
+      "LocalPosition": [
+        -0.02804,
+        0.00092,
+        0.00773
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_wristTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC",
+      "LocalPosition": [
+        -0.15005,
+        0.02439,
+        -0.02052
+      ],
+      "LocalRotation": [
+        -0.80521,
+        -0,
+        0,
+        0.59298
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_elbowTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC",
+      "LocalPosition": [
+        -0.23449,
+        0.00721,
+        0.01107
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:L_breast_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC",
+      "LocalPosition": [
+        0.06556,
+        0.11243,
+        0.10742
+      ],
+      "LocalRotation": [
+        -0.46096,
+        0.53621,
+        0.46096,
+        0.53621
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:R_breast_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC",
+      "LocalPosition": [
+        0.06556,
+        0.11243,
+        -0.10742
+      ],
+      "LocalRotation": [
+        -0.46096,
+        0.53621,
+        0.46096,
+        0.53621
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC",
+      "LocalPosition": [
+        -0.09735,
+        -0.11339,
+        -0.02608
+      ],
+      "LocalRotation": [
+        0.52314,
+        0.47775,
+        0.41299,
+        0.57229
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_kneeSlope00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC",
+      "LocalPosition": [
+        -0.38365,
+        0.00761,
+        0.00509
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC",
+      "LocalPosition": [
+        -0.39178,
+        0.00716,
+        0.00519
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.14116,
+        0.98999
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_ankleTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC",
+      "LocalPosition": [
+        -0.31927,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.09122,
+        -0,
+        -0,
+        0.99583
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC",
+      "LocalPosition": [
+        -0.39903,
+        -0.00298,
+        0.00528
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC",
+      "LocalPosition": [
+        0,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.40608,
+        -0.07913,
+        -0.29532,
+        0.86118
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC/C1:L_foot01_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC",
+      "LocalPosition": [
+        -0.12262,
+        -0.00054,
+        -0.00291
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.14594,
+        0.98929
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_thighJiggle_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC",
+      "LocalPosition": [
+        -0.20208,
+        0.04405,
+        0.01064
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:L_thighTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC",
+      "LocalPosition": [
+        -0.09735,
+        -0.11339,
+        -0.02608
+      ],
+      "LocalRotation": [
+        0.71735,
+        0.01073,
+        -0.03237,
+        0.69588
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC",
+      "LocalPosition": [
+        0.09735,
+        -0.11339,
+        -0.02608
+      ],
+      "LocalRotation": [
+        0.63687,
+        0.52898,
+        0.3102,
+        0.46728
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_kneeSlope00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC",
+      "LocalPosition": [
+        -0.38365,
+        0.00761,
+        -0.00509
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC",
+      "LocalPosition": [
+        -0.39178,
+        0.00716,
+        -0.00519
+      ],
+      "LocalRotation": [
+        -0.0579,
+        -0.01764,
+        0.15559,
+        0.98597
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_ankleTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC",
+      "LocalPosition": [
+        -0.31927,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.09122,
+        0,
+        -0,
+        0.99583
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC",
+      "LocalPosition": [
+        -0.39903,
+        -0.00298,
+        -0.00528
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.24117,
+        0.03671,
+        -0.31552,
+        0.91703
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC/C1:R_foot01_SC",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC",
+      "LocalPosition": [
+        -0.12262,
+        -0.00054,
+        0.00291
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.14594,
+        0.98929
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_thighJiggle_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC",
+      "LocalPosition": [
+        -0.20208,
+        0.04405,
+        -0.01064
+      ],
+      "LocalRotation": [
+        -0.06577,
+        -0.05678,
+        -0,
+        0.99622
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "C1:c_root_SC/C1:c_hip_SC/C1:R_thighTwist00_JNT",
+      "Parent": "C1:c_root_SC/C1:c_hip_SC",
+      "LocalPosition": [
+        0.09735,
+        -0.11339,
+        -0.02608
+      ],
+      "LocalRotation": [
+        -0.03237,
+        0.69588,
+        0.71735,
+        0.01073
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "C1:GEO/C1:DeadFemaleBodyBMesh",
+      "Mesh": "C1:DeadFemaleBodyBMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 11815,
+      "SubMeshes": 1,
+      "RootBone": "C1:c_root_SC/C1:c_hip_SC",
+      "Bones": [
+        "C1:c_root_SC/C1:c_hip_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC/C1:C_throatSlope00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC/C1:r_handAFingerC1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC/C1:r_handAFingerC1_SC/C1:r_handAFingerC2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC/C1:r_handAThumbA1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC/C1:r_handAThumbA1_SC/C1:r_handAThumbA2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC/C1:r_handAFingerD1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC/C1:r_handAFingerD1_SC/C1:r_handAFingerD2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC/C1:r_handAFingerA1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC/C1:r_handAFingerA1_SC/C1:r_handAFingerA2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC/C1:r_handAFingerB1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC/C1:r_handAFingerB1_SC/C1:r_handAFingerB2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_wristTwist00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_elbowTwist00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC/C1:l_handAFingerA1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC/C1:l_handAFingerA1_SC/C1:l_handAFingerA2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC/C1:l_handAThumbA1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC/C1:l_handAThumbA1_SC/C1:l_handAThumbA2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC/C1:l_handAFingerD1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC/C1:l_handAFingerD1_SC/C1:l_handAFingerD2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC/C1:l_handAFingerC1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC/C1:l_handAFingerC1_SC/C1:l_handAFingerC2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC/C1:l_handAFingerB1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC/C1:l_handAFingerB1_SC/C1:l_handAFingerB2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_wristTwist00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_elbowTwist00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:L_breast_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:R_breast_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_belly_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC/C1:R_foot01_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_ankleTwist00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_kneeSlope00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_thighJiggle_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC/C1:L_foot01_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_ankleTwist00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_kneeSlope00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_thighJiggle_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:L_thighTwist00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:R_thighTwist00_JNT"
+      ],
+      "BindRest": [
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC",
+          "Position": [
+            -0,
+            1.07856,
+            0.02988
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC",
+          "Position": [
+            0,
+            1.16011,
+            0.02988
+          ],
+          "Rotation": [
+            0.54317,
+            -0.45273,
+            -0.54317,
+            0.45273
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC",
+          "Position": [
+            0,
+            1.24166,
+            0.02988
+          ],
+          "Rotation": [
+            0.49583,
+            -0.50413,
+            -0.49583,
+            0.50413
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC",
+          "Position": [
+            0,
+            1.40477,
+            0.02988
+          ],
+          "Rotation": [
+            0.46096,
+            -0.53621,
+            -0.46096,
+            0.53621
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC",
+          "Position": [
+            0,
+            1.52563,
+            0.01953
+          ],
+          "Rotation": [
+            0.61369,
+            -0.35127,
+            -0.61369,
+            0.35127
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC",
+          "Position": [
+            -0,
+            1.59187,
+            0.03605
+          ],
+          "Rotation": [
+            -0.54159,
+            0.45462,
+            0.54159,
+            -0.45462
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC",
+          "Position": [
+            -0.00011,
+            1.62734,
+            0.07829
+          ],
+          "Rotation": [
+            0.18492,
+            0,
+            -0,
+            0.98275
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC/C1:C_throatSlope00_JNT",
+          "Position": [
+            -0.00011,
+            1.56895,
+            0.11557
+          ],
+          "Rotation": [
+            0.18492,
+            0,
+            -0,
+            0.98275
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC",
+          "Position": [
+            0,
+            1.40477,
+            0.02988
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC",
+          "Position": [
+            0.01112,
+            1.54613,
+            0.03114
+          ],
+          "Rotation": [
+            0.16009,
+            0.96488,
+            -0.03409,
+            -0.20547
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC",
+          "Position": [
+            0.16706,
+            1.46533,
+            -0.00923
+          ],
+          "Rotation": [
+            0.23999,
+            0.66724,
+            -0.65321,
+            -0.26553
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC",
+          "Position": [
+            0.33768,
+            1.29831,
+            -0.02486
+          ],
+          "Rotation": [
+            -0.38633,
+            -0.59461,
+            0.69664,
+            0.10899
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC",
+          "Position": [
+            0.46059,
+            1.21529,
+            0.01431
+          ],
+          "Rotation": [
+            -0.38633,
+            -0.59461,
+            0.69664,
+            0.10899
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC",
+          "Position": [
+            0.46059,
+            1.21529,
+            0.01431
+          ],
+          "Rotation": [
+            0.36486,
+            0.90174,
+            0.08696,
+            0.21491
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC",
+          "Position": [
+            0.52394,
+            1.17249,
+            0.0345
+          ],
+          "Rotation": [
+            0.47325,
+            0.84666,
+            0.11871,
+            0.21238
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC",
+          "Position": [
+            0.54676,
+            1.1605,
+            0.03562
+          ],
+          "Rotation": [
+            0.31251,
+            0.91757,
+            0.07923,
+            0.23263
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC",
+          "Position": [
+            0.59988,
+            1.1192,
+            0.04735
+          ],
+          "Rotation": [
+            0.50598,
+            0.85817,
+            0.01231,
+            0.08588
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC/C1:r_handAFingerC1_SC",
+          "Position": [
+            0.61448,
+            1.08988,
+            0.05269
+          ],
+          "Rotation": [
+            0.55829,
+            0.8251,
+            0.01762,
+            0.08495
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerCPrnt0_SC/C1:r_handAFingerC0_SC/C1:r_handAFingerC1_SC/C1:r_handAFingerC2_SC",
+          "Position": [
+            0.61225,
+            1.06607,
+            0.05797
+          ],
+          "Rotation": [
+            0.55829,
+            0.8251,
+            0.01762,
+            0.08495
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC",
+          "Position": [
+            0.53574,
+            1.15723,
+            0.06646
+          ],
+          "Rotation": [
+            0.23449,
+            0.65112,
+            0.32066,
+            0.64671
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC/C1:r_handAThumbA1_SC",
+          "Position": [
+            0.5529,
+            1.13276,
+            0.09612
+          ],
+          "Rotation": [
+            0.25396,
+            0.64378,
+            0.33996,
+            0.63677
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAThumbA0_SC/C1:r_handAThumbA1_SC/C1:r_handAThumbA2_SC",
+          "Position": [
+            0.56216,
+            1.11292,
+            0.1153
+          ],
+          "Rotation": [
+            0.25396,
+            0.64378,
+            0.33996,
+            0.63677
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC",
+          "Position": [
+            0.55017,
+            1.15587,
+            0.017
+          ],
+          "Rotation": [
+            0.34504,
+            0.93664,
+            0.02088,
+            0.05668
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC",
+          "Position": [
+            0.59311,
+            1.11672,
+            0.02766
+          ],
+          "Rotation": [
+            0.54367,
+            0.83872,
+            -0.00383,
+            0.03096
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC/C1:r_handAFingerD1_SC",
+          "Position": [
+            0.59513,
+            1.09208,
+            0.03232
+          ],
+          "Rotation": [
+            0.57578,
+            0.81701,
+            -0.00263,
+            0.03108
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerDPrnt0_SC/C1:r_handAFingerD0_SC/C1:r_handAFingerD1_SC/C1:r_handAFingerD2_SC",
+          "Position": [
+            0.59421,
+            1.07459,
+            0.03723
+          ],
+          "Rotation": [
+            0.57578,
+            0.81701,
+            -0.00263,
+            0.03108
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC",
+          "Position": [
+            0.5969,
+            1.12363,
+            0.08792
+          ],
+          "Rotation": [
+            0.40758,
+            0.8596,
+            0.11416,
+            0.28624
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC/C1:r_handAFingerA1_SC",
+          "Position": [
+            0.6206,
+            1.09723,
+            0.09655
+          ],
+          "Rotation": [
+            0.48716,
+            0.81713,
+            0.14075,
+            0.27414
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerA0_SC/C1:r_handAFingerA1_SC/C1:r_handAFingerA2_SC",
+          "Position": [
+            0.62781,
+            1.07651,
+            0.09831
+          ],
+          "Rotation": [
+            0.48716,
+            0.81713,
+            0.14075,
+            0.27414
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC",
+          "Position": [
+            0.6015,
+            1.1242,
+            0.06469
+          ],
+          "Rotation": [
+            0.47109,
+            0.85901,
+            0.06276,
+            0.19034
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC/C1:r_handAFingerB1_SC",
+          "Position": [
+            0.62267,
+            1.09382,
+            0.07319
+          ],
+          "Rotation": [
+            0.50618,
+            0.83882,
+            0.07057,
+            0.18759
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/C1:R_hand00_SC/C1:R_hand01_SC/C1:r_handAFingerB0_SC/C1:r_handAFingerB1_SC/C1:r_handAFingerB2_SC",
+          "Position": [
+            0.62773,
+            1.06886,
+            0.07737
+          ],
+          "Rotation": [
+            0.50618,
+            0.83882,
+            0.07057,
+            0.18759
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_wristTwist00_JNT",
+          "Position": [
+            0.46059,
+            1.21529,
+            0.01431
+          ],
+          "Rotation": [
+            0.31685,
+            0.91354,
+            0.06569,
+            0.24645
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_elbowTwist00_JNT",
+          "Position": [
+            0.33388,
+            1.30088,
+            -0.02607
+          ],
+          "Rotation": [
+            0.23999,
+            0.66724,
+            -0.65321,
+            -0.26553
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC",
+          "Position": [
+            -0.01112,
+            1.54613,
+            0.03114
+          ],
+          "Rotation": [
+            -0.03409,
+            -0.20547,
+            0.16009,
+            0.96488
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC",
+          "Position": [
+            -0.16706,
+            1.46533,
+            -0.00923
+          ],
+          "Rotation": [
+            -0.65321,
+            -0.26553,
+            0.23999,
+            0.66724
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC",
+          "Position": [
+            -0.33768,
+            1.29831,
+            -0.02486
+          ],
+          "Rotation": [
+            -0.69664,
+            -0.10899,
+            0.38633,
+            0.59461
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC",
+          "Position": [
+            -0.46058,
+            1.21528,
+            0.01431
+          ],
+          "Rotation": [
+            -0.69664,
+            -0.10899,
+            0.38633,
+            0.59461
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC",
+          "Position": [
+            -0.46058,
+            1.21528,
+            0.01431
+          ],
+          "Rotation": [
+            0.08696,
+            0.21491,
+            0.36486,
+            0.90174
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC",
+          "Position": [
+            -0.52394,
+            1.17249,
+            0.0345
+          ],
+          "Rotation": [
+            0.11871,
+            0.21238,
+            0.47325,
+            0.84666
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC",
+          "Position": [
+            -0.5969,
+            1.12363,
+            0.08792
+          ],
+          "Rotation": [
+            0.11416,
+            0.28624,
+            0.40758,
+            0.8596
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC/C1:l_handAFingerA1_SC",
+          "Position": [
+            -0.6206,
+            1.09723,
+            0.09655
+          ],
+          "Rotation": [
+            0.14075,
+            0.27414,
+            0.48716,
+            0.81713
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerA0_SC/C1:l_handAFingerA1_SC/C1:l_handAFingerA2_SC",
+          "Position": [
+            -0.62781,
+            1.07651,
+            0.09831
+          ],
+          "Rotation": [
+            0.14075,
+            0.27414,
+            0.48716,
+            0.81713
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC",
+          "Position": [
+            -0.53574,
+            1.15723,
+            0.06646
+          ],
+          "Rotation": [
+            0.32065,
+            0.64671,
+            0.23449,
+            0.65113
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC/C1:l_handAThumbA1_SC",
+          "Position": [
+            -0.5529,
+            1.13276,
+            0.09612
+          ],
+          "Rotation": [
+            0.33995,
+            0.63677,
+            0.25396,
+            0.64378
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAThumbA0_SC/C1:l_handAThumbA1_SC/C1:l_handAThumbA2_SC",
+          "Position": [
+            -0.56216,
+            1.11293,
+            0.1153
+          ],
+          "Rotation": [
+            0.33995,
+            0.63677,
+            0.25396,
+            0.64378
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC",
+          "Position": [
+            -0.55017,
+            1.15587,
+            0.017
+          ],
+          "Rotation": [
+            0.02088,
+            0.05668,
+            0.34504,
+            0.93664
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC",
+          "Position": [
+            -0.59311,
+            1.11672,
+            0.02766
+          ],
+          "Rotation": [
+            -0.00383,
+            0.03096,
+            0.54367,
+            0.83872
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC/C1:l_handAFingerD1_SC",
+          "Position": [
+            -0.59513,
+            1.09208,
+            0.03232
+          ],
+          "Rotation": [
+            -0.00263,
+            0.03108,
+            0.57578,
+            0.81701
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerDPrnt0_SC/C1:l_handAFingerD0_SC/C1:l_handAFingerD1_SC/C1:l_handAFingerD2_SC",
+          "Position": [
+            -0.59421,
+            1.07459,
+            0.03723
+          ],
+          "Rotation": [
+            -0.00263,
+            0.03108,
+            0.57578,
+            0.81701
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC",
+          "Position": [
+            -0.54676,
+            1.1605,
+            0.03562
+          ],
+          "Rotation": [
+            0.07923,
+            0.23263,
+            0.31251,
+            0.91757
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC",
+          "Position": [
+            -0.59988,
+            1.1192,
+            0.04735
+          ],
+          "Rotation": [
+            0.01231,
+            0.08588,
+            0.50598,
+            0.85817
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC/C1:l_handAFingerC1_SC",
+          "Position": [
+            -0.61448,
+            1.08988,
+            0.05269
+          ],
+          "Rotation": [
+            0.01761,
+            0.08495,
+            0.55829,
+            0.8251
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerCPrnt0_SC/C1:l_handAFingerC0_SC/C1:l_handAFingerC1_SC/C1:l_handAFingerC2_SC",
+          "Position": [
+            -0.61225,
+            1.06607,
+            0.05797
+          ],
+          "Rotation": [
+            0.01761,
+            0.08495,
+            0.55829,
+            0.8251
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC",
+          "Position": [
+            -0.6015,
+            1.1242,
+            0.06469
+          ],
+          "Rotation": [
+            0.06275,
+            0.19034,
+            0.47109,
+            0.85901
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC/C1:l_handAFingerB1_SC",
+          "Position": [
+            -0.62267,
+            1.09382,
+            0.07319
+          ],
+          "Rotation": [
+            0.07056,
+            0.18759,
+            0.50618,
+            0.83882
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_arm2_SC/C1:L_hand00_SC/C1:L_hand01_SC/C1:l_handAFingerB0_SC/C1:l_handAFingerB1_SC/C1:l_handAFingerB2_SC",
+          "Position": [
+            -0.62773,
+            1.06886,
+            0.07737
+          ],
+          "Rotation": [
+            0.07056,
+            0.18759,
+            0.50618,
+            0.83882
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/C1:L_wristTwist00_JNT",
+          "Position": [
+            -0.46058,
+            1.21528,
+            0.01431
+          ],
+          "Rotation": [
+            0.06569,
+            0.24645,
+            0.31685,
+            0.91354
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_elbowTwist00_JNT",
+          "Position": [
+            -0.33388,
+            1.30088,
+            -0.02607
+          ],
+          "Rotation": [
+            -0.65321,
+            -0.26553,
+            0.23999,
+            0.66724
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:L_breast_JNT",
+          "Position": [
+            -0.10742,
+            1.35682,
+            0.15088
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:R_breast_JNT",
+          "Position": [
+            0.10742,
+            1.35682,
+            0.15088
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_belly_JNT",
+          "Position": [
+            0,
+            1.11435,
+            0.18474
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC",
+          "Position": [
+            0.09735,
+            0.96516,
+            0.0038
+          ],
+          "Rotation": [
+            0.50857,
+            0.52287,
+            0.50497,
+            0.46148
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC",
+          "Position": [
+            0.1149,
+            0.5737,
+            -0.00088
+          ],
+          "Rotation": [
+            0.5209,
+            0.51059,
+            0.51584,
+            0.4493
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC",
+          "Position": [
+            0.13082,
+            0.1764,
+            -0.03487
+          ],
+          "Rotation": [
+            0.5209,
+            0.51059,
+            0.51584,
+            0.4493
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC",
+          "Position": [
+            0.13082,
+            0.1764,
+            -0.03487
+          ],
+          "Rotation": [
+            0.19613,
+            0.76545,
+            0.15213,
+            0.5937
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC/C1:R_foot01_SC",
+          "Position": [
+            0.16032,
+            0.11696,
+            0.06829
+          ],
+          "Rotation": [
+            0.08233,
+            0.78587,
+            0.06385,
+            0.60955
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_ankleTwist00_JNT",
+          "Position": [
+            0.13201,
+            0.25588,
+            -0.02597
+          ],
+          "Rotation": [
+            0.55972,
+            0.55552,
+            0.46711,
+            0.39991
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_kneeSlope00_JNT",
+          "Position": [
+            0.11457,
+            0.58181,
+            -0.00019
+          ],
+          "Rotation": [
+            0.50857,
+            0.52287,
+            0.50497,
+            0.46148
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_thighJiggle_JNT",
+          "Position": [
+            0.10112,
+            0.76169,
+            0.04214
+          ],
+          "Rotation": [
+            0.50497,
+            0.46148,
+            0.50857,
+            0.52287
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC",
+          "Position": [
+            -0.09735,
+            0.96516,
+            0.0038
+          ],
+          "Rotation": [
+            0.50497,
+            0.46148,
+            0.50857,
+            0.52287
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC",
+          "Position": [
+            -0.1149,
+            0.5737,
+            -0.00088
+          ],
+          "Rotation": [
+            0.51584,
+            0.4493,
+            0.5209,
+            0.51059
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC",
+          "Position": [
+            -0.13082,
+            0.1764,
+            -0.03487
+          ],
+          "Rotation": [
+            0.51584,
+            0.4493,
+            0.5209,
+            0.51059
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC",
+          "Position": [
+            -0.13082,
+            0.1764,
+            -0.03487
+          ],
+          "Rotation": [
+            0.15213,
+            0.5937,
+            0.19613,
+            0.76545
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC/C1:L_foot01_SC",
+          "Position": [
+            -0.16032,
+            0.11696,
+            0.06829
+          ],
+          "Rotation": [
+            0.06385,
+            0.60955,
+            0.08233,
+            0.78587
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_ankleTwist00_JNT",
+          "Position": [
+            -0.13201,
+            0.25588,
+            -0.02597
+          ],
+          "Rotation": [
+            0.46711,
+            0.39991,
+            0.55972,
+            0.55552
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_kneeSlope00_JNT",
+          "Position": [
+            -0.11457,
+            0.58181,
+            -0.00019
+          ],
+          "Rotation": [
+            0.50497,
+            0.46148,
+            0.50857,
+            0.52287
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_thighJiggle_JNT",
+          "Position": [
+            -0.10112,
+            0.76169,
+            0.04214
+          ],
+          "Rotation": [
+            0.50497,
+            0.46148,
+            0.50857,
+            0.52287
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:L_thighTwist00_JNT",
+          "Position": [
+            -0.09735,
+            0.96517,
+            0.0038
+          ],
+          "Rotation": [
+            0.71735,
+            0.01073,
+            -0.03237,
+            0.69588
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:R_thighTwist00_JNT",
+          "Position": [
+            0.09735,
+            0.96516,
+            0.0038
+          ],
+          "Rotation": [
+            -0.03237,
+            0.69588,
+            0.71735,
+            0.01073
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DeadFemaleBodyB",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "DeadFemaleBodyBBaseMap",
+            "_BaseColorMap": "DeadFemaleBodyBBaseMap",
+            "_MaskMap": "DeadFemaleBodyBMaskMap",
+            "_NormalMap": "DeadFemaleBodyBNormal",
+            "_SubsurfaceMaskMap": "DeadFemaleBodyBScattering",
+            "_ThicknessMap": "DeadFemaleBodyBThickness"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "C1:GEO/C1:DeadFemaleHeadBMesh",
+      "Mesh": "C1:DeadFemaleHeadBMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 2047,
+      "SubMeshes": 1,
+      "RootBone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC",
+      "Bones": [
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_eye1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_eye1_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC/C1:C_throatSlope00_JNT",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_lwrEyeLid_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_uprEyeLid_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_uprEyeLid_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_lwrEyeLid_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC",
+        "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC",
+          "Position": [
+            0,
+            1.52563,
+            0.01953
+          ],
+          "Rotation": [
+            0.61369,
+            -0.35127,
+            -0.61369,
+            0.35127
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC",
+          "Position": [
+            -0,
+            1.59187,
+            0.03605
+          ],
+          "Rotation": [
+            -0.54159,
+            0.45462,
+            0.54159,
+            -0.45462
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC",
+          "Position": [
+            0,
+            1.66172,
+            0.05939
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_eye1_SC",
+          "Position": [
+            -0.03961,
+            1.7004,
+            0.15507
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_eye1_SC",
+          "Position": [
+            0.02463,
+            1.7004,
+            0.15593
+          ],
+          "Rotation": [
+            -0.00018,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC",
+          "Position": [
+            -0.00011,
+            1.62734,
+            0.07829
+          ],
+          "Rotation": [
+            0.18492,
+            0,
+            -0,
+            0.98275
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:c_jaw_SC/C1:C_throatSlope00_JNT",
+          "Position": [
+            -0.00011,
+            1.56895,
+            0.11557
+          ],
+          "Rotation": [
+            0.18492,
+            0,
+            -0,
+            0.98275
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_lwrEyeLid_SC",
+          "Position": [
+            0.02411,
+            1.71152,
+            0.14326
+          ],
+          "Rotation": [
+            0.20875,
+            0.14471,
+            -0.01213,
+            0.96713
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_uprEyeLid_SC",
+          "Position": [
+            -0.03929,
+            1.70054,
+            0.1478
+          ],
+          "Rotation": [
+            0.23778,
+            -0.03722,
+            0.00967,
+            0.97056
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:r_uprEyeLid_SC",
+          "Position": [
+            0.02404,
+            1.69907,
+            0.14263
+          ],
+          "Rotation": [
+            0.20875,
+            0.14471,
+            -0.01213,
+            0.96713
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/C1:l_lwrEyeLid_SC",
+          "Position": [
+            -0.03948,
+            1.71154,
+            0.14331
+          ],
+          "Rotation": [
+            0.23778,
+            -0.03722,
+            0.00967,
+            0.97056
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC",
+          "Position": [
+            0,
+            1.40477,
+            0.02988
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC",
+          "Position": [
+            0.01112,
+            1.54613,
+            0.03114
+          ],
+          "Rotation": [
+            0.16009,
+            0.96488,
+            -0.03409,
+            -0.20547
+          ]
+        },
+        {
+          "Bone": "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC",
+          "Position": [
+            -0.01112,
+            1.54613,
+            0.03114
+          ],
+          "Rotation": [
+            -0.03409,
+            -0.20547,
+            0.16009,
+            0.96488
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "DeadFemaleHeadB",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "DeadFemaleHeadBBaseMap",
+            "_BaseColorMap": "DeadFemaleHeadBBaseMap",
+            "_MaskMap": "DeadFemaleHeadBMaskMap",
+            "_NormalMap": "DeadFemaleHeadBNormal",
+            "_SubsurfaceMaskMap": "DeadFemaleHeadBScattering",
+            "_ThicknessMap": "DeadFemaleHeadBThickness"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": [
+    "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:C_neck0_SC/C1:C_neck1_SC/C1:C_head0_SC/HeadCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/C1:L_arm1_SC/LForearmCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:L_armPrnt0_SC/C1:L_arm0_SC/LArmCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/C1:R_arm1_SC/C1:R_arm2_SC/RForearmCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/C1:C_spine2_SC/C1:c_shoulder_SC/C1:R_armPrnt0_SC/C1:R_arm0_SC/RArmCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:C_spine0_SC/C1:C_spine1_SC/BodyCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/C1:L_leg2_SC/C1:L_foot00_SC/C1:L_foot01_SC/LFootCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/C1:L_leg1_SC/LLowerLegCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:L_leg0_SC/LLegCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/C1:R_leg2_SC/C1:R_foot00_SC/C1:R_foot01_SC/RFootCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/C1:R_leg1_SC/RLowerLegCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/C1:R_leg0_SC/RLegCollision mesh=Cube",
+    "C1:c_root_SC/C1:c_hip_SC/HipsCollision mesh=Cube"
+  ]
+}

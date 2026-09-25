@@ -1,0 +1,2821 @@
+{
+  "Name": "KillerWhale",
+  "Source": "actorPrefab",
+  "ActorType": "KillerWhale",
+  "Path": "KillerWhaleActor",
+  "Active": false,
+  "RigFamily": "944e4665",
+  "PlayerNameMatch": "0/42 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig",
+      "Enabled": true,
+      "Controller": "KillerWhaleController",
+      "Avatar": "KillerWhaleRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "KillerWhaleActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "KillerWhaleActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        1.54153,
+        0.09129
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.70669,
+        0.02419,
+        -0.70669,
+        -0.02419
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt",
+      "LocalPosition": [
+        -0.77772,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.05683,
+        0.99838
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+      "LocalPosition": [
+        0.05259,
+        1.09309,
+        1.17104
+      ],
+      "LocalRotation": [
+        -0.16214,
+        0.71803,
+        -0.03906,
+        0.67573
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+      "LocalPosition": [
+        -0.81254,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.00061,
+        0.04059,
+        -0.01275,
+        0.99909
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+      "LocalPosition": [
+        -1.10687,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00741,
+        0.06716,
+        0.03832,
+        0.99698
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+      "LocalPosition": [
+        -0.34011,
+        0.01446,
+        0.11216
+      ],
+      "LocalRotation": [
+        0.03451,
+        0.49464,
+        0.06411,
+        0.86604
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt/flipperOuter_L0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+      "LocalPosition": [
+        -0.49881,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        1E-05,
+        -0.00055,
+        0.0208,
+        0.99978
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+      "LocalPosition": [
+        -0.54164,
+        0.00628,
+        0.13927
+      ],
+      "LocalRotation": [
+        -0.02162,
+        0.6319,
+        0.11778,
+        0.76575
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt/flipperInner_L0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+      "LocalPosition": [
+        -0.51073,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+      "LocalPosition": [
+        -0.15374,
+        1.08988,
+        -0.9675
+      ],
+      "LocalRotation": [
+        0.7074,
+        0.15465,
+        -0.68905,
+        -0.02959
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+      "LocalPosition": [
+        1.0726,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00295,
+        0.08788,
+        0.02385,
+        0.99584
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+      "LocalPosition": [
+        0.58001,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.01417,
+        0.14551,
+        0.02597,
+        0.98891
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+      "LocalPosition": [
+        0,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.01783,
+        0.60647,
+        0.09909,
+        0.78871
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt/flipperInner_R0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+      "LocalPosition": [
+        0.62976,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+      "LocalPosition": [
+        0.90075,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0.06788,
+        0.49701,
+        0.04699,
+        0.86381
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt/flipperOuter_R0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+      "LocalPosition": [
+        0.49881,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        1E-05,
+        -0.00043,
+        0.01652,
+        0.99986
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+      "LocalPosition": [
+        -0.73667,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.48359,
+        0.51589,
+        0.48359,
+        0.51589
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        0.5281,
+        0.01905
+      ],
+      "LocalRotation": [
+        0.03213,
+        -0,
+        -0,
+        0.99948
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+      "LocalPosition": [
+        -0,
+        0.52848,
+        0.0075
+      ],
+      "LocalRotation": [
+        -0.8081,
+        0,
+        -0,
+        0.58905
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.01021,
+        -0,
+        -0,
+        0.99995
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.80852,
+        -0.00463,
+        0.07517
+      ],
+      "LocalRotation": [
+        0.00097,
+        -0.47444,
+        0.01022,
+        0.88023
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.80852,
+        -0.00463,
+        0.07517
+      ],
+      "LocalRotation": [
+        -0.01021,
+        0,
+        -0,
+        0.99995
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.80852,
+        -0.00463,
+        0.07517
+      ],
+      "LocalRotation": [
+        0.00097,
+        0.47444,
+        -0.01022,
+        0.88023
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.80852,
+        -0.00463,
+        0.07517
+      ],
+      "LocalRotation": [
+        -0.01021,
+        0,
+        -0,
+        0.99995
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0,
+        -0.32074,
+        -0.34242
+      ],
+      "LocalRotation": [
+        -0.01021,
+        0,
+        -0,
+        0.99995
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+      "LocalPosition": [
+        -1.45494,
+        0.00429,
+        -0.00562
+      ],
+      "LocalRotation": [
+        3E-05,
+        -0.00481,
+        -0.00305,
+        0.99998
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+      "LocalPosition": [
+        0.07573,
+        -0.00379,
+        1.3096
+      ],
+      "LocalRotation": [
+        -0.52097,
+        0.47813,
+        0.48128,
+        0.51802
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+      "LocalPosition": [
+        -0.63135,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.02564,
+        0.99967
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt/dorsal_C0_2_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt",
+      "LocalPosition": [
+        -0.58703,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.11335,
+        0.99356
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+      "LocalPosition": [
+        -1.45475,
+        0.00384,
+        -0.01981
+      ],
+      "LocalRotation": [
+        6E-05,
+        -0.01735,
+        -0.00186,
+        0.99985
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+      "LocalPosition": [
+        -1.45318,
+        -0.00629,
+        -0.06044
+      ],
+      "LocalRotation": [
+        0.00028,
+        -0.0443,
+        0.00438,
+        0.99901
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+      "LocalPosition": [
+        -1.45393,
+        -0.00134,
+        -0.04766
+      ],
+      "LocalRotation": [
+        -0.0001,
+        -0.03513,
+        0.00051,
+        0.99938
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+      "LocalPosition": [
+        -1.44433,
+        4E-05,
+        -0.14359
+      ],
+      "LocalRotation": [
+        -0.0001,
+        -0.1086,
+        -4E-05,
+        0.99409
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+      "LocalPosition": [
+        -0.04644,
+        -0.43288,
+        -0.03074
+      ],
+      "LocalRotation": [
+        -0.45055,
+        -0.31426,
+        0.53524,
+        0.64169
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+      "LocalPosition": [
+        -0.46042,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00565,
+        0.09084,
+        -0.0428,
+        0.99493
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt/tail_L0_2_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+      "LocalPosition": [
+        -0.79,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.08918,
+        0.24928,
+        -0.08247,
+        0.96078
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+      "LocalPosition": [
+        -0.04644,
+        0.38265,
+        -0.03035
+      ],
+      "LocalRotation": [
+        0.5354,
+        0.64147,
+        0.45086,
+        0.314
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+      "LocalPosition": [
+        0.46042,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.00565,
+        0.09084,
+        -0.0428,
+        0.99493
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt/tail_R0_2_jnt",
+      "Parent": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+      "LocalPosition": [
+        0.79,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.08918,
+        0.24928,
+        -0.08247,
+        0.96078
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/GEO/KillerWhale",
+      "Mesh": "KillerWhale",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 6465,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt/tail_L0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt/flipperInner_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt/dorsal_C0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt/flipperInner_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt/tail_R0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt/flipperOuter_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt/flipperOuter_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt/tail_L0_2_jnt",
+          "Position": [
+            -1.56926,
+            0.5658,
+            -7.55476
+          ],
+          "Rotation": [
+            0.88054,
+            0.15098,
+            0.44153,
+            -0.08306
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+          "Position": [
+            0.80852,
+            1.03242,
+            2.67501
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+          "Position": [
+            2.00332,
+            0.11534,
+            0.76779
+          ],
+          "Rotation": [
+            0.0107,
+            0.11213,
+            -0.10416,
+            0.98816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt/flipperInner_R0_1_jnt",
+          "Position": [
+            2.40426,
+            0.10032,
+            0.03553
+          ],
+          "Rotation": [
+            0.06472,
+            0.78616,
+            0.05043,
+            0.61255
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+          "Position": [
+            -0,
+            2.84618,
+            -1.30054
+          ],
+          "Rotation": [
+            0.5218,
+            -0.47721,
+            0.5218,
+            -0.47721
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+          "Position": [
+            -0,
+            -0,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt/dorsal_C0_2_jnt",
+          "Position": [
+            -0,
+            4.05626,
+            -1.439
+          ],
+          "Rotation": [
+            0.58298,
+            -0.40017,
+            0.58298,
+            -0.40017
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt/flipperInner_L0_1_jnt",
+          "Position": [
+            -2.4615,
+            0.10799,
+            -0.18426
+          ],
+          "Rotation": [
+            0.71993,
+            -0.00736,
+            0.68806,
+            -0.09072
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+          "Position": [
+            -1.17104,
+            0.42287,
+            0.61747
+          ],
+          "Rotation": [
+            0.98937,
+            0.13896,
+            0.04273,
+            -0.00296
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+          "Position": [
+            0.017,
+            1.50211,
+            -2.8181
+          ],
+          "Rotation": [
+            0.50847,
+            0.51342,
+            0.49123,
+            -0.48636
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+          "Position": [
+            -1.94923,
+            0.19966,
+            0.5481
+          ],
+          "Rotation": [
+            0.98497,
+            0.15135,
+            0.0828,
+            -0.00865
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0,
+            1.03858,
+            2.59996
+          ],
+          "Rotation": [
+            0.01021,
+            -0,
+            -0,
+            0.99995
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+          "Position": [
+            -3.27078,
+            -0.2092,
+            0.15662
+          ],
+          "Rotation": [
+            0.78343,
+            0.03189,
+            0.61055,
+            -0.11156
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+          "Position": [
+            -0,
+            1.35491,
+            1.59167
+          ],
+          "Rotation": [
+            0.78875,
+            0,
+            0,
+            0.61471
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+          "Position": [
+            -2.4344,
+            0.03881,
+            0.32104
+          ],
+          "Rotation": [
+            0.71993,
+            -0.00736,
+            0.68806,
+            -0.09072
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt/tail_R0_2_jnt",
+          "Position": [
+            1.56926,
+            0.5658,
+            -7.55476
+          ],
+          "Rotation": [
+            0.08306,
+            0.44153,
+            -0.15098,
+            0.88054
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.80852,
+            1.03241,
+            2.67501
+          ],
+          "Rotation": [
+            0.00997,
+            0.47452,
+            -0.00537,
+            0.88017
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0,
+            1.03858,
+            2.59996
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            -0,
+            1.54153,
+            0.09129
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+          "Position": [
+            -0.85439,
+            0.64869,
+            -7.22889
+          ],
+          "Rotation": [
+            0.97593,
+            0.05377,
+            0.21133,
+            -6E-05
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt",
+          "Position": [
+            -0,
+            1.54153,
+            0.09129
+          ],
+          "Rotation": [
+            -0.70669,
+            -0.02419,
+            0.70669,
+            0.02419
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+          "Position": [
+            0.02513,
+            1.13742,
+            -5.70195
+          ],
+          "Rotation": [
+            0.5482,
+            0.54807,
+            0.44679,
+            -0.44663
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+          "Position": [
+            0.85439,
+            0.64869,
+            -7.22889
+          ],
+          "Rotation": [
+            6E-05,
+            0.21133,
+            -0.05377,
+            0.97593
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+          "Position": [
+            0.02496,
+            1.37737,
+            -4.26717
+          ],
+          "Rotation": [
+            0.53184,
+            0.53237,
+            0.46594,
+            -0.46543
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+          "Position": [
+            2.55616,
+            -0.00266,
+            0.63797
+          ],
+          "Rotation": [
+            0.01465,
+            0.25587,
+            -0.0742,
+            0.96375
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+          "Position": [
+            -0,
+            1.48835,
+            0.86719
+          ],
+          "Rotation": [
+            0.70418,
+            0.06431,
+            -0.70418,
+            -0.06431
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt/flipperOuter_L0_1_jnt",
+          "Position": [
+            -3.3967,
+            -0.16617,
+            -0.32411
+          ],
+          "Rotation": [
+            0.78426,
+            0.01566,
+            0.60767,
+            -0.12423
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+          "Position": [
+            -0.80852,
+            1.03242,
+            2.67501
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+          "Position": [
+            2.55616,
+            -0.00266,
+            0.63797
+          ],
+          "Rotation": [
+            0.06472,
+            0.78616,
+            0.05043,
+            0.61255
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0,
+            1.20745,
+            2.09912
+          ],
+          "Rotation": [
+            0.8081,
+            0,
+            0,
+            0.58905
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+          "Position": [
+            0.9675,
+            0.38866,
+            0.82097
+          ],
+          "Rotation": [
+            0.00174,
+            0.02478,
+            -0.12856,
+            0.99139
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+          "Position": [
+            -0.40776,
+            0.65846,
+            -7.11749
+          ],
+          "Rotation": [
+            0.99249,
+            0.01054,
+            0.1219,
+            0.00129
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.54153,
+            0.09129
+          ],
+          "Rotation": [
+            0.5,
+            0.5,
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+          "Position": [
+            0.02513,
+            0.7053,
+            -7.08758
+          ],
+          "Rotation": [
+            0.5935,
+            0.59331,
+            0.38468,
+            -0.3844
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+          "Position": [
+            0.40776,
+            0.65846,
+            -7.11749
+          ],
+          "Rotation": [
+            -0.00129,
+            0.1219,
+            -0.01054,
+            0.99249
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+          "Position": [
+            -0,
+            0.72491,
+            2.25105
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.80852,
+            1.03241,
+            2.67501
+          ],
+          "Rotation": [
+            0.00997,
+            -0.47452,
+            0.00537,
+            0.88017
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+          "Position": [
+            -2.99021,
+            -0.12878,
+            0.36466
+          ],
+          "Rotation": [
+            0.98229,
+            0.11195,
+            0.14949,
+            -0.01467
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            0.00429,
+            1.53591,
+            -1.36365
+          ],
+          "Rotation": [
+            0.50086,
+            0.50394,
+            0.4991,
+            -0.49608
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+          "Position": [
+            3.32905,
+            -0.12473,
+            0.19176
+          ],
+          "Rotation": [
+            0.12697,
+            0.69429,
+            -0.02889,
+            0.70782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt/flipperOuter_R0_1_jnt",
+          "Position": [
+            3.34613,
+            -0.05719,
+            -0.30216
+          ],
+          "Rotation": [
+            0.13841,
+            0.69179,
+            -0.01726,
+            0.7085
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt",
+          "Position": [
+            -0,
+            3.47502,
+            -1.35679
+          ],
+          "Rotation": [
+            0.53386,
+            -0.46367,
+            0.53386,
+            -0.46367
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "KillerWhale",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "KillerWhaleAlbedo",
+            "_MaskMap": "KillerWhaleMask",
+            "_NormalMap": "KillerWhaleNormal",
+            "_SubsurfaceMaskMap": "KillerWhaleScattering",
+            "_ThicknessMap": "KillerWhaleThickness",
+            "_BloodMask": "John2ABloodMask",
+            "_DirtDetailMap": "DirtDetailMask"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/GEO/KillerWhale_LOD1",
+      "Mesh": "KillerWhale_LOD1",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 5336,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt/flipperOuter_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt/flipperInner_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt/flipperOuter_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt/flipperInner_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt/tail_L0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt/tail_R0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt/dorsal_C0_2_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+          "Position": [
+            -0,
+            -0,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            -0,
+            1.54153,
+            0.09129
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+          "Position": [
+            -0,
+            1.48835,
+            0.86719
+          ],
+          "Rotation": [
+            0.70418,
+            0.06431,
+            -0.70418,
+            -0.06431
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+          "Position": [
+            -0,
+            1.35491,
+            1.59167
+          ],
+          "Rotation": [
+            0.78875,
+            0,
+            0,
+            0.61471
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0,
+            1.20745,
+            2.09912
+          ],
+          "Rotation": [
+            0.8081,
+            0,
+            0,
+            0.58905
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0,
+            1.03858,
+            2.59996
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0,
+            1.03858,
+            2.59996
+          ],
+          "Rotation": [
+            0.01021,
+            -0,
+            -0,
+            0.99995
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.80852,
+            1.03241,
+            2.67501
+          ],
+          "Rotation": [
+            0.00997,
+            -0.47452,
+            0.00537,
+            0.88017
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+          "Position": [
+            -0,
+            0.72491,
+            2.25105
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.80852,
+            1.03241,
+            2.67501
+          ],
+          "Rotation": [
+            0.00997,
+            0.47452,
+            -0.00537,
+            0.88017
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+          "Position": [
+            -1.17104,
+            0.42287,
+            0.61747
+          ],
+          "Rotation": [
+            0.98937,
+            0.13896,
+            0.04273,
+            -0.00296
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+          "Position": [
+            -1.94923,
+            0.19966,
+            0.5481
+          ],
+          "Rotation": [
+            0.98497,
+            0.15135,
+            0.0828,
+            -0.00865
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+          "Position": [
+            -2.99021,
+            -0.12878,
+            0.36466
+          ],
+          "Rotation": [
+            0.98229,
+            0.11195,
+            0.14949,
+            -0.01467
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+          "Position": [
+            -3.27078,
+            -0.2092,
+            0.15662
+          ],
+          "Rotation": [
+            0.78343,
+            0.03189,
+            0.61055,
+            -0.11156
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt/flipperOuter_L0_1_jnt",
+          "Position": [
+            -3.3967,
+            -0.16617,
+            -0.32411
+          ],
+          "Rotation": [
+            0.78426,
+            0.01566,
+            0.60767,
+            -0.12423
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+          "Position": [
+            -2.4344,
+            0.03881,
+            0.32104
+          ],
+          "Rotation": [
+            0.71993,
+            -0.00736,
+            0.68806,
+            -0.09072
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt/flipperInner_L0_1_jnt",
+          "Position": [
+            -2.4615,
+            0.10799,
+            -0.18426
+          ],
+          "Rotation": [
+            0.71993,
+            -0.00736,
+            0.68806,
+            -0.09072
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+          "Position": [
+            0.9675,
+            0.38866,
+            0.82097
+          ],
+          "Rotation": [
+            0.00174,
+            0.02478,
+            -0.12856,
+            0.99139
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+          "Position": [
+            2.00332,
+            0.11534,
+            0.76779
+          ],
+          "Rotation": [
+            0.0107,
+            0.11213,
+            -0.10416,
+            0.98816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+          "Position": [
+            2.55616,
+            -0.00266,
+            0.63797
+          ],
+          "Rotation": [
+            0.01465,
+            0.25587,
+            -0.0742,
+            0.96375
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+          "Position": [
+            3.32905,
+            -0.12473,
+            0.19176
+          ],
+          "Rotation": [
+            0.12697,
+            0.69429,
+            -0.02889,
+            0.70782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt/flipperOuter_R0_1_jnt",
+          "Position": [
+            3.34613,
+            -0.05719,
+            -0.30216
+          ],
+          "Rotation": [
+            0.13841,
+            0.69179,
+            -0.01726,
+            0.7085
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+          "Position": [
+            2.55616,
+            -0.00266,
+            0.63797
+          ],
+          "Rotation": [
+            0.06472,
+            0.78616,
+            0.05043,
+            0.61255
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt/flipperInner_R0_1_jnt",
+          "Position": [
+            2.40426,
+            0.10032,
+            0.03553
+          ],
+          "Rotation": [
+            0.06472,
+            0.78616,
+            0.05043,
+            0.61255
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.54153,
+            0.09129
+          ],
+          "Rotation": [
+            0.5,
+            0.5,
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            0.00429,
+            1.53591,
+            -1.36365
+          ],
+          "Rotation": [
+            0.50086,
+            0.50394,
+            0.4991,
+            -0.49608
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+          "Position": [
+            0.017,
+            1.50211,
+            -2.8181
+          ],
+          "Rotation": [
+            0.50847,
+            0.51342,
+            0.49123,
+            -0.48636
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+          "Position": [
+            0.02496,
+            1.37737,
+            -4.26717
+          ],
+          "Rotation": [
+            0.53184,
+            0.53237,
+            0.46594,
+            -0.46543
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+          "Position": [
+            0.02513,
+            1.13742,
+            -5.70195
+          ],
+          "Rotation": [
+            0.5482,
+            0.54807,
+            0.44679,
+            -0.44663
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+          "Position": [
+            0.02513,
+            0.7053,
+            -7.08758
+          ],
+          "Rotation": [
+            0.5935,
+            0.59331,
+            0.38468,
+            -0.3844
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+          "Position": [
+            -0.40776,
+            0.65846,
+            -7.11749
+          ],
+          "Rotation": [
+            0.99249,
+            0.01054,
+            0.1219,
+            0.00129
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+          "Position": [
+            -0.85439,
+            0.64869,
+            -7.22889
+          ],
+          "Rotation": [
+            0.97593,
+            0.05377,
+            0.21133,
+            -6E-05
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt/tail_L0_2_jnt",
+          "Position": [
+            -1.56926,
+            0.5658,
+            -7.55476
+          ],
+          "Rotation": [
+            0.88054,
+            0.15098,
+            0.44153,
+            -0.08306
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+          "Position": [
+            0.40776,
+            0.65846,
+            -7.11749
+          ],
+          "Rotation": [
+            -0.00129,
+            0.1219,
+            -0.01054,
+            0.99249
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+          "Position": [
+            0.85439,
+            0.64869,
+            -7.22889
+          ],
+          "Rotation": [
+            6E-05,
+            0.21133,
+            -0.05377,
+            0.97593
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt/tail_R0_2_jnt",
+          "Position": [
+            1.56926,
+            0.5658,
+            -7.55476
+          ],
+          "Rotation": [
+            0.08306,
+            0.44153,
+            -0.15098,
+            0.88054
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+          "Position": [
+            -0,
+            2.84618,
+            -1.30054
+          ],
+          "Rotation": [
+            0.5218,
+            -0.47721,
+            0.5218,
+            -0.47721
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt",
+          "Position": [
+            -0,
+            3.47502,
+            -1.35679
+          ],
+          "Rotation": [
+            0.53386,
+            -0.46367,
+            0.53386,
+            -0.46367
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt/dorsal_C0_2_jnt",
+          "Position": [
+            -0,
+            4.05626,
+            -1.439
+          ],
+          "Rotation": [
+            0.58298,
+            -0.40017,
+            0.58298,
+            -0.40017
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "KillerWhale",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "KillerWhaleAlbedo",
+            "_MaskMap": "KillerWhaleMask",
+            "_NormalMap": "KillerWhaleNormal",
+            "_SubsurfaceMaskMap": "KillerWhaleScattering",
+            "_ThicknessMap": "KillerWhaleThickness",
+            "_BloodMask": "John2ABloodMask",
+            "_DirtDetailMap": "DirtDetailMask"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/KillerWhaleRenderRig/GEO/KillerWhale_LOD2",
+      "Mesh": "KillerWhale_LOD2",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 2524,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt/flipperOuter_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt/flipperInner_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt/flipperOuter_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt/flipperInner_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt/tail_L0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt/tail_R0_2_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt",
+        "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt/dorsal_C0_2_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt",
+          "Position": [
+            -0,
+            -0,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            -0,
+            1.54153,
+            0.09129
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt",
+          "Position": [
+            -0,
+            1.48835,
+            0.86719
+          ],
+          "Rotation": [
+            0.70418,
+            0.06431,
+            -0.70418,
+            -0.06431
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt",
+          "Position": [
+            -0,
+            1.35491,
+            1.59167
+          ],
+          "Rotation": [
+            0.78875,
+            0,
+            0,
+            0.61471
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            -0,
+            1.20745,
+            2.09912
+          ],
+          "Rotation": [
+            0.8081,
+            0,
+            0,
+            0.58905
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0,
+            1.03858,
+            2.59996
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0,
+            1.03858,
+            2.59996
+          ],
+          "Rotation": [
+            0.01021,
+            -0,
+            -0,
+            0.99995
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.80852,
+            1.03241,
+            2.67501
+          ],
+          "Rotation": [
+            0.00997,
+            -0.47452,
+            0.00537,
+            0.88017
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+          "Position": [
+            -0,
+            0.72491,
+            2.25105
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.80852,
+            1.03241,
+            2.67501
+          ],
+          "Rotation": [
+            0.00997,
+            0.47452,
+            -0.00537,
+            0.88017
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt",
+          "Position": [
+            -1.17104,
+            0.42287,
+            0.61747
+          ],
+          "Rotation": [
+            0.98937,
+            0.13896,
+            0.04273,
+            -0.00296
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt",
+          "Position": [
+            -1.94923,
+            0.19966,
+            0.5481
+          ],
+          "Rotation": [
+            0.98497,
+            0.15135,
+            0.0828,
+            -0.00865
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt",
+          "Position": [
+            -2.99021,
+            -0.12878,
+            0.36466
+          ],
+          "Rotation": [
+            0.98229,
+            0.11195,
+            0.14949,
+            -0.01467
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt",
+          "Position": [
+            -3.27078,
+            -0.2092,
+            0.15662
+          ],
+          "Rotation": [
+            0.78343,
+            0.03189,
+            0.61055,
+            -0.11156
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipper_L0_2_jnt/flipperOuter_L0_0_jnt/flipperOuter_L0_1_jnt",
+          "Position": [
+            -3.3967,
+            -0.16617,
+            -0.32411
+          ],
+          "Rotation": [
+            0.78426,
+            0.01566,
+            0.60767,
+            -0.12423
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt",
+          "Position": [
+            -2.4344,
+            0.03881,
+            0.32104
+          ],
+          "Rotation": [
+            0.71993,
+            -0.00736,
+            0.68806,
+            -0.09072
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_L0_0_jnt/flipper_L0_1_jnt/flipperInner_L0_0_jnt/flipperInner_L0_1_jnt",
+          "Position": [
+            -2.4615,
+            0.10799,
+            -0.18426
+          ],
+          "Rotation": [
+            0.71993,
+            -0.00736,
+            0.68806,
+            -0.09072
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt",
+          "Position": [
+            0.9675,
+            0.38866,
+            0.82097
+          ],
+          "Rotation": [
+            0.00174,
+            0.02478,
+            -0.12856,
+            0.99139
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt",
+          "Position": [
+            2.00332,
+            0.11534,
+            0.76779
+          ],
+          "Rotation": [
+            0.0107,
+            0.11213,
+            -0.10416,
+            0.98816
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt",
+          "Position": [
+            2.55616,
+            -0.00266,
+            0.63797
+          ],
+          "Rotation": [
+            0.01465,
+            0.25587,
+            -0.0742,
+            0.96375
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt",
+          "Position": [
+            3.32905,
+            -0.12473,
+            0.19176
+          ],
+          "Rotation": [
+            0.12697,
+            0.69429,
+            -0.02889,
+            0.70782
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperOuter_R0_0_jnt/flipperOuter_R0_1_jnt",
+          "Position": [
+            3.34613,
+            -0.05719,
+            -0.30216
+          ],
+          "Rotation": [
+            0.13841,
+            0.69179,
+            -0.01726,
+            0.7085
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt",
+          "Position": [
+            2.55616,
+            -0.00266,
+            0.63797
+          ],
+          "Rotation": [
+            0.06472,
+            0.78616,
+            0.05043,
+            0.61255
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/chest_C0_0_jnt/chest_C0_1_jnt/flipper_R0_0_jnt/flipper_R0_1_jnt/flipper_R0_2_jnt/flipperInner_R0_0_jnt/flipperInner_R0_1_jnt",
+          "Position": [
+            2.40426,
+            0.10032,
+            0.03553
+          ],
+          "Rotation": [
+            0.06472,
+            0.78616,
+            0.05043,
+            0.61255
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt",
+          "Position": [
+            -0,
+            1.54153,
+            0.09129
+          ],
+          "Rotation": [
+            0.5,
+            0.5,
+            0.5,
+            -0.5
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt",
+          "Position": [
+            0.00429,
+            1.53591,
+            -1.36365
+          ],
+          "Rotation": [
+            0.50086,
+            0.50394,
+            0.4991,
+            -0.49608
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt",
+          "Position": [
+            0.017,
+            1.50211,
+            -2.8181
+          ],
+          "Rotation": [
+            0.50847,
+            0.51342,
+            0.49123,
+            -0.48636
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt",
+          "Position": [
+            0.02496,
+            1.37737,
+            -4.26717
+          ],
+          "Rotation": [
+            0.53184,
+            0.53237,
+            0.46594,
+            -0.46543
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt",
+          "Position": [
+            0.02513,
+            1.13742,
+            -5.70195
+          ],
+          "Rotation": [
+            0.5482,
+            0.54807,
+            0.44679,
+            -0.44663
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt",
+          "Position": [
+            0.02513,
+            0.7053,
+            -7.08758
+          ],
+          "Rotation": [
+            0.5935,
+            0.59331,
+            0.38468,
+            -0.3844
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt",
+          "Position": [
+            -0.40776,
+            0.65846,
+            -7.11749
+          ],
+          "Rotation": [
+            0.99249,
+            0.01054,
+            0.1219,
+            0.00129
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt",
+          "Position": [
+            -0.85439,
+            0.64869,
+            -7.22889
+          ],
+          "Rotation": [
+            0.97593,
+            0.05377,
+            0.21133,
+            -6E-05
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_L0_0_jnt/tail_L0_1_jnt/tail_L0_2_jnt",
+          "Position": [
+            -1.56926,
+            0.5658,
+            -7.55476
+          ],
+          "Rotation": [
+            0.88054,
+            0.15098,
+            0.44153,
+            -0.08306
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt",
+          "Position": [
+            0.40776,
+            0.65846,
+            -7.11749
+          ],
+          "Rotation": [
+            -0.00129,
+            0.1219,
+            -0.01054,
+            0.99249
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt",
+          "Position": [
+            0.85439,
+            0.64869,
+            -7.22889
+          ],
+          "Rotation": [
+            6E-05,
+            0.21133,
+            -0.05377,
+            0.97593
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/tail_C0_2_jnt/tail_C0_3_jnt/tail_C0_4_jnt/tail_C0_5_jnt/tail_R0_0_jnt/tail_R0_1_jnt/tail_R0_2_jnt",
+          "Position": [
+            1.56926,
+            0.5658,
+            -7.55476
+          ],
+          "Rotation": [
+            0.08306,
+            0.44153,
+            -0.15098,
+            0.88054
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt",
+          "Position": [
+            -0,
+            2.84618,
+            -1.30054
+          ],
+          "Rotation": [
+            0.5218,
+            -0.47721,
+            0.5218,
+            -0.47721
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt",
+          "Position": [
+            -0,
+            3.47502,
+            -1.35679
+          ],
+          "Rotation": [
+            0.53386,
+            -0.46367,
+            0.53386,
+            -0.46367
+          ]
+        },
+        {
+          "Bone": "VisualRoot/KillerWhaleRenderRig/root_C0_0_jnt/spine_C0_0_jnt/tail_C0_0_jnt/tail_C0_1_jnt/dorsal_C0_0_jnt/dorsal_C0_1_jnt/dorsal_C0_2_jnt",
+          "Position": [
+            -0,
+            4.05626,
+            -1.439
+          ],
+          "Rotation": [
+            0.58298,
+            -0.40017,
+            0.58298,
+            -0.40017
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "KillerWhale",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "KillerWhaleAlbedo",
+            "_MaskMap": "KillerWhaleMask",
+            "_NormalMap": "KillerWhaleNormal",
+            "_SubsurfaceMaskMap": "KillerWhaleScattering",
+            "_ThicknessMap": "KillerWhaleThickness",
+            "_BloodMask": "John2ABloodMask",
+            "_DirtDetailMap": "DirtDetailMask"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

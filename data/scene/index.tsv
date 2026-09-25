@@ -1,0 +1,1172 @@
+RigProbe 2026-09-24 22:01:42
+source	name	actorType	active	skinnedMeshes	uniqueBones	humanoid	rigFamily	playerNameMatch	path
+player	LocalPlayer		True	107	397	False	3485f157	205/205 (100%)	LocalPlayer
+scene	SeagullRig_-589428		True	4	32	False	6e68c35c	0/32 (0%)	Seagull15/VisualRoot/SeagullRig
+scene	SeagullRig_-588978		True	4	32	False	6e68c35c	0/32 (0%)	Seagull14/VisualRoot/SeagullRig
+scene	SeagullRig_-588528		True	4	32	False	6e68c35c	0/32 (0%)	Seagull13/VisualRoot/SeagullRig
+scene	SeagullRig_-588078		True	4	32	False	6e68c35c	0/32 (0%)	Seagull12/VisualRoot/SeagullRig
+scene	SeagullRig_-587628		True	4	32	False	6e68c35c	0/32 (0%)	Seagull11/VisualRoot/SeagullRig
+scene	SeagullRig_-587178		True	4	32	False	6e68c35c	0/32 (0%)	Seagull10/VisualRoot/SeagullRig
+scene	SeagullRig_-586728		True	4	32	False	6e68c35c	0/32 (0%)	Seagull9/VisualRoot/SeagullRig
+scene	SeagullRig_-586278		True	4	32	False	6e68c35c	0/32 (0%)	Seagull8/VisualRoot/SeagullRig
+scene	SeagullRig_-585828		True	4	32	False	6e68c35c	0/32 (0%)	Seagull7/VisualRoot/SeagullRig
+scene	SeagullRig_-585378		True	4	32	False	6e68c35c	0/32 (0%)	Seagull6/VisualRoot/SeagullRig
+scene	SeagullRig_-584928		True	4	32	False	6e68c35c	0/32 (0%)	Seagull5/VisualRoot/SeagullRig
+scene	SeagullRig_-584478		True	4	32	False	6e68c35c	0/32 (0%)	Seagull4/VisualRoot/SeagullRig
+scene	SeagullRig_-584028		True	4	32	False	6e68c35c	0/32 (0%)	Seagull3/VisualRoot/SeagullRig
+scene	SeagullRig_-583578		True	4	32	False	6e68c35c	0/32 (0%)	Seagull2/VisualRoot/SeagullRig
+scene	SeagullRig_-583128		True	4	32	False	6e68c35c	0/32 (0%)	Seagull1/VisualRoot/SeagullRig
+scene	SeagullRig_-582678		True	4	32	False	6e68c35c	0/32 (0%)	Seagull0/VisualRoot/SeagullRig
+scene	_Deform__-407354		False	1	10	False	e79b1505	0/10 (0%)	GameManagers/Pooling/Pool_Greebles/YarrowALOD0(Clone)001/_Deform_
+scene	TacticoolCaucasianPoserRig (7)_2933344		True	9	158	False	d31a5f4b	104/158 (65%)	TacticoolCaucasianPoserRig (7)
+scene	TacticoolCaucasianPoserRig (8)_2933386		True	9	158	False	d31a5f4b	104/158 (65%)	TacticoolCaucasianPoserRig (8)
+scene	RobbyRig_-313934		True	36	93	False	1b02206c	80/93 (86%)	Robby0/VisualRoot/RobbyRig
+scene	_Deform__-232546		False	1	47	False	91987a67	0/47 (0%)	GameManagers/Pooling/Pool_SmallBush/FernALOD0(Clone)001/_Deform_
+scene	_Deform__-232306		False	1	39	False	941bdb21	1/39 (2%)	GameManagers/Pooling/Pool_SmallBush/RockFernALOD0(Clone)001/_Deform_
+scene	_Deform__-229870		False	1	9	False	f64ed7ff	0/9 (0%)	GameManagers/Pooling/Pool_Bushes/SnowbrushALOD0(Clone)004/_Deform_
+scene	_Deform__-227020		False	1	9	False	f64ed7ff	0/9 (0%)	GameManagers/Pooling/Pool_Bushes/SalalLemonBushALOD0(Clone)003/_Deform_
+scene	_Deform__-226460		False	1	9	False	f64ed7ff	0/9 (0%)	GameManagers/Pooling/Pool_Bushes/SnowbrushALOD0(Clone)003/_Deform_
+scene	_Deform__-226314		False	1	9	False	f64ed7ff	0/9 (0%)	GameManagers/Pooling/Pool_Bushes/SnowbrushALOD0(Clone)002/_Deform_
+scene	_Deform__-225640		False	1	9	False	f64ed7ff	0/9 (0%)	GameManagers/Pooling/Pool_Bushes/SalalLemonBushALOD0(Clone)002/_Deform_
+scene	_Deform__-225128		False	1	9	False	f64ed7ff	0/9 (0%)	GameManagers/Pooling/Pool_Bushes/SnowbrushALOD0(Clone)001/_Deform_
+scene	_Deform__-224488		False	1	9	False	f64ed7ff	0/9 (0%)	GameManagers/Pooling/Pool_Bushes/SalalLemonBushALOD0(Clone)001/_Deform_
+scene	WorkerDudeHangingHead_1654236		False	5	94	False	db3f3ed0	81/94 (86%)	CaveAInternal-Local/SetDressingBlockOut/WorkerDudeHangingHead
+scene	SkeletonPoser (10)_1637546		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (10)
+scene	SkeletonPoser (4)_1637548		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (4)
+scene	SkeletonPoser (7)_1637542		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (7)
+scene	SkeletonPoser (3)_1637544		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (3)
+scene	SkeletonPoser (8)_1637540		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (8)
+scene	SkeletonPoser (1)_1637552		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (1)
+scene	SkeletonPoser (1)_1637554		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (1)
+scene	SkeletonPoser (2)_1637560		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (2)
+scene	SkeletonPoser (5)_1637558		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (5)
+scene	SkeletonPoser (9)_1637556		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (9)
+scene	SkeletonPoser (6)_1637550		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonPoser (6)
+scene	SkeletonHangingHeadLong (3)_1653118		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong (1)_1653116		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHeadLong (1)
+scene	DeadFemaleCPoolPoser (1)_1645408		False	2	89	True	fe742020	0/89 (0%)	CaveAInternal-Local/SetDressingBlockOut/DeadFemaleCPoolPoser (1)
+scene	DeadFemaleBPoolPoser (2)_1656256		False	2	87	True	19b9a8ac	0/87 (0%)	CaveAInternal-Local/SetDressingBlockOut/DeadFemaleBPoolPoser (2)
+scene	SkeletonHangingHead (1)_1649384		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (6)_1649388		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (6)
+scene	SkeletonHangingHead (4)_1649386		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (4)
+scene	SkeletonHangingHead (5)_1649390		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (5)
+scene	SkeletonHangingHead (8)_1649376		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (8)
+scene	SkeletonHangingHead (11)_1649378		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (11)
+scene	SkeletonHangingHead (2)_1649380		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (2)
+scene	SkeletonHangingHead (3)_1649382		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (3)
+scene	SkeletonHangingHead (13)_1649374		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (13)
+scene	SkeletonHangingHead (7)_1649372		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (7)
+scene	SkeletonHangingHead (9)_1649368		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (9)
+scene	SkeletonHangingHead (10)_1649370		False	6	90	False	c482211c	0/90 (0%)	CaveAInternal-Local/SetDressingBlockOut/SkeletonHangingHead (10)
+scene	Slugmutant_ANIM_bunkerScene_1648234		False	1	255	False	8991dad3	0/255 (0%)	CaveAInternal-Local/SetDressingBlockOut/BunkerView/Hallway/Slugmutant_ANIM_bunkerScene
+scene	WorkerDudePoser_1707648		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser
+scene	WorkerDudeHangingFeetLong (5)_1713274		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (5)
+scene	WorkerDudeHangingFeetLong (7)_1713278		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (7)
+scene	WorkerDudeHangingFeetLong (6)_1713276		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (6)
+scene	WorkerDudeHangingFeetLong (4)_1713266		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (4)
+scene	WorkerDudeHangingFeetLong (2)_1713264		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (2)
+scene	WorkerDudeHangingFeetLong_1713260		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong
+scene	WorkerDudeHangingFeetLong (6)_1713262		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (6)
+scene	WorkerDudeHangingFeetLong (3)_1713270		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (3)
+scene	WorkerDudeHangingFeetLong (5)_1713272		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (5)
+scene	WorkerDudeHangingFeetLong_1713268		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong
+scene	WorkerDudeHangingFeetLong (4)_1713288		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (4)
+scene	WorkerDudeHangingFeetLong (1)_1713280		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (1)
+scene	WorkerDudeHangingFeetLong (1)_1713282		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (1)
+scene	WorkerDudeHangingFeetLong (2)_1713286		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (2)
+scene	WorkerDudeHangingFeetLong (3)_1713284		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeetLong (3)
+scene	SkeletonPoser_1701766		False	6	90	False	c482211c	0/90 (0%)	CaveBInternal-Local/CaveBSetDressing/SkeletonPoser
+scene	SkeletonPoser (1)_1701764		False	6	90	False	c482211c	0/90 (0%)	CaveBInternal-Local/CaveBSetDressing/SkeletonPoser (1)
+scene	SkeletonPoser (2)_1701770		False	6	90	False	c482211c	0/90 (0%)	CaveBInternal-Local/CaveBSetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (2)_1701772		False	6	90	False	c482211c	0/90 (0%)	CaveBInternal-Local/CaveBSetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (1)_1701768		False	6	90	False	c482211c	0/90 (0%)	CaveBInternal-Local/CaveBSetDressing/SkeletonPoser (1)
+scene	WorkerDudeHangingFeet (1)_1712628		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingFeet (1)
+scene	SkeletonHangingHeadLong (1)_1715510		False	6	90	False	c482211c	0/90 (0%)	CaveBInternal-Local/CaveBSetDressing/SkeletonHangingHeadLong (1)
+scene	WorkerDudePoser (25)_1716754		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (25)
+scene	WorkerDudePoser (23)_1716756		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (23)
+scene	WorkerDudePoser (17)_1716758		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (17)
+scene	WorkerDudePoser (5)_1716760		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (5)
+scene	WorkerDudePoser (1)_1716742		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (1)
+scene	WorkerDudePoser (3)_1716744		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (3)
+scene	WorkerDudePoser (22)_1716746		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (22)
+scene	WorkerDudePoser (21)_1716748		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (21)
+scene	WorkerDudePoser (7)_1716750		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (7)
+scene	WorkerDudePoser (20)_1716752		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (20)
+scene	WorkerDudePoser (26)_1716772		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (26)
+scene	WorkerDudePoser (1)_1716774		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (1)
+scene	WorkerDudePoser (24)_1716776		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (24)
+scene	WorkerDudePoser (2)_1716762		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (2)
+scene	WorkerDudePoser (18)_1716766		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (18)
+scene	WorkerDudePoser (4)_1716764		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (4)
+scene	WorkerDudePoser (19)_1716768		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (19)
+scene	WorkerDudePoser (6)_1716770		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudePoser (6)
+scene	SkeletonHangingHead (1)_1712412		False	6	90	False	c482211c	0/90 (0%)	CaveBInternal-Local/CaveBSetDressing/SkeletonHangingHead (1)
+scene	WorkerDudeHangingHeadLong_1702290		False	5	94	False	db3f3ed0	81/94 (86%)	CaveBInternal-Local/CaveBSetDressing/WorkerDudeHangingHeadLong
+scene	OldSledClothAWindBreezeStrong_1715522		False	1	27	False	8eea31cb	0/27 (0%)	CaveBInternal-Any/ClothOldPickupSled (1)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_1715520		False	1	27	False	8eea31cb	0/27 (0%)	CaveBInternal-Any/ClothOldPickupSled/OldSledClothAWindBreezeStrong
+scene	SkeletonHangingHeadLong_1769930		False	6	90	False	c482211c	0/90 (0%)	CaveCInternal-Local/SetDressing/SkeletonHangingHeadLong
+scene	SkeletonHangingHeadLong (1)_1769932		False	6	90	False	c482211c	0/90 (0%)	CaveCInternal-Local/SetDressing/SkeletonHangingHeadLong (1)
+scene	WorkerDudePoser (3)_1771064		False	5	94	False	db3f3ed0	81/94 (86%)	CaveCInternal-Local/SetDressing/WorkerDudePoser (3)
+scene	WorkerDudePoser (1)_1771066		False	5	94	False	db3f3ed0	81/94 (86%)	CaveCInternal-Local/SetDressing/WorkerDudePoser (1)
+scene	WorkerDudePoser_1771068		False	5	94	False	db3f3ed0	81/94 (86%)	CaveCInternal-Local/SetDressing/WorkerDudePoser
+scene	WorkerDudePoser (2)_1771070		False	5	94	False	db3f3ed0	81/94 (86%)	CaveCInternal-Local/SetDressing/WorkerDudePoser (2)
+scene	SkeletonHangingHead_1767358		False	6	90	False	c482211c	0/90 (0%)	CaveCInternal-Local/SetDressing/SkeletonHangingHead
+scene	OldSledClothAWindBreezeStrong_1769968		False	1	27	False	8eea31cb	0/27 (0%)	CaveCInternal-Any/ClothOldPickupSled (1)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_1769970		False	1	27	False	8eea31cb	0/27 (0%)	CaveCInternal-Any/ClothOldPickupSled/OldSledClothAWindBreezeStrong
+scene	GoldenArmourSkeletonRattle_1884348		False	29	90	False	c482211c	0/90 (0%)	CaveD_Internal-Any/CaveD_Pickups/GoldenArmourPickup/GoldArmourSkeletonPosed/GoldenArmourSkeletonRattle
+scene	DeadMaleAPoser (7)_1895450		False	3	89	True	fe742020	0/89 (0%)	CaveDInternal-Local/CaveD_SetDressing/DeadMaleAPoser (7)
+scene	SkeletonPoser (7)_1863938		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (7)
+scene	SkeletonPoser_1863936		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser
+scene	SkeletonPoser (2)_1863940		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (3)_1863932		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (3)
+scene	SkeletonPoser (1)_1863934		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (1)
+scene	SkeletonPoser (4)_1863944		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (4)
+scene	SkeletonPoser (5)_1863948		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (5)
+scene	SkeletonPoser (6)_1863946		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (6)
+scene	SkeletonPoser (3)_1863942		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonPoser (3)
+scene	SkeletonHangingHeadLong (3)_1908238		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong (2)_1908236		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (2)
+scene	SkeletonHangingHeadLong (5)_1908234		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (5)
+scene	SkeletonHangingHeadLong (4)_1908244		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (4)
+scene	SkeletonHangingHeadLong (2)_1908240		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (2)
+scene	SkeletonHangingHeadLong_1908242		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong
+scene	SkeletonHangingHeadLong (1)_1908252		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (7)_1908254		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (7)
+scene	SkeletonHangingHeadLong (1)_1908250		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (3)_1908246		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong (6)_1908248		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (6)
+scene	SkeletonHangingHeadLong (3)_1908268		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong (1)_1908264		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (1)_1908266		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (1)_1908260		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (4)_1908262		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (4)
+scene	SkeletonHangingHeadLong (4)_1908258		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (4)
+scene	SkeletonHangingHeadLong (2)_1908256		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHeadLong (2)
+scene	SkeletonHangingHead (1)_1898048		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (1)_1898050		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (2)_1898052		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (2)
+scene	SkeletonHangingHead (1)_1898046		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (2)_1898044		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (2)
+scene	SkeletonHangingHead (1)_1898038		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (1)_1898040		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (3)_1898042		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (3)
+scene	SkeletonHangingHead (1)_1898028		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead_1898030		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead
+scene	SkeletonHangingHead (2)_1898032		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (2)
+scene	SkeletonHangingHead (4)_1898034		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (4)
+scene	SkeletonHangingHead (2)_1898036		False	6	90	False	c482211c	0/90 (0%)	CaveDInternal-Local/CaveD_SetDressing/SkeletonHangingHead (2)
+scene	GoldArmourSkeletonPosed_1888146		False	3	60	False	c59ddba4	45/60 (75%)	CaveD_Internal-Any/CaveD_Pickups/GoldenArmourPickup/GoldArmourSkeletonPosed
+scene	WorkerDudeHangingHead_2011020		False	5	94	False	db3f3ed0	81/94 (86%)	CaveF_Internal_Local/SetDressing/WorkerDudeHangingHead
+scene	SkeletonPoser (1)_2000234		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser (1)
+scene	SkeletonPoser (2)_2000232		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (4)_2000230		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser (4)
+scene	SkeletonPoser (1)_2000242		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser (1)
+scene	SkeletonPoser_2000244		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser
+scene	SkeletonPoser (1)_2000238		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser (1)
+scene	SkeletonPoser (3)_2000236		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser (3)
+scene	SkeletonPoser (5)_2000240		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonPoser (5)
+scene	WorkerDudeHangingFeet_2007860		False	5	94	False	db3f3ed0	81/94 (86%)	CaveF_Internal_Local/SetDressing/WorkerDudeHangingFeet
+scene	WorkerDudeHangingFeet (1)_2007862		False	5	94	False	db3f3ed0	81/94 (86%)	CaveF_Internal_Local/SetDressing/WorkerDudeHangingFeet (1)
+scene	TactiCoolDeadM (3)_2000676		False	13	80	False	2b8ab987	0/80 (0%)	CaveF_Internal_Local/SetDressing/TactiCoolDeadM (3)
+scene	SkeletonHangingHeadLong_2010240		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonHangingHeadLong
+scene	SkeletonHangingHeadLong_2010244		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonHangingHeadLong
+scene	SkeletonHangingHeadLong (1)_2010242		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHead (1)_2007720		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead_2007718		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonHangingHead
+scene	SkeletonHangingHead_2007716		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonHangingHead
+scene	SkeletonHangingHead (1)_2007714		False	6	90	False	c482211c	0/90 (0%)	CaveF_Internal_Local/SetDressing/SkeletonHangingHead (1)
+scene	SkeletonPoser (6)_2041322		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (6)
+scene	SkeletonPoser (1)_2041326		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (1)
+scene	SkeletonPoser (3)_2041328		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (3)
+scene	SkeletonPoser (7)_2041324		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (7)
+scene	SkeletonPoser (10)_2041320		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (10)
+scene	SkeletonPoser (5)_2041318		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (5)
+scene	SkeletonPoser (8)_2041336		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (8)
+scene	SkeletonPoser (9)_2041338		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (9)
+scene	SkeletonPoser (2)_2041334		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (1)_2041332		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (1)
+scene	SkeletonPoser (4)_2041330		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonPoser (4)
+scene	SkeletonPoserGold (8)_2044268		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonPoserGold (8)
+scene	SkeletonPoserGold (1)_2044266		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonPoserGold (1)
+scene	SkeletonPoserGold (10)_2044272		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonPoserGold (10)
+scene	SkeletonPoserGold (11)_2044270		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonPoserGold (11)
+scene	SkeletonPoserGold (12)_2044262		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonPoserGold (12)
+scene	SkeletonPoserGold (9)_2044260		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonPoserGold (9)
+scene	SkeletonPoserGold (7)_2044264		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonPoserGold (7)
+scene	SkeletonHangingHeadLong_2049250		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonHangingHeadLong
+scene	SkeletonHangingHeadLong (1)_2049248		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHead_2047202		False	6	90	False	c482211c	0/90 (0%)	CaveG_Internal-Local/CaveG_SetDressing/SkeletonHangingHead
+scene	SkeletonHangingHead (2)_2047200		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonHangingHead (2)
+scene	SkeletonHangingHead (3)_2047196		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonHangingHead (3)
+scene	SkeletonHangingHead (1)_2047198		False	6	90	False	c482211c	0/90 (0%)	Basement/Basement_SetDressing/SkeletonHangingHead (1)
+scene	SkeletonPoserGold (1)_2072532		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (1)
+scene	SkeletonPoserGold (6)_2072530		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (6)
+scene	SkeletonPoserGold (3)_2072528		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (3)
+scene	SkeletonPoserGold (4)_2072538		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (4)
+scene	SkeletonPoserGold_2072536		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold
+scene	SkeletonPoserGold (5)_2072534		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (5)
+scene	SkeletonPoserGold (2)_2072526		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (2)
+scene	SkeletonPoserGold (8)_2072524		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (8)
+scene	SkeletonPoserGold (9)_2072522		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (9)
+scene	SkeletonPoserGold (7)_2072520		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/CaveHStuff/SkeletonPoserGold (7)
+scene	SkeletonHangingHeadLong (1)_2076402		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (3)_2076404		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong (4)_2076406		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHeadLong (4)
+scene	SkeletonHangingHeadLong (2)_2076408		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHeadLong (2)
+scene	SkeletonHangingHead (1)_2074868		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (2)_2074866		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (2)
+scene	SkeletonHangingHead (1)_2074856		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (1)
+scene	SkeletonHangingHead (4)_2074862		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (4)
+scene	SkeletonHangingHead (3)_2074860		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (3)
+scene	SkeletonHangingHead (5)_2074858		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (5)
+scene	SkeletonHangingHead (6)_2074864		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (6)
+scene	SkeletonHangingHead (8)_2074850		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (8)
+scene	SkeletonHangingHead_2074854		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead
+scene	SkeletonHangingHead (3)_2074852		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (3)
+scene	SkeletonHangingHead (7)_2074846		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (7)
+scene	SkeletonHangingHead (9)_2074844		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (9)
+scene	SkeletonHangingHead (2)_2074848		False	6	90	False	c482211c	0/90 (0%)	CaveHInternal-Local/SetDressing/SkeletonHangingHead (2)
+scene	BossMutantChopperB_2229370		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantChopperB
+scene	RobbyGetToTheChopperCutscene_2205770		False	23	132	False	02a67127	117/132 (88%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/RobbyGetToTheChopperCutscene
+scene	TacticalSoldierB_2233110		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/TacticoolsGetToTheChopper/TacticoolBGetToTheChopperCutscene/TacticalSoldierB
+scene	BossMutantIntroHelicopterBlades_2244284		False	13	5	False	4ac62508	0/5 (0%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroHelicopterBlades
+scene	BossMutantIntroMutantBabyA_2186392		False	2	57	False	b6ca9b91	0/57 (0%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroMutantBabyA
+scene	TimmyDGoldRoomCutscene_2244828		False	18	64	False	9a1df90c	0/64 (0%)	CaveEInternal-Local/GoldRoomCutsceneSceneSetup/TimmyDGoldRoomCutscene
+scene	TimmyAGoldRoomCutscene_2244830		False	18	64	False	9a1df90c	0/64 (0%)	CaveEInternal-Local/GoldRoomCutsceneSceneSetup/TimmyAGoldRoomCutscene
+scene	TimmyBGoldRoomCutscene_2244824		False	18	64	False	9a1df90c	0/64 (0%)	CaveEInternal-Local/GoldRoomCutsceneSceneSetup/TimmyBGoldRoomCutscene
+scene	TimmyCGoldRoomCutscene_2244826		False	18	64	False	9a1df90c	0/64 (0%)	CaveEInternal-Local/GoldRoomCutsceneSceneSetup/TimmyCGoldRoomCutscene
+scene	BossMutantTimmy_2182198		False	20	64	False	9a1df90c	0/64 (0%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantTimmy
+scene	BossMutantChopperA_2213744		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantChopperA
+scene	TacticalSoldier_2187846		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/BossMutantIntroSceneSetup/TacticoolBossMutantIntroCutscene/TacticalSoldier
+scene	TacticalSoldierD_2210582		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/TacticoolsGetToTheChopper/TacticoolDGetToTheChopperCutscene/TacticalSoldierD
+scene	WorkerDudeHangingHead_2236776		False	5	94	False	db3f3ed0	81/94 (86%)	CaveEInternal-Local/BunkerLayout/LuxuryBunker/WorkerDudeHangingHead
+scene	GetToTheChopperMrPuffyL_2228464		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyL
+scene	DeadMaleAGymPoser_2215528		False	3	89	True	fe742020	0/89 (0%)	CaveEInternal-Local/BunkerLayout/LuxuryBunker/DeadMaleAGymPoser
+scene	TacticalSoldierC_2238204		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/TacticoolsGetToTheChopper/TacticoolCGetToTheChopperCutscene/TacticalSoldierC
+scene	BossMutantChopper_2179372		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantChopper
+scene	GetToTheChopperChopper_2187396		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperChopper
+scene	TacticalSoldierA_2199394		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/TacticoolsGetToTheChopper/TacticoolAGetToTheChopperCutscene/TacticalSoldierA
+scene	GetToTheChopperChopperA_2188704		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperChopperA
+scene	TacticalSoldierE_2192408		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/TacticoolsGetToTheChopper/TacticoolEGetToTheChopperCutscene/TacticalSoldierE
+scene	SkeletonPoser (24)_2176866		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (24)
+scene	SkeletonPoser (5)_2176862		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (5)
+scene	SkeletonPoser (27)_2176864		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (27)
+scene	SkeletonPoser (8)_2176858		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (8)
+scene	SkeletonPoser (7)_2176860		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (7)
+scene	SkeletonPoser (2)_2176872		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (4)_2176874		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (4)
+scene	SkeletonPoser (32)_2176876		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (32)
+scene	SkeletonPoser (5)_2176878		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (5)
+scene	SkeletonPoser (11)_2176868		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (11)
+scene	SkeletonPoser (18)_2176870		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (18)
+scene	SkeletonPoser (1)_2176844		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (1)
+scene	SkeletonPoser (20)_2176846		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (20)
+scene	SkeletonPoser (22)_2176848		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (22)
+scene	SkeletonPoser (10)_2176854		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (10)
+scene	SkeletonPoser (12)_2176856		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (12)
+scene	SkeletonPoser (30)_2176850		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (30)
+scene	SkeletonPoser (9)_2176852		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (9)
+scene	SkeletonPoser_2176920		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser
+scene	SkeletonPoser (23)_2176922		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (23)
+scene	SkeletonPoser (7)_2176918		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (7)
+scene	SkeletonPoser (1)_2176928		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (1)
+scene	SkeletonPoser_2176930		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser
+scene	SkeletonPoser (6)_2176932		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (6)
+scene	SkeletonPoser (6)_2176934		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (6)
+scene	SkeletonPoser (16)_2176924		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (16)
+scene	SkeletonPoser_2176926		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser
+scene	SkeletonPoser (3)_2176888		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (3)
+scene	SkeletonPoser (26)_2176890		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (26)
+scene	SkeletonPoser (14)_2176880		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (14)
+scene	SkeletonPoser (31)_2176882		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (31)
+scene	SkeletonPoser (2)_2176884		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (34)_2176886		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (34)
+scene	SkeletonPoser (29)_2176904		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (29)
+scene	SkeletonPoser (13)_2176906		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (13)
+scene	SkeletonPoser (33)_2176910		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (33)
+scene	SkeletonPoser (21)_2176908		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (21)
+scene	SkeletonPoser (28)_2176912		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (28)
+scene	SkeletonPoser (15)_2176914		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (15)
+scene	SkeletonPoser (8)_2176916		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (8)
+scene	SkeletonPoser (3)_2176892		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (3)
+scene	SkeletonPoser (17)_2176894		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (17)
+scene	SkeletonPoser (19)_2176896		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (19)
+scene	SkeletonPoser (4)_2176898		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (4)
+scene	SkeletonPoser (25)_2176900		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (25)
+scene	SkeletonPoser (1)_2176902		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoser (1)
+scene	TacticalSoldierF_2221188		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/TacticoolsGetToTheChopper/TacticoolFGetToTheChopperCutscene/TacticalSoldierF
+scene	TacticalSoldier_2198616		False	13	125	False	09b012a0	117/125 (93%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/TacticoolsGetToTheChopper/HelicopterPilotGetToTheChopperCutscene/TacticalSoldier
+scene	SkeletonPoserGold_2195492		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold
+scene	SkeletonPoserGold (1)_2195488		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (1)
+scene	SkeletonPoserGold (4)_2195490		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (4)
+scene	SkeletonPoserGold (10)_2195486		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (10)
+scene	SkeletonPoserGold (3)_2195484		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (3)
+scene	SkeletonPoserGold (6)_2195498		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (6)
+scene	SkeletonPoserGold (13)_2195496		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (13)
+scene	SkeletonPoserGold (5)_2195494		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (5)
+scene	SkeletonPoserGold (12)_2195480		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (12)
+scene	SkeletonPoserGold (11)_2195478		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (11)
+scene	SkeletonPoserGold_2195482		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold
+scene	SkeletonPoserGold (2)_2195476		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (2)
+scene	SkeletonPoserGold (1)_2195474		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonPoserGold (1)
+scene	GetToTheChopperMrPuffyE_2225024		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyE
+scene	CaterpillarMutantGoldRoomCutscene_2242246		False	2	91	False	9fde77f4	0/91 (0%)	CaveEInternal-Local/GoldRoomCutsceneSceneSetup/CaterpillarMutantGoldRoomCutscene
+scene	GetToTheChopperMrPuffyQ_2215288		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyQ
+scene	SkeletonHangingHeadLong (19)_2232530		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (19)
+scene	SkeletonHangingHeadLong (4)_2232528		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (4)
+scene	SkeletonHangingHeadLong (25)_2232520		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (25)
+scene	SkeletonHangingHeadLong (15)_2232524		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (15)
+scene	SkeletonHangingHeadLong (9)_2232522		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (9)
+scene	SkeletonHangingHeadLong (22)_2232526		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (22)
+scene	SkeletonHangingHeadLong (2)_2232514		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (2)
+scene	SkeletonHangingHeadLong (27)_2232516		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (27)
+scene	SkeletonHangingHeadLong (32)_2232518		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (32)
+scene	SkeletonHangingHeadLong (8)_2232512		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (8)
+scene	SkeletonHangingHeadLong (31)_2232554		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (31)
+scene	SkeletonHangingHeadLong (1)_2232556		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (10)_2232560		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (10)
+scene	SkeletonHangingHeadLong (3)_2232558		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong_2232562		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong
+scene	SkeletonHangingHeadLong (28)_2232552		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (28)
+scene	SkeletonHangingHeadLong (11)_2232550		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (11)
+scene	SkeletonHangingHeadLong (29)_2232542		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (29)
+scene	SkeletonHangingHeadLong (18)_2232544		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (18)
+scene	SkeletonHangingHeadLong (23)_2232548		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (23)
+scene	SkeletonHangingHeadLong (30)_2232546		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (30)
+scene	SkeletonHangingHeadLong (16)_2232532		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (16)
+scene	SkeletonHangingHeadLong (14)_2232534		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (14)
+scene	SkeletonHangingHeadLong (26)_2232536		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (26)
+scene	SkeletonHangingHeadLong (17)_2232540		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (17)
+scene	SkeletonHangingHeadLong (13)_2232538		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (13)
+scene	SkeletonHangingHeadLong (24)_2232564		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (24)
+scene	SkeletonHangingHeadLong (37)_2232566		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (37)
+scene	SkeletonHangingHeadLong (35)_2232570		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (35)
+scene	SkeletonHangingHeadLong (34)_2232568		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (34)
+scene	SkeletonHangingHeadLong (33)_2232584		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (33)
+scene	SkeletonHangingHeadLong (36)_2232586		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (36)
+scene	SkeletonHangingHeadLong (21)_2232580		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (21)
+scene	SkeletonHangingHeadLong (5)_2232582		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (5)
+scene	SkeletonHangingHeadLong (12)_2232578		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (12)
+scene	SkeletonHangingHeadLong (20)_2232572		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (20)
+scene	SkeletonHangingHeadLong (7)_2232576		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (7)
+scene	SkeletonHangingHeadLong (6)_2232574		False	6	90	False	c482211c	0/90 (0%)	CaveEInternal-Local/CaveSetDressing/SkeletonHangingHeadLong (6)
+scene	GetToTheChopperCaterpillarA_2184072		False	2	91	False	9fde77f4	0/91 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/GetToTheChopperCaterpillarA
+scene	MutantDemonBossIntroTimmy_2198762		False	20	64	False	9a1df90c	0/64 (0%)	CaveEInternal-Any/MutantDemonBossIntroCutsceneRoot/MutantDemonBossIntroTimmy
+scene	WorkerDudePoser_2237318		False	5	94	False	db3f3ed0	81/94 (86%)	CaveEExternal/LAYOUT/BodyShelving (3)/WorkerDudePoser
+scene	LavaFlowPoser (19)_2180180		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (19)
+scene	LavaFlowPoser (2)_2180178		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (2)
+scene	LavaFlowPoser (20)_2180174		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (20)
+scene	LavaFlowPoser (7)_2180176		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (7)
+scene	LavaFlowPoser (3)_2180172		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (3)
+scene	LavaFlowPoser (4)_2180166		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (4)
+scene	LavaFlowPoser (1)_2180168		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (1)
+scene	LavaFlowPoser (22)_2180170		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (22)
+scene	LavaFlowPoser (13)_2180164		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (13)
+scene	LavaFlowPoser (8)_2180186		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (8)
+scene	LavaFlowPoser_2180184		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser
+scene	LavaFlowPoser (11)_2180182		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (11)
+scene	LavaFlowPoser (18)_2180194		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (18)
+scene	LavaFlowPoser (1)_2180192		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (1)
+scene	LavaFlowPoser_2180190		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser
+scene	LavaFlowPoser (5)_2180188		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (5)
+scene	LavaFlowPoser (1)_2180206		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (1)
+scene	LavaFlowPoser_2180204		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser
+scene	LavaFlowPoser_2180202		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser
+scene	LavaFlowPoser (10)_2180200		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (10)
+scene	LavaFlowPoser_2180198		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser
+scene	LavaFlowPoser (6)_2180196		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (6)
+scene	LavaFlowPoser (7)_2180138		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (7)
+scene	LavaFlowPoser (14)_2180136		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (14)
+scene	LavaFlowPoser (2)_2180132		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (2)
+scene	LavaFlowPoser (21)_2180134		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (21)
+scene	LavaFlowPoser (5)_2180146		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (5)
+scene	LavaFlowPoser (9)_2180144		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (9)
+scene	LavaFlowPoser (17)_2180142		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (17)
+scene	LavaFlowPoser (8)_2180140		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (8)
+scene	LavaFlowPoser (15)_2180152		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (15)
+scene	LavaFlowPoser (9)_2180150		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (9)
+scene	LavaFlowPoser (4)_2180148		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (4)
+scene	LavaFlowPoser (16)_2180162		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (16)
+scene	LavaFlowPoser (6)_2180158		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (6)
+scene	LavaFlowPoser (3)_2180160		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (3)
+scene	LavaFlowPoser_2180156		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser
+scene	LavaFlowPoser (12)_2180154		False	1	12	False	1fe8b216	0/12 (0%)	CaveEInternal-Local/LAVA/LavaDAGmanaged/LavaFlowPoser (12)
+scene	GetToTheChopperMrPuffyN_2243212		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyN
+scene	BossMutantIntroMutantBaby_2236102		False	2	57	False	b6ca9b91	0/57 (0%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroMutantBaby
+scene	GetToTheChopperCaterpillarB_2226354		False	2	91	False	9fde77f4	0/91 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/GetToTheChopperCaterpillarB
+scene	BossMutantIntroMutantBabyB_2237166		False	2	57	False	b6ca9b91	0/57 (0%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroMutantBabyB
+scene	GetToTheChopperMrPuffyG_2245982		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyG
+scene	GetToTheChopperMrPuffyH_2246328		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyH
+scene	PlayerGetToTheChopperCutscene_2225242		False	5	122	False	a240987b	118/122 (96%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/PlayerGetToTheChopperCutscene
+scene	BossMutantIntroTimmyMutantArm_2214558		False	1	79	False	3a080c09	1/79 (1%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroTimmyMutantArm
+scene	GetToTheChopperMrPuffyF_2242572		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyF
+scene	GetToTheChopperMrPuffyB_2242586		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyB
+scene	GetToTheChopperCaterpillar_2195908		False	2	91	False	9fde77f4	0/91 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/GetToTheChopperCaterpillar
+scene	BossMutantIntroPlayerA_2217060		False	5	122	False	a240987b	118/122 (96%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroPlayerA
+scene	GetToTheChopperMrPuffyM_2231352		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyM
+scene	GetToTheChopperMrPuffyI_2233234		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyI
+scene	GetToTheChopperMrPuffyP_2190670		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyP
+scene	GetToTheChopperMrPuffyK_2186004		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyK
+scene	GetToTheChopperMrPuffyD_2188512		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyD
+scene	GetToTheChopperMrPuffyA_2183170		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyA
+scene	GetToTheChopperMrPuffyC_2178366		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyC
+scene	BossMutantIntroTimmyMutantArmA_2179122		False	1	79	False	3a080c09	1/79 (1%)	Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroTimmyMutantArmA
+scene	MutantDemonBossIntroTimmyMutantArm_2186270		False	1	79	False	3a080c09	1/79 (1%)	CaveEInternal-Any/MutantDemonBossIntroCutsceneRoot/MutantDemonBossIntroTimmyMutantArm
+scene	GetToTheChopperMrPuffyO_2194464		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyO
+scene	GetToTheChopperMrPuffyJ_2194572		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffyJ
+scene	GetToTheChopperMrPuffy_2197236		False	1	63	False	f8c8bc7e	0/63 (0%)	Cutscenes/GetToTheChopperCutsceneSceneSetup/Actors/GetToTheChopperMutantsCutscene/MrPuffy/GetToTheChopperMrPuffy
+scene	OldSledClothAWindBreezeStrong_2922264		False	2	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2783890		False	2	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922228		False	2	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (10)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922272		False	2	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922204		False	2	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (2)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922278		False	2	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled/OldSledClothAWindBreezeStrong
+scene	SkeletonHangingHead (3)_2813524		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonHangingHead (3)
+scene	MrPuffyPoser (3)_2892618		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (3)
+scene	OldClothAWindBreezeStrong_2827572		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ANB/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827580		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickup/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827578		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AKV/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827574		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ANR/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827576		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ABB/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827584		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickup (1)/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827586		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AGE/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827588		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AAA/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827590		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AAF/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827582		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AGH/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827592		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ADY/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827600		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ACB/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827596		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AAL/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827594		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ACI/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827598		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickup (3)/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827602		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AOO/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827606		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ACK/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827604		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AAY/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827552		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ANH/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827554		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AQH/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827556		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickup (2)/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827558		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickup (4)/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827560		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ADK/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827562		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickup (5)/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827564		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AKB/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827566		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.AJK/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827570		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.APU/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	OldClothAWindBreezeStrong_2827568		False	1	27	False	8eea31cb	0/27 (0%)	SonsStorySpots.GraveItems.ADH/HangingClothAWindBreezeStrong/OldClothAWindBreezeStrong
+scene	SkeletonPoser (2)_2959100		False	6	90	False	c482211c	0/90 (0%)	CellarO/SetDressing/GroupB/SkeletonPoser (2)
+scene	SkeletonPoser (3)_2961238		False	6	90	False	c482211c	0/90 (0%)	CellarF/SetDressing/GroupC/SkeletonPoser (3)
+scene	SkeletonPoser (2)_2729092		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (2)
+scene	SkeletonHangingHeadLong (3)_2794548		False	6	90	False	c482211c	0/90 (0%)	CellarC/SetDressing/SkeletonHangingHeadLong (3)
+scene	DeadFemaleBGymPoser (1)_2963692		False	3	87	True	19b9a8ac	0/87 (0%)	DeadFemaleBGymPoser (1)
+scene	SkeletonPoser (3)_2822240		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (3)
+scene	SkeletonPoser_2818628		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AOX/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818630		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.ANQ/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818634		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.APF/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818632		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AGO/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818638		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AMK/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818636		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AKP/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818640		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AXZ/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818646		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AHL/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818648		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AEP/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818642		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AMZ/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818644		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.ANO/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818650		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AID/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818652		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.ALY/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818654		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.APY/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818656		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.ALG/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818658		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AIN/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818590		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AYS/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818594		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AGG/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818596		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.ADG/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818598		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AQL/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818592		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AKG/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818602		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AXH/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818600		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AAO/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818604		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.ABD/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818606		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AMD/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818610		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AIZ/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818608		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AJP/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818612		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AWV/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818614		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AHB/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818618		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AKL/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818620		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AOR/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818616		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.APW/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818622		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.ALV/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818624		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AXV/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonPoser_2818626		False	6	90	False	c482211c	0/90 (0%)	SonsStorySpots.GraveItems.AXU/GraveCoffinGroup/SkeletonPoser
+scene	SkeletonHangingHeadLong (2)_2880508		False	6	90	False	c482211c	0/90 (0%)	CellarO/SetDressing/GroupB/SkeletonHangingHeadLong (2)
+scene	SkeletonPoser (24)_2817190		False	6	90	False	c482211c	0/90 (0%)	CellarO/SetDressing/GroupB/SkeletonPoser (24)
+scene	SkeletonHangingHeadLong (2)_2946830		False	6	90	False	c482211c	0/90 (0%)	CellarD/SetDressing/GroupB/SkeletonHangingHeadLong (2)
+scene	SkeletonPoser (2)_2737890		False	6	90	False	c482211c	0/90 (0%)	CellarQ/SetDressing/GroupB/SkeletonPoser (2)
+scene	SkeletonHangingHead (1)_2735848		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonHangingHead (1)
+scene	DeadMaleAPoserFrozen (1)_2859600		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoserFrozen (1)
+scene	DeadMaleAPoserFrozen (1)_2859598		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoserFrozen (1)
+scene	DeadMaleAPoser_2859590		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser
+scene	DeadMaleAPoser (9)_2859596		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (9)
+scene	DeadMaleAPoser (3)_2859594		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (3)
+scene	DeadMaleAPoser (8)_2859592		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (8)
+scene	DeadMaleAPoser_2859588		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser
+scene	DeadMaleAPoser (6)_2859606		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (6)
+scene	DeadMaleAPoserFrozen (1)_2859604		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoserFrozen (1)
+scene	DeadMaleAPoserFrozenOld_2859602		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoserFrozenOld
+scene	DeadMaleAPoser (7)_2859616		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (7)
+scene	DeadMaleAPoser (8)_2859614		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (8)
+scene	DeadMaleAPoser_2859608		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser
+scene	DeadMaleAPoser (8)_2859610		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (8)
+scene	DeadMaleAPoser_2859612		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser
+scene	DeadMaleAPoser (5)_2859630		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (5)
+scene	DeadMaleAPoser (2)_2859628		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (2)
+scene	DeadMaleAPoser_2859624		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser
+scene	DeadMaleAPoser_2859622		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser
+scene	DeadMaleAPoser (4)_2859626		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (4)
+scene	DeadMaleAPoser (1)_2859620		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoser (1)
+scene	DeadMaleAPoserFrozen_2859618		False	3	89	True	fe742020	0/89 (0%)	DeadMaleAPoserFrozen
+scene	SquirrelStunShrine_2907134		False	3	47	False	e37c3e52	0/47 (0%)	StunShrinePrefab/StunAnimationRoot/SquirrelStunShrine
+scene	SkeletonHangingHeadLong (2)_2734678		False	6	90	False	c482211c	0/90 (0%)	CellarC/SetDressing/SkeletonHangingHeadLong (2)
+scene	SkeletonHangingHeadLong (2)_2910214		False	6	90	False	c482211c	0/90 (0%)	CellarQ/SetDressing/GroupB/SkeletonHangingHeadLong (2)
+scene	SkeletonPoser (1)_2979740		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (1)
+scene	WorkerDudeHangingFeetLong (1)_2886774		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudeHangingFeetLong (1)
+scene	WorkerDudeHangingFeetLong_2886776		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudeHangingFeetLong
+scene	SkeletonPoser (9)_2779388		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (9)
+scene	SkeletonPoser (2)_2905644		False	6	90	False	c482211c	0/90 (0%)	CellarC/SetDressing/SkeletonPoser (2)
+scene	SkeletonPoser (1)_2709582		False	6	90	False	c482211c	0/90 (0%)	CellarC/SetDressing/SkeletonPoser (1)
+scene	SkeletonHangingHeadLong (1)_2904054		False	6	90	False	c482211c	0/90 (0%)	CellarD/SetDressing/GroupB/SkeletonHangingHeadLong (1)
+scene	OldSledClothAWindBreezeStrong_2814508		False	1	27	False	8eea31cb	0/27 (0%)	ShotgunGraveSetup/ClothOldPickupSled (11)/OldSledClothAWindBreezeStrong
+scene	SkeletonPoser_2708126		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708128		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708130		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708136		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708138		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708132		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708134		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708140		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708142		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708144		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708146		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708148		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708150		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708152		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708094		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (6)_2708096		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (6)
+scene	SkeletonPoser_2708098		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708092		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708100		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser (1)_2708102		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708104		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (3)_2708106		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (3)
+scene	SkeletonPoser (2)_2708110		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708108		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708116		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser (2)_2708112		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (5)_2708114		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (5)
+scene	SkeletonPoser (1)_2708118		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser (2)_2708120		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708124		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (3)_2708122		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (3)
+scene	SkeletonPoser (4)_2708172		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (4)
+scene	SkeletonPoser (4)_2708174		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (4)
+scene	SkeletonPoser_2708180		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708178		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708176		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (22)_2708184		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (22)
+scene	SkeletonPoser (2)_2708182		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (19)_2708186		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (19)
+scene	SkeletonPoser_2708154		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708160		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (15)_2708158		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (15)
+scene	SkeletonPoser (1)_2708156		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708162		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708168		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (2)_2708164		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (1)_2708166		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708170		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (11)_2708030		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (11)
+scene	SkeletonPoser_2708032		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708040		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (12)_2708036		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (12)
+scene	SkeletonPoser_2708038		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708034		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708044		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708042		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (5)_2708046		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (5)
+scene	SkeletonPoser (18)_2708048		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (18)
+scene	SkeletonPoser (2)_2708054		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708050		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708052		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708012		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708014		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708016		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708018		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708022		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708020		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708024		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (6)_2708028		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (6)
+scene	SkeletonPoser (8)_2708026		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (8)
+scene	SkeletonPoser (2)_2708066		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708070		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708068		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708074		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708076		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708072		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser (2)_2708080		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (1)_2708078		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708084		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708086		True	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708088		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708090		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708082		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708056		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser (1)_2708058		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708060		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (17)_2708062		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (17)
+scene	SkeletonPoser (2)_2708064		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708284		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708286		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708290		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708292		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708288		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708296		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708294		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708298		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (2)_2708300		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (9)_2708264		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (9)
+scene	SkeletonPoser (3)_2708266		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (3)
+scene	SkeletonPoser_2708268		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708270		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708274		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708272		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser (1)_2708276		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708280		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (7)_2708278		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (7)
+scene	SkeletonPoser (7)_2708282		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (7)
+scene	SkeletonPoser (1)_2708316		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser (14)_2708318		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (14)
+scene	SkeletonPoser_2708320		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708322		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (13)_2708326		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (13)
+scene	SkeletonPoser (2)_2708324		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708306		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708304		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708302		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708308		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708310		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708312		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (21)_2708314		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (21)
+scene	SkeletonPoser_2708212		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708214		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708216		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (4)_2708218		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (4)
+scene	SkeletonPoser_2708220		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (6)_2708224		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (6)
+scene	SkeletonPoser (22)_2708222		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (22)
+scene	SkeletonPoser_2708226		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708188		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708192		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708190		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser (10)_2708194		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (10)
+scene	SkeletonPoser (1)_2708196		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708198		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708200		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708204		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708202		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708208		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708206		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708210		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708244		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (1)_2708246		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708252		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708248		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708250		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708256		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708254		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708260		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (22)_2708258		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (22)
+scene	SkeletonPoser_2708262		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser_2708230		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (2)_2708228		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (2)
+scene	SkeletonPoser_2708232		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (16)_2708236		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (16)
+scene	SkeletonPoser (1)_2708234		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (1)
+scene	SkeletonPoser_2708240		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser
+scene	SkeletonPoser (20)_2708238		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (20)
+scene	SkeletonPoser (5)_2708242		False	6	90	False	c482211c	0/90 (0%)	SkeletonPoser (5)
+scene	GolfFlagModel_2850536		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (10)/GolfFlagModel
+scene	GolfFlagModel_2850538		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (12)/GolfFlagModel
+scene	GolfFlagModel_2850540		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (11)/GolfFlagModel
+scene	GolfFlagModel_2850542		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (2)/GolfFlagModel
+scene	GolfFlagModel_2850530		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (7)/GolfFlagModel
+scene	GolfFlagModel_2850532		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (14)/GolfFlagModel
+scene	GolfFlagModel_2850534		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (8)/GolfFlagModel
+scene	GolfFlagModel_2850526		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (5)/GolfFlagModel
+scene	GolfFlagModel_2850528		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (6)/GolfFlagModel
+scene	GolfFlagModel_2850520		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (4)/GolfFlagModel
+scene	GolfFlagModel_2850522		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (16)/GolfFlagModel
+scene	GolfFlagModel_2850524		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (15)/GolfFlagModel
+scene	GolfFlagModel_2850516		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (9)/GolfFlagModel
+scene	GolfFlagModel_2850518		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA/GolfFlagModel
+scene	GolfFlagModel_2850512		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (1)/GolfFlagModel
+scene	GolfFlagModel_2850514		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (13)/GolfFlagModel
+scene	GolfFlagModel_2850510		False	1	32	False	b70a6ce2	0/32 (0%)	GolfFlagA (3)/GolfFlagModel
+scene	WorkerDudeHangingFeet (1)_2874950		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudeHangingFeet (1)
+scene	WorkerDudeHangingFeet (2)_2874952		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudeHangingFeet (2)
+scene	WorkerDudeHangingFeet_2874948		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudeHangingFeet
+scene	SkeletonPoser (1)_2964780		False	6	90	False	c482211c	0/90 (0%)	CellarD/SetDressing/GroupB/SkeletonPoser (1)
+scene	SkeletonPoser (10)_2838676		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (10)
+scene	SkeletonPoser (23)_2967748		False	6	90	False	c482211c	0/90 (0%)	CellarO/SetDressing/GroupB/SkeletonPoser (23)
+scene	SkeletonHangingHead (2)_2787484		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonHangingHead (2)
+scene	SkeletonPoser (1)_2787856		False	6	90	False	c482211c	0/90 (0%)	CellarO/SetDressing/GroupB/SkeletonPoser (1)
+scene	SkeletonHangingHeadLong (3)_2922022		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong_2922024		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHeadLong
+scene	SkeletonHangingHeadLong (1)_2922026		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (2)_2922028		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHeadLong (2)
+scene	SkeletonHangingHeadLong (1)_2922030		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHeadLong (1)
+scene	DeadFemaleCPoolPoser (2)_2812292		False	3	89	True	fe742020	0/89 (0%)	DeadFemaleCPoolPoser (2)
+scene	DeadFemaleCPoolPoser (1)_2812294		False	3	89	True	fe742020	0/89 (0%)	DeadFemaleCPoolPoser (1)
+scene	DeadFemaleCPoolPoser_2812296		False	3	89	True	fe742020	0/89 (0%)	DeadFemaleCPoolPoser
+scene	DeadFemaleCPoolPoser (3)_2812300		False	3	89	True	fe742020	0/89 (0%)	DeadFemaleCPoolPoser (3)
+scene	DeadFemaleCPoolPoser (4)_2812298		False	3	89	True	fe742020	0/89 (0%)	DeadFemaleCPoolPoser (4)
+scene	SkeletonPoser (1)_2763984		False	6	90	False	c482211c	0/90 (0%)	CellarQ/SetDressing/GroupB/SkeletonPoser (1)
+scene	SkeletonHangingHeadLong (1)_2851414		False	6	90	False	c482211c	0/90 (0%)	CellarC/SetDressing/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHeadLong (3)_2927260		False	6	90	False	c482211c	0/90 (0%)	CellarD/SetDressing/GroupB/SkeletonHangingHeadLong (3)
+scene	SkeletonPoser (1)_2927426		False	6	90	False	c482211c	0/90 (0%)	CellarL/SetDressing/GroupC/SkeletonPoser (1)
+scene	SkeletonPoser (2)_2849600		False	6	90	False	c482211c	0/90 (0%)	CellarF/SetDressing/GroupB/SkeletonPoser (2)
+scene	SkeletonHangingHeadLong (1)_2769170		False	6	90	False	c482211c	0/90 (0%)	CellarQ/SetDressing/GroupB/SkeletonHangingHeadLong (1)
+scene	SkeletonPoser (25)_2910800		False	6	90	False	c482211c	0/90 (0%)	CellarO/SetDressing/GroupB/SkeletonPoser (25)
+scene	SkeletonPoser (1)_2847238		False	6	90	False	c482211c	0/90 (0%)	CellarN/SetDressing/GroupA/SkeletonPoser (1)
+scene	SkeletonPoser (1)_2913642		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (1)
+scene	SkeletonHangingHead (1)_2773054		False	6	90	False	c482211c	0/90 (0%)	CellarC/SetDressing/SkeletonHangingHead (1)
+scene	WorkerDudePoser (9)_2942024		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (9)
+scene	WorkerDudePoser (16)_2942028		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (16)
+scene	WorkerDudePoser (27)_2942026		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (27)
+scene	WorkerDudePoser (6)_2942030		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (6)
+scene	WorkerDudePoser (19)_2942032		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (19)
+scene	WorkerDudePoser (36)_2942036		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (36)
+scene	WorkerDudePoser (1)_2942034		False	5	94	False	db3f3ed0	81/94 (86%)	SatelliteSpot3/WorkerDudePoser (1)
+scene	WorkerDudePoser (6)_2942038		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (6)
+scene	WorkerDudePoser (3)_2942042		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (3)
+scene	WorkerDudePoser (1)_2942040		False	5	94	False	db3f3ed0	81/94 (86%)	SatelliteSpot4/WorkerDudePoser (1)
+scene	WorkerDudePoser (24)_2941996		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (24)
+scene	WorkerDudePoser (10)_2941998		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (10)
+scene	WorkerDudePoser (17)_2942000		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (17)
+scene	WorkerDudePoser (8)_2942002		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (8)
+scene	WorkerDudePoser (33)_2942004		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (33)
+scene	WorkerDudePoser (22)_2942006		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (22)
+scene	WorkerDudePoser (28)_2942008		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (28)
+scene	WorkerDudePoser (23)_2942012		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (23)
+scene	WorkerDudePoser (27)_2942010		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (27)
+scene	WorkerDudePoser_2942014		False	5	94	False	db3f3ed0	81/94 (86%)	SatelliteSpot1/WorkerDudePoser
+scene	WorkerDudePoser (34)_2942016		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (34)
+scene	WorkerDudePoser (32)_2942018		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (32)
+scene	WorkerDudePoser (5)_2942020		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (5)
+scene	WorkerDudePoser (6)_2942022		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (6)
+scene	WorkerDudePoser (13)_2942088		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (13)
+scene	WorkerDudePoser_2942090		False	5	94	False	db3f3ed0	81/94 (86%)	SatelliteSpot2/WorkerDudePoser
+scene	WorkerDudePoser (1)_2942092		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (1)
+scene	WorkerDudePoser (14)_2942094		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (14)
+scene	WorkerDudePoser (7)_2942096		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (7)
+scene	WorkerDudePoser (35)_2942098		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (35)
+scene	WorkerDudePoser (6)_2942100		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (6)
+scene	WorkerDudePoser (40)_2942102		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (40)
+scene	WorkerDudePoser (30)_2942104		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (30)
+scene	WorkerDudePoser (38)_2942106		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (38)
+scene	WorkerDudePoser (11)_2942044		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (11)
+scene	WorkerDudePoser (5)_2942046		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (5)
+scene	WorkerDudePoser (29)_2942048		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (29)
+scene	WorkerDudePoser (1)_2942050		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (1)
+scene	WorkerDudePoser (2)_2942054		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (2)
+scene	WorkerDudePoser (37)_2942052		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (37)
+scene	WorkerDudePoser (6)_2942056		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (6)
+scene	WorkerDudePoser (41)_2942058		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (41)
+scene	WorkerDudePoser_2942060		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser
+scene	WorkerDudePoser (39)_2942064		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (39)
+scene	WorkerDudePoser (26)_2942062		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (26)
+scene	WorkerDudePoser (4)_2942066		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (4)
+scene	WorkerDudePoser (5)_2942068		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (5)
+scene	WorkerDudePoser (20)_2942070		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (20)
+scene	WorkerDudePoser (18)_2942074		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (18)
+scene	WorkerDudePoser (15)_2942072		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (15)
+scene	WorkerDudePoser (21)_2942076		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (21)
+scene	WorkerDudePoser (1)_2942078		False	5	94	False	db3f3ed0	81/94 (86%)	SatelliteSpot2/WorkerDudePoser (1)
+scene	WorkerDudePoser (31)_2942080		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (31)
+scene	WorkerDudePoser_2942082		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser
+scene	WorkerDudePoser (25)_2942084		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (25)
+scene	WorkerDudePoser (12)_2942086		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudePoser (12)
+scene	SkeletonHangingHeadLong (3)_2770656		False	6	90	False	c482211c	0/90 (0%)	CellarN/SetDressing/GroupA/SkeletonHangingHeadLong (3)
+scene	SkeletonHangingHeadLong (3)_2842448		False	6	90	False	c482211c	0/90 (0%)	CellarQ/SetDressing/GroupB/SkeletonHangingHeadLong (3)
+scene	SkeletonPoser (6)_2940148		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (6)
+scene	SkeletonPoser (7)_2938784		False	6	90	False	c482211c	0/90 (0%)	CellarA/Basement_SetDressing/SkeletonPoser (7)
+scene	SkeletonHangingHeadLong (1)_2739354		False	6	90	False	c482211c	0/90 (0%)	CellarF/SetDressing/GroupB/SkeletonHangingHeadLong (1)
+scene	SkeletonHangingHead (4)_2871384		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (4)
+scene	SkeletonHangingHead (3)_2871386		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (3)
+scene	SkeletonHangingHead (1)_2871376		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (1)
+scene	SkeletonHangingHead (1)_2871374		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (1)
+scene	SkeletonHangingHead (4)_2871378		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (4)
+scene	SkeletonHangingHead (2)_2871382		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (2)
+scene	SkeletonHangingHead (1)_2871380		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (1)
+scene	SkeletonHangingHead (1)_2871368		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (1)
+scene	SkeletonHangingHead (1)_2871372		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (1)
+scene	SkeletonHangingHead (2)_2871370		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (2)
+scene	SkeletonHangingHead (1)_2871366		False	6	90	False	c482211c	0/90 (0%)	SkeletonHangingHead (1)
+scene	WorkerDudeHangingHeadLong_2718110		False	5	94	False	db3f3ed0	81/94 (86%)	WorkerDudeHangingHeadLong
+scene	SkeletonPoser (2)_2869176		False	6	90	False	c482211c	0/90 (0%)	CellarD/SetDressing/GroupB/SkeletonPoser (2)
+scene	SkeletonPoser (1)_2944354		False	6	90	False	c482211c	0/90 (0%)	CellarF/SetDressing/GroupC/SkeletonPoser (1)
+scene	SkeletonHangingHead (1)_2864790		False	6	90	False	c482211c	0/90 (0%)	CellarB/Layout/SetDressing/SkeletonHangingHead (1)
+scene	BatPoseDeadOnStick_2718822		False	3	68	False	af84940c	0/68 (0%)	BatPoseDeadOnStick
+scene	BatPoseDeadOnStick (2)_2718942		False	3	68	False	af84940c	0/68 (0%)	BatPoseDeadOnStick (2)
+scene	BatPoseDeadOnStick (3)_2719464		False	3	68	False	af84940c	0/68 (0%)	BatPoseDeadOnStick (3)
+scene	BatPoseDeadOnStick (1)_2719530		False	3	68	False	af84940c	0/68 (0%)	BatPoseDeadOnStick (1)
+scene	DeerPoser (6)_2725374		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (6)_2725376		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (7)_2725372		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (7)
+scene	DeerPoser (9)_2725368		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (9)
+scene	DeerPoser (1)_2725370		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (1)
+scene	DeerPoser (6)_2725364		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (12)_2725366		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (12)
+scene	DeerPoser (3)_2725356		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (3)
+scene	DeerPoser (4)_2725358		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (4)
+scene	DeerPoser (10)_2725362		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (10)
+scene	DeerPoser (8)_2725360		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (8)
+scene	DeerPoser_2725350		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser
+scene	DeerPoser (6)_2725352		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (7)_2725354		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (7)
+scene	DeerPoser (7)_2725342		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (7)
+scene	DeerPoser (6)_2725344		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (6)_2725348		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (6)_2725346		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (5)_2725336		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (5)
+scene	DeerPoser (9)_2725338		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (9)
+scene	DeerPoser (11)_2725340		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (11)
+scene	DeerPoser (6)_2725334		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (8)_2725328		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (8)
+scene	DeerPoser (8)_2725332		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (8)
+scene	DeerPoser (8)_2725330		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (8)
+scene	DeerPoser (8)_2725326		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (8)
+scene	DeerPoser (6)_2725316		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (2)_2725318		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (2)
+scene	DeerPoser (6)_2725324		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (6)
+scene	DeerPoser (9)_2725320		False	4	44	False	3c775a14	0/44 (0%)	CannibalVillage2/DeerPoser (9)
+scene	DeerPoser (9)_2725322		False	4	44	False	3c775a14	0/44 (0%)	DeerPoser (9)
+scene	DeadMaleCPoolPoser_2870546		False	3	89	True	fe742020	0/89 (0%)	DeadMaleCPoolPoser
+scene	DeadMaleCPoolPoser (1)_2870548		False	3	89	True	fe742020	0/89 (0%)	DeadMaleCPoolPoser (1)
+scene	MrPuffyPoser (13)_2761960		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (13)
+scene	MrPuffyPoser (2)_2761962		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser (1)_2761964		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (1)
+scene	MrPuffyPoser (6)_2761966		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (6)
+scene	MrPuffyPoser (13)_2761958		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (13)
+scene	MrPuffyPoser (5)_2761952		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (5)
+scene	MrPuffyPoser (2)_2761954		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser (15)_2761956		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (15)
+scene	MrPuffyPoser (11)_2761948		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (11)
+scene	MrPuffyPoser (2)_2761950		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser (2)_2761942		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser (13)_2761944		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (13)
+scene	MrPuffyPoser (2)_2761946		False	1	63	False	f8c8bc7e	0/63 (0%)	HelicopterLanded/VisualRoot/FlyOverHelicopter/Render/HelicopterMainRotor/MrPuffyPoser (2)
+scene	MrPuffyPoser (4)_2761936		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (4)
+scene	MrPuffyPoser (9)_2761938		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (9)
+scene	MrPuffyPoser (2)_2761940		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser (7)_2761934		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (7)
+scene	MrPuffyPoser (2)_2761928		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser (2)_2761930		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser_2761932		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser
+scene	MrPuffyPoser (13)_2761924		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (13)
+scene	MrPuffyPoser (14)_2761926		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (14)
+scene	MrPuffyPoser (10)_2761920		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (10)
+scene	MrPuffyPoser (13)_2761922		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (13)
+scene	MrPuffyPoser (2)_2761916		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (2)
+scene	MrPuffyPoser (8)_2761918		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (8)
+scene	MrPuffyPoser (12)_2761914		False	1	63	False	f8c8bc7e	0/63 (0%)	MrPuffyPoser (12)
+scene	OldSledClothAWindBreezeStrong_2922252		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (19)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922254		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (23)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922250		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (3)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922248		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (2)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922258		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (11)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922256		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (26)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922262		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (16)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922260		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (26)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922268		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (25)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922266		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (14)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922270		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (5)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922274		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (7)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922276		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (17)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922202		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (5)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922198		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (15)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922200		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (13)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922206		False	1	27	False	8eea31cb	0/27 (0%)	CannibalVillage4/ClothOldPickupSled (24)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922214		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (1)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922210		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (19)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922208		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (4)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922212		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (6)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922220		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (25)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922218		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (23)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922216		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (9)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922224		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (12)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922222		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (7)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922226		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (24)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922230		False	1	27	False	8eea31cb	0/27 (0%)	CannibalVillage4/ClothOldPickupSled (23)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922232		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (23)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922236		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (23)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922240		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (18)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922238		False	1	27	False	8eea31cb	0/27 (0%)	CannibalVillage7/ClothOldPickupSled (19)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922234		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (4)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922246		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (8)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922242		False	1	27	False	8eea31cb	0/27 (0%)	ClothOldPickupSled (23)/OldSledClothAWindBreezeStrong
+scene	OldSledClothAWindBreezeStrong_2922244		False	1	27	False	8eea31cb	0/27 (0%)	CannibalVillage3/ClothOldPickupSled (23)/OldSledClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884710		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (2)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884712		False	1	27	False	8eea31cb	0/27 (0%)	CannibalVillage4/DryingRackACloth1LOD0 (2)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884714		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (4)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884716		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (2)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884718		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (5)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884698		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (2)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884702		False	1	27	False	8eea31cb	0/27 (0%)	CannibalVillage3/DryingRackACloth1LOD0 (2)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884700		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (5)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884706		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (4)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884708		False	1	27	False	8eea31cb	0/27 (0%)	CannibalVillage4/DryingRackACloth1LOD0 (3)/HangingClothAWindBreezeStrong
+scene	HangingClothAWindBreezeStrong_2884704		False	1	27	False	8eea31cb	0/27 (0%)	DryingRackACloth1LOD0 (5)/HangingClothAWindBreezeStrong
+scene	MutantDemonBossRenderRig_3437154		False	4	42	False	6f6e32f4	0/42 (0%)	CaveE-LuxuryBunkerHellCave/DemonBossPaths/DemonBossPath/DemonBossActor/VisualRoot/MutantDemonBossRenderRig
+scene	TwinsAnimBase_3422006		False	1	120	False	30ab5b06	0/120 (0%)	CaveB/CaveB-Stimuli/TwinsPath/TwinsTestActor/VisualRoot/TwinsAnimBase
+scene	TwinsAnimBase_3422000		False	1	120	False	30ab5b06	0/120 (0%)	BunkerD-Entertainment/BunkerD-Stimuli/TwinsPath/TwinsTestActor/VisualRoot/TwinsAnimBase
+scene	TwinsAnimBase_3422004		False	1	120	False	30ab5b06	0/120 (0%)	CaveB/CaveB-Stimuli/TwinsPath/TwinsTestActor/VisualRoot/TwinsAnimBase
+scene	TwinsAnimBase_3422002		False	1	120	False	30ab5b06	0/120 (0%)	CaveC/CaveC-Stimuli/TwinsPath (1)/TwinsTestActor/VisualRoot/TwinsAnimBase
+scene	TwinsAnimBase_3409994		False	1	120	False	30ab5b06	0/120 (0%)	CaveA/CaveA-Stimuli/TwinsPaths/TwinsTestActor/VisualRoot/TwinsAnimBase
+scene	TwinsAnimBase_3409996		False	1	120	False	30ab5b06	0/120 (0%)	BunkerD-Entertainment/BunkerD-Stimuli/TwinsSimpleMover/VisualRoot/TwinsAnimBase
+scene	SalmonFX_3574970		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (13)/SalmonFX
+scene	SalmonFX_3574972		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (47)/SalmonFX
+scene	SalmonFX_3574974		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (24)/SalmonFX
+scene	SalmonFX_3574976		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner/SalmonFX
+scene	SalmonFX_3574968		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (14)/SalmonFX
+scene	SalmonFX_3574980		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (27)/SalmonFX
+scene	SalmonFX_3574978		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (13)/SalmonFX
+scene	SalmonFX_3574984		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (12)/SalmonFX
+scene	SalmonFX_3574986		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (16)/SalmonFX
+scene	SalmonFX_3574982		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (38)/SalmonFX
+scene	SalmonFX_3574988		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (9)/SalmonFX
+scene	SalmonFX_3574992		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (10)/SalmonFX
+scene	SalmonFX_3574990		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (16)/SalmonFX
+scene	SalmonFX_3575000		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (7)/SalmonFX
+scene	SalmonFX_3574998		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (37)/SalmonFX
+scene	SalmonFX_3575004		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (14)/SalmonFX
+scene	SalmonFX_3575002		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (2)/SalmonFX
+scene	SalmonFX_3574994		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (2)/SalmonFX
+scene	SalmonFX_3574996		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (28)/SalmonFX
+scene	SalmonFX_3575006		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (46)/SalmonFX
+scene	SalmonFX_3575008		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (10)/SalmonFX
+scene	SalmonFX_3575012		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (12)/SalmonFX
+scene	SalmonFX_3575014		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (26)/SalmonFX
+scene	SalmonFX_3575018		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (1)/SalmonFX
+scene	SalmonFX_3575016		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (8)/SalmonFX
+scene	SalmonFX_3575010		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (5)/SalmonFX
+scene	SalmonFX_3575022		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (44)/SalmonFX
+scene	SalmonFX_3575024		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (29)/SalmonFX
+scene	SalmonFX_3575020		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (4)/SalmonFX
+scene	SalmonFX_3575034		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (3)/SalmonFX
+scene	SalmonFX_3575032		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (1)/SalmonFX
+scene	SalmonFX_3575038		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (40)/SalmonFX
+scene	SalmonFX_3575036		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (25)/SalmonFX
+scene	SalmonFX_3575026		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner/SalmonFX
+scene	SalmonFX_3575030		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (22)/SalmonFX
+scene	SalmonFX_3575028		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (41)/SalmonFX
+scene	SalmonFX_3575040		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (34)/SalmonFX
+scene	SalmonFX_3575048		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (4)/SalmonFX
+scene	SalmonFX_3575046		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (7)/SalmonFX
+scene	SalmonFX_3575050		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (45)/SalmonFX
+scene	SalmonFX_3575042		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (20)/SalmonFX
+scene	SalmonFX_3575044		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (2)/SalmonFX
+scene	SalmonFX_3574878		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (8)/SalmonFX
+scene	SalmonFX_3574880		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (3)/SalmonFX
+scene	SalmonFX_3574882		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (23)/SalmonFX
+scene	SalmonFX_3574884		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner/SalmonFX
+scene	SalmonFX_3574888		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (12)/SalmonFX
+scene	SalmonFX_3574890		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (3)/SalmonFX
+scene	SalmonFX_3574886		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (36)/SalmonFX
+scene	SalmonFX_3574898		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (9)/SalmonFX
+scene	SalmonFX_3574894		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (1)/SalmonFX
+scene	SalmonFX_3574892		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (11)/SalmonFX
+scene	SalmonFX_3574896		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (6)/SalmonFX
+scene	SalmonFX_3574908		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (2)/SalmonFX
+scene	SalmonFX_3574910		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (32)/SalmonFX
+scene	SalmonFX_3574902		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (13)/SalmonFX
+scene	SalmonFX_3574900		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (19)/SalmonFX
+scene	SalmonFX_3574906		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (15)/SalmonFX
+scene	SalmonFX_3574904		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (4)/SalmonFX
+scene	SalmonFX_3574912		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (33)/SalmonFX
+scene	SalmonFX_3574916		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (11)/SalmonFX
+scene	SalmonFX_3574914		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (17)/SalmonFX
+scene	SalmonFX_3574920		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (9)/SalmonFX
+scene	SalmonFX_3574918		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (17)/SalmonFX
+scene	SalmonFX_3574924		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (43)/SalmonFX
+scene	SalmonFX_3574922		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (1)/SalmonFX
+scene	SalmonFX_3574932		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (39)/SalmonFX
+scene	SalmonFX_3574928		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (3)/SalmonFX
+scene	SalmonFX_3574930		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (10)/SalmonFX
+scene	SalmonFX_3574926		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner/SalmonFX
+scene	SalmonFX_3574934		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (11)/SalmonFX
+scene	SalmonFX_3574936		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (21)/SalmonFX
+scene	SalmonFX_3574938		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (18)/SalmonFX
+scene	SalmonFX_3574942		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (1)/SalmonFX
+scene	SalmonFX_3574946		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (2)/SalmonFX
+scene	SalmonFX_3574944		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (6)/SalmonFX
+scene	SalmonFX_3574940		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (5)/SalmonFX
+scene	SalmonFX_3574948		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (35)/SalmonFX
+scene	SalmonFX_3574950		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (30)/SalmonFX
+scene	SalmonFX_3574956		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner/SalmonFX
+scene	SalmonFX_3574952		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (8)/SalmonFX
+scene	SalmonFX_3574954		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (42)/SalmonFX
+scene	SalmonFX_3574964		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (6)/SalmonFX
+scene	SalmonFX_3574962		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (15)/SalmonFX
+scene	SalmonFX_3574966		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (7)/SalmonFX
+scene	SalmonFX_3574960		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (31)/SalmonFX
+scene	SalmonFX_3574958		False	1	9	False	e6540699	0/9 (0%)	JumpingSalmon/SalmonJumpSpawner (5)/SalmonFX
+scene	WorkerDudePoser (2)_3695066		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerAMaitenence/BunkerSet/WorkerDudePoser (2)
+scene	WorkerDudePoser_3695064		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerAMaitenence/BunkerSet/WorkerDudePoser
+scene	WorkerDudePoser (1)_3695068		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerAMaitenence/BunkerSet/WorkerDudePoser (1)
+scene	DeadMaleCPoser_3709948		False	3	89	True	fe742020	0/89 (0%)	BunkerBMaitenence/SetDressing/DeadMaleCPoser
+scene	WorkerDudePoser_3722318		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerCMaitenence/SetDressing/WorkerDudePoser
+scene	DeadMaleBPoser (5)_3777462		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/DeadMaleBPoser (5)
+scene	DeadMaleBPoser_3777460		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/DeadMaleBPoser
+scene	DeadMaleBBarPoser (1)_3777458		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/DeadMaleBBarPoser (1)
+scene	DeadMaleBPoser (6)_3777474		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/DeadMaleBPoser (6)
+scene	DeadMaleBPoser (4)_3777472		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/DeadMaleBPoser (4)
+scene	DeadMaleBPoser (2)_3777468		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/DeadMaleBPoser (2)
+scene	DeadMaleBBarPoser_3777470		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/DeadMaleBBarPoser
+scene	DeadMaleBPoser (1)_3777466		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/DeadMaleBPoser (1)
+scene	DeadMaleBPoser (2)_3777464		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/DeadMaleBPoser (2)
+scene	DeadMaleAPoser_3783178		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SpaA_L_Baked/SETDRESSING/DeadMaleAPoser
+scene	DeadMaleAPoser (3)_3783182		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SpaA_L_Baked/SETDRESSING/DeadMaleAPoser (3)
+scene	DeadMaleAPoser (11)_3783180		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_LEDHallwayB_Baked/SETDRESSING/DeadMaleAPoser (11)
+scene	DeadMaleAPoser (4)_3783176		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/SETDRESSING/DeadMaleAPoser (4)
+scene	DeadMaleAPoser (1)_3783172		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SpaA_L_Baked/SETDRESSING/DeadMaleAPoser (1)
+scene	DeadMaleAPoser (10)_3783174		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_MediaRoom_Baked/SETDRESSING/DeadMaleAPoser (10)
+scene	DeadMaleAPoser (15)_3783170		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_LEDHallwayB_Baked/SETDRESSING/DeadMaleAPoser (15)
+scene	DeadMaleAPoser (4)_3783196		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymB_Baked/SETDRESSING/DeadMaleAPoser (4)
+scene	DeadMaleAPoser (7)_3783194		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SwimUpBar_L_Baked/SETDRESSING/DeadMaleAPoser (7)
+scene	DeadMaleAPoser (14)_3783192		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_LEDHallwayB_Baked/SETDRESSING/DeadMaleAPoser (14)
+scene	DeadMaleAPoser (1)_3783190		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymB_Baked/SETDRESSING/DeadMaleAPoser (1)
+scene	DeadMaleAPoser (4)_3783184		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SpaA_L_Baked/SETDRESSING/DeadMaleAPoser (4)
+scene	DeadMaleAPoser (3)_3783188		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_PoolA_Baked/SETDRESSING/DeadMaleAPoser (3)
+scene	DeadMaleAPoser (3)_3783186		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymB_Baked/SETDRESSING/DeadMaleAPoser (3)
+scene	DeadMaleAPoser (4)_3783204		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_PoolA_Baked/SETDRESSING/DeadMaleAPoser (4)
+scene	DeadMaleAPoser_3783200		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SpaA_L_Baked/SETDRESSING/DeadMaleAPoser
+scene	DeadMaleAPoser (2)_3783202		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_PoolA_Baked/SETDRESSING/DeadMaleAPoser (2)
+scene	DeadMaleAPoser (1)_3783198		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_PoolA_Baked/SETDRESSING/DeadMaleAPoser (1)
+scene	DeadMaleAPoser (2)_3783220		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/DeadMaleAPoser (2)
+scene	DeadMaleAPoser (5)_3783222		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_PoolA_Baked/SETDRESSING/DeadMaleAPoser (5)
+scene	DeadMaleAPoser (6)_3783224		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_PoolA_Baked/SETDRESSING/DeadMaleAPoser (6)
+scene	DeadMaleAPoser (5)_3783212		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/SETDRESSING/DeadMaleAPoser (5)
+scene	DeadMaleAPoser (13)_3783218		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_LEDHallwayB_Baked/SETDRESSING/DeadMaleAPoser (13)
+scene	DeadMaleAPoser (12)_3783216		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_LEDHallwayB_Baked/SETDRESSING/DeadMaleAPoser (12)
+scene	DeadMaleAPoser_3783214		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_PoolA_Baked/SETDRESSING/DeadMaleAPoser
+scene	DeadMaleAPoser (2)_3783210		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SpaA_L_Baked/SETDRESSING/DeadMaleAPoser (2)
+scene	DeadMaleAPoser (2)_3783208		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/Gyms/BE_GymB_Baked/SETDRESSING/DeadMaleAPoser (2)
+scene	DeadMaleAPoser (8)_3783206		False	3	89	True	fe742020	0/89 (0%)	BunkerAll/BE_SwimUpBar_L_Baked/SETDRESSING/DeadMaleAPoser (8)
+scene	PunchingBagA_3791068		False	3	3	False	0b9c5ca0	1/3 (33%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/BE_GymA_SetDressing/PunchingBagA
+scene	PunchingBagA_3791076		False	3	3	False	0b9c5ca0	1/3 (33%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/BE_GymA_SetDressing/PunchingBagA
+scene	PunchingBagA (2)_3791074		False	3	3	False	0b9c5ca0	1/3 (33%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/BE_GymA_SetDressing/PunchingBagA (2)
+scene	DeadFemaleBBarPoser_3793740		False	3	87	True	19b9a8ac	0/87 (0%)	BunkerAll/Bar/BE_BarAndClub_Baked/DeadFemaleBBarPoser
+scene	WorkerDudePoser_3791592		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerAll/Bar/BE_BarStaffRoom_Baked/Layout/WorkerDudePoser
+scene	PunchingBagB_3791072		False	1	3	False	0b9c5ca0	1/3 (33%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/BE_GymA_SetDressing/PunchingBagB
+scene	PunchingBagB (1)_3791070		False	1	3	False	0b9c5ca0	1/3 (33%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/BE_GymA_SetDressing/PunchingBagB (1)
+scene	PunchingBagB_3791078		False	1	3	False	0b9c5ca0	1/3 (33%)	BunkerAll/Gyms/BE_GymA_Baked/SETDRESSING/BE_GymA_SetDressing/PunchingBagB
+scene	TacticalSoldierBAnimatorPuffysVsBadGuys_3892570		False	13	125	False	09b012a0	117/125 (93%)	BF_Cutscenes/PuffysVsBadGuysCutscene/TacticoolBPuffyVsBadGuys/TacticalSoldierBAnimatorPuffysVsBadGuys
+scene	MrsPuftonPuffysVsBadGuys_3892580		False	14	63	False	f8c8bc7e	0/63 (0%)	BF_Cutscenes/PuffysVsBadGuysCutscene/MrsPuftonPuffysVsBadGuys
+scene	MrPuftonPuffyVsBadGuys_3886762		False	14	63	False	f8c8bc7e	0/63 (0%)	BF_Cutscenes/PuffysVsBadGuysCutscene/MrPuftonPuffyVsBadGuys
+scene	TacticalSoldierAAnimatorPuffysVsBadGuys_3878690		False	13	125	False	09b012a0	117/125 (93%)	BF_Cutscenes/PuffysVsBadGuysCutscene/TacticoolAPuffyVsBadGuys/TacticalSoldierAAnimatorPuffysVsBadGuys
+scene	PlayerPuffyVsBadGuys_3891356		False	16	155	False	f538489b	104/155 (67%)	BF_Cutscenes/PuffysVsBadGuysCutscene/PlayerPuffyVsBadGuys
+scene	DeadMaleAPoser (2)_3884546		False	3	89	True	fe742020	0/89 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomC/DeadMaleAPoser (2)
+scene	DeadMaleAPoser (1)_3884544		False	3	89	True	fe742020	0/89 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomC/DeadMaleAPoser (1)
+scene	DeadMaleAPoser (4)_3884548		False	3	89	True	fe742020	0/89 (0%)	BunkerFood/BF_LAYOUT/BF_FoodStorageA/SetDressing/DeadMaleAPoser (4)
+scene	DeadMaleAPoser (3)_3884552		False	3	89	True	fe742020	0/89 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomC/DeadMaleAPoser (3)
+scene	DeadMaleAPoser_3884550		False	3	89	True	fe742020	0/89 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomB/DeadMaleAPoser
+scene	DeadMaleAPoser (3)_3884554		False	3	89	True	fe742020	0/89 (0%)	BunkerFood/BF_LAYOUT/BF_FoodStorageA/SetDressing/DeadMaleAPoser (3)
+scene	MissPuffyPoser_3879972		False	3	63	False	f8c8bc7e	0/63 (0%)	BunkerFood/BF_LAYOUT/BF_DiningHall/TablePose/MissPuffyPoser
+scene	TacticalSoldierAnimatorPuffysVsBadGuys_3877710		False	13	125	False	09b012a0	117/125 (93%)	BF_Cutscenes/PuffysVsBadGuysCutscene/TacticoolPuffyVsBadGuys/TacticalSoldierAnimatorPuffysVsBadGuys
+scene	WorkerDudeHangingFeet_3885482		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_FoodStorageA/SetDressing/WorkerDudeHangingFeet
+scene	WorkerDudeHangingFeet (3)_3885480		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_FoodStorageA/SetDressing/WorkerDudeHangingFeet (3)
+scene	WorkerDudeHangingFeet (1)_3885488		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_FoodStorageA/SetDressing/WorkerDudeHangingFeet (1)
+scene	WorkerDudeHangingFeet (4)_3885484		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_FoodStorageA/SetDressing/WorkerDudeHangingFeet (4)
+scene	WorkerDudeHangingFeet (2)_3885486		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_FoodStorageA/SetDressing/WorkerDudeHangingFeet (2)
+scene	SkinnedBlueberryBushAMeshBlossom_3881596		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (2)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881602		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (3)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881600		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (1)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881598		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (1)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881590		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (3)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881592		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (1)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881594		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (2)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881586		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (2)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881588		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (4)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881580		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (3)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881582		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (4)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	SkinnedBlueberryBushAMeshBlossom_3881584		False	3	0	False		n/a	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (4)/_Deform_/SkinnedBlueberryBushAMeshBlossom
+scene	WorkerDudePoser (1)_3890490		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_UtilityRoomA/SETDRESSING/WorkerDudePoser (1)
+scene	WorkerDudePoser_3890486		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_UtilityRoomA/SETDRESSING/WorkerDudePoser
+scene	WorkerDudePoser_3890488		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_UtilityRoomB/SETDRESSING/WorkerDudePoser
+scene	WorkerDudePoser (2)_3890492		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFood/BF_LAYOUT/BF_UtilityRoomA/SETDRESSING/WorkerDudePoser (2)
+scene	_Deform__3879324		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (3)/_Deform_
+scene	_Deform__3879322		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (1)/_Deform_
+scene	_Deform__3879320		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (1)/_Deform_
+scene	_Deform__3879318		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (2)/_Deform_
+scene	_Deform__3879312		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (2)/_Deform_
+scene	_Deform__3879316		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (1)/_Deform_
+scene	_Deform__3879314		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (3)/_Deform_
+scene	_Deform__3879332		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (4)/_Deform_
+scene	_Deform__3879334		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (2)/_Deform_
+scene	_Deform__3879328		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (4)/_Deform_
+scene	_Deform__3879326		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (4)/_Deform_
+scene	_Deform__3879330		False	1	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (3)/_Deform_
+scene	John2Poser_3880282		False	2	91	False	9fde77f4	0/91 (0%)	BunkerFood/BF_LAYOUT/BF_DiningHall/TablePose/John2Poser
+scene	FingersPoser_3888118		False	2	130	False	a821b994	0/130 (0%)	BunkerFood/BF_LAYOUT/BF_DiningHall/TablePose/FingersPoser
+scene	BlueberryBushALOD0 (4)_3887070		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (4)
+scene	BlueberryBushALOD0 (2)_3887066		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (2)
+scene	BlueberryBushALOD0 (4)_3887062		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (4)
+scene	BlueberryBushALOD0 (4)_3887064		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (4)
+scene	BlueberryBushALOD0 (3)_3887058		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (3)
+scene	BlueberryBushALOD0 (1)_3887094		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (1)
+scene	BlueberryBushALOD0 (3)_3887092		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (3)
+scene	BlueberryBushALOD0 (1)_3887090		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (1)
+scene	BlueberryBushALOD0 (2)_3887098		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (2)
+scene	BlueberryBushALOD0 (2)_3887082		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomE/Props/BlueberryBushALOD0 (2)
+scene	BlueberryBushALOD0 (1)_3887074		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomD/Props/BlueberryBushALOD0 (1)
+scene	BlueberryBushALOD0 (3)_3887078		False	3	7	False	98663b75	0/7 (0%)	BunkerFood/BF_LAYOUT/BF_GHRoomF/Props/BlueberryBushALOD0 (3)
+scene	TwinsPoser_3873532		False	1	120	False	30ab5b06	0/120 (0%)	BunkerFood/BF_LAYOUT/BF_DiningHall/TablePose/TwinsPoser
+scene	GetDownSonMutantBaby0_3989318		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby0
+scene	TacticalSoldier_3979468		False	13	125	False	09b012a0	117/125 (93%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/TacticoolGetDownSonCutscene/TacticalSoldier
+scene	TacticalSoldier_3993718		False	13	125	False	09b012a0	117/125 (93%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/Tacticool2GetDownSonCutscene/TacticalSoldier
+scene	TacticalSoldier_3995258		False	13	125	False	09b012a0	117/125 (93%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/Tacticool1GetDownSonCutscene/TacticalSoldier
+scene	DeadMaleAPoolPoser_3989294		False	3	89	True	fe742020	0/89 (0%)	BunkerFInternal-Local/LAYOUT/TechApartment (1)/DeadMaleAPoolPoser
+scene	GetDownSonMutantBaby3_3979122		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby3
+scene	GetDownSonMutantBaby2_3988188		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby2
+scene	TimmysDad_3989386		False	15	141	False	007bf83f	99/141 (70%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/TimmysDad
+scene	DeadFemaleBBarPoser_4000282		False	3	87	True	19b9a8ac	0/87 (0%)	BunkerFInternal-Local/LAYOUT/TechApartment/DeadFemaleBBarPoser
+scene	BabyDeadOnGroundPoseA (1)_3975874		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseA (1)
+scene	BabyDeadOnGroundPoseA (4)_3975800		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseA (4)
+scene	BabyDeadOnGroundPoseC_3976086		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseC
+scene	BabyDeadOnGroundPoseA (2)_3976100		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseA (2)
+scene	BabyDeadOnGroundPoseD_3976012		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseD
+scene	BabyDeadOnGroundPoseD (2)_3976256		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseD (2)
+scene	BabyDeadOnGroundPoseB_3976272		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseB
+scene	BabyDeadOnGroundPoseA (3)_3976166		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseA (3)
+scene	BabyDeadOnGroundPoseD (1)_3976118		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseD (1)
+scene	BabyDeadOnGroundPoseA_3976144		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseA
+scene	GetDownSonMutantBaby8_3975200		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby8
+scene	WorkerDudePoser (2)_3998044		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFInternal-Local/LAYOUT/CorridorC (1)/WorkerDudePoser (2)
+scene	WorkerDudePoser (1)_3998046		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFInternal-Local/LAYOUT/CorridorC (1)/WorkerDudePoser (1)
+scene	WorkerDudePoser (3)_3998038		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFInternal-Local/LAYOUT/StairwellSectionBig (2)/WorkerDudePoser (3)
+scene	WorkerDudePoser (1)_3998040		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFInternal-Local/LAYOUT/CorridorC/WorkerDudePoser (1)
+scene	WorkerDudePoser_3998042		False	5	94	False	db3f3ed0	81/94 (86%)	BunkerFInternal-Local/LAYOUT/CorridorC/WorkerDudePoser
+scene	GetDownSonMutantBaby11_3975410		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby11
+scene	GetDownSonMutantBaby6_3976954		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby6
+scene	SkeletonHangingHead_3990336		False	6	90	False	c482211c	0/90 (0%)	BunkerFInternal-Local/CaveSetDressing/SkeletonHangingHead
+scene	SkeletonHangingHead (1)_3990334		False	6	90	False	c482211c	0/90 (0%)	BunkerFInternal-Local/CaveSetDressing/SkeletonHangingHead (1)
+scene	BabyDeadOnGroundPoseD (3)_3985058		False	2	57	False	b6ca9b91	0/57 (0%)	BunkerFInternal-Local/PostGetDownSonCutsceneGroup/BabyDeadOnGroundPoseD (3)
+scene	GetDownSonMutantBaby7_3984612		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby7
+scene	GetDownSonMutantBaby10_3995334		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby10
+scene	GetDownSonMutantBaby9_3996038		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby9
+scene	GetDownSonMutantBaby5_3981610		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby5
+scene	GetDownSonMutantBaby12_4001372		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby12
+scene	GetDownSonMutantBaby1_3999660		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby1
+scene	GetDownSonMutantBaby4_3982892		False	2	53	False	1eac4d47	0/53 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonMutantBaby4
+scene	MrPuffyPoser (4)_3979828		False	1	63	False	f8c8bc7e	0/63 (0%)	BunkerFInternal-Local/LAYOUT/StairwellSectionBig/MrPuffyPoser (4)
+scene	MrPuffyPoser (2)_3979824		False	1	63	False	f8c8bc7e	0/63 (0%)	BunkerFInternal-Local/LAYOUT/StairwellSectionBig/MrPuffyPoser (2)
+scene	MrPuffyPoser (1)_3979826		False	1	63	False	f8c8bc7e	0/63 (0%)	BunkerFInternal-Local/LAYOUT/StairwellSectionBig/MrPuffyPoser (1)
+scene	MrPuffyPoser_3979822		False	1	63	False	f8c8bc7e	0/63 (0%)	BunkerFInternal-Local/LAYOUT/StairwellSectionBig/MrPuffyPoser
+scene	MrPuffyPoser (3)_3979820		False	1	63	False	f8c8bc7e	0/63 (0%)	BunkerFInternal-Local/LAYOUT/StairwellSectionBig/MrPuffyPoser (3)
+scene	PressBadgeBadGuyIntro_3984826		False	1	5	False	cb3d90be	0/5 (0%)	BunkerFInternal-Local/GetDownSonCutsceneSceneSetup/GetDownSonBadGuy/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftForeArmTwistNew1/LeftForeArmTwistNew2/LeftForeArmTwistNew3/LeftHand/LeftHandWeapon/PressBadgeBadGuyIntro
+scene	SkeletonHangingHead_4057380		False	6	90	False	c482211c	0/90 (0%)	IceCaveBDetails/SkeletonHangingHead
+scene	SkeletonHangingHead (1)_4057378		False	6	90	False	c482211c	0/90 (0%)	IceCaveBDetails/SkeletonHangingHead (1)

@@ -1,0 +1,2847 @@
+{
+  "Name": "BossMutantIntroTimmyMutantArm_2214558",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroTimmyMutantArm",
+  "Active": false,
+  "RigFamily": "3a080c09",
+  "PlayerNameMatch": "1/79 (1%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "BossMutantIntroTimmyMutantArm",
+      "Enabled": true,
+      "Controller": "",
+      "Avatar": "",
+      "IsHuman": false,
+      "IsValid": false,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "BossMutantIntroTimmyMutantArm",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root",
+      "Parent": "BossMutantIntroTimmyMutantArm",
+      "LocalPosition": [
+        0.61217,
+        0.62373,
+        -4.90852
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/R_arm0",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40114,
+        -5.12622,
+        0.63218
+      ],
+      "LocalRotation": [
+        -0.09836,
+        -0.03884,
+        0.31368,
+        0.94362
+      ],
+      "LocalScale": [
+        0.05597,
+        0.05597,
+        0.05597
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterA",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.41848,
+        -5.12769,
+        0.63161
+      ],
+      "LocalRotation": [
+        0.73081,
+        -0.32922,
+        0.3596,
+        -0.47773
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterB",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40236,
+        -5.12707,
+        0.63205
+      ],
+      "LocalRotation": [
+        0.1805,
+        -0.5478,
+        0.76306,
+        -0.29166
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterC",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40659,
+        -5.12587,
+        0.6278
+      ],
+      "LocalRotation": [
+        0.55012,
+        0.35082,
+        0.7501,
+        -0.10791
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterD",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40789,
+        -5.13217,
+        0.63084
+      ],
+      "LocalRotation": [
+        0.24204,
+        0.65737,
+        0.59387,
+        0.39572
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterE",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40948,
+        -5.12939,
+        0.62729
+      ],
+      "LocalRotation": [
+        0.65362,
+        0.19383,
+        0.67397,
+        -0.28456
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterF",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40815,
+        -5.12972,
+        0.63609
+      ],
+      "LocalRotation": [
+        -0.34032,
+        0.64434,
+        0.1098,
+        0.67598
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterG",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40661,
+        -5.12951,
+        0.63469
+      ],
+      "LocalRotation": [
+        -0.32701,
+        0.71445,
+        0.09657,
+        0.61098
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterH",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40889,
+        -5.12271,
+        0.63234
+      ],
+      "LocalRotation": [
+        0.46448,
+        -0.4039,
+        0.64988,
+        -0.44584
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/r_arm0ClusterI",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.40526,
+        -5.13077,
+        0.63271
+      ],
+      "LocalRotation": [
+        0.04565,
+        0.77964,
+        0.56047,
+        0.27559
+      ],
+      "LocalScale": [
+        0.00056,
+        0.00056,
+        0.00056
+      ]
+    },
+    {
+      "Path": "Root/R_arm1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69128,
+        -5.36635,
+        0.58076
+      ],
+      "LocalRotation": [
+        -0.02903,
+        -0.56647,
+        0.74839,
+        0.34377
+      ],
+      "LocalScale": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterA",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69077,
+        -5.36639,
+        0.57984
+      ],
+      "LocalRotation": [
+        -0.08164,
+        -0.63256,
+        -0.34545,
+        0.68838
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterB",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69114,
+        -5.36605,
+        0.58025
+      ],
+      "LocalRotation": [
+        -0.09167,
+        -0.48263,
+        -0.18497,
+        0.85114
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/R_arm1ClusterBase",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69128,
+        -5.36635,
+        0.58076
+      ],
+      "LocalRotation": [
+        0.51108,
+        0.84539,
+        0.1149,
+        -0.10446
+      ],
+      "LocalScale": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterC",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69092,
+        -5.36638,
+        0.58156
+      ],
+      "LocalRotation": [
+        -0.50679,
+        0.20355,
+        0.80002,
+        0.24838
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterD",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.6886,
+        -5.36735,
+        0.58073
+      ],
+      "LocalRotation": [
+        0.21026,
+        0.43614,
+        0.86738,
+        0.11503
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterE",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69008,
+        -5.36538,
+        0.58057
+      ],
+      "LocalRotation": [
+        -0.23101,
+        0.48503,
+        0.75607,
+        -0.37383
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterF",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69118,
+        -5.36695,
+        0.58017
+      ],
+      "LocalRotation": [
+        -0.23906,
+        -0.48927,
+        -0.20936,
+        0.81218
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterG",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69075,
+        -5.36778,
+        0.58039
+      ],
+      "LocalRotation": [
+        -0.50239,
+        -0.26548,
+        0.11189,
+        0.81524
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterH",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69043,
+        -5.3671,
+        0.57968
+      ],
+      "LocalRotation": [
+        -0.16357,
+        -0.46547,
+        -0.41478,
+        0.76456
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterI",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.6904,
+        -5.36697,
+        0.58156
+      ],
+      "LocalRotation": [
+        -0.60794,
+        0.04922,
+        0.79103,
+        -0.04752
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterJ",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69142,
+        -5.36696,
+        0.58126
+      ],
+      "LocalRotation": [
+        -0.51618,
+        -0.10142,
+        0.46499,
+        0.71208
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterK",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68965,
+        -5.36633,
+        0.57964
+      ],
+      "LocalRotation": [
+        0.07364,
+        0.61981,
+        0.64831,
+        -0.43601
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterL",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68925,
+        -5.3677,
+        0.58159
+      ],
+      "LocalRotation": [
+        -0.35102,
+        0.04495,
+        0.87137,
+        0.33981
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterM",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69061,
+        -5.36767,
+        0.57991
+      ],
+      "LocalRotation": [
+        -0.40242,
+        -0.34625,
+        0.00657,
+        0.84742
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterN",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69108,
+        -5.36572,
+        0.58028
+      ],
+      "LocalRotation": [
+        -0.02819,
+        -0.5138,
+        -0.59176,
+        0.62051
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterO",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69069,
+        -5.36537,
+        0.5814
+      ],
+      "LocalRotation": [
+        -0.30278,
+        0.43761,
+        0.79943,
+        -0.2788
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterP",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69126,
+        -5.36637,
+        0.58119
+      ],
+      "LocalRotation": [
+        -0.45468,
+        -0.31008,
+        0.26978,
+        0.79015
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterQ",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69046,
+        -5.36772,
+        0.58088
+      ],
+      "LocalRotation": [
+        -0.54715,
+        0.17379,
+        0.68255,
+        0.45226
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterR",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69195,
+        -5.36603,
+        0.58038
+      ],
+      "LocalRotation": [
+        -0.23745,
+        -0.43779,
+        -0.19793,
+        0.84426
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterS",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69123,
+        -5.36544,
+        0.5806
+      ],
+      "LocalRotation": [
+        0.10732,
+        -0.46705,
+        -0.65759,
+        0.58131
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterT",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69163,
+        -5.36675,
+        0.58176
+      ],
+      "LocalRotation": [
+        -0.53054,
+        0.0351,
+        0.62272,
+        0.57404
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterU",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69118,
+        -5.36721,
+        0.58059
+      ],
+      "LocalRotation": [
+        -0.47728,
+        -0.30053,
+        0.18782,
+        0.80412
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_arm1ClusterV",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69208,
+        -5.36645,
+        0.58089
+      ],
+      "LocalRotation": [
+        -0.46738,
+        -0.27092,
+        0.24713,
+        0.80442
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/R_hand00",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68938,
+        -5.36771,
+        0.5799
+      ],
+      "LocalRotation": [
+        0.26233,
+        0.95782,
+        -0.08646,
+        -0.07926
+      ],
+      "LocalScale": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "Path": "Root/R_hand01",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68896,
+        -5.36797,
+        0.57985
+      ],
+      "LocalRotation": [
+        0.37215,
+        0.92704,
+        -0.04417,
+        -0.01215
+      ],
+      "LocalScale": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterA",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.6895,
+        -5.36683,
+        0.57927
+      ],
+      "LocalRotation": [
+        -0.3102,
+        0.68821,
+        0.51753,
+        -0.40288
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterB",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68966,
+        -5.3675,
+        0.57922
+      ],
+      "LocalRotation": [
+        0.00158,
+        -0.6397,
+        -0.43781,
+        0.63175
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterC",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68893,
+        -5.36762,
+        0.57961
+      ],
+      "LocalRotation": [
+        -0.12941,
+        0.65186,
+        0.5639,
+        -0.49025
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterD",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68878,
+        -5.36806,
+        0.58051
+      ],
+      "LocalRotation": [
+        -0.65498,
+        0.22694,
+        0.71759,
+        0.06761
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterE",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68884,
+        -5.3686,
+        0.58046
+      ],
+      "LocalRotation": [
+        0.60227,
+        0.2041,
+        -0.59694,
+        -0.48916
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterF",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68946,
+        -5.36837,
+        0.57907
+      ],
+      "LocalRotation": [
+        -0.35908,
+        -0.49032,
+        -0.00832,
+        0.79409
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterG",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68982,
+        -5.36833,
+        0.57973
+      ],
+      "LocalRotation": [
+        -0.53557,
+        -0.37036,
+        0.32829,
+        0.68427
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterH",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68907,
+        -5.36867,
+        0.57969
+      ],
+      "LocalRotation": [
+        -0.57806,
+        -0.2526,
+        0.47313,
+        0.61497
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterI",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69012,
+        -5.36797,
+        0.57868
+      ],
+      "LocalRotation": [
+        -0.23605,
+        -0.58836,
+        -0.12113,
+        0.76383
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterJ",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68942,
+        -5.36753,
+        0.5806
+      ],
+      "LocalRotation": [
+        -0.4873,
+        0.45447,
+        0.74532,
+        -0.02226
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterK",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69021,
+        -5.36795,
+        0.58088
+      ],
+      "LocalRotation": [
+        0.73533,
+        -0.06829,
+        -0.5948,
+        -0.31757
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterL",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68812,
+        -5.3688,
+        0.57888
+      ],
+      "LocalRotation": [
+        -0.14763,
+        0.71187,
+        0.49297,
+        -0.47794
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterM",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68803,
+        -5.36824,
+        0.58041
+      ],
+      "LocalRotation": [
+        -0.38083,
+        0.61275,
+        0.69166,
+        -0.03349
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAClusterN",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69032,
+        -5.36839,
+        0.58034
+      ],
+      "LocalRotation": [
+        -0.59729,
+        -0.25933,
+        0.45489,
+        0.60751
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerA",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68805,
+        -5.36834,
+        0.5796
+      ],
+      "LocalRotation": [
+        0.23816,
+        0.94191,
+        -0.00613,
+        -0.23676
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerA1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68805,
+        -5.36835,
+        0.5796
+      ],
+      "LocalRotation": [
+        0.56351,
+        0.79143,
+        -0.09157,
+        -0.21843
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerA2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68805,
+        -5.36835,
+        0.5796
+      ],
+      "LocalRotation": [
+        0.74175,
+        0.62746,
+        -0.14275,
+        -0.18899
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerC",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68866,
+        -5.36759,
+        0.58008
+      ],
+      "LocalRotation": [
+        0.04876,
+        0.99428,
+        -0.09002,
+        -0.03039
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerC1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68866,
+        -5.36759,
+        0.58008
+      ],
+      "LocalRotation": [
+        0.49877,
+        0.84362,
+        -0.16171,
+        0.11567
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerC2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68866,
+        -5.36759,
+        0.58008
+      ],
+      "LocalRotation": [
+        0.75373,
+        0.57887,
+        -0.206,
+        0.23318
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerD",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68889,
+        -5.36793,
+        0.57906
+      ],
+      "LocalRotation": [
+        0.13352,
+        0.8636,
+        -0.13704,
+        -0.46646
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerD1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68889,
+        -5.36794,
+        0.57906
+      ],
+      "LocalRotation": [
+        0.46455,
+        0.74015,
+        -0.31053,
+        -0.37408
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerD2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68889,
+        -5.36794,
+        0.57906
+      ],
+      "LocalRotation": [
+        0.46455,
+        0.74015,
+        -0.31053,
+        -0.37408
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerE",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68798,
+        -5.36901,
+        0.57983
+      ],
+      "LocalRotation": [
+        0.43442,
+        0.88877,
+        -0.07726,
+        -0.12411
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerE1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68798,
+        -5.36902,
+        0.57983
+      ],
+      "LocalRotation": [
+        0.48034,
+        0.86481,
+        -0.08365,
+        -0.1199
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerE2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68798,
+        -5.36902,
+        0.57983
+      ],
+      "LocalRotation": [
+        0.48034,
+        0.86481,
+        -0.08365,
+        -0.1199
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerF",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.6881,
+        -5.36888,
+        0.5804
+      ],
+      "LocalRotation": [
+        0.4691,
+        0.86993,
+        -0.08741,
+        0.12463
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerF1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68809,
+        -5.36888,
+        0.5804
+      ],
+      "LocalRotation": [
+        0.77347,
+        0.61528,
+        -0.03135,
+        0.14897
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerF2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68809,
+        -5.36888,
+        0.5804
+      ],
+      "LocalRotation": [
+        0.88248,
+        0.44502,
+        -0.00038,
+        0.15223
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerG",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68831,
+        -5.36896,
+        0.57942
+      ],
+      "LocalRotation": [
+        0.40142,
+        0.89641,
+        -0.04392,
+        -0.1827
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerG1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68831,
+        -5.36896,
+        0.57942
+      ],
+      "LocalRotation": [
+        0.44778,
+        0.87418,
+        -0.05342,
+        -0.18015
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerG2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68831,
+        -5.36896,
+        0.57942
+      ],
+      "LocalRotation": [
+        0.44778,
+        0.87418,
+        -0.05342,
+        -0.18015
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerH",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.6889,
+        -5.36857,
+        0.57908
+      ],
+      "LocalRotation": [
+        0.52198,
+        0.80412,
+        -0.04281,
+        -0.28124
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerH1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.6889,
+        -5.36857,
+        0.57908
+      ],
+      "LocalRotation": [
+        0.56335,
+        0.7757,
+        -0.05747,
+        -0.27861
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerH2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.6889,
+        -5.36857,
+        0.57908
+      ],
+      "LocalRotation": [
+        0.56335,
+        0.7757,
+        -0.05747,
+        -0.27861
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerI",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68973,
+        -5.36821,
+        0.58068
+      ],
+      "LocalRotation": [
+        0.26948,
+        0.80124,
+        0.29037,
+        0.44842
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerI1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68973,
+        -5.36822,
+        0.58068
+      ],
+      "LocalRotation": [
+        0.31104,
+        0.78604,
+        0.31344,
+        0.4326
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerI2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68973,
+        -5.36822,
+        0.58068
+      ],
+      "LocalRotation": [
+        0.31104,
+        0.78604,
+        0.31344,
+        0.4326
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerJ",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69073,
+        -5.36743,
+        0.58105
+      ],
+      "LocalRotation": [
+        0.46367,
+        0.72067,
+        0.32802,
+        0.39756
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerJ1",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69073,
+        -5.36744,
+        0.58105
+      ],
+      "LocalRotation": [
+        0.53646,
+        0.66825,
+        0.36778,
+        0.3611
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/r_handAFingerJ2",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.69073,
+        -5.36744,
+        0.58105
+      ],
+      "LocalRotation": [
+        0.53646,
+        0.66825,
+        0.36778,
+        0.3611
+      ],
+      "LocalScale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "Path": "Root/R_handClusterBase",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0.68896,
+        -5.36797,
+        0.57985
+      ],
+      "LocalRotation": [
+        0.37215,
+        0.92704,
+        -0.04417,
+        -0.01215
+      ],
+      "LocalScale": [
+        0.01,
+        0.01,
+        0.01
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "TimmyMutatedArm",
+      "Mesh": "TimmyMutatedArm",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 17209,
+      "SubMeshes": 1,
+      "RootBone": "Root",
+      "Bones": [
+        "Root",
+        "Root/R_arm0",
+        "Root/R_hand00",
+        "Root/R_arm1",
+        "Root/R_arm1ClusterBase",
+        "Root/r_arm1ClusterA",
+        "Root/r_arm1ClusterB",
+        "Root/r_arm1ClusterC",
+        "Root/r_arm1ClusterD",
+        "Root/r_arm1ClusterE",
+        "Root/r_arm1ClusterF",
+        "Root/r_arm1ClusterG",
+        "Root/r_arm1ClusterH",
+        "Root/r_arm1ClusterI",
+        "Root/r_arm1ClusterJ",
+        "Root/r_arm1ClusterK",
+        "Root/r_arm1ClusterL",
+        "Root/r_arm1ClusterM",
+        "Root/r_arm1ClusterN",
+        "Root/r_arm1ClusterO",
+        "Root/r_arm1ClusterP",
+        "Root/r_arm1ClusterQ",
+        "Root/r_arm1ClusterR",
+        "Root/r_arm1ClusterS",
+        "Root/r_arm1ClusterT",
+        "Root/r_arm1ClusterU",
+        "Root/r_arm1ClusterV",
+        "Root/r_arm0ClusterA",
+        "Root/r_arm0ClusterB",
+        "Root/r_arm0ClusterC",
+        "Root/r_arm0ClusterD",
+        "Root/r_arm0ClusterE",
+        "Root/r_arm0ClusterF",
+        "Root/r_arm0ClusterG",
+        "Root/r_arm0ClusterH",
+        "Root/r_arm0ClusterI",
+        "Root/R_hand01",
+        "Root/r_handAClusterN",
+        "Root/r_handAClusterM",
+        "Root/r_handAClusterL",
+        "Root/r_handAClusterK",
+        "Root/r_handAClusterJ",
+        "Root/r_handAClusterI",
+        "Root/r_handAClusterH",
+        "Root/r_handAClusterG",
+        "Root/r_handAClusterF",
+        "Root/r_handAClusterE",
+        "Root/r_handAClusterD",
+        "Root/r_handAClusterC",
+        "Root/r_handAClusterB",
+        "Root/r_handAClusterA",
+        "Root/R_handClusterBase",
+        "Root/r_handAFingerJ2",
+        "Root/r_handAFingerJ1",
+        "Root/r_handAFingerJ",
+        "Root/r_handAFingerI2",
+        "Root/r_handAFingerI1",
+        "Root/r_handAFingerI",
+        "Root/r_handAFingerH2",
+        "Root/r_handAFingerH1",
+        "Root/r_handAFingerH",
+        "Root/r_handAFingerG2",
+        "Root/r_handAFingerG1",
+        "Root/r_handAFingerG",
+        "Root/r_handAFingerF2",
+        "Root/r_handAFingerF1",
+        "Root/r_handAFingerF",
+        "Root/r_handAFingerE2",
+        "Root/r_handAFingerE1",
+        "Root/r_handAFingerE",
+        "Root/r_handAFingerD2",
+        "Root/r_handAFingerD1",
+        "Root/r_handAFingerD",
+        "Root/r_handAFingerC2",
+        "Root/r_handAFingerC1",
+        "Root/r_handAFingerC",
+        "Root/r_handAFingerA2",
+        "Root/r_handAFingerA1",
+        "Root/r_handAFingerA"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root",
+          "Position": [
+            0,
+            0.98808,
+            -0.0175
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "Root/R_arm0",
+          "Position": [
+            0.18847,
+            1.45974,
+            -0.04803
+          ],
+          "Rotation": [
+            -0.29463,
+            -0.60592,
+            0.68867,
+            0.26793
+          ]
+        },
+        {
+          "Bone": "Root/R_hand00",
+          "Position": [
+            0.54069,
+            1.09534,
+            0.06829
+          ],
+          "Rotation": [
+            0.41556,
+            0.86741,
+            0.13273,
+            0.23936
+          ]
+        },
+        {
+          "Bone": "Root/R_arm1",
+          "Position": [
+            0.37795,
+            1.25826,
+            -0.02552
+          ],
+          "Rotation": [
+            -0.38382,
+            -0.55374,
+            0.72154,
+            0.15947
+          ]
+        },
+        {
+          "Bone": "Root/R_arm1ClusterBase",
+          "Position": [
+            0.37795,
+            1.25826,
+            -0.02552
+          ],
+          "Rotation": [
+            0.50204,
+            0.79256,
+            0.19765,
+            0.28414
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterA",
+          "Position": [
+            0.45335,
+            1.22695,
+            -0.03739
+          ],
+          "Rotation": [
+            0.03661,
+            0.81354,
+            0.3326,
+            -0.4756
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterB",
+          "Position": [
+            0.41223,
+            1.2419,
+            -0.08787
+          ],
+          "Rotation": [
+            -0.15513,
+            -0.77148,
+            -0.20682,
+            0.58135
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterC",
+          "Position": [
+            0.35071,
+            1.27506,
+            0.05552
+          ],
+          "Rotation": [
+            0.77456,
+            -0.23033,
+            -0.50728,
+            -0.29947
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterD",
+          "Position": [
+            0.49892,
+            1.1836,
+            0.08999
+          ],
+          "Rotation": [
+            -0.5345,
+            0.51842,
+            0.66338,
+            0.07396
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterE",
+          "Position": [
+            0.45105,
+            1.25737,
+            0.0343
+          ],
+          "Rotation": [
+            -0.4087,
+            0.69174,
+            0.57884,
+            -0.13928
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterF",
+          "Position": [
+            0.41062,
+            1.18364,
+            -0.04981
+          ],
+          "Rotation": [
+            -0.27749,
+            -0.75557,
+            -0.27961,
+            0.52339
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterG",
+          "Position": [
+            0.4092,
+            1.10812,
+            0.00946
+          ],
+          "Rotation": [
+            -0.62145,
+            -0.49268,
+            -0.10808,
+            0.59949
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterH",
+          "Position": [
+            0.49277,
+            1.15218,
+            -0.02974
+          ],
+          "Rotation": [
+            0.12529,
+            0.74671,
+            0.44029,
+            -0.48257
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterI",
+          "Position": [
+            0.40887,
+            1.22335,
+            0.05927
+          ],
+          "Rotation": [
+            0.67706,
+            -0.34719,
+            -0.58939,
+            -0.27141
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterJ",
+          "Position": [
+            0.32199,
+            1.21372,
+            0.01026
+          ],
+          "Rotation": [
+            -0.73902,
+            -0.26006,
+            0.19914,
+            0.5887
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterK",
+          "Position": [
+            0.52278,
+            1.18889,
+            0.00867
+          ],
+          "Rotation": [
+            -0.2152,
+            0.74774,
+            0.54279,
+            -0.31617
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterL",
+          "Position": [
+            0.44299,
+            1.14999,
+            0.09901
+          ],
+          "Rotation": [
+            0.77192,
+            -0.26101,
+            -0.51881,
+            -0.25853
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterM",
+          "Position": [
+            0.45311,
+            1.1043,
+            -0.01636
+          ],
+          "Rotation": [
+            -0.50072,
+            -0.59882,
+            -0.16083,
+            0.60401
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterN",
+          "Position": [
+            0.40942,
+            1.28625,
+            -0.0405
+          ],
+          "Rotation": [
+            -0.07805,
+            0.76975,
+            0.53711,
+            -0.336
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterO",
+          "Position": [
+            0.38417,
+            1.30943,
+            0.02773
+          ],
+          "Rotation": [
+            -0.5056,
+            0.62381,
+            0.5913,
+            -0.07483
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterP",
+          "Position": [
+            0.34349,
+            1.22552,
+            -0.04715
+          ],
+          "Rotation": [
+            -0.6356,
+            -0.50877,
+            0.06184,
+            0.57735
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterQ",
+          "Position": [
+            0.39875,
+            1.12649,
+            0.06276
+          ],
+          "Rotation": [
+            0.7956,
+            -0.11692,
+            -0.37327,
+            -0.46262
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterR",
+          "Position": [
+            0.36136,
+            1.28098,
+            -0.10392
+          ],
+          "Rotation": [
+            -0.28036,
+            -0.71871,
+            -0.2771,
+            0.57278
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterS",
+          "Position": [
+            0.38784,
+            1.31419,
+            -0.04078
+          ],
+          "Rotation": [
+            -0.23495,
+            0.73025,
+            0.55085,
+            -0.32878
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterT",
+          "Position": [
+            0.29251,
+            1.25649,
+            0.01872
+          ],
+          "Rotation": [
+            -0.7833,
+            -0.06371,
+            0.33235,
+            0.52147
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterU",
+          "Position": [
+            0.37687,
+            1.17062,
+            -0.0158
+          ],
+          "Rotation": [
+            -0.62737,
+            -0.51343,
+            -0.02399,
+            0.585
+          ]
+        },
+        {
+          "Bone": "Root/r_arm1ClusterV",
+          "Position": [
+            0.30979,
+            1.25532,
+            -0.0702
+          ],
+          "Rotation": [
+            -0.63787,
+            -0.47981,
+            0.03057,
+            0.60163
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterA",
+          "Position": [
+            0.31102,
+            1.31802,
+            -0.10742
+          ],
+          "Rotation": [
+            -0.30357,
+            -0.64653,
+            -0.28739,
+            0.63816
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterB",
+          "Position": [
+            0.20789,
+            1.44157,
+            -0.04733
+          ],
+          "Rotation": [
+            -0.00901,
+            -0.06356,
+            -0.37294,
+            0.92563
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterC",
+          "Position": [
+            0.29311,
+            1.39928,
+            -0.03438
+          ],
+          "Rotation": [
+            -0.35864,
+            0.65016,
+            0.61622,
+            -0.26258
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterD",
+          "Position": [
+            0.28268,
+            1.33482,
+            0.02948
+          ],
+          "Rotation": [
+            0.6604,
+            -0.31189,
+            -0.63634,
+            -0.24833
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterE",
+          "Position": [
+            0.33241,
+            1.35607,
+            -0.03363
+          ],
+          "Rotation": [
+            -0.25399,
+            0.6943,
+            0.63739,
+            -0.21719
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterF",
+          "Position": [
+            0.26446,
+            1.2953,
+            -0.03413
+          ],
+          "Rotation": [
+            -0.69709,
+            -0.25946,
+            0.2159,
+            0.63256
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterG",
+          "Position": [
+            0.2307,
+            1.34545,
+            -0.03603
+          ],
+          "Rotation": [
+            -0.7197,
+            -0.17781,
+            0.1707,
+            0.64906
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterH",
+          "Position": [
+            0.25503,
+            1.37623,
+            -0.09084
+          ],
+          "Rotation": [
+            -0.21894,
+            -0.54786,
+            -0.33659,
+            0.73391
+          ]
+        },
+        {
+          "Bone": "Root/r_arm0ClusterI",
+          "Position": [
+            0.2326,
+            1.38469,
+            0.0075
+          ],
+          "Rotation": [
+            0.80767,
+            -0.32251,
+            -0.41927,
+            -0.26052
+          ]
+        },
+        {
+          "Bone": "Root/R_hand01",
+          "Position": [
+            0.56753,
+            1.05635,
+            0.08344
+          ],
+          "Rotation": [
+            0.50204,
+            0.79256,
+            0.19765,
+            0.28414
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterN",
+          "Position": [
+            0.43196,
+            1.06392,
+            0.01805
+          ],
+          "Rotation": [
+            -0.68786,
+            -0.41251,
+            0.06843,
+            0.5933
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterM",
+          "Position": [
+            0.58501,
+            0.99259,
+            0.17378
+          ],
+          "Rotation": [
+            -0.50671,
+            0.55704,
+            0.55911,
+            0.34691
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterL",
+          "Position": [
+            0.63587,
+            1.01021,
+            0.05258
+          ],
+          "Rotation": [
+            -0.09189,
+            0.72171,
+            0.68511,
+            -0.03622
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterK",
+          "Position": [
+            0.41074,
+            1.0962,
+            0.07673
+          ],
+          "Rotation": [
+            0.8433,
+            0.0004,
+            -0.22609,
+            -0.48756
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterJ",
+          "Position": [
+            0.49249,
+            1.10761,
+            0.12087
+          ],
+          "Rotation": [
+            0.64751,
+            -0.42032,
+            -0.55001,
+            -0.31868
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterI",
+          "Position": [
+            0.54791,
+            1.10325,
+            -0.02896
+          ],
+          "Rotation": [
+            0.18305,
+            0.766,
+            0.38225,
+            -0.48335
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterH",
+          "Position": [
+            0.55624,
+            0.99607,
+            0.04294
+          ],
+          "Rotation": [
+            -0.67522,
+            -0.41416,
+            0.09163,
+            0.60345
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterG",
+          "Position": [
+            0.51008,
+            1.05545,
+            0.00978
+          ],
+          "Rotation": [
+            -0.59468,
+            -0.5382,
+            -0.04806,
+            0.5953
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterF",
+          "Position": [
+            0.57975,
+            1.04347,
+            -0.01582
+          ],
+          "Rotation": [
+            -0.3176,
+            -0.68027,
+            -0.31946,
+            0.57819
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterE",
+          "Position": [
+            0.51901,
+            0.98824,
+            0.11396
+          ],
+          "Rotation": [
+            -0.74851,
+            -0.33295,
+            0.22062,
+            0.52935
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterD",
+          "Position": [
+            0.53133,
+            1.03575,
+            0.13905
+          ],
+          "Rotation": [
+            0.81668,
+            -0.2101,
+            -0.42434,
+            -0.32989
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterC",
+          "Position": [
+            0.59388,
+            1.08872,
+            0.07982
+          ],
+          "Rotation": [
+            -0.27329,
+            0.73434,
+            0.61303,
+            -0.10127
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterB",
+          "Position": [
+            0.57465,
+            1.13044,
+            0.00887
+          ],
+          "Rotation": [
+            -0.12755,
+            0.76837,
+            0.5669,
+            -0.26825
+          ]
+        },
+        {
+          "Bone": "Root/r_handAClusterA",
+          "Position": [
+            0.56083,
+            1.13802,
+            0.0692
+          ],
+          "Rotation": [
+            -0.34604,
+            0.70345,
+            0.62023,
+            -0.02693
+          ]
+        },
+        {
+          "Bone": "Root/R_handClusterBase",
+          "Position": [
+            0.56753,
+            1.05635,
+            0.08344
+          ],
+          "Rotation": [
+            0.50204,
+            0.79256,
+            0.19765,
+            0.28414
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerJ2",
+          "Position": [
+            0.36152,
+            1.09796,
+            0.08227
+          ],
+          "Rotation": [
+            0.36325,
+            0.48803,
+            0.42722,
+            0.66885
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerJ1",
+          "Position": [
+            0.36647,
+            1.12684,
+            0.07159
+          ],
+          "Rotation": [
+            0.36325,
+            0.48803,
+            0.42722,
+            0.66885
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerJ",
+          "Position": [
+            0.37434,
+            1.15941,
+            0.05105
+          ],
+          "Rotation": [
+            0.31025,
+            0.52332,
+            0.35497,
+            0.70984
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerI2",
+          "Position": [
+            0.43573,
+            0.99179,
+            0.10274
+          ],
+          "Rotation": [
+            0.41499,
+            0.43501,
+            0.44372,
+            0.66458
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerI1",
+          "Position": [
+            0.44284,
+            1.02144,
+            0.09619
+          ],
+          "Rotation": [
+            0.41499,
+            0.43501,
+            0.44372,
+            0.66458
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerI",
+          "Position": [
+            0.45194,
+            1.05554,
+            0.08548
+          ],
+          "Rotation": [
+            0.39165,
+            0.45613,
+            0.40833,
+            0.6869
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerH2",
+          "Position": [
+            0.62656,
+            0.95607,
+            -0.0064
+          ],
+          "Rotation": [
+            0.62821,
+            0.72396,
+            0.28268,
+            -0.03646
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerH1",
+          "Position": [
+            0.62007,
+            0.9838,
+            0.00632
+          ],
+          "Rotation": [
+            0.62821,
+            0.72396,
+            0.28268,
+            -0.03646
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerH",
+          "Position": [
+            0.61311,
+            1.00389,
+            0.01473
+          ],
+          "Rotation": [
+            0.58946,
+            0.75584,
+            0.2842,
+            -0.02162
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerG2",
+          "Position": [
+            0.6589,
+            0.8628,
+            0.058
+          ],
+          "Rotation": [
+            0.54788,
+            0.7953,
+            0.23843,
+            0.10233
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerG1",
+          "Position": [
+            0.6443,
+            0.89827,
+            0.06179
+          ],
+          "Rotation": [
+            0.54788,
+            0.7953,
+            0.23843,
+            0.10233
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerG",
+          "Position": [
+            0.62054,
+            0.94374,
+            0.06419
+          ],
+          "Rotation": [
+            0.50551,
+            0.82288,
+            0.23275,
+            0.11467
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerF2",
+          "Position": [
+            0.55094,
+            0.84101,
+            0.16345
+          ],
+          "Rotation": [
+            0.73396,
+            0.54467,
+            0.2361,
+            0.32999
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerF1",
+          "Position": [
+            0.56664,
+            0.89181,
+            0.16276
+          ],
+          "Rotation": [
+            0.73396,
+            0.54467,
+            0.2361,
+            0.32999
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerF",
+          "Position": [
+            0.56765,
+            0.93543,
+            0.14905
+          ],
+          "Rotation": [
+            0.61155,
+            0.67924,
+            0.16607,
+            0.37021
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerE2",
+          "Position": [
+            0.64117,
+            0.83369,
+            0.11145
+          ],
+          "Rotation": [
+            0.59355,
+            0.76256,
+            0.21229,
+            0.14536
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerE1",
+          "Position": [
+            0.63035,
+            0.87505,
+            0.11275
+          ],
+          "Rotation": [
+            0.59355,
+            0.76256,
+            0.21229,
+            0.14536
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerE",
+          "Position": [
+            0.61289,
+            0.92334,
+            0.11163
+          ],
+          "Rotation": [
+            0.55283,
+            0.79258,
+            0.20439,
+            0.15627
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerD2",
+          "Position": [
+            0.71033,
+            1.0502,
+            0.0112
+          ],
+          "Rotation": [
+            0.30621,
+            0.93689,
+            0.08435,
+            -0.14613
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerD1",
+          "Position": [
+            0.67824,
+            1.07309,
+            0.02477
+          ],
+          "Rotation": [
+            0.30621,
+            0.93689,
+            0.08435,
+            -0.14613
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerD",
+          "Position": [
+            0.62841,
+            1.06257,
+            0.03374
+          ],
+          "Rotation": [
+            -0.08978,
+            0.98157,
+            0.13531,
+            -0.10079
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerC2",
+          "Position": [
+            0.652,
+            1.08686,
+            0.17685
+          ],
+          "Rotation": [
+            -0.03928,
+            0.94803,
+            0.18905,
+            0.25291
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerC1",
+          "Position": [
+            0.61577,
+            1.08774,
+            0.15624
+          ],
+          "Rotation": [
+            -0.03928,
+            0.94803,
+            0.18905,
+            0.25291
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerC",
+          "Position": [
+            0.57939,
+            1.07861,
+            0.13081
+          ],
+          "Rotation": [
+            -0.15357,
+            0.93633,
+            0.1571,
+            0.27391
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerA2",
+          "Position": [
+            0.72377,
+            0.95515,
+            0.13247
+          ],
+          "Rotation": [
+            0.2254,
+            0.9431,
+            0.20502,
+            0.13315
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerA1",
+          "Position": [
+            0.68779,
+            0.97515,
+            0.12585
+          ],
+          "Rotation": [
+            0.2254,
+            0.9431,
+            0.20502,
+            0.13315
+          ]
+        },
+        {
+          "Bone": "Root/r_handAFingerA",
+          "Position": [
+            0.63857,
+            0.98951,
+            0.11197
+          ],
+          "Rotation": [
+            0.10977,
+            0.96343,
+            0.18743,
+            0.15695
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "TimmyMutatedArm",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "TimmyMutatedArmAlbedo",
+            "_MaskMap": "TimmyMutatedArmMask",
+            "_NormalMap": "TimmyMutatedArmNormal",
+            "_SubsurfaceMaskMap": "TimmyMutatedArmScattering",
+            "_ThicknessMap": "TimmyMutatedArmTranslucency",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "TimmyMutatedArmWetnessMap",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "TimmyMutatedArmWetnessMap"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

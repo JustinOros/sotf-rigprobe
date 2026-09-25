@@ -1,0 +1,92 @@
+{
+  "Name": "Helicopter",
+  "Source": "actorPrefab",
+  "ActorType": "Helicopter",
+  "Path": "HelicopterActor",
+  "Active": false,
+  "RigFamily": "",
+  "PlayerNameMatch": "n/a",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/HelicopterActorVisuals",
+      "Enabled": true,
+      "Controller": "HelicopterActorController",
+      "Avatar": "",
+      "IsHuman": false,
+      "IsValid": false,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "HelicopterActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "HelicopterActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HelicopterActorVisuals",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [],
+  "AttachedMeshes": [
+    "VisualRoot/HelicopterActorVisuals/LightShaft mesh=polySurface1"
+  ]
+}

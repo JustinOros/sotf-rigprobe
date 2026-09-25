@@ -1,0 +1,380 @@
+{
+  "Name": "_Deform__-229870",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "GameManagers/Pooling/Pool_Bushes/SnowbrushALOD0(Clone)004/_Deform_",
+  "Active": false,
+  "RigFamily": "f64ed7ff",
+  "PlayerNameMatch": "0/9 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [],
+  "Rig": [
+    {
+      "Path": "_Deform_",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root",
+      "Parent": "_Deform_",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointA",
+      "Parent": "root",
+      "LocalPosition": [
+        -0.03754,
+        0.42785,
+        -0.23106
+      ],
+      "LocalRotation": [
+        0.30087,
+        -0.57797,
+        -0.35027,
+        0.67286
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointA/endA",
+      "Parent": "root/jointA",
+      "LocalPosition": [
+        -1.45062,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointB",
+      "Parent": "root",
+      "LocalPosition": [
+        0.11221,
+        0.41623,
+        0.1472
+      ],
+      "LocalRotation": [
+        -0.25029,
+        0.7044,
+        -0.32246,
+        0.58068
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointB/endB",
+      "Parent": "root/jointB",
+      "LocalPosition": [
+        -1.21111,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointC",
+      "Parent": "root",
+      "LocalPosition": [
+        0.30421,
+        0.39244,
+        -0.21248
+      ],
+      "LocalRotation": [
+        -0.42262,
+        0.90631,
+        0,
+        -0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointC/endC",
+      "Parent": "root/jointC",
+      "LocalPosition": [
+        -1.32365,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointD",
+      "Parent": "root",
+      "LocalPosition": [
+        -0.14433,
+        0.3782,
+        0
+      ],
+      "LocalRotation": [
+        0.00121,
+        -0.00291,
+        -0.42261,
+        0.90631
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/jointD/endD",
+      "Parent": "root/jointD",
+      "LocalPosition": [
+        -0.99281,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "_SkinnedMesh_",
+      "Mesh": "SnowbrushAMeshLOD0",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 6048,
+      "SubMeshes": 1,
+      "RootBone": "root",
+      "Bones": [
+        "root/jointD/endD",
+        "root/jointD",
+        "root/jointC/endC",
+        "root/jointC",
+        "root/jointB/endB",
+        "root/jointB",
+        "root/jointA/endA",
+        "root/jointA",
+        "root"
+      ],
+      "BindRest": [
+        {
+          "Bone": "root/jointD/endD",
+          "Position": [
+            -0.78249,
+            1.13873,
+            -0.00422
+          ],
+          "Rotation": [
+            0.00121,
+            -0.00291,
+            -0.42261,
+            0.90631
+          ]
+        },
+        {
+          "Bone": "root/jointD",
+          "Position": [
+            -0.14433,
+            0.3782,
+            -0
+          ],
+          "Rotation": [
+            0.00121,
+            -0.00291,
+            -0.42261,
+            0.90631
+          ]
+        },
+        {
+          "Bone": "root/jointC/endC",
+          "Position": [
+            1.15504,
+            1.40642,
+            -0.21248
+          ],
+          "Rotation": [
+            -0.42262,
+            0.90631,
+            -0,
+            -0
+          ]
+        },
+        {
+          "Bone": "root/jointC",
+          "Position": [
+            0.30421,
+            0.39244,
+            -0.21248
+          ],
+          "Rotation": [
+            -0.42262,
+            0.90631,
+            -0,
+            -0
+          ]
+        },
+        {
+          "Bone": "root/jointB/endB",
+          "Position": [
+            0.35483,
+            1.29684,
+            0.94247
+          ],
+          "Rotation": [
+            -0.25029,
+            0.7044,
+            -0.32246,
+            0.58068
+          ]
+        },
+        {
+          "Bone": "root/jointB",
+          "Position": [
+            0.11221,
+            0.41623,
+            0.1472
+          ],
+          "Rotation": [
+            -0.25029,
+            0.7044,
+            -0.32246,
+            0.58068
+          ]
+        },
+        {
+          "Bone": "root/jointA/endA",
+          "Position": [
+            -0.16307,
+            1.61613,
+            -1.05358
+          ],
+          "Rotation": [
+            0.30087,
+            -0.57796,
+            -0.35027,
+            0.67286
+          ]
+        },
+        {
+          "Bone": "root/jointA",
+          "Position": [
+            -0.03754,
+            0.42785,
+            -0.23106
+          ],
+          "Rotation": [
+            0.30087,
+            -0.57796,
+            -0.35027,
+            0.67286
+          ]
+        },
+        {
+          "Bone": "root",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "SnowbrushA",
+          "Shader": "Sons/Trees/LeavesOptimized",
+          "Textures": {
+            "_BaseColorMap": "SnowbrushAAS",
+            "_NormalMap": "SnowbrushANOT",
+            "_Alpha": "SnowbrushAAlpha"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

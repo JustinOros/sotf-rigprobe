@@ -1,0 +1,749 @@
+{
+  "Name": "BossMutantIntroHelicopterBlades_2244284",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "Cutscenes/BossMutantIntroSceneSetup/BossMutantIntroHelicopterBlades",
+  "Active": false,
+  "RigFamily": "4ac62508",
+  "PlayerNameMatch": "0/5 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "BossMutantIntroHelicopterBlades",
+      "Enabled": true,
+      "Controller": "BossMutantIntroHelicopterBlades",
+      "Avatar": "",
+      "IsHuman": false,
+      "IsValid": false,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "BossMutantIntroHelicopterBlades",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root",
+      "Parent": "BossMutantIntroHelicopterBlades",
+      "LocalPosition": [
+        2.75058,
+        21.99965,
+        23.36808
+      ],
+      "LocalRotation": [
+        0.03191,
+        0.93342,
+        -0.35508,
+        0.04028
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/BrokenBladeA",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0,
+        -0.28667,
+        0.03611
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/BrokenBladeB",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0,
+        -0.28667,
+        0.03611
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/BrokenBladeC",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0,
+        -0.28667,
+        0.03611
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/BrokenBladeD",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0,
+        -0.28667,
+        0.03611
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "Root/Main",
+      "Parent": "Root",
+      "LocalPosition": [
+        -0,
+        -0.28667,
+        0.03611
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "BladeBlurModelD",
+      "Mesh": "BladeBlurModelD",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 68,
+      "SubMeshes": 2,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "PaintBlurWhite",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        },
+        {
+          "Name": "PaintBlurBlack",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterBladeBrokenC",
+      "Mesh": "HelicopterBladeBrokenC",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 222,
+      "SubMeshes": 1,
+      "RootBone": "Root/BrokenBladeC",
+      "Bones": [
+        "Root/BrokenBladeC"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/BrokenBladeC",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "BladeBlurModelB",
+      "Mesh": "BladeBlurModelB",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 68,
+      "SubMeshes": 2,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "PaintBlurWhite",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        },
+        {
+          "Name": "PaintBlurBlack",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "BladeBlurModelC",
+      "Mesh": "BladeBlurModelC",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 68,
+      "SubMeshes": 2,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "PaintBlurWhite",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        },
+        {
+          "Name": "PaintBlurBlack",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "BladeBlurModelA",
+      "Mesh": "BladeBlurModelA",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 68,
+      "SubMeshes": 2,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "PaintBlurWhite",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        },
+        {
+          "Name": "PaintBlurBlack",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_BaseColorMap": "WhiteAndWhiteToBlackGradientAlpha32Step",
+            "_MaskMap": "DefaultMaskMap"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterMainBrokenB",
+      "Mesh": "HelicopterMainBrokenB",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 9963,
+      "SubMeshes": 1,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterBladeBrokenB",
+      "Mesh": "HelicopterBladeBrokenB",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 222,
+      "SubMeshes": 1,
+      "RootBone": "Root/BrokenBladeB",
+      "Bones": [
+        "Root/BrokenBladeB"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/BrokenBladeB",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterBladeBrokenD",
+      "Mesh": "HelicopterBladeBrokenD",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 222,
+      "SubMeshes": 1,
+      "RootBone": "Root/BrokenBladeD",
+      "Bones": [
+        "Root/BrokenBladeD"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/BrokenBladeD",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterBladeBrokenA",
+      "Mesh": "HelicopterBladeBrokenA",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 170,
+      "SubMeshes": 1,
+      "RootBone": "Root/BrokenBladeA",
+      "Bones": [
+        "Root/BrokenBladeA"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/BrokenBladeA",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterMainBrokenD",
+      "Mesh": "HelicopterMainBrokenD",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 9963,
+      "SubMeshes": 1,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterMainRotor",
+      "Mesh": "HelicopterMainRotor",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 9963,
+      "SubMeshes": 1,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterMainBrokenC",
+      "Mesh": "HelicopterMainBrokenC",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 9963,
+      "SubMeshes": 1,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "HelicopterMainBrokenA",
+      "Mesh": "HelicopterMainBrokenA",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 9963,
+      "SubMeshes": 1,
+      "RootBone": "Root/Main",
+      "Bones": [
+        "Root/Main"
+      ],
+      "BindRest": [
+        {
+          "Bone": "Root/Main",
+          "Position": [
+            0,
+            0.86286,
+            0.03611
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Heli_Ext1White",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "HelicopterExterioWhiteAlbedo1",
+            "_BaseColorMap": "HelicopterExterioWhiteAlbedo1",
+            "_MaskMap": "HelicopterExteriorMask1",
+            "_NormalMap": "HelicopterExteriorNormal1"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

@@ -1,0 +1,1779 @@
+{
+  "Name": "Holey",
+  "Source": "actorPrefab",
+  "ActorType": "Holey",
+  "Path": "HoleyActor",
+  "Active": false,
+  "RigFamily": "e84646dd",
+  "PlayerNameMatch": "0/45 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/HoleyRenderRig",
+      "Enabled": true,
+      "Controller": "HoleyController",
+      "Avatar": "HoleyRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "HoleyActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "HoleyActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt",
+      "LocalPosition": [
+        0,
+        1.63155,
+        0.04288
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt",
+      "LocalPosition": [
+        0,
+        -0.03345,
+        -0.03301
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt",
+      "LocalPosition": [
+        -0.03896,
+        -0.47619,
+        0.45716
+      ],
+      "LocalRotation": [
+        0.53411,
+        0.46338,
+        0.53411,
+        0.46338
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt",
+      "LocalPosition": [
+        -0.42981,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt",
+      "LocalPosition": [
+        -0.00879,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.02533,
+        0.99968
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt",
+      "LocalPosition": [
+        -0.01095,
+        -0.00056,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.02534,
+        0.99968
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt",
+      "LocalPosition": [
+        -0.26312,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt",
+      "LocalPosition": [
+        -0.26312,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt",
+      "LocalPosition": [
+        -0.01096,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.12115,
+        0.99263
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt/foot_C0_ball_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt",
+      "LocalPosition": [
+        -0.06859,
+        0.13364,
+        -0.01239
+      ],
+      "LocalRotation": [
+        0.02846,
+        0.03135,
+        -0.23104,
+        0.97202
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt/foot_C0_ball_jnt/foot_C0_ball1_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt/foot_C0_ball_jnt",
+      "LocalPosition": [
+        -0.10254,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00541,
+        -0.00875,
+        -0.52574,
+        0.85059
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt",
+      "LocalPosition": [
+        -0.44836,
+        -0.47504,
+        -0.35957
+      ],
+      "LocalRotation": [
+        0.11861,
+        0.04244,
+        0.70174,
+        0.70121
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt",
+      "LocalPosition": [
+        -0.42981,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt",
+      "LocalPosition": [
+        -0.00879,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0.02533,
+        0.99968
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt",
+      "LocalPosition": [
+        -0.01095,
+        -0.00056,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.02534,
+        0.99968
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt",
+      "LocalPosition": [
+        -0.26312,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt",
+      "LocalPosition": [
+        -0.26312,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        1E-05,
+        -1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt",
+      "LocalPosition": [
+        -0.01096,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.00306,
+        0.05337,
+        -0.0571,
+        0.99694
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt/foot_L0_ball_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt",
+      "LocalPosition": [
+        -0.05026,
+        0.14164,
+        -0.01164
+      ],
+      "LocalRotation": [
+        -0.00206,
+        -0.02937,
+        -0.23176,
+        0.97233
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt/foot_L0_ball_jnt/foot_L0_ball1_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt/foot_L0_ball_jnt",
+      "LocalPosition": [
+        -0.10254,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00498,
+        0.00806,
+        -0.52561,
+        0.85068
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt",
+      "LocalPosition": [
+        0.44836,
+        -0.47504,
+        -0.35957
+      ],
+      "LocalRotation": [
+        -0.70121,
+        0.70174,
+        -0.04244,
+        0.11861
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt",
+      "LocalPosition": [
+        0.42981,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt",
+      "LocalPosition": [
+        0.00879,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.02533,
+        0.99968
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt",
+      "LocalPosition": [
+        0.01095,
+        0.00056,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.02534,
+        0.99968
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt",
+      "LocalPosition": [
+        0.26312,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt",
+      "LocalPosition": [
+        0.26312,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        1E-05,
+        -1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt",
+      "LocalPosition": [
+        0.01096,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00306,
+        0.05337,
+        -0.0571,
+        0.99694
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt/foot_R0_ball_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt",
+      "LocalPosition": [
+        0.05026,
+        -0.14164,
+        0.01164
+      ],
+      "LocalRotation": [
+        -0.00393,
+        -0.02387,
+        -0.23172,
+        0.97248
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt/foot_R0_ball_jnt/foot_R0_ball1_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt/foot_R0_ball_jnt",
+      "LocalPosition": [
+        0.10254,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00439,
+        0.00711,
+        -0.52544,
+        0.85079
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt",
+      "LocalPosition": [
+        0,
+        0.0229,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0.9999,
+        -0.01398,
+        0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L1_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        0.22903,
+        0.14327,
+        -0.59891
+      ],
+      "LocalRotation": [
+        0.61647,
+        0.58355,
+        -0.40302,
+        -0.34206
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L2_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        0.60846,
+        -0.03478,
+        0.27021
+      ],
+      "LocalRotation": [
+        0.66687,
+        0.70279,
+        0.16515,
+        0.18465
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L6_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0.03313,
+        0.18769,
+        0.58839
+      ],
+      "LocalRotation": [
+        0.50455,
+        0.47291,
+        0.47051,
+        0.5481
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_R5_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0.57001,
+        0.00726,
+        0.33157
+      ],
+      "LocalRotation": [
+        0.2367,
+        0.31462,
+        0.72168,
+        0.56935
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_R6_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0.49787,
+        0.08624,
+        -0.19754
+      ],
+      "LocalRotation": [
+        -0.08288,
+        0.04182,
+        0.73219,
+        0.67474
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        0,
+        0.45197,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+      "LocalPosition": [
+        0,
+        0.03693,
+        0.02426
+      ],
+      "LocalRotation": [
+        -0,
+        0.9999,
+        -0.01398,
+        -0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt/control_L0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt",
+      "LocalPosition": [
+        -0.63228,
+        -0.14992,
+        0.21696
+      ],
+      "LocalRotation": [
+        0.0438,
+        0.09344,
+        0.78746,
+        0.60767
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt/control_R9_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt",
+      "LocalPosition": [
+        0.32247,
+        0.08528,
+        0.34856
+      ],
+      "LocalRotation": [
+        0.64177,
+        0.62902,
+        0.33961,
+        0.27772
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+      "LocalPosition": [
+        -0,
+        0.45197,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+      "LocalPosition": [
+        -0,
+        0.45197,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+      "LocalPosition": [
+        0,
+        0.03739,
+        -0.00105
+      ],
+      "LocalRotation": [
+        -0,
+        0.9999,
+        -0.01398,
+        -0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L3_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+      "LocalPosition": [
+        -0.81574,
+        0.10877,
+        -0.15448
+      ],
+      "LocalRotation": [
+        0.075,
+        -0.01688,
+        0.65064,
+        0.75549
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L4_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+      "LocalPosition": [
+        -0.07159,
+        0.04151,
+        -0.7082
+      ],
+      "LocalRotation": [
+        -0.47972,
+        -0.51428,
+        0.43447,
+        0.56269
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L5_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+      "LocalPosition": [
+        -0.37066,
+        0.40557,
+        -0.49969
+      ],
+      "LocalRotation": [
+        0.08761,
+        -0.77063,
+        0.01971,
+        0.63092
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R7_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+      "LocalPosition": [
+        0.66261,
+        -0.1985,
+        0.31168
+      ],
+      "LocalRotation": [
+        0.73044,
+        0.5352,
+        0.3253,
+        0.2724
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R8_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+      "LocalPosition": [
+        0.96326,
+        -0.10332,
+        -0.01541
+      ],
+      "LocalRotation": [
+        0.76729,
+        0.63897,
+        -0.02627,
+        -0.04786
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R10_0_jnt",
+      "Parent": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+      "LocalPosition": [
+        0.00834,
+        0.66529,
+        0.15717
+      ],
+      "LocalRotation": [
+        0.04722,
+        0.87947,
+        0.08224,
+        0.46641
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/HoleyRenderRig/GEO/HoleyLOD0Mesh",
+      "Mesh": "HoleyLOD0Mesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 18897,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt",
+      "Bones": [
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt/foot_L0_ball_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R8_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L4_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt/foot_C0_ball_jnt/foot_C0_ball1_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L1_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L2_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt/foot_R0_ball_jnt/foot_R0_ball1_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt/control_R9_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_R6_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R7_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L3_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt/foot_L0_ball_jnt/foot_L0_ball1_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L5_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt/foot_C0_ball_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R10_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt/control_L0_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_R5_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt/foot_R0_ball_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L6_0_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt",
+        "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt/foot_L0_ball_jnt",
+          "Position": [
+            -0.54624,
+            0.09527,
+            -0.4466
+          ],
+          "Rotation": [
+            0.07909,
+            0.07531,
+            0.51801,
+            0.84837
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R8_0_jnt",
+          "Position": [
+            0.96326,
+            2.94392,
+            -0.01045
+          ],
+          "Rotation": [
+            0.76729,
+            0.63897,
+            -0.02627,
+            -0.04786
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+          "Position": [
+            0,
+            2.10625,
+            0.03024
+          ],
+          "Rotation": [
+            0,
+            0.9999,
+            -0.01398,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt",
+          "Position": [
+            0.44836,
+            1.12306,
+            -0.3497
+          ],
+          "Rotation": [
+            -0.70121,
+            0.70174,
+            -0.04244,
+            0.11861
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L4_0_jnt",
+          "Position": [
+            -0.07159,
+            3.08875,
+            -0.70323
+          ],
+          "Rotation": [
+            -0.47972,
+            -0.51428,
+            0.43447,
+            0.56269
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt/foot_C0_ball_jnt/foot_C0_ball1_jnt",
+          "Position": [
+            -0.04375,
+            -0.00435,
+            0.45279
+          ],
+          "Rotation": [
+            -0.0179,
+            0.7241,
+            0.01603,
+            0.68928
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt",
+          "Position": [
+            0.40566,
+            0.14553,
+            -0.46746
+          ],
+          "Rotation": [
+            0.70247,
+            -0.70247,
+            0.08088,
+            -0.08088
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L1_0_jnt",
+          "Position": [
+            -0.22903,
+            1.81441,
+            0.63755
+          ],
+          "Rotation": [
+            0.39482,
+            0.35065,
+            0.61163,
+            0.58913
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt",
+          "Position": [
+            -0.45246,
+            0.67618,
+            -0.39802
+          ],
+          "Rotation": [
+            0.1206,
+            0.03637,
+            0.73636,
+            0.66476
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt",
+          "Position": [
+            -0.03896,
+            0.6964,
+            0.40638
+          ],
+          "Rotation": [
+            0.53412,
+            0.46338,
+            0.53412,
+            0.46338
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt",
+          "Position": [
+            -0.42954,
+            0.41627,
+            -0.43203
+          ],
+          "Rotation": [
+            0.1206,
+            0.03637,
+            0.73636,
+            0.66476
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt",
+          "Position": [
+            -0.03896,
+            0.6877,
+            0.40514
+          ],
+          "Rotation": [
+            0.54568,
+            0.4497,
+            0.54568,
+            0.4497
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt",
+          "Position": [
+            -0.44836,
+            1.12306,
+            -0.3497
+          ],
+          "Rotation": [
+            0.11861,
+            0.04244,
+            0.70174,
+            0.70121
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt",
+          "Position": [
+            -0.40566,
+            0.14553,
+            -0.46746
+          ],
+          "Rotation": [
+            0.08088,
+            0.08088,
+            0.70247,
+            0.70247
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt",
+          "Position": [
+            0.42954,
+            0.41627,
+            -0.43203
+          ],
+          "Rotation": [
+            -0.66476,
+            0.73636,
+            -0.03637,
+            0.1206
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt",
+          "Position": [
+            -0.45331,
+            0.69575,
+            -0.39566
+          ],
+          "Rotation": [
+            0.11861,
+            0.04244,
+            0.70174,
+            0.7012
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            0,
+            1.65445,
+            0.04288
+          ],
+          "Rotation": [
+            0,
+            0.9999,
+            -0.01398,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L2_0_jnt",
+          "Position": [
+            -0.60845,
+            1.61212,
+            -0.22625
+          ],
+          "Rotation": [
+            -0.17496,
+            -0.17531,
+            0.66938,
+            0.70042
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt/foot_R0_ball_jnt/foot_R0_ball1_jnt",
+          "Position": [
+            0.59234,
+            0.00387,
+            -0.44092
+          ],
+          "Rotation": [
+            0.9933,
+            0.00413,
+            0.1134,
+            -0.02202
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt",
+          "Position": [
+            -0.03896,
+            0.67706,
+            0.4025
+          ],
+          "Rotation": [
+            0.5569,
+            0.43573,
+            0.5569,
+            0.43573
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt",
+          "Position": [
+            -0.03896,
+            0.16627,
+            0.27591
+          ],
+          "Rotation": [
+            0.55689,
+            0.43574,
+            0.55689,
+            0.43574
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt/control_R9_0_jnt",
+          "Position": [
+            0.32247,
+            2.22777,
+            0.35353
+          ],
+          "Rotation": [
+            0.64177,
+            0.62902,
+            0.33961,
+            0.27772
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_R6_0_jnt",
+          "Position": [
+            0.49788,
+            1.74618,
+            0.23793
+          ],
+          "Rotation": [
+            0.7327,
+            0.67584,
+            0.07344,
+            -0.03158
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R7_0_jnt",
+          "Position": [
+            0.66261,
+            2.84875,
+            0.31664
+          ],
+          "Rotation": [
+            0.73044,
+            0.5352,
+            0.3253,
+            0.2724
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt",
+          "Position": [
+            0,
+            1.5981,
+            0.00987
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L3_0_jnt",
+          "Position": [
+            -0.81574,
+            3.15601,
+            -0.14952
+          ],
+          "Rotation": [
+            0.075,
+            -0.01688,
+            0.65064,
+            0.75549
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt/leg_L0_end_jnt/foot_L0_ball_jnt/foot_L0_ball1_jnt",
+          "Position": [
+            -0.59258,
+            0.00393,
+            -0.4419
+          ],
+          "Rotation": [
+            0.02774,
+            0.11505,
+            -0.00498,
+            0.99296
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt",
+          "Position": [
+            0,
+            3.04724,
+            0.00496
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt",
+          "Position": [
+            -0.03896,
+            0.42166,
+            0.33921
+          ],
+          "Rotation": [
+            0.5569,
+            0.43573,
+            0.5569,
+            0.43573
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_L5_0_jnt",
+          "Position": [
+            -0.37065,
+            3.45282,
+            -0.49473
+          ],
+          "Rotation": [
+            0.08761,
+            -0.77063,
+            0.01971,
+            0.63092
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt",
+          "Position": [
+            0.40662,
+            0.15636,
+            -0.46604
+          ],
+          "Rotation": [
+            -0.66477,
+            0.73636,
+            -0.03638,
+            0.12059
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt/foot_C0_ball_jnt",
+          "Position": [
+            -0.05135,
+            0.08703,
+            0.40692
+          ],
+          "Rotation": [
+            0.36904,
+            0.63143,
+            0.37194,
+            0.57163
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt/leg_C0_1_jnt/leg_C0_2_jnt/leg_C0_3_jnt/leg_C0_4_jnt/leg_C0_5_jnt/leg_C0_end_jnt",
+          "Position": [
+            -0.03896,
+            0.15562,
+            0.27327
+          ],
+          "Rotation": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/upperBody_C0_0_jnt/control_R10_0_jnt",
+          "Position": [
+            0.00834,
+            3.71253,
+            0.16213
+          ],
+          "Rotation": [
+            0.04722,
+            0.87947,
+            0.08224,
+            0.46641
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/middleBody_C0_0_jnt/control_L0_0_jnt",
+          "Position": [
+            -0.63228,
+            1.99256,
+            0.22192
+          ],
+          "Rotation": [
+            0.0438,
+            0.09344,
+            0.78746,
+            0.60767
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_C0_0_jnt",
+          "Position": [
+            -0.03896,
+            1.12191,
+            0.46703
+          ],
+          "Rotation": [
+            0.53411,
+            0.46338,
+            0.53411,
+            0.46338
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+          "Position": [
+            0,
+            2.55804,
+            0.0176
+          ],
+          "Rotation": [
+            0,
+            0.9999,
+            -0.01398,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt",
+          "Position": [
+            0.45331,
+            0.69575,
+            -0.39566
+          ],
+          "Rotation": [
+            -0.7012,
+            0.70174,
+            -0.04244,
+            0.11861
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_R5_0_jnt",
+          "Position": [
+            0.57001,
+            1.65244,
+            -0.28876
+          ],
+          "Rotation": [
+            0.72601,
+            0.56598,
+            -0.24464,
+            -0.3045
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt",
+          "Position": [
+            0.45341,
+            0.68701,
+            -0.3966
+          ],
+          "Rotation": [
+            -0.6832,
+            0.71928,
+            -0.03942,
+            0.11964
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt/leg_R0_4_jnt/leg_R0_5_jnt/leg_R0_end_jnt/foot_R0_ball_jnt",
+          "Position": [
+            0.54624,
+            0.09527,
+            -0.4466
+          ],
+          "Rotation": [
+            0.84816,
+            -0.51875,
+            0.07787,
+            -0.07393
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt/leg_L0_3_jnt/leg_L0_4_jnt/leg_L0_5_jnt",
+          "Position": [
+            -0.40662,
+            0.15636,
+            -0.46604
+          ],
+          "Rotation": [
+            0.12059,
+            0.03638,
+            0.73636,
+            0.66477
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/spine_C0_0_jnt/control_L6_0_jnt",
+          "Position": [
+            0.03313,
+            1.82561,
+            -0.55053
+          ],
+          "Rotation": [
+            0.47707,
+            0.54099,
+            -0.51216,
+            -0.46628
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt",
+          "Position": [
+            -0.45341,
+            0.68701,
+            -0.3966
+          ],
+          "Rotation": [
+            0.11964,
+            0.03942,
+            0.71928,
+            0.6832
+          ]
+        },
+        {
+          "Bone": "VisualRoot/HoleyRenderRig/root_C0_0_jnt/body_C0_0_jnt/hips_C0_hips_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_3_jnt",
+          "Position": [
+            0.45246,
+            0.67618,
+            -0.39802
+          ],
+          "Rotation": [
+            -0.66476,
+            0.73636,
+            -0.03637,
+            0.1206
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "Holey",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "HoleyAlbedo",
+            "_MaskMap": "HoleyMask",
+            "_NormalMap": "HoleyNormal",
+            "_SubsurfaceMaskMap": "HoleyScattering",
+            "_ThicknessMap": "HoleyThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "HoleyWetnessMask",
+            "_BloodMask": "HoleyBloodMask",
+            "_BloodRevealMask": "HoleyBloodRevealMask",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

@@ -1,0 +1,92 @@
+{
+  "Name": "PlayerRobby",
+  "Source": "actorPrefab",
+  "ActorType": "PlayerRobby",
+  "Path": "PlayerRobbyActor",
+  "Active": false,
+  "RigFamily": "",
+  "PlayerNameMatch": "n/a",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/playerARenderRigRobby",
+      "Enabled": true,
+      "Controller": "RobbyController",
+      "Avatar": "playerARenderRigRobbyCompatibleAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "PlayerRobbyActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "PlayerRobbyActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/playerARenderRigRobby",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [],
+  "AttachedMeshes": [
+    "GrassPusher mesh=Sphere"
+  ]
+}

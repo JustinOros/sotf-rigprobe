@@ -1,0 +1,1983 @@
+{
+  "Name": "Demon",
+  "Source": "actorPrefab",
+  "ActorType": "Demon",
+  "Path": "MutantDemonActor",
+  "Active": false,
+  "RigFamily": "6f6e32f4",
+  "PlayerNameMatch": "0/42 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig",
+      "Enabled": true,
+      "Controller": "MutantDemonGeneratedController",
+      "Avatar": "MutantDemonRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "MutantDemonActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1.15,
+        1.15,
+        1.15
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "MutantDemonActor",
+      "LocalPosition": [
+        0,
+        0,
+        -0.111
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt",
+      "LocalPosition": [
+        0,
+        1.04334,
+        -0.16448
+      ],
+      "LocalRotation": [
+        0,
+        0.80951,
+        0.58711,
+        0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        0.0846,
+        -0.04323,
+        -0.03885
+      ],
+      "LocalRotation": [
+        -0.01518,
+        -0.82105,
+        -0.10675,
+        0.56058
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+      "LocalPosition": [
+        -0.59209,
+        -0.00066,
+        -1E-05
+      ],
+      "LocalRotation": [
+        0.0029,
+        -0.00372,
+        0.78844,
+        0.6151
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+      "LocalPosition": [
+        -0.47035,
+        -0.00034,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.34544,
+        0.93844
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+      "LocalPosition": [
+        -0.2198,
+        0.00035,
+        0
+      ],
+      "LocalRotation": [
+        0.00149,
+        -0,
+        -0.0008,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+      "LocalPosition": [
+        -0.09429,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00064,
+        -0.00015,
+        -0.00095,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        -0.0846,
+        -0.04323,
+        -0.03885
+      ],
+      "LocalRotation": [
+        0.10675,
+        -0.56058,
+        0.01518,
+        0.82105
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+      "LocalPosition": [
+        -0.59209,
+        -0.00066,
+        1E-05
+      ],
+      "LocalRotation": [
+        -0.0029,
+        0.00372,
+        0.78844,
+        0.6151
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+      "LocalPosition": [
+        -0.47035,
+        -0.00034,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.34544,
+        0.93844
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+      "LocalPosition": [
+        -0.2198,
+        0.00035,
+        0
+      ],
+      "LocalRotation": [
+        -0.00149,
+        0,
+        -0.0008,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+      "LocalPosition": [
+        -0.09429,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00064,
+        0.00015,
+        -0.00095,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "LocalPosition": [
+        0,
+        0.12773,
+        0.03997
+      ],
+      "LocalRotation": [
+        0.12456,
+        -0,
+        -0,
+        0.99221
+      ],
+      "LocalScale": [
+        0.97734,
+        0.97734,
+        0.97734
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+      "LocalPosition": [
+        0,
+        0.136,
+        -0.0139
+      ],
+      "LocalRotation": [
+        -0.11104,
+        0,
+        -0,
+        0.99382
+      ],
+      "LocalScale": [
+        0.97682,
+        0.97682,
+        0.97682
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+      "LocalPosition": [
+        0,
+        0.13782,
+        -0.02202
+      ],
+      "LocalRotation": [
+        -0.16601,
+        0,
+        -0,
+        0.98612
+      ],
+      "LocalScale": [
+        1.02374,
+        1.02374,
+        1.02374
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+      "LocalPosition": [
+        0,
+        0.13514,
+        -0.01987
+      ],
+      "LocalRotation": [
+        0.137,
+        -0,
+        -0,
+        0.99057
+      ],
+      "LocalScale": [
+        1.02318,
+        1.02318,
+        1.02318
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "LocalPosition": [
+        -0,
+        0.10406,
+        -0.09611
+      ],
+      "LocalRotation": [
+        -0,
+        0.89849,
+        -0.43898,
+        -0
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        0.05545,
+        -0.01169
+      ],
+      "LocalRotation": [
+        -0.24842,
+        -0,
+        0,
+        0.96865
+      ],
+      "LocalScale": [
+        1.0805,
+        1.0805,
+        1.0805
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+      "LocalPosition": [
+        0,
+        0.054,
+        -0.01666
+      ],
+      "LocalRotation": [
+        -0.2858,
+        -0,
+        -0,
+        0.95829
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+      "LocalPosition": [
+        0,
+        0.05544,
+        -0.013
+      ],
+      "LocalRotation": [
+        -0.22686,
+        -0,
+        -0,
+        0.97393
+      ],
+      "LocalScale": [
+        0.92549,
+        0.92549,
+        0.92549
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+      "LocalPosition": [
+        -0,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0.06919,
+        -0,
+        -0,
+        0.9976
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.05901,
+        0.07494,
+        0.08073
+      ],
+      "LocalRotation": [
+        -0.02808,
+        -0.62433,
+        0.32335,
+        0.71054
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.05901,
+        0.07494,
+        0.08073
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.05901,
+        0.07494,
+        0.08073
+      ],
+      "LocalRotation": [
+        -0.02808,
+        0.62433,
+        -0.32335,
+        0.71054
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.05901,
+        0.07494,
+        0.08073
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0,
+        0.01325,
+        0.06344
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.05599,
+        0.07431,
+        0.08143
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.05599,
+        0.07431,
+        0.08143
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0,
+        0.08845,
+        0.16967
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_L0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        -0.05754,
+        0.07726,
+        0.07903
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_R0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "LocalPosition": [
+        0.05754,
+        0.07726,
+        0.07903
+      ],
+      "LocalRotation": [
+        -0.25581,
+        -0,
+        -0,
+        0.96673
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "LocalPosition": [
+        0.11408,
+        0.03718,
+        -0.01859
+      ],
+      "LocalRotation": [
+        0.28677,
+        -0.52758,
+        0.74178,
+        0.29865
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+      "LocalPosition": [
+        -0.12794,
+        0.00049,
+        0.0004
+      ],
+      "LocalRotation": [
+        0.71538,
+        -0.03569,
+        -0.24262,
+        0.65429
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+      "LocalPosition": [
+        -0.44176,
+        -0.00058,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.46748,
+        0.88401
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+      "LocalPosition": [
+        -0.49404,
+        -0.00021,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.34801,
+        0.93749
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+      "LocalPosition": [
+        -0.12061,
+        0.00025,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.00105,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+      "LocalPosition": [
+        -0.05174,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+      "LocalPosition": [
+        -0.11408,
+        0.03718,
+        -0.01859
+      ],
+      "LocalRotation": [
+        -0.29865,
+        0.74178,
+        0.52758,
+        0.28677
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+      "LocalPosition": [
+        0.12794,
+        -0.00049,
+        -0.0004
+      ],
+      "LocalRotation": [
+        0.03569,
+        0.71538,
+        -0.65429,
+        -0.24262
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+      "LocalPosition": [
+        -0.44176,
+        -0.00058,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.46748,
+        0.88401
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+      "LocalPosition": [
+        -0.49404,
+        -0.00021,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.34801,
+        0.93749
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+      "LocalPosition": [
+        -0.12061,
+        0.00025,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.00105,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+      "Parent": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+      "LocalPosition": [
+        -0.05174,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/GEO/MutantDemonBody",
+      "Mesh": "MutantDemonBody",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 16702,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_R0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt",
+          "Position": [
+            -0,
+            0.01043,
+            -0.00164
+          ],
+          "Rotation": [
+            0,
+            0.80017,
+            0.59977,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt",
+          "Position": [
+            0,
+            0.01079,
+            -0.00042
+          ],
+          "Rotation": [
+            0,
+            0.80017,
+            0.59977,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt",
+          "Position": [
+            0,
+            0.01115,
+            0.00081
+          ],
+          "Rotation": [
+            0,
+            0.80017,
+            0.59977,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt",
+          "Position": [
+            0,
+            0.01151,
+            0.00204
+          ],
+          "Rotation": [
+            0,
+            0.80017,
+            0.59977,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt",
+          "Position": [
+            -0,
+            0.01187,
+            0.00327
+          ],
+          "Rotation": [
+            0,
+            0.80017,
+            0.59977,
+            0
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt",
+          "Position": [
+            -0,
+            0.01124,
+            0.00454
+          ],
+          "Rotation": [
+            0.89015,
+            0,
+            0,
+            0.45566
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt",
+          "Position": [
+            0,
+            0.01101,
+            0.00506
+          ],
+          "Rotation": [
+            0.74905,
+            -0,
+            -0,
+            0.66251
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt",
+          "Position": [
+            -0,
+            0.01111,
+            0.00562
+          ],
+          "Rotation": [
+            0.52846,
+            0,
+            0,
+            0.84896
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt",
+          "Position": [
+            -0,
+            0.01147,
+            0.00606
+          ],
+          "Rotation": [
+            0.32209,
+            0,
+            0,
+            0.94671
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0,
+            0.01147,
+            0.00606
+          ],
+          "Rotation": [
+            0.25581,
+            0,
+            0,
+            0.96673
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.00059,
+            0.01172,
+            0.00713
+          ],
+          "Rotation": [
+            0.15462,
+            -0.68628,
+            0.15288,
+            0.69408
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+          "Position": [
+            -0.00059,
+            0.01172,
+            0.00713
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+          "Position": [
+            -0,
+            0.0114,
+            0.00797
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.00059,
+            0.01172,
+            0.00713
+          ],
+          "Rotation": [
+            0.15462,
+            0.68628,
+            -0.15288,
+            0.69408
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+          "Position": [
+            0.00059,
+            0.01172,
+            0.00713
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+          "Position": [
+            -0,
+            0.01127,
+            0.00667
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_L0_0_jnt",
+          "Position": [
+            -0.00058,
+            0.01175,
+            0.00712
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+          "Position": [
+            -0.00056,
+            0.01171,
+            0.00713
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_R0_0_jnt",
+          "Position": [
+            0.00058,
+            0.01175,
+            0.00712
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt",
+          "Position": [
+            0.00056,
+            0.01171,
+            0.00713
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt",
+          "Position": [
+            -0.00114,
+            0.0118,
+            0.00368
+          ],
+          "Rotation": [
+            0.90997,
+            0.41097,
+            -0.05035,
+            -0.02274
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt",
+          "Position": [
+            -0.00198,
+            0.01083,
+            0.00377
+          ],
+          "Rotation": [
+            -0.47761,
+            -0.45446,
+            0.3539,
+            0.6634
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt",
+          "Position": [
+            -0.00346,
+            0.00684,
+            0.00261
+          ],
+          "Rotation": [
+            0.63467,
+            0.17847,
+            -0.62297,
+            -0.42101
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt",
+          "Position": [
+            -0.00425,
+            0.00313,
+            0.00577
+          ],
+          "Rotation": [
+            -0.53288,
+            -0.38819,
+            0.43752,
+            0.61149
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt",
+          "Position": [
+            -0.00464,
+            0.00199,
+            0.00576
+          ],
+          "Rotation": [
+            -0.53247,
+            -0.38875,
+            0.43688,
+            0.61195
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_L0_0_jnt/legFront_L0_0_jnt/legFront_L0_1_jnt/legFront_L0_2_jnt/legFront_L0_3_jnt/legFront_L0_end_jnt",
+          "Position": [
+            -0.0048,
+            0.0015,
+            0.00575
+          ],
+          "Rotation": [
+            -0.53248,
+            -0.38874,
+            0.43689,
+            0.61194
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt",
+          "Position": [
+            0.00114,
+            0.0118,
+            0.00368
+          ],
+          "Rotation": [
+            0.02274,
+            -0.05035,
+            -0.41097,
+            0.90997
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt",
+          "Position": [
+            0.00198,
+            0.01083,
+            0.00377
+          ],
+          "Rotation": [
+            0.3539,
+            0.6634,
+            -0.47761,
+            -0.45446
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt",
+          "Position": [
+            0.00346,
+            0.00684,
+            0.00261
+          ],
+          "Rotation": [
+            -0.62298,
+            -0.42101,
+            0.63466,
+            0.17847
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt",
+          "Position": [
+            0.00425,
+            0.00313,
+            0.00577
+          ],
+          "Rotation": [
+            0.43752,
+            0.61149,
+            -0.53288,
+            -0.38818
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt",
+          "Position": [
+            0.00464,
+            0.00199,
+            0.00576
+          ],
+          "Rotation": [
+            0.43688,
+            0.61195,
+            -0.53247,
+            -0.38875
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/shoulder_R0_0_jnt/legFront_R0_0_jnt/legFront_R0_1_jnt/legFront_R0_2_jnt/legFront_R0_3_jnt/legFront_R0_end_jnt",
+          "Position": [
+            0.0048,
+            0.0015,
+            0.00575
+          ],
+          "Rotation": [
+            0.43689,
+            0.61195,
+            -0.53248,
+            -0.38874
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt",
+          "Position": [
+            -0.00085,
+            0.00994,
+            -0.00195
+          ],
+          "Rotation": [
+            0.39889,
+            0.44848,
+            0.33904,
+            0.72444
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt",
+          "Position": [
+            -0.00302,
+            0.00491,
+            0.00029
+          ],
+          "Rotation": [
+            0.59897,
+            -0.03851,
+            0.77969,
+            0.17845
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt",
+          "Position": [
+            -0.00199,
+            0.00382,
+            -0.00417
+          ],
+          "Rotation": [
+            0.57539,
+            0.17078,
+            0.67003,
+            0.43682
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt",
+          "Position": [
+            -0.00209,
+            0.0021,
+            -0.00553
+          ],
+          "Rotation": [
+            0.57526,
+            0.17124,
+            0.66968,
+            0.43736
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_L0_0_jnt/legBack_L0_1_jnt/legBack_L0_2_jnt/legBack_L0_3_jnt/legBack_L0_end_jnt",
+          "Position": [
+            -0.00213,
+            0.00136,
+            -0.00612
+          ],
+          "Rotation": [
+            0.57526,
+            0.17124,
+            0.66968,
+            0.43735
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt",
+          "Position": [
+            0.00085,
+            0.00994,
+            -0.00195
+          ],
+          "Rotation": [
+            0.33904,
+            0.72444,
+            0.39889,
+            0.44848
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt",
+          "Position": [
+            0.00302,
+            0.00491,
+            0.00029
+          ],
+          "Rotation": [
+            0.77969,
+            0.17845,
+            0.59897,
+            -0.03851
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt",
+          "Position": [
+            0.00199,
+            0.00382,
+            -0.00417
+          ],
+          "Rotation": [
+            0.67003,
+            0.43682,
+            0.57539,
+            0.17078
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt",
+          "Position": [
+            0.00209,
+            0.0021,
+            -0.00553
+          ],
+          "Rotation": [
+            0.66968,
+            0.43736,
+            0.57526,
+            0.17124
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/legBack_R0_0_jnt/legBack_R0_1_jnt/legBack_R0_2_jnt/legBack_R0_3_jnt/legBack_R0_end_jnt",
+          "Position": [
+            0.00213,
+            0.00136,
+            -0.00612
+          ],
+          "Rotation": [
+            0.66968,
+            0.43735,
+            0.57526,
+            0.17124
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "MutantDemon",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "MutantDemonAlbedo",
+            "_MaskMap": "MutantDemonMask",
+            "_NormalMap": "MutantDemonNormal",
+            "_SubsurfaceMaskMap": "MutantDemonScattering",
+            "_ThicknessMap": "MutantDemonThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "MutantDemonWetnessMask",
+            "_BloodMask": "MutantDemonBloodmask",
+            "_BloodRevealMask": "MutantDemonBloodmaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/GEO/MutantDemonEyes",
+      "Mesh": "MutantDemonEyes",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 182,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "Bones": [
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_R0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0,
+            1.14715,
+            0.60555
+          ],
+          "Rotation": [
+            0.25581,
+            0,
+            0,
+            0.96673
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eye_jnt",
+          "Position": [
+            -0.05901,
+            1.17235,
+            0.71277
+          ],
+          "Rotation": [
+            0.15462,
+            -0.68628,
+            0.15288,
+            0.69408
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_L0_eyeOver_jnt",
+          "Position": [
+            -0.05901,
+            1.17235,
+            0.71277
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eye_jnt",
+          "Position": [
+            0.05901,
+            1.17235,
+            0.71277
+          ],
+          "Rotation": [
+            0.15462,
+            0.68628,
+            -0.15288,
+            0.69408
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/eye_R0_eyeOver_jnt",
+          "Position": [
+            0.05901,
+            1.17235,
+            0.71277
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_L0_0_jnt",
+          "Position": [
+            -0.05754,
+            1.17521,
+            0.71245
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+          "Position": [
+            -0.05599,
+            1.17146,
+            0.71307
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/UpperEyelid_R0_0_jnt",
+          "Position": [
+            0.05755,
+            1.17521,
+            0.71245
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt",
+          "Position": [
+            0.05599,
+            1.17146,
+            0.71307
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "MutantDemon",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "MutantDemonAlbedo",
+            "_MaskMap": "MutantDemonMask",
+            "_NormalMap": "MutantDemonNormal",
+            "_SubsurfaceMaskMap": "MutantDemonScattering",
+            "_ThicknessMap": "MutantDemonThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "MutantDemonWetnessMask",
+            "_BloodMask": "MutantDemonBloodmask",
+            "_BloodRevealMask": "MutantDemonBloodmaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/GEO/MutantDemonLowerTeeth",
+      "Mesh": "MutantDemonLowerTeeth",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 1048,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "Bones": [
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/jaw_C0_0_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0,
+            1.14715,
+            0.60555
+          ],
+          "Rotation": [
+            0.25581,
+            0,
+            0,
+            0.96673
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+          "Position": [
+            -0,
+            1.1401,
+            0.79676
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+          "Position": [
+            -0.05599,
+            1.17146,
+            0.71307
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt",
+          "Position": [
+            0.05599,
+            1.17146,
+            0.71307
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/jaw_C0_0_jnt",
+          "Position": [
+            -0,
+            1.12729,
+            0.66724
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "MutantDemon",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "MutantDemonAlbedo",
+            "_MaskMap": "MutantDemonMask",
+            "_NormalMap": "MutantDemonNormal",
+            "_SubsurfaceMaskMap": "MutantDemonScattering",
+            "_ThicknessMap": "MutantDemonThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "MutantDemonWetnessMask",
+            "_BloodMask": "MutantDemonBloodmask",
+            "_BloodRevealMask": "MutantDemonBloodmaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "Path": "VisualRoot/MutantDemonRenderRig/GEO/MutantDemonUpperTeeth",
+      "Mesh": "MutantDemonUpperTeeth",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 1730,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+      "Bones": [
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+        "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt",
+          "Position": [
+            -0,
+            1.14715,
+            0.60555
+          ],
+          "Rotation": [
+            0.25581,
+            0,
+            0,
+            0.96673
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/nose_C0_0_jnt",
+          "Position": [
+            -0,
+            1.1401,
+            0.79676
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_L0_0_jnt",
+          "Position": [
+            -0.05599,
+            1.17146,
+            0.71307
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/MutantDemonRenderRig/root_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/spine_C0_3_jnt/spine_C0_4_jnt/neck_C0_0_jnt/neck_C0_1_jnt/neck_C0_2_jnt/neck_C0_3_jnt/neck_C0_head_jnt/LowerEyelid_R0_0_jnt",
+          "Position": [
+            0.05599,
+            1.17146,
+            0.71307
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "MutantDemon",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "MutantDemonAlbedo",
+            "_MaskMap": "MutantDemonMask",
+            "_NormalMap": "MutantDemonNormal",
+            "_SubsurfaceMaskMap": "MutantDemonScattering",
+            "_ThicknessMap": "MutantDemonThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "MutantDemonWetnessMask",
+            "_BloodMask": "MutantDemonBloodmask",
+            "_BloodRevealMask": "MutantDemonBloodmaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

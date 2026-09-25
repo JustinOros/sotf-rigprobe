@@ -1,0 +1,1730 @@
+{
+  "Name": "_Deform__-232546",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "GameManagers/Pooling/Pool_SmallBush/FernALOD0(Clone)001/_Deform_",
+  "Active": false,
+  "RigFamily": "91987a67",
+  "PlayerNameMatch": "0/47 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [],
+  "Rig": [
+    {
+      "Path": "_Deform_",
+      "Parent": "",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root",
+      "Parent": "_Deform_",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootA",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootA/jointA",
+      "Parent": "root/rootA",
+      "LocalPosition": [
+        -0.05746,
+        0.4164,
+        -0.27504
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootB",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootB/jointB",
+      "Parent": "root/rootB",
+      "LocalPosition": [
+        0.20011,
+        0.3685,
+        0.02274
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootB/jointB/endB",
+      "Parent": "root/rootB/jointB",
+      "LocalPosition": [
+        0.3971,
+        0.22699,
+        0.04263
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootC",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootC/jointC",
+      "Parent": "root/rootC",
+      "LocalPosition": [
+        -0.14158,
+        0.36653,
+        0.11627
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootC/jointC/endC",
+      "Parent": "root/rootC/jointC",
+      "LocalPosition": [
+        -0.2071,
+        0.18772,
+        0.52164
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootD",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootD/jointD",
+      "Parent": "root/rootD",
+      "LocalPosition": [
+        -0.01045,
+        0.40634,
+        0.36849
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootD/jointD/endD",
+      "Parent": "root/rootD/jointD",
+      "LocalPosition": [
+        0.01539,
+        -0.08731,
+        0.56799
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootE",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootE/jointE",
+      "Parent": "root/rootE",
+      "LocalPosition": [
+        -0.26541,
+        0.3979,
+        -0.1438
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootE/jointE/endE",
+      "Parent": "root/rootE/jointE",
+      "LocalPosition": [
+        -0.54873,
+        -0.0933,
+        -0.30144
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootF",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootF/jointF",
+      "Parent": "root/rootF",
+      "LocalPosition": [
+        0.13408,
+        0.44074,
+        -0.30995
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootF/jointF/endF",
+      "Parent": "root/rootF/jointF",
+      "LocalPosition": [
+        0.30964,
+        0.1544,
+        -0.3031
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootG",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootG/jointG",
+      "Parent": "root/rootG",
+      "LocalPosition": [
+        -0.14833,
+        0.32011,
+        -0.42971
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootG/jointG/endG",
+      "Parent": "root/rootG/jointG",
+      "LocalPosition": [
+        -0.07267,
+        -0.15882,
+        -0.50048
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootH",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootH/jointH",
+      "Parent": "root/rootH",
+      "LocalPosition": [
+        0.28571,
+        0.18705,
+        -0.35517
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootH/jointH/endH",
+      "Parent": "root/rootH/jointH",
+      "LocalPosition": [
+        0.38187,
+        -0.06245,
+        -0.44873
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootI",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootI/jointI",
+      "Parent": "root/rootI",
+      "LocalPosition": [
+        0.31328,
+        0.33011,
+        0.07273
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootI/jointI/endI",
+      "Parent": "root/rootI/jointI",
+      "LocalPosition": [
+        0.58809,
+        -0.05475,
+        0.11514
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootJ",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootJ/jointJ",
+      "Parent": "root/rootJ",
+      "LocalPosition": [
+        0.19938,
+        0.3599,
+        0.37457
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootJ/jointJ/endJ",
+      "Parent": "root/rootJ/jointJ",
+      "LocalPosition": [
+        0.34254,
+        -0.12414,
+        0.39939
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootK",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootK/jointK",
+      "Parent": "root/rootK",
+      "LocalPosition": [
+        -0.0076,
+        0.19159,
+        0.44991
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootK/jointK/endK",
+      "Parent": "root/rootK/jointK",
+      "LocalPosition": [
+        0.01249,
+        -0.03671,
+        0.59282
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootL",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootL/jointL",
+      "Parent": "root/rootL",
+      "LocalPosition": [
+        -0.35941,
+        0.29636,
+        0.31398
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootL/jointL/endL",
+      "Parent": "root/rootL/jointL",
+      "LocalPosition": [
+        -0.37481,
+        -0.19228,
+        0.22992
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootM",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootM/jointM",
+      "Parent": "root/rootM",
+      "LocalPosition": [
+        -0.45894,
+        0.40185,
+        0.08992
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootM/jointM/endM",
+      "Parent": "root/rootM/jointM",
+      "LocalPosition": [
+        -0.46851,
+        -0.10422,
+        -0.04651
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootN",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootN/jointN",
+      "Parent": "root/rootN",
+      "LocalPosition": [
+        -0.40735,
+        0.23555,
+        -0.12471
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootN/jointN/endN",
+      "Parent": "root/rootN/jointN",
+      "LocalPosition": [
+        -0.56986,
+        0.03004,
+        -0.15509
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootO",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootO/jointO",
+      "Parent": "root/rootO",
+      "LocalPosition": [
+        0.46479,
+        0.1627,
+        0.05586
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootO/jointO/endO",
+      "Parent": "root/rootO/jointO",
+      "LocalPosition": [
+        0.58618,
+        -0.13952,
+        0.09622
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootP",
+      "Parent": "root",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootP/jointP",
+      "Parent": "root/rootP",
+      "LocalPosition": [
+        -0.3174,
+        0.2219,
+        -0.29106
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "root/rootP/jointP/endP",
+      "Parent": "root/rootP/jointP",
+      "LocalPosition": [
+        -0.37357,
+        0.03491,
+        -0.46043
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "_SkinnedMesh_",
+      "Mesh": "LOD0",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 247,
+      "SubMeshes": 1,
+      "RootBone": "root/rootB",
+      "Bones": [
+        "root/rootA",
+        "root/rootA/jointA",
+        "root/rootP",
+        "root/rootP/jointP",
+        "root/rootP/jointP/endP",
+        "root/rootO",
+        "root/rootO/jointO",
+        "root/rootO/jointO/endO",
+        "root/rootN",
+        "root/rootN/jointN",
+        "root/rootN/jointN/endN",
+        "root/rootM",
+        "root/rootM/jointM",
+        "root/rootM/jointM/endM",
+        "root/rootL",
+        "root/rootL/jointL",
+        "root/rootL/jointL/endL",
+        "root/rootK",
+        "root/rootK/jointK",
+        "root/rootK/jointK/endK",
+        "root/rootJ",
+        "root/rootJ/jointJ",
+        "root/rootJ/jointJ/endJ",
+        "root/rootI",
+        "root/rootI/jointI",
+        "root/rootI/jointI/endI",
+        "root/rootH",
+        "root/rootH/jointH",
+        "root/rootH/jointH/endH",
+        "root/rootG",
+        "root/rootG/jointG",
+        "root/rootG/jointG/endG",
+        "root/rootF",
+        "root/rootF/jointF",
+        "root/rootF/jointF/endF",
+        "root/rootE",
+        "root/rootE/jointE",
+        "root/rootE/jointE/endE",
+        "root/rootD",
+        "root/rootD/jointD",
+        "root/rootD/jointD/endD",
+        "root/rootC",
+        "root/rootC/jointC",
+        "root/rootC/jointC/endC",
+        "root/rootB",
+        "root/rootB/jointB",
+        "root/rootB/jointB/endB"
+      ],
+      "BindRest": [
+        {
+          "Bone": "root/rootA",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootA/jointA",
+          "Position": [
+            -0.05746,
+            0.4164,
+            -0.27504
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootP",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootP/jointP",
+          "Position": [
+            -0.3174,
+            0.2219,
+            -0.29106
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootP/jointP/endP",
+          "Position": [
+            -0.69097,
+            0.25681,
+            -0.75149
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootO",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootO/jointO",
+          "Position": [
+            0.46479,
+            0.1627,
+            0.05586
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootO/jointO/endO",
+          "Position": [
+            1.05096,
+            0.02318,
+            0.15207
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootN",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootN/jointN",
+          "Position": [
+            -0.40735,
+            0.23555,
+            -0.12471
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootN/jointN/endN",
+          "Position": [
+            -0.97721,
+            0.26558,
+            -0.2798
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootM",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootM/jointM",
+          "Position": [
+            -0.45894,
+            0.40185,
+            0.08992
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootM/jointM/endM",
+          "Position": [
+            -0.92745,
+            0.29763,
+            0.04342
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootL",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootL/jointL",
+          "Position": [
+            -0.35941,
+            0.29636,
+            0.31398
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootL/jointL/endL",
+          "Position": [
+            -0.73422,
+            0.10407,
+            0.54389
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootK",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootK/jointK",
+          "Position": [
+            -0.0076,
+            0.19159,
+            0.44991
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootK/jointK/endK",
+          "Position": [
+            0.00489,
+            0.15488,
+            1.04273
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootJ",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootJ/jointJ",
+          "Position": [
+            0.19938,
+            0.3599,
+            0.37457
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootJ/jointJ/endJ",
+          "Position": [
+            0.54192,
+            0.23576,
+            0.77396
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootI",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootI/jointI",
+          "Position": [
+            0.31328,
+            0.33011,
+            0.07273
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootI/jointI/endI",
+          "Position": [
+            0.90137,
+            0.27536,
+            0.18787
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootH",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootH/jointH",
+          "Position": [
+            0.28571,
+            0.18705,
+            -0.35517
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootH/jointH/endH",
+          "Position": [
+            0.66758,
+            0.1246,
+            -0.8039
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootG",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootG/jointG",
+          "Position": [
+            -0.14833,
+            0.32011,
+            -0.42971
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootG/jointG/endG",
+          "Position": [
+            -0.221,
+            0.16128,
+            -0.93019
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootF",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootF/jointF",
+          "Position": [
+            0.13408,
+            0.44074,
+            -0.30995
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootF/jointF/endF",
+          "Position": [
+            0.44372,
+            0.59514,
+            -0.61305
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootE",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootE/jointE",
+          "Position": [
+            -0.26541,
+            0.3979,
+            -0.1438
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootE/jointE/endE",
+          "Position": [
+            -0.81413,
+            0.3046,
+            -0.44524
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootD",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootD/jointD",
+          "Position": [
+            -0.01045,
+            0.40634,
+            0.36849
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootD/jointD/endD",
+          "Position": [
+            0.00494,
+            0.31903,
+            0.93648
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootC",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootC/jointC",
+          "Position": [
+            -0.14158,
+            0.36653,
+            0.11627
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootC/jointC/endC",
+          "Position": [
+            -0.34867,
+            0.55426,
+            0.63791
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootB",
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootB/jointB",
+          "Position": [
+            0.20011,
+            0.3685,
+            0.02274
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "root/rootB/jointB/endB",
+          "Position": [
+            0.59721,
+            0.59549,
+            0.06537
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "FernALeaf",
+          "Shader": "Sons/Trees/LeavesOptimized",
+          "Textures": {
+            "_BaseColorMap": "FernALeafASxA",
+            "_NormalMap": "FernALeafNOTxA",
+            "_Alpha": "FernALeafAlphaMap"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

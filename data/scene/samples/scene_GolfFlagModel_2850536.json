@@ -1,0 +1,1218 @@
+{
+  "Name": "GolfFlagModel_2850536",
+  "Source": "scene",
+  "ActorType": "",
+  "Path": "GolfFlagA (10)/GolfFlagModel",
+  "Active": false,
+  "RigFamily": "b70a6ce2",
+  "PlayerNameMatch": "0/32 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "GolfFlagModel",
+      "Enabled": true,
+      "Controller": "GolfFlagStrongController",
+      "Avatar": "",
+      "IsHuman": false,
+      "IsValid": false,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "GolfFlagModel",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot",
+      "Parent": "GolfFlagModel",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint0",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.16245,
+        1.56163,
+        -0.05669
+      ],
+      "LocalRotation": [
+        0.54367,
+        0.72324,
+        -0.20993,
+        -0.37051
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint1",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.09322,
+        1.71387,
+        -0.01332
+      ],
+      "LocalRotation": [
+        0.25926,
+        0.63613,
+        0.2399,
+        0.68598
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint2",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.10943,
+        1.50551,
+        -0.09691
+      ],
+      "LocalRotation": [
+        0.19131,
+        0.32761,
+        0.34947,
+        0.8567
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint3",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.10609,
+        1.72877,
+        -0.07934
+      ],
+      "LocalRotation": [
+        0.59185,
+        0.76054,
+        -0.10698,
+        -0.24464
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint4",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.12867,
+        1.49176,
+        0.05448
+      ],
+      "LocalRotation": [
+        0.0093,
+        0.11815,
+        0.45049,
+        0.88488
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint5",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.0789,
+        1.71953,
+        -0.00586
+      ],
+      "LocalRotation": [
+        -0.03152,
+        0.31581,
+        -0.04182,
+        0.94738
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint6",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.12734,
+        1.7551,
+        0.01982
+      ],
+      "LocalRotation": [
+        -0.10574,
+        -0.06228,
+        0.41503,
+        0.90149
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint7",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.09413,
+        1.53747,
+        0.01637
+      ],
+      "LocalRotation": [
+        0.22207,
+        0.58321,
+        0.33658,
+        0.70517
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint8",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.0236,
+        1.57676,
+        -0.05191
+      ],
+      "LocalRotation": [
+        0.11967,
+        -0.73752,
+        0.10723,
+        0.65594
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint9",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.05666,
+        1.63487,
+        -0.1032
+      ],
+      "LocalRotation": [
+        0.63119,
+        0.76769,
+        0.109,
+        0.01945
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint10",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.16841,
+        1.32067,
+        0.0666
+      ],
+      "LocalRotation": [
+        -0.05031,
+        -0.0577,
+        0.46544,
+        0.88176
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint11",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.01595,
+        1.76718,
+        0.00013
+      ],
+      "LocalRotation": [
+        -2E-05,
+        -0.00023,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint12",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.13603,
+        1.41715,
+        -0.09675
+      ],
+      "LocalRotation": [
+        0.5521,
+        0.75018,
+        -0.19757,
+        -0.30558
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint13",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.09599,
+        1.45438,
+        -0.04575
+      ],
+      "LocalRotation": [
+        0.1896,
+        0.74253,
+        0.38609,
+        0.51346
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint14",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.07649,
+        1.79402,
+        -0.04636
+      ],
+      "LocalRotation": [
+        0.06626,
+        -0.39877,
+        0.1838,
+        0.896
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint15",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.12755,
+        1.84161,
+        -0.03305
+      ],
+      "LocalRotation": [
+        0.51645,
+        0.67212,
+        -0.2219,
+        -0.48197
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint16",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.20586,
+        1.34268,
+        0.01666
+      ],
+      "LocalRotation": [
+        -0.37091,
+        -0.50787,
+        0.39335,
+        0.67065
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint17",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.07221,
+        1.70269,
+        0.02186
+      ],
+      "LocalRotation": [
+        0.01049,
+        -0.7832,
+        0.05215,
+        0.6195
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint18",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.09799,
+        1.90715,
+        -0.00882
+      ],
+      "LocalRotation": [
+        0.36308,
+        0.50725,
+        0.23073,
+        0.74675
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint19",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.09896,
+        1.34802,
+        0.04191
+      ],
+      "LocalRotation": [
+        0.12423,
+        0.33871,
+        0.43715,
+        0.82386
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint20",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.06754,
+        1.68282,
+        -0.04164
+      ],
+      "LocalRotation": [
+        -0.04721,
+        -0.74337,
+        0.01252,
+        0.66709
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint21",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.03018,
+        1.44801,
+        -0.10308
+      ],
+      "LocalRotation": [
+        0.49099,
+        0.54505,
+        0.44459,
+        0.514
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint22",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.12906,
+        1.25907,
+        0.0615
+      ],
+      "LocalRotation": [
+        0.0827,
+        0.11685,
+        0.45672,
+        0.87802
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint23",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.19748,
+        1.37755,
+        -0.03974
+      ],
+      "LocalRotation": [
+        0.51977,
+        0.6907,
+        -0.24403,
+        -0.43958
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint24",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.12228,
+        1.59119,
+        -0.04587
+      ],
+      "LocalRotation": [
+        0.28021,
+        0.71294,
+        0.25006,
+        0.59217
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint25",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.10014,
+        1.71841,
+        -0.05991
+      ],
+      "LocalRotation": [
+        0.18728,
+        0.4179,
+        0.27233,
+        0.84624
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint26",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.0838,
+        1.44849,
+        -0.12646
+      ],
+      "LocalRotation": [
+        0.62252,
+        0.77751,
+        0.08887,
+        -0.00676
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint27",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.17618,
+        1.47978,
+        0.04188
+      ],
+      "LocalRotation": [
+        -0.24945,
+        -0.30766,
+        0.4409,
+        0.80544
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint28",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.06278,
+        1.56884,
+        -0.01404
+      ],
+      "LocalRotation": [
+        -0.14433,
+        0.87794,
+        -0.11854,
+        -0.44083
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint29",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.17853,
+        1.591,
+        -0.00504
+      ],
+      "LocalRotation": [
+        -0.41948,
+        -0.55265,
+        0.34829,
+        0.63033
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint30",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.06843,
+        1.39351,
+        -0.00401
+      ],
+      "LocalRotation": [
+        0.24589,
+        0.5156,
+        0.37117,
+        0.73206
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "GolfFlagRoot/joint31",
+      "Parent": "GolfFlagRoot",
+      "LocalPosition": [
+        -0.06708,
+        1.56361,
+        -0.07826
+      ],
+      "LocalRotation": [
+        0.2377,
+        -0.13445,
+        0.27882,
+        0.9207
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "GolfFlagMesh",
+      "Mesh": "GolfFlagMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 502,
+      "SubMeshes": 1,
+      "RootBone": "GolfFlagRoot/joint31",
+      "Bones": [
+        "GolfFlagRoot/joint0",
+        "GolfFlagRoot/joint1",
+        "GolfFlagRoot/joint2",
+        "GolfFlagRoot/joint3",
+        "GolfFlagRoot/joint4",
+        "GolfFlagRoot/joint5",
+        "GolfFlagRoot/joint6",
+        "GolfFlagRoot/joint7",
+        "GolfFlagRoot/joint8",
+        "GolfFlagRoot/joint9",
+        "GolfFlagRoot/joint10",
+        "GolfFlagRoot/joint11",
+        "GolfFlagRoot/joint12",
+        "GolfFlagRoot/joint13",
+        "GolfFlagRoot/joint14",
+        "GolfFlagRoot/joint15",
+        "GolfFlagRoot/joint16",
+        "GolfFlagRoot/joint17",
+        "GolfFlagRoot/joint18",
+        "GolfFlagRoot/joint19",
+        "GolfFlagRoot/joint20",
+        "GolfFlagRoot/joint21",
+        "GolfFlagRoot/joint22",
+        "GolfFlagRoot/joint23",
+        "GolfFlagRoot/joint24",
+        "GolfFlagRoot/joint25",
+        "GolfFlagRoot/joint26",
+        "GolfFlagRoot/joint27",
+        "GolfFlagRoot/joint28",
+        "GolfFlagRoot/joint29",
+        "GolfFlagRoot/joint30",
+        "GolfFlagRoot/joint31"
+      ],
+      "BindRest": [
+        {
+          "Bone": "GolfFlagRoot/joint0",
+          "Position": [
+            -0.48504,
+            1.85027,
+            0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint1",
+          "Position": [
+            -0.25499,
+            1.77674,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint2",
+          "Position": [
+            -0.34522,
+            1.55558,
+            -0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint3",
+          "Position": [
+            -0.34349,
+            1.95626,
+            -0
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint4",
+          "Position": [
+            -0.4794,
+            1.68007,
+            -0
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint5",
+          "Position": [
+            -0.11438,
+            1.72172,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint6",
+          "Position": [
+            -0.26583,
+            1.84675,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint7",
+          "Position": [
+            -0.40859,
+            1.66676,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint8",
+          "Position": [
+            -0.1952,
+            1.56361,
+            -0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint9",
+          "Position": [
+            -0.44788,
+            1.98693,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint10",
+          "Position": [
+            -0.64467,
+            1.61445,
+            -0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint11",
+          "Position": [
+            -0.01595,
+            1.76718,
+            0.00013
+          ],
+          "Rotation": [
+            -0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint12",
+          "Position": [
+            -0.6372,
+            1.84965,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint13",
+          "Position": [
+            -0.42459,
+            1.56052,
+            0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint14",
+          "Position": [
+            -0.14952,
+            1.80209,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint15",
+          "Position": [
+            -0.22048,
+            1.94533,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint16",
+          "Position": [
+            -0.65787,
+            1.68733,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint17",
+          "Position": [
+            -0.08493,
+            1.70254,
+            0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint18",
+          "Position": [
+            -0.11947,
+            1.92474,
+            -0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint19",
+          "Position": [
+            -0.57787,
+            1.56682,
+            0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint20",
+          "Position": [
+            -0.15635,
+            1.68875,
+            -0
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint21",
+          "Position": [
+            -0.63806,
+            1.98769,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint22",
+          "Position": [
+            -0.67241,
+            1.54571,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint23",
+          "Position": [
+            -0.64841,
+            1.75662,
+            -0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint24",
+          "Position": [
+            -0.31813,
+            1.65592,
+            -0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint25",
+          "Position": [
+            -0.21339,
+            1.74771,
+            -0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint26",
+          "Position": [
+            -0.62556,
+            1.91972,
+            0
+          ],
+          "Rotation": [
+            -0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint27",
+          "Position": [
+            -0.51751,
+            1.71703,
+            0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint28",
+          "Position": [
+            -0.13225,
+            1.56846,
+            -0
+          ],
+          "Rotation": [
+            0,
+            0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint29",
+          "Position": [
+            -0.43754,
+            1.8089,
+            -0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint30",
+          "Position": [
+            -0.50787,
+            1.54946,
+            0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        },
+        {
+          "Bone": "GolfFlagRoot/joint31",
+          "Position": [
+            -0.26649,
+            1.5831,
+            0
+          ],
+          "Rotation": [
+            0,
+            -0,
+            -0,
+            1
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "GolfFlagA",
+          "Shader": "Sons/HDRPLit",
+          "Textures": {
+            "_MainTex": "GolfFlagAAlbedo",
+            "_BaseColorMap": "GolfFlagAAlbedo",
+            "_MaskMap": "GolfFlagMask",
+            "_NormalMap": "GolfFlagNormal"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

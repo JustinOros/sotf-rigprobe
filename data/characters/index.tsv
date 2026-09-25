@@ -1,0 +1,86 @@
+RigProbe 2026-09-24 21:51:37
+source	name	actorType	active	skinnedMeshes	uniqueBones	humanoid	rigFamily	playerNameMatch	path
+player	LocalPlayer		True	107	397	False	3485f157	205/205 (100%)	LocalPlayer
+carry	FemaleCannibal		False	73	67	False	e5ab1cff	0/67 (0%)	LocalPlayer/CarryBody/FemaleCannibal
+carry	MaleCannibal		False	57	91	False	18772f39	0/91 (0%)	LocalPlayer/CarryBody/MaleCannibal
+carry	MalePuffy		False	14	63	False	f8c8bc7e	0/63 (0%)	LocalPlayer/CarryBody/MalePuffy
+carry	FemalePuffy		False	14	63	False	f8c8bc7e	0/63 (0%)	LocalPlayer/CarryBody/FemalePuffy
+actorPrefab	Rabbit	Rabbit	False	7	47	False	6e7f9a3b	0/47 (0%)	RabbitActor
+actorPrefab	Squirrel	Squirrel	False	7	47	False	e37c3e52	0/47 (0%)	SquirrelActor
+actorPrefab	Turtle	Turtle	False	5	83	False	738a4b04	0/83 (0%)	TurtleActor
+actorPrefab	Shark	Shark	False	3	45	False	f8e9e758	0/45 (0%)	SharkActor
+actorPrefab	Seagull	Seagull	False	4	32	False	6e68c35c	0/32 (0%)	SeagullActor
+actorLive	Seagull_0	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull0
+actorLive	Seagull_1	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull1
+actorLive	Seagull_2	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull2
+actorLive	Seagull_3	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull3
+actorLive	Seagull_4	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull4
+actorLive	Seagull_5	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull5
+actorLive	Seagull_6	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull6
+actorLive	Seagull_7	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull7
+actorLive	Seagull_8	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull8
+actorLive	Seagull_9	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull9
+actorLive	Seagull_10	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull11
+actorLive	Seagull_11	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull12
+actorLive	Seagull_12	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull13
+actorLive	Seagull_13	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull14
+actorLive	Seagull_14	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull15
+actorLive	Seagull_15	Seagull	True	4	32	False	6e68c35c	0/32 (0%)	Seagull10
+actorPrefab	Eagle	Eagle	False	4	92	False	1bc4f22f	0/92 (0%)	EagleActor
+actorPrefab	Duck	Duck	False	4	78	False	fddde995	0/78 (0%)	DuckActor
+actorPrefab	Timmy	Timmy	False	19	64	False	9a1df90c	0/64 (0%)	TimmyActor
+actorPrefab	Robby	Robby	False	36	93	False	1b02206c	80/93 (86%)	RobbyActor
+actorLive	Robby_0	Robby	True	36	93	False	1b02206c	80/93 (86%)	Robby0
+actorLive	Robby_1	Robby	True	36	93	False	1b02206c	80/93 (86%)	RobbyActor(Clone)
+actorPrefab	Virginia	Virginia	False	21	161	False	f7fc845b	0/161 (0%)	VirginiaActor
+actorLive	Virginia_0	Virginia	True	21	161	False	f7fc845b	0/161 (0%)	VirginiaActor(Clone)
+actorPrefab	Fingers	Fingers	False	2	130	False	a821b994	0/130 (0%)	FingersActor
+actorPrefab	Carl	Carl	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalCarlActor
+actorPrefab	Andy	Andy	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalAndyActor
+actorPrefab	Danny	Danny	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalDannyActor
+actorPrefab	Billy	Billy	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalBillyActor
+actorPrefab	GoldMask	GoldMask	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalGoldMaskActor
+actorPrefab	Moose	Moose	False	4	35	False	8bfa00e6	0/35 (0%)	MooseActor
+actorPrefab	Baby	Baby	False	2	53	False	1eac4d47	0/53 (0%)	BabyActor
+actorPrefab	Twins	Twins	False	1	120	False	30ab5b06	0/120 (0%)	TwinsActor
+actorPrefab	MrPuffy	MrPuffy	False	14	63	False	f8c8bc7e	0/63 (0%)	MrPuffyActor
+actorPrefab	MissPuffy	MissPuffy	False	14	63	False	f8c8bc7e	0/63 (0%)	MissPuffyActor
+actorPrefab	Slug_Deprecated	Slug_Deprecated	False	2	91	False	9fde77f4	0/91 (0%)	John2Actor
+actorPrefab	Angel	Angel	False	43	67	False	e5ab1cff	0/67 (0%)	FemaleCannibalAngelActor
+actorPrefab	Brandy	Brandy	False	43	67	False	e5ab1cff	0/67 (0%)	FemaleCannibalBrandyActor
+actorPrefab	Crystal	Crystal	False	43	67	False	e5ab1cff	0/67 (0%)	FemaleCannibalCrystalActor
+actorPrefab	Destiny	Destiny	False	43	67	False	e5ab1cff	0/67 (0%)	FemaleCannibalDestinyActor
+actorPrefab	MuddyFemale	MuddyFemale	False	43	67	False	e5ab1cff	0/67 (0%)	MuddyFemaleCannibalActor
+actorPrefab	MuddyMale	MuddyMale	False	56	91	False	18772f39	0/91 (0%)	MuddyMaleCannibalActor
+actorPrefab	HeavyMale	HeavyMale	False	32	86	False	fcd908ad	0/86 (0%)	HeavyMaleCannibalActor
+actorPrefab	SpongeTest	SpongeTest	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalSpongeActor
+actorPrefab	Bat	Bat	False	1	68	False	af84940c	0/68 (0%)	BatActor
+actorPrefab	Deer	Deer	False	5	44	False	3c775a14	0/44 (0%)	DeerActor
+actorPrefab	Bluebird	Bluebird	False	3	51	False	6abee69e	6/51 (11%)	SmallBirdActor
+actorPrefab	Hummingbird	Hummingbird	False	3	47	False	a6eeb741	6/47 (12%)	HummingBirdActor
+actorPrefab	KillerWhale	KillerWhale	False	3	42	False	944e4665	0/42 (0%)	KillerWhaleActor
+actorPrefab	LandTurtle	LandTurtle	False	4	28	False	6e37eead	0/28 (0%)	LandTurtleActor
+actorPrefab	FatMale	FatMale	False	19	90	False	e53f4f23	0/90 (0%)	FatMaleCannibalActor
+actorPrefab	FatFemale	FatFemale	False	29	90	False	e53f4f23	0/90 (0%)	FatFemaleCannibalActor
+actorPrefab	John2	John2	False	2	91	False	9fde77f4	0/91 (0%)	John2Actor
+actorPrefab	FacelessMale	FacelessMale	False	30	86	False	fcd908ad	0/86 (0%)	FacelessCannibalActor
+actorPrefab	Demon	Demon	False	4	42	False	6f6e32f4	0/42 (0%)	MutantDemonActor
+actorPrefab	PaintedMale	PaintedMale	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalPaintedActor
+actorPrefab	DemonBoss	DemonBoss	False	4	42	False	6f6e32f4	0/42 (0%)	DemonBossActor
+actorPrefab	PuffyBossMale	PuffyBossMale	False	14	63	False	f8c8bc7e	0/63 (0%)	MrPufftonActor
+actorPrefab	PuffyBossFemale	PuffyBossFemale	False	14	63	False	f8c8bc7e	0/63 (0%)	MrsPufftonActor
+actorPrefab	BossMutant	BossMutant	False	0	0	False		n/a	BossMutantActor
+actorPrefab	CreepyVirginia	CreepyVirginia	False	1	156	False	29eaeb38	0/156 (0%)	VirginiaCreepyActor
+actorPrefab	Armsy	Armsy	False	1	194	False	05389e38	0/194 (0%)	ArmsyActor
+actorPrefab	Frank	Frank	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalFrankActor
+actorPrefab	Eddy	Eddy	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalEddyActor
+actorPrefab	Greg	Greg	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalGregActor
+actorPrefab	Henry	Henry	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalHenryActor
+actorPrefab	Igor	Igor	False	56	91	False	18772f39	0/91 (0%)	MaleCannibalIgorActor
+actorPrefab	Elise	Elise	False	43	67	False	e5ab1cff	0/67 (0%)	FemaleCannibalEliseActor
+actorPrefab	Raccoon	Raccoon	False	7	45	False	cf2eb3b7	0/45 (0%)	RaccoonActor
+actorPrefab	Legsy	Legsy	False	1	190	False	bf07798a	0/190 (0%)	LegsyActor
+actorPrefab	Holey	Holey	False	1	45	False	e84646dd	0/45 (0%)	HoleyActor
+actorPrefab	Skunk	Skunk	False	7	47	False	ff6449ba	0/47 (0%)	SkunkActor
+actorPrefab	Helicopter	Helicopter	False	0	0	False		n/a	HelicopterActor
+actorPrefab	PlayerRobby	PlayerRobby	False	0	0	False		n/a	PlayerRobbyActor

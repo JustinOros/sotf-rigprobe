@@ -1,0 +1,5684 @@
+{
+  "Name": "CreepyVirginia",
+  "Source": "actorPrefab",
+  "ActorType": "CreepyVirginia",
+  "Path": "VirginiaCreepyActor",
+  "Active": false,
+  "RigFamily": "29eaeb38",
+  "PlayerNameMatch": "0/156 (0%)",
+  "CurrentRace": null,
+  "ExpressionBlendsStartIndex": null,
+  "Races": [],
+  "Clothing": [],
+  "Animators": [
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig",
+      "Enabled": true,
+      "Controller": "VirginiaCreepyController",
+      "Avatar": "VirginiaCreepyRenderRigAvatar",
+      "IsHuman": false,
+      "IsValid": true,
+      "Layers": 0,
+      "HumanBones": {},
+      "Parameters": []
+    }
+  ],
+  "Rig": [
+    {
+      "Path": "VirginiaCreepyActor",
+      "Parent": "",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot",
+      "Parent": "VirginiaCreepyActor",
+      "LocalPosition": [
+        0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig",
+      "Parent": "VisualRoot",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig",
+      "LocalPosition": [
+        -0,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root",
+      "LocalPosition": [
+        -0,
+        1.31437,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "LocalPosition": [
+        -0.10969,
+        -0.12808,
+        0.19609
+      ],
+      "LocalRotation": [
+        0.28275,
+        0.45678,
+        0.46163,
+        0.70591
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt",
+      "LocalPosition": [
+        -0.44206,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt",
+      "LocalPosition": [
+        -0.00904,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.08234,
+        0.9966
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt",
+      "LocalPosition": [
+        -0.01115,
+        -0.00185,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.08235,
+        0.9966
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt",
+      "LocalPosition": [
+        -0.27129,
+        -1E-05,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt",
+      "LocalPosition": [
+        -0.27129,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt",
+      "LocalPosition": [
+        -0.0113,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00055,
+        -0.01125,
+        0.04848,
+        0.99876
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt/Foot_L0_ball_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt",
+      "LocalPosition": [
+        -0.15373,
+        -0.0005,
+        0.01014
+      ],
+      "LocalRotation": [
+        0.8609,
+        0.47278,
+        0.09315,
+        -0.16325
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt/Foot_L0_ball_jnt/Foot_L0_ball1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt/Foot_L0_ball_jnt",
+      "LocalPosition": [
+        -0.10254,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00067,
+        -0.00229,
+        -0.27902,
+        0.96028
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "LocalPosition": [
+        -0.19961,
+        -0.12813,
+        -0.00073
+      ],
+      "LocalRotation": [
+        0.01458,
+        0.02043,
+        0.57612,
+        0.81698
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt",
+      "LocalPosition": [
+        -0.43869,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt",
+      "LocalPosition": [
+        -0.00897,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.08402,
+        0.99646
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt",
+      "LocalPosition": [
+        -0.01114,
+        -0.00189,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.08402,
+        0.99646
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt",
+      "LocalPosition": [
+        -0.27129,
+        -1E-05,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt",
+      "LocalPosition": [
+        -0.27129,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt/Leg_L1_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt",
+      "LocalPosition": [
+        -0.0113,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0.00015,
+        0.00291,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt/Leg_L1_end_jnt/Foot_L1_ball_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt/Leg_L1_end_jnt",
+      "LocalPosition": [
+        -0.13976,
+        -0.01125,
+        0.00036
+      ],
+      "LocalRotation": [
+        0.8477,
+        0.52996,
+        -0.01271,
+        0.01987
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "LocalPosition": [
+        -0.1359,
+        -0.1281,
+        -0.26074
+      ],
+      "LocalRotation": [
+        -0.27308,
+        -0.37314,
+        0.52899,
+        0.7116
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt",
+      "LocalPosition": [
+        -0.4169,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt",
+      "LocalPosition": [
+        -0.00853,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.05478,
+        0.9985
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt",
+      "LocalPosition": [
+        -0.0117,
+        -0.00129,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.05478,
+        0.9985
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt",
+      "LocalPosition": [
+        -0.28245,
+        -1E-05,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt",
+      "LocalPosition": [
+        -0.28245,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt",
+      "LocalPosition": [
+        -0.01177,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00012,
+        0.00306,
+        0.03809,
+        0.99927
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt/Foot_L2_ball_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt",
+      "LocalPosition": [
+        -0.13976,
+        -0.01117,
+        -0.00166
+      ],
+      "LocalRotation": [
+        0.84568,
+        0.52873,
+        0.03831,
+        -0.06174
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt/Foot_L2_ball_jnt/Foot_L2_ball1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt/Foot_L2_ball_jnt",
+      "LocalPosition": [
+        -0.12541,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -2E-05,
+        -0.22484,
+        0.9744
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "LocalPosition": [
+        0.10969,
+        -0.12808,
+        0.19609
+      ],
+      "LocalRotation": [
+        0.70591,
+        -0.46163,
+        0.45678,
+        -0.28275
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt",
+      "LocalPosition": [
+        0.44206,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt",
+      "LocalPosition": [
+        0.00904,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.08234,
+        0.9966
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt",
+      "LocalPosition": [
+        0.01115,
+        0.00185,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.08235,
+        0.9966
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt",
+      "LocalPosition": [
+        0.27129,
+        1E-05,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt",
+      "LocalPosition": [
+        0.27129,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt",
+      "LocalPosition": [
+        0.0113,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.00055,
+        -0.01125,
+        0.04848,
+        0.99876
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt/Foot_R0_ball_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt",
+      "LocalPosition": [
+        0.15373,
+        0.0005,
+        -0.01014
+      ],
+      "LocalRotation": [
+        0.8609,
+        0.47278,
+        0.09315,
+        -0.16325
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt/Foot_R0_ball_jnt/Foot_R0_ball1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt/Foot_R0_ball_jnt",
+      "LocalPosition": [
+        0.10254,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00067,
+        -0.00229,
+        -0.27902,
+        0.96028
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "LocalPosition": [
+        0.19961,
+        -0.12813,
+        -0.00073
+      ],
+      "LocalRotation": [
+        0.81698,
+        -0.57612,
+        0.02043,
+        -0.01458
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt",
+      "LocalPosition": [
+        0.43869,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt",
+      "LocalPosition": [
+        0.00897,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.08402,
+        0.99646
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt",
+      "LocalPosition": [
+        0.01114,
+        0.00189,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.08402,
+        0.99646
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt",
+      "LocalPosition": [
+        0.27129,
+        1E-05,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt",
+      "LocalPosition": [
+        0.27129,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt/Leg_R1_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt",
+      "LocalPosition": [
+        0.0113,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0.00015,
+        0.00291,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt/Leg_R1_end_jnt/Foot_R1_ball_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt/Leg_R1_end_jnt",
+      "LocalPosition": [
+        0.13976,
+        0.01125,
+        -0.00036
+      ],
+      "LocalRotation": [
+        0.8477,
+        0.52996,
+        -0.01271,
+        0.01987
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "LocalPosition": [
+        0.1359,
+        -0.1281,
+        -0.26074
+      ],
+      "LocalRotation": [
+        0.7116,
+        -0.52899,
+        -0.37314,
+        0.27308
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt",
+      "LocalPosition": [
+        0.4169,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        2E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt",
+      "LocalPosition": [
+        0.00853,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.05478,
+        0.9985
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt",
+      "LocalPosition": [
+        0.0117,
+        0.00129,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.05478,
+        0.9985
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt",
+      "LocalPosition": [
+        0.28245,
+        1E-05,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        1E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt",
+      "LocalPosition": [
+        0.28245,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt",
+      "LocalPosition": [
+        0.01177,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00012,
+        0.00306,
+        0.03809,
+        0.99927
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt/Foot_R2_ball_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt",
+      "LocalPosition": [
+        0.13976,
+        0.01117,
+        0.00166
+      ],
+      "LocalRotation": [
+        0.84568,
+        0.52873,
+        0.03831,
+        -0.06174
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt/Foot_R2_ball_jnt/Foot_R2_ball1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt/Foot_R2_ball_jnt",
+      "LocalPosition": [
+        0.12541,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -2E-05,
+        -0.22484,
+        0.9744
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        0.01744,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_C0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt",
+      "LocalPosition": [
+        0.00586,
+        0.10391,
+        -0.2773
+      ],
+      "LocalRotation": [
+        0.0011,
+        -0.03832,
+        -0.00136,
+        0.99926
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_R0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt",
+      "LocalPosition": [
+        -0.24444,
+        -0.0039,
+        -0.02546
+      ],
+      "LocalRotation": [
+        0.00174,
+        0.69555,
+        -0.00014,
+        0.71847
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_R1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt",
+      "LocalPosition": [
+        -0.14239,
+        -0.06197,
+        -0.29007
+      ],
+      "LocalRotation": [
+        0.00154,
+        0.3543,
+        -0.00082,
+        0.93513
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt",
+      "LocalPosition": [
+        -0,
+        0.01741,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        0.15665,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt",
+      "LocalPosition": [
+        -0,
+        -0.01141,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        -0.18129,
+        0.03555,
+        0.11502
+      ],
+      "LocalRotation": [
+        0.88473,
+        0.14496,
+        -0.43322,
+        -0.09246
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt",
+      "LocalPosition": [
+        -0.11747,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt",
+      "LocalPosition": [
+        -0.0024,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.02669,
+        0.99964
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt",
+      "LocalPosition": [
+        -0.00242,
+        -0.00013,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.02669,
+        0.99964
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt",
+      "LocalPosition": [
+        -0.11629,
+        -1E-05,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt",
+      "LocalPosition": [
+        -0.00242,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0.00165,
+        -0.00011,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+      "LocalPosition": [
+        -0.042,
+        0.07695,
+        -0.0308
+      ],
+      "LocalRotation": [
+        -0.07341,
+        -0.00478,
+        -0.65107,
+        0.75545
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt",
+      "LocalPosition": [
+        -0.02369,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.09585,
+        0.9954
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt/finger_L0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt",
+      "LocalPosition": [
+        -0.01431,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+      "LocalPosition": [
+        -0.04452,
+        0.08005,
+        -0.0149
+      ],
+      "LocalRotation": [
+        -0.05121,
+        0.01767,
+        -0.66445,
+        0.74537
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt",
+      "LocalPosition": [
+        -0.02369,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.09585,
+        0.9954
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt/finger_L1_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt",
+      "LocalPosition": [
+        -0.01431,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+      "LocalPosition": [
+        -0.04381,
+        0.08086,
+        0.00142
+      ],
+      "LocalRotation": [
+        -0.01279,
+        0.0558,
+        -0.66222,
+        0.74712
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt/finger_L2_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt",
+      "LocalPosition": [
+        -0.02243,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.11646,
+        0.9932
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt/finger_L2_1_jnt/finger_L2_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt/finger_L2_1_jnt",
+      "LocalPosition": [
+        -0.01431,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+      "LocalPosition": [
+        -0.04402,
+        0.07751,
+        0.0196
+      ],
+      "LocalRotation": [
+        -0.01642,
+        0.05485,
+        -0.70976,
+        0.70211
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt/finger_L3_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt",
+      "LocalPosition": [
+        -0.02193,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.0782,
+        0.99694
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt/finger_L3_1_jnt/finger_L3_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt/finger_L3_1_jnt",
+      "LocalPosition": [
+        -0.0127,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+      "LocalPosition": [
+        -0.02331,
+        0.02581,
+        -0.03037
+      ],
+      "LocalRotation": [
+        0.23436,
+        -0.60415,
+        -0.3058,
+        0.69755
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt/finger_L4_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt",
+      "LocalPosition": [
+        -0.02871,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0.00677,
+        -0.05935,
+        -0.07895,
+        0.99509
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt/finger_L4_1_jnt/finger_L4_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt/finger_L4_1_jnt",
+      "LocalPosition": [
+        -0.01162,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        -2E-05,
+        -0.03063,
+        -0.00013,
+        0.99953
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        -0.16008,
+        -0.00748,
+        -0.22448
+      ],
+      "LocalRotation": [
+        -0.4538,
+        -0.617,
+        -0.07345,
+        0.63874
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt",
+      "LocalPosition": [
+        -0.08286,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt",
+      "LocalPosition": [
+        -0.00169,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        0.0158,
+        0.99988
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt",
+      "LocalPosition": [
+        -0.00154,
+        -5E-05,
+        0
+      ],
+      "LocalRotation": [
+        0.00098,
+        8E-05,
+        0.01574,
+        0.99988
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt",
+      "LocalPosition": [
+        -0.0738,
+        -1E-05,
+        -1E-05
+      ],
+      "LocalRotation": [
+        0.00022,
+        -0.0004,
+        0.00035,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt",
+      "LocalPosition": [
+        -0.00154,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0.04461,
+        -0.22117,
+        0.19686,
+        0.95412
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt",
+      "LocalPosition": [
+        -0.04277,
+        0.00054,
+        -0.0141
+      ],
+      "LocalRotation": [
+        0.93775,
+        0.12722,
+        0.05119,
+        -0.31909
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt/finger_L5_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt",
+      "LocalPosition": [
+        -0.01985,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt/finger_L5_1_jnt/finger_L5_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt/finger_L5_1_jnt",
+      "LocalPosition": [
+        -0.01985,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L6_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt",
+      "LocalPosition": [
+        -0.04337,
+        -0.012,
+        -0.0013
+      ],
+      "LocalRotation": [
+        -0.43393,
+        -0.12991,
+        0.18136,
+        0.87289
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L6_0_jnt/finger_L6_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L6_0_jnt",
+      "LocalPosition": [
+        -0.0191,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0.02073,
+        -0.14488,
+        0.07888,
+        0.98608
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        0.18129,
+        0.03555,
+        0.11502
+      ],
+      "LocalRotation": [
+        0.09246,
+        -0.43323,
+        -0.14496,
+        0.88473
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt",
+      "LocalPosition": [
+        0.11747,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt",
+      "LocalPosition": [
+        0.0024,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.02669,
+        0.99964
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt",
+      "LocalPosition": [
+        0.00242,
+        0.00013,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        0.02669,
+        0.99964
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt",
+      "LocalPosition": [
+        0.11629,
+        1E-05,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt",
+      "LocalPosition": [
+        0.00242,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0.00165,
+        -0.00011,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+      "LocalPosition": [
+        0.042,
+        -0.07695,
+        0.0308
+      ],
+      "LocalRotation": [
+        -0.07341,
+        -0.00478,
+        -0.65107,
+        0.75545
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt",
+      "LocalPosition": [
+        0.02369,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.09585,
+        0.9954
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt/finger_R0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt",
+      "LocalPosition": [
+        0.01431,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt/finger_R0_2_jnt/finger_R0_2_offset_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt/finger_R0_2_jnt",
+      "LocalPosition": [
+        0,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+      "LocalPosition": [
+        0.04452,
+        -0.08005,
+        0.0149
+      ],
+      "LocalRotation": [
+        -0.05121,
+        0.01767,
+        -0.66445,
+        0.74537
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt",
+      "LocalPosition": [
+        0.02369,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.09585,
+        0.9954
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt/finger_R1_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt",
+      "LocalPosition": [
+        0.01431,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+      "LocalPosition": [
+        0.04381,
+        -0.08086,
+        -0.00142
+      ],
+      "LocalRotation": [
+        -0.01279,
+        0.0558,
+        -0.66222,
+        0.74712
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt/finger_R2_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt",
+      "LocalPosition": [
+        0.02243,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.11646,
+        0.9932
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt/finger_R2_1_jnt/finger_R2_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt/finger_R2_1_jnt",
+      "LocalPosition": [
+        0.01431,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+      "LocalPosition": [
+        0.04402,
+        -0.07751,
+        -0.0196
+      ],
+      "LocalRotation": [
+        -0.01642,
+        0.05485,
+        -0.70976,
+        0.70211
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt/finger_R3_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt",
+      "LocalPosition": [
+        0.02193,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        -0,
+        -0.0782,
+        0.99694
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt/finger_R3_1_jnt/finger_R3_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt/finger_R3_1_jnt",
+      "LocalPosition": [
+        0.0127,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+      "LocalPosition": [
+        0.02331,
+        -0.02581,
+        0.03037
+      ],
+      "LocalRotation": [
+        0.23436,
+        -0.60415,
+        -0.3058,
+        0.69755
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt/finger_R4_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt",
+      "LocalPosition": [
+        0.02871,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0.00677,
+        -0.05935,
+        -0.07895,
+        0.99509
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt/finger_R4_1_jnt/finger_R4_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt/finger_R4_1_jnt",
+      "LocalPosition": [
+        0.01162,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -2E-05,
+        -0.03063,
+        -0.00013,
+        0.99953
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        0.16008,
+        -0.00748,
+        -0.22448
+      ],
+      "LocalRotation": [
+        0.63874,
+        0.07345,
+        -0.617,
+        0.4538
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt",
+      "LocalPosition": [
+        0.08286,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        3E-05,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt",
+      "LocalPosition": [
+        0.00169,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        0.0158,
+        0.99988
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt",
+      "LocalPosition": [
+        0.00154,
+        5E-05,
+        -0
+      ],
+      "LocalRotation": [
+        0.00098,
+        8E-05,
+        0.01574,
+        0.99988
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt",
+      "LocalPosition": [
+        0.0738,
+        1E-05,
+        1E-05
+      ],
+      "LocalRotation": [
+        0.00022,
+        -0.0004,
+        0.00035,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt",
+      "LocalPosition": [
+        0.00154,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0.04461,
+        -0.22117,
+        0.19686,
+        0.95412
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt",
+      "LocalPosition": [
+        0.04277,
+        -0.00054,
+        0.0141
+      ],
+      "LocalRotation": [
+        0.93775,
+        0.12722,
+        0.05119,
+        -0.31909
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt/finger_R5_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt",
+      "LocalPosition": [
+        0.01985,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt/finger_R5_1_jnt/finger_R5_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt/finger_R5_1_jnt",
+      "LocalPosition": [
+        0.01985,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R6_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt",
+      "LocalPosition": [
+        0.04337,
+        0.012,
+        0.0013
+      ],
+      "LocalRotation": [
+        -0.43393,
+        -0.12991,
+        0.18136,
+        0.87289
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R6_0_jnt/finger_R6_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R6_0_jnt",
+      "LocalPosition": [
+        0.0191,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0.02073,
+        -0.14488,
+        0.07888,
+        0.98608
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        -0.24819,
+        -0.00019,
+        -0.02123
+      ],
+      "LocalRotation": [
+        0.95184,
+        0.30463,
+        -0.03148,
+        0.01465
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt/finger_L7_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt",
+      "LocalPosition": [
+        -0.06067,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.10251,
+        0.99473
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt/finger_L7_1_jnt/finger_L7_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt/finger_L7_1_jnt",
+      "LocalPosition": [
+        -0.06067,
+        -0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.05917,
+        0.99825
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        -0.25154,
+        -0.00329,
+        -0.08676
+      ],
+      "LocalRotation": [
+        0.95942,
+        0.27257,
+        0.06939,
+        -0.02019
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt/finger_L8_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt",
+      "LocalPosition": [
+        -0.05623,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.10251,
+        0.99473
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt/finger_L8_1_jnt/finger_L8_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt/finger_L8_1_jnt",
+      "LocalPosition": [
+        -0.05623,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.00561,
+        0.99998
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        -0.20975,
+        -0.03137,
+        -0.18865
+      ],
+      "LocalRotation": [
+        0.93817,
+        0.31512,
+        0.04742,
+        0.13524
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt/finger_L9_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt",
+      "LocalPosition": [
+        -0.05623,
+        -0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.10251,
+        0.99473
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt/finger_L9_1_jnt/finger_L9_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt/finger_L9_1_jnt",
+      "LocalPosition": [
+        -0.05623,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.00561,
+        0.99998
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        0.24819,
+        -0.00019,
+        -0.02123
+      ],
+      "LocalRotation": [
+        -0.01465,
+        -0.03148,
+        -0.30463,
+        0.95184
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt/finger_R7_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt",
+      "LocalPosition": [
+        0.06067,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.10251,
+        0.99473
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt/finger_R7_1_jnt/finger_R7_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt/finger_R7_1_jnt",
+      "LocalPosition": [
+        0.06067,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -0.05917,
+        0.99825
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        0.25154,
+        -0.00329,
+        -0.08676
+      ],
+      "LocalRotation": [
+        0.02019,
+        0.06939,
+        -0.27257,
+        0.95942
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt/finger_R8_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt",
+      "LocalPosition": [
+        0.05623,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.10251,
+        0.99473
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt/finger_R8_1_jnt/finger_R8_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt/finger_R8_1_jnt",
+      "LocalPosition": [
+        0.05623,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0.00561,
+        0.99998
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt",
+      "LocalPosition": [
+        0.20975,
+        -0.03137,
+        -0.18865
+      ],
+      "LocalRotation": [
+        -0.13524,
+        0.04742,
+        -0.31512,
+        0.93817
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt/finger_R9_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt",
+      "LocalPosition": [
+        0.05623,
+        0,
+        -0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.10251,
+        0.99473
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt/finger_R9_1_jnt/finger_R9_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt/finger_R9_1_jnt",
+      "LocalPosition": [
+        0.05623,
+        0,
+        0
+      ],
+      "LocalRotation": [
+        -0,
+        0,
+        -0.00561,
+        0.99998
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt",
+      "LocalPosition": [
+        -0,
+        0.17405,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt",
+      "LocalPosition": [
+        -0,
+        0.17405,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        0.08821,
+        -0.10895,
+        -0.19426
+      ],
+      "LocalRotation": [
+        -0,
+        0.99342,
+        0,
+        0.1145
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        0.08405,
+        -0.13826,
+        0.14289
+      ],
+      "LocalRotation": [
+        0.00098,
+        0.12271,
+        0.00144,
+        0.99244
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L2_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        0.23985,
+        -0.20279,
+        -0.0972
+      ],
+      "LocalRotation": [
+        0,
+        0.6802,
+        -0,
+        0.73302
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L3_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        0.17857,
+        -0.17995,
+        0.10931
+      ],
+      "LocalRotation": [
+        0,
+        0.47456,
+        -0,
+        0.88022
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        -0.08821,
+        -0.10895,
+        -0.19426
+      ],
+      "LocalRotation": [
+        0,
+        0.1145,
+        -0,
+        0.99342
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R1_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        -0.08405,
+        -0.13826,
+        0.14289
+      ],
+      "LocalRotation": [
+        0.00144,
+        0.99244,
+        0.00098,
+        0.12271
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R2_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        -0.22975,
+        -0.13769,
+        0.06107
+      ],
+      "LocalRotation": [
+        0.00173,
+        0.84348,
+        0.00026,
+        0.53716
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R3_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        -0.2164,
+        -0.20464,
+        -0.12025
+      ],
+      "LocalRotation": [
+        0.00169,
+        0.5719,
+        -0.00042,
+        0.82032
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R4_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        -0.24334,
+        -0.26198,
+        0.01166
+      ],
+      "LocalRotation": [
+        0.00174,
+        0.69555,
+        -0.00014,
+        0.71847
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+      "LocalPosition": [
+        -0,
+        0.01403,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt",
+      "LocalPosition": [
+        -0,
+        0.02267,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt",
+      "LocalPosition": [
+        -0,
+        0.02267,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt",
+      "LocalPosition": [
+        -0,
+        0.02266,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt/Neck_C0_4_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt",
+      "LocalPosition": [
+        -0,
+        0.02267,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt/Neck_C0_4_jnt/Neck_C0_head_jnt",
+      "Parent": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt/Neck_C0_4_jnt",
+      "LocalPosition": [
+        -0,
+        0.02685,
+        0
+      ],
+      "LocalRotation": [
+        0,
+        -0,
+        -0,
+        1
+      ],
+      "LocalScale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "SkinnedMeshes": [
+    {
+      "Path": "VisualRoot/VirginiaCreepyRenderRig/GEO/VirginiaCreepyMesh",
+      "Mesh": "VirginiaCreepyMesh",
+      "Enabled": true,
+      "Active": false,
+      "Readable": false,
+      "Vertices": 22444,
+      "SubMeshes": 1,
+      "RootBone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+      "Bones": [
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt/finger_L3_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt/finger_L7_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt/finger_L9_1_jnt/finger_L9_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L6_0_jnt/finger_L6_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt/Leg_R1_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt/finger_R0_2_jnt/finger_R0_2_offset_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt/finger_R1_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L2_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt/finger_L3_1_jnt/finger_L3_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt/finger_R8_1_jnt/finger_R8_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt/Neck_C0_4_jnt/Neck_C0_head_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt/finger_R0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt/finger_L5_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt/Foot_R0_ball_jnt/Foot_R0_ball1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_C0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt/Leg_L1_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R6_0_jnt/finger_R6_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt/Leg_L1_end_jnt/Foot_L1_ball_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt/Foot_R2_ball_jnt/Foot_R2_ball1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_R0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L3_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt/finger_L0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt/finger_R7_1_jnt/finger_R7_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt/finger_R5_1_jnt/finger_R5_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt/finger_R8_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R6_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt/Leg_R1_end_jnt/Foot_R1_ball_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_R1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt/Foot_R0_ball_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt/finger_R7_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt/Foot_L0_ball_jnt/Foot_L0_ball1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt/finger_R4_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt/finger_L2_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt/finger_L8_1_jnt/finger_L8_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt/finger_L1_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt/finger_R2_1_jnt/finger_R2_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt/finger_R3_1_jnt/finger_R3_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R2_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt/finger_R9_1_jnt/finger_R9_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R4_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt/Foot_R2_ball_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt/Foot_L2_ball_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt/finger_R9_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L6_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt/finger_R2_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt/finger_L7_1_jnt/finger_L7_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt/finger_R5_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt/finger_L5_1_jnt/finger_L5_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt/finger_L4_1_jnt/finger_L4_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R3_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt/finger_L9_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt/finger_L8_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt/finger_R3_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt/Foot_L2_ball_jnt/Foot_L2_ball1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt/Foot_L0_ball_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt/finger_R4_1_jnt/finger_R4_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt/finger_L2_1_jnt/finger_L2_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R1_0_jnt",
+        "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L1_0_jnt"
+      ],
+      "BindRest": [
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt",
+          "Position": [
+            -0.10969,
+            1.18629,
+            0.19609
+          ],
+          "Rotation": [
+            0.28275,
+            0.45678,
+            0.46163,
+            0.70591
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt",
+          "Position": [
+            -0.18129,
+            1.53,
+            0.11502
+          ],
+          "Rotation": [
+            0.88473,
+            0.14496,
+            -0.43323,
+            -0.09246
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt",
+          "Position": [
+            -0.31571,
+            1.37548,
+            0.33137
+          ],
+          "Rotation": [
+            0.61335,
+            0.68668,
+            -0.28136,
+            -0.27039
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R0_0_jnt",
+          "Position": [
+            -0.08821,
+            1.74502,
+            -0.19426
+          ],
+          "Rotation": [
+            0,
+            0.1145,
+            0,
+            0.99342
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt/finger_L3_1_jnt",
+          "Position": [
+            -0.35502,
+            1.35526,
+            0.29653
+          ],
+          "Rotation": [
+            0.52521,
+            0.7482,
+            -0.17848,
+            -0.364
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt",
+          "Position": [
+            0.20477,
+            0.7793,
+            -0.36375
+          ],
+          "Rotation": [
+            0.68154,
+            -0.56718,
+            -0.35761,
+            0.29312
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt/finger_L7_1_jnt",
+          "Position": [
+            -0.29749,
+            1.45913,
+            -0.01706
+          ],
+          "Rotation": [
+            0.9156,
+            0.4006,
+            -0.03282,
+            0.01135
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L0_0_jnt",
+          "Position": [
+            0.08821,
+            1.74502,
+            -0.19426
+          ],
+          "Rotation": [
+            -0,
+            0.99342,
+            -0,
+            0.1145
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt",
+          "Position": [
+            -0.20001,
+            1.40898,
+            -0.35997
+          ],
+          "Rotation": [
+            -0.55236,
+            -0.62594,
+            0.20784,
+            0.5098
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt/finger_L9_1_jnt/finger_L9_2_jnt",
+          "Position": [
+            -0.29179,
+            1.38709,
+            -0.18581
+          ],
+          "Rotation": [
+            0.89861,
+            0.41468,
+            0.03252,
+            0.13957
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt",
+          "Position": [
+            -0,
+            1.93599,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt",
+          "Position": [
+            -0.24819,
+            1.49426,
+            -0.02123
+          ],
+          "Rotation": [
+            0.95184,
+            0.30463,
+            -0.03148,
+            0.01465
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt",
+          "Position": [
+            -0.19959,
+            1.40976,
+            -0.35871
+          ],
+          "Rotation": [
+            -0.4725,
+            -0.60248,
+            -0.05214,
+            0.64113
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L6_0_jnt/finger_L6_1_jnt",
+          "Position": [
+            -0.21529,
+            1.34734,
+            -0.36705
+          ],
+          "Rotation": [
+            0.81391,
+            0.5429,
+            -0.20673,
+            -0.00834
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt",
+          "Position": [
+            -0.31062,
+            1.42955,
+            0.3275
+          ],
+          "Rotation": [
+            -0.31264,
+            -0.28046,
+            0.84465,
+            0.3319
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt/Leg_R1_end_jnt",
+          "Position": [
+            0.35301,
+            0.1994,
+            0.00669
+          ],
+          "Rotation": [
+            0.70688,
+            -0.70688,
+            0.01775,
+            -0.01775
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt/finger_R0_2_jnt/finger_R0_2_offset_jnt",
+          "Position": [
+            0.31,
+            1.3382,
+            0.32842
+          ],
+          "Rotation": [
+            0.29611,
+            -0.25415,
+            -0.74231,
+            0.54471
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt",
+          "Position": [
+            0.17976,
+            1.44679,
+            -0.29803
+          ],
+          "Rotation": [
+            0.64125,
+            0.05269,
+            -0.60238,
+            0.47241
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt",
+          "Position": [
+            -0.1359,
+            1.18628,
+            -0.26074
+          ],
+          "Rotation": [
+            -0.27308,
+            -0.37314,
+            0.52899,
+            0.7116
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt",
+          "Position": [
+            0.18029,
+            0.77577,
+            0.36923
+          ],
+          "Rotation": [
+            0.66549,
+            -0.5182,
+            0.43193,
+            -0.31941
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt",
+          "Position": [
+            -0.21612,
+            0.48594,
+            -0.38314
+          ],
+          "Rotation": [
+            -0.31227,
+            -0.34101,
+            0.60368,
+            0.64944
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt",
+          "Position": [
+            -0.19961,
+            1.18625,
+            -0.00073
+          ],
+          "Rotation": [
+            0.01458,
+            0.02043,
+            0.57612,
+            0.81698
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt",
+          "Position": [
+            -0.34186,
+            1.3725,
+            0.31228
+          ],
+          "Rotation": [
+            0.62705,
+            0.66518,
+            -0.22882,
+            -0.33465
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt",
+          "Position": [
+            0.18052,
+            0.76453,
+            0.37033
+          ],
+          "Rotation": [
+            0.62055,
+            -0.57125,
+            0.40416,
+            -0.3539
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt",
+          "Position": [
+            0.32213,
+            1.46183,
+            0.29468
+          ],
+          "Rotation": [
+            0.06919,
+            -0.43754,
+            -0.09749,
+            0.89121
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt",
+          "Position": [
+            0.32767,
+            1.34898,
+            0.32074
+          ],
+          "Rotation": [
+            0.32089,
+            -0.22846,
+            -0.74182,
+            0.5427
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt",
+          "Position": [
+            -0.17896,
+            1.44835,
+            -0.29531
+          ],
+          "Rotation": [
+            -0.45381,
+            -0.61699,
+            -0.07343,
+            0.63874
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt/finger_R1_2_jnt",
+          "Position": [
+            0.32473,
+            1.33536,
+            0.31748
+          ],
+          "Rotation": [
+            0.32089,
+            -0.22846,
+            -0.74182,
+            0.5427
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L2_0_jnt",
+          "Position": [
+            0.23985,
+            1.65118,
+            -0.0972
+          ],
+          "Rotation": [
+            -0,
+            0.6802,
+            0,
+            0.73302
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt/finger_L3_1_jnt/finger_L3_2_jnt",
+          "Position": [
+            -0.35269,
+            1.34363,
+            0.29199
+          ],
+          "Rotation": [
+            0.52521,
+            0.7482,
+            -0.17848,
+            -0.364
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt/finger_R8_1_jnt/finger_R8_2_jnt",
+          "Position": [
+            0.33918,
+            1.42353,
+            -0.10281
+          ],
+          "Rotation": [
+            0.01257,
+            0.07116,
+            -0.37467,
+            0.92434
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt/Neck_C0_3_jnt/Neck_C0_4_jnt/Neck_C0_head_jnt",
+          "Position": [
+            -0,
+            1.9855,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt/finger_R0_2_jnt",
+          "Position": [
+            0.31,
+            1.3382,
+            0.32842
+          ],
+          "Rotation": [
+            0.29611,
+            -0.25415,
+            -0.74231,
+            0.54471
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt",
+          "Position": [
+            -0.32213,
+            1.46183,
+            0.29468
+          ],
+          "Rotation": [
+            0.89121,
+            0.09749,
+            -0.43754,
+            -0.06919
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt",
+          "Position": [
+            -0,
+            1.868,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt",
+          "Position": [
+            0.19959,
+            1.40976,
+            -0.35871
+          ],
+          "Rotation": [
+            0.64113,
+            0.05214,
+            -0.60248,
+            0.4725
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt/finger_L5_1_jnt",
+          "Position": [
+            -0.19446,
+            1.34668,
+            -0.3754
+          ],
+          "Rotation": [
+            0.59584,
+            0.48777,
+            0.47648,
+            0.42429
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt/Foot_R0_ball_jnt/Foot_R0_ball1_jnt",
+          "Position": [
+            0.17782,
+            0.00474,
+            0.34156
+          ],
+          "Rotation": [
+            -0.68436,
+            -0.00229,
+            0.72914,
+            -0.00196
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt",
+          "Position": [
+            0.24973,
+            1.49046,
+            0.20192
+          ],
+          "Rotation": [
+            0.09245,
+            -0.43323,
+            -0.14494,
+            0.88474
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_C0_0_jnt",
+          "Position": [
+            0.00586,
+            1.43572,
+            -0.2773
+          ],
+          "Rotation": [
+            0.0011,
+            -0.03832,
+            -0.00136,
+            0.99926
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt",
+          "Position": [
+            0.31571,
+            1.37548,
+            0.33137
+          ],
+          "Rotation": [
+            0.27039,
+            -0.28136,
+            -0.68668,
+            0.61335
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt/Leg_L1_end_jnt",
+          "Position": [
+            -0.35301,
+            0.1994,
+            0.00669
+          ],
+          "Rotation": [
+            0.01775,
+            0.01775,
+            0.70688,
+            0.70688
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R6_0_jnt/finger_R6_1_jnt",
+          "Position": [
+            0.21529,
+            1.34734,
+            -0.36705
+          ],
+          "Rotation": [
+            0.00834,
+            -0.20673,
+            -0.5429,
+            0.81391
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R1_0_jnt",
+          "Position": [
+            0.32946,
+            1.3725,
+            0.32294
+          ],
+          "Rotation": [
+            0.29752,
+            -0.25817,
+            -0.68639,
+            0.61131
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt",
+          "Position": [
+            0.17896,
+            1.44835,
+            -0.29531
+          ],
+          "Rotation": [
+            0.63874,
+            0.07343,
+            -0.61699,
+            0.45381
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt",
+          "Position": [
+            -0.25258,
+            1.48908,
+            0.20555
+          ],
+          "Rotation": [
+            0.89121,
+            0.09752,
+            -0.43754,
+            -0.0692
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt",
+          "Position": [
+            0.22746,
+            0.19258,
+            -0.40253
+          ],
+          "Rotation": [
+            0.62698,
+            -0.62698,
+            -0.32695,
+            0.32695
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt",
+          "Position": [
+            0.31062,
+            1.42955,
+            0.3275
+          ],
+          "Rotation": [
+            -0.3319,
+            0.84465,
+            0.28046,
+            -0.31264
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt",
+          "Position": [
+            0.16008,
+            1.48698,
+            -0.22448
+          ],
+          "Rotation": [
+            0.63874,
+            0.07345,
+            -0.617,
+            0.4538
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt",
+          "Position": [
+            0.17887,
+            0.784,
+            0.36576
+          ],
+          "Rotation": [
+            0.7059,
+            -0.46165,
+            0.45677,
+            -0.28276
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt",
+          "Position": [
+            -0.22701,
+            0.20432,
+            -0.40175
+          ],
+          "Rotation": [
+            -0.31227,
+            -0.34101,
+            0.60368,
+            0.64944
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt",
+          "Position": [
+            0.31331,
+            1.35192,
+            0.33074
+          ],
+          "Rotation": [
+            0.29611,
+            -0.25415,
+            -0.74231,
+            0.54471
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt/Leg_L1_end_jnt/Foot_L1_ball_jnt",
+          "Position": [
+            -0.34175,
+            0.05964,
+            0.00648
+          ],
+          "Rotation": [
+            0.22473,
+            0.97442,
+            -0.00058,
+            -0.00142
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt",
+          "Position": [
+            -0.32946,
+            1.3725,
+            0.32294
+          ],
+          "Rotation": [
+            0.61131,
+            0.68639,
+            -0.25817,
+            -0.29752
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt/Foot_R2_ball_jnt/Foot_R2_ball1_jnt",
+          "Position": [
+            0.14248,
+            -0.0021,
+            -0.31219
+          ],
+          "Rotation": [
+            0.39675,
+            0.00027,
+            0.91792,
+            1E-05
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt",
+          "Position": [
+            -0.18029,
+            0.77577,
+            0.36923
+          ],
+          "Rotation": [
+            0.31941,
+            0.43193,
+            0.5182,
+            0.66549
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt",
+          "Position": [
+            0.32358,
+            1.46127,
+            0.29654
+          ],
+          "Rotation": [
+            0.06939,
+            -0.43607,
+            -0.09747,
+            0.89192
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt",
+          "Position": [
+            0.25258,
+            1.48908,
+            0.20555
+          ],
+          "Rotation": [
+            0.0692,
+            -0.43754,
+            -0.09752,
+            0.89121
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_R0_0_jnt",
+          "Position": [
+            -0.24444,
+            1.32791,
+            -0.02546
+          ],
+          "Rotation": [
+            0.00174,
+            0.69555,
+            -0.00014,
+            0.71847
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt",
+          "Position": [
+            0.21612,
+            0.48594,
+            -0.38314
+          ],
+          "Rotation": [
+            0.64944,
+            -0.60368,
+            -0.34101,
+            0.31227
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt",
+          "Position": [
+            -0.19307,
+            1.36624,
+            -0.37234
+          ],
+          "Rotation": [
+            0.59584,
+            0.48777,
+            0.47648,
+            0.42429
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L3_0_jnt",
+          "Position": [
+            0.17857,
+            1.67402,
+            0.10931
+          ],
+          "Rotation": [
+            -0,
+            0.47456,
+            0,
+            0.88022
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt",
+          "Position": [
+            0.35674,
+            1.37642,
+            0.30205
+          ],
+          "Rotation": [
+            0.34893,
+            -0.2064,
+            -0.70484,
+            0.58211
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt",
+          "Position": [
+            -0.25113,
+            1.48965,
+            0.2037
+          ],
+          "Rotation": [
+            0.88829,
+            0.12127,
+            -0.43554,
+            -0.08085
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt/finger_L0_2_jnt",
+          "Position": [
+            -0.31,
+            1.3382,
+            0.32842
+          ],
+          "Rotation": [
+            0.54471,
+            0.74231,
+            -0.25415,
+            -0.29611
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt",
+          "Position": [
+            -0.18052,
+            0.76453,
+            0.37033
+          ],
+          "Rotation": [
+            0.3539,
+            0.40416,
+            0.57125,
+            0.62055
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt",
+          "Position": [
+            -0,
+            1.85397,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt",
+          "Position": [
+            -0.24973,
+            1.49046,
+            0.20192
+          ],
+          "Rotation": [
+            0.88474,
+            0.14494,
+            -0.43323,
+            -0.09245
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt",
+          "Position": [
+            -0,
+            1.31437,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt/finger_R7_1_jnt/finger_R7_2_jnt",
+          "Position": [
+            0.33855,
+            1.41467,
+            -0.01286
+          ],
+          "Rotation": [
+            -0.00939,
+            -0.03343,
+            -0.45407,
+            0.89029
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt",
+          "Position": [
+            -0.19196,
+            0.21339,
+            0.4242
+          ],
+          "Rotation": [
+            0.37983,
+            0.37983,
+            0.59643,
+            0.59643
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt",
+          "Position": [
+            0.18612,
+            0.49458,
+            0.39671
+          ],
+          "Rotation": [
+            0.62054,
+            -0.57126,
+            0.40416,
+            -0.35391
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt/finger_R5_1_jnt/finger_R5_2_jnt",
+          "Position": [
+            0.19585,
+            1.32712,
+            -0.37845
+          ],
+          "Rotation": [
+            -0.42429,
+            0.47648,
+            -0.48777,
+            0.59584
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt/finger_R8_1_jnt",
+          "Position": [
+            0.29887,
+            1.46192,
+            -0.09487
+          ],
+          "Rotation": [
+            0.01297,
+            0.07109,
+            -0.36948,
+            0.92642
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R6_0_jnt",
+          "Position": [
+            0.21027,
+            1.36577,
+            -0.3673
+          ],
+          "Rotation": [
+            0.08631,
+            -0.07402,
+            -0.60263,
+            0.78988
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt",
+          "Position": [
+            0.34186,
+            1.3725,
+            0.31228
+          ],
+          "Rotation": [
+            0.33465,
+            -0.22882,
+            -0.66518,
+            0.62705
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt/Leg_R1_end_jnt/Foot_R1_ball_jnt",
+          "Position": [
+            0.34175,
+            0.05964,
+            0.00648
+          ],
+          "Rotation": [
+            -0.00142,
+            0.00058,
+            0.97442,
+            -0.22473
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/BellyA_R1_0_jnt",
+          "Position": [
+            -0.14239,
+            1.26984,
+            -0.29007
+          ],
+          "Rotation": [
+            0.00154,
+            0.3543,
+            -0.00082,
+            0.93513
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt/Foot_R0_ball_jnt",
+          "Position": [
+            0.18256,
+            0.05966,
+            0.42803
+          ],
+          "Rotation": [
+            -0.65949,
+            0.18923,
+            0.69806,
+            -0.20486
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt/finger_R7_1_jnt",
+          "Position": [
+            0.29749,
+            1.45913,
+            -0.01706
+          ],
+          "Rotation": [
+            -0.01135,
+            -0.03282,
+            -0.4006,
+            0.9156
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt",
+          "Position": [
+            -0.22746,
+            0.19258,
+            -0.40253
+          ],
+          "Rotation": [
+            -0.32695,
+            -0.32695,
+            0.62698,
+            0.62698
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt/Foot_L0_ball_jnt/Foot_L0_ball1_jnt",
+          "Position": [
+            -0.17782,
+            0.00474,
+            0.34156
+          ],
+          "Rotation": [
+            -0.00196,
+            -0.72914,
+            -0.00229,
+            0.68436
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt/Leg_L1_5_jnt",
+          "Position": [
+            -0.35295,
+            0.2107,
+            0.00669
+          ],
+          "Rotation": [
+            0.0178,
+            0.0177,
+            0.70482,
+            0.70894
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/Neck_C0_0_jnt/Neck_C0_1_jnt/Neck_C0_2_jnt",
+          "Position": [
+            -0,
+            1.91333,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt/finger_R4_1_jnt",
+          "Position": [
+            0.29385,
+            1.40842,
+            0.33731
+          ],
+          "Rotation": [
+            -0.37819,
+            0.83096,
+            0.32918,
+            -0.24107
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt",
+          "Position": [
+            0.19961,
+            1.18625,
+            -0.00073
+          ],
+          "Rotation": [
+            0.81698,
+            -0.57612,
+            0.02043,
+            -0.01458
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt",
+          "Position": [
+            0.19173,
+            0.22464,
+            0.4231
+          ],
+          "Rotation": [
+            0.62054,
+            -0.57126,
+            0.40416,
+            -0.35391
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt",
+          "Position": [
+            -0.20339,
+            0.78745,
+            -0.36168
+          ],
+          "Rotation": [
+            -0.27309,
+            -0.37313,
+            0.529,
+            0.71159
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt",
+          "Position": [
+            0.19307,
+            1.36624,
+            -0.37234
+          ],
+          "Rotation": [
+            -0.42429,
+            0.47648,
+            -0.48777,
+            0.59584
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt/finger_L2_1_jnt",
+          "Position": [
+            -0.34209,
+            1.35036,
+            0.30873
+          ],
+          "Rotation": [
+            0.54531,
+            0.73368,
+            -0.18829,
+            -0.35902
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt/finger_L8_1_jnt/finger_L8_2_jnt",
+          "Position": [
+            -0.33918,
+            1.42353,
+            -0.10281
+          ],
+          "Rotation": [
+            0.92434,
+            0.37467,
+            0.07116,
+            -0.01257
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt",
+          "Position": [
+            -0.32358,
+            1.46127,
+            0.29654
+          ],
+          "Rotation": [
+            0.89192,
+            0.09747,
+            -0.43607,
+            -0.06939
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt/finger_L1_2_jnt",
+          "Position": [
+            -0.32473,
+            1.33536,
+            0.31748
+          ],
+          "Rotation": [
+            0.5427,
+            0.74182,
+            -0.22846,
+            -0.32089
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt",
+          "Position": [
+            -0.32767,
+            1.34898,
+            0.32074
+          ],
+          "Rotation": [
+            0.5427,
+            0.74182,
+            -0.22846,
+            -0.32089
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt",
+          "Position": [
+            -0.17976,
+            1.44679,
+            -0.29803
+          ],
+          "Rotation": [
+            -0.47241,
+            -0.60238,
+            -0.05269,
+            0.64125
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt/finger_R2_1_jnt/finger_R2_2_jnt",
+          "Position": [
+            0.33998,
+            1.33698,
+            0.30413
+          ],
+          "Rotation": [
+            0.35902,
+            -0.18829,
+            -0.73368,
+            0.54531
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt/finger_R3_1_jnt/finger_R3_2_jnt",
+          "Position": [
+            0.35269,
+            1.34363,
+            0.29199
+          ],
+          "Rotation": [
+            0.364,
+            -0.17848,
+            -0.7482,
+            0.52521
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt",
+          "Position": [
+            -0.17935,
+            1.44756,
+            -0.29676
+          ],
+          "Rotation": [
+            -0.4635,
+            -0.60974,
+            -0.06333,
+            0.63982
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt",
+          "Position": [
+            0.1359,
+            1.18628,
+            -0.26074
+          ],
+          "Rotation": [
+            0.7116,
+            -0.52899,
+            -0.37314,
+            0.27308
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt",
+          "Position": [
+            0.34972,
+            0.76457,
+            0.00669
+          ],
+          "Rotation": [
+            0.76567,
+            -0.64275,
+            0.01913,
+            -0.01625
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R8_0_jnt",
+          "Position": [
+            0.25154,
+            1.49117,
+            -0.08676
+          ],
+          "Rotation": [
+            0.02019,
+            0.06939,
+            -0.27257,
+            0.95942
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt",
+          "Position": [
+            0.10969,
+            1.18629,
+            0.19609
+          ],
+          "Rotation": [
+            0.70591,
+            -0.46163,
+            0.45678,
+            -0.28275
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt",
+          "Position": [
+            0.22701,
+            0.20432,
+            -0.40175
+          ],
+          "Rotation": [
+            0.64944,
+            -0.60368,
+            -0.34101,
+            0.31227
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt",
+          "Position": [
+            -0.25154,
+            1.49117,
+            -0.08676
+          ],
+          "Rotation": [
+            0.95942,
+            0.27257,
+            0.06939,
+            -0.02019
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt",
+          "Position": [
+            -0.20523,
+            0.76756,
+            -0.36452
+          ],
+          "Rotation": [
+            -0.31227,
+            -0.34102,
+            0.60367,
+            0.64944
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R0_0_jnt/Leg_R0_1_jnt/Leg_R0_2_jnt/Leg_R0_3_jnt/Leg_R0_4_jnt/Leg_R0_5_jnt/Leg_R0_end_jnt",
+          "Position": [
+            0.19196,
+            0.21339,
+            0.4242
+          ],
+          "Rotation": [
+            0.59643,
+            -0.59643,
+            0.37983,
+            -0.37983
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R2_0_jnt",
+          "Position": [
+            -0.22975,
+            1.71628,
+            0.06107
+          ],
+          "Rotation": [
+            0.00173,
+            0.84348,
+            0.00026,
+            0.53716
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt",
+          "Position": [
+            -0.18612,
+            0.49458,
+            0.39671
+          ],
+          "Rotation": [
+            0.35391,
+            0.40416,
+            0.57126,
+            0.62054
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt",
+          "Position": [
+            0.20523,
+            0.76756,
+            -0.36452
+          ],
+          "Rotation": [
+            0.64944,
+            -0.60367,
+            -0.34102,
+            0.31227
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt/finger_R9_1_jnt/finger_R9_2_jnt",
+          "Position": [
+            0.29179,
+            1.38709,
+            -0.18581
+          ],
+          "Rotation": [
+            -0.13957,
+            0.03252,
+            -0.41468,
+            0.89861
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R4_0_jnt",
+          "Position": [
+            -0.24334,
+            1.59199,
+            0.01166
+          ],
+          "Rotation": [
+            0.00174,
+            0.69555,
+            -0.00014,
+            0.71847
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt",
+          "Position": [
+            -0.34671,
+            0.77302,
+            0.00654
+          ],
+          "Rotation": [
+            0.01459,
+            0.02043,
+            0.57614,
+            0.81696
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt",
+          "Position": [
+            -0.17887,
+            0.784,
+            0.36576
+          ],
+          "Rotation": [
+            0.28276,
+            0.45677,
+            0.46165,
+            0.7059
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt",
+          "Position": [
+            -0,
+            1.34922,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt/Leg_R2_2_jnt/Leg_R2_3_jnt/Leg_R2_4_jnt/Leg_R2_5_jnt/Leg_R2_end_jnt/Foot_R2_ball_jnt",
+          "Position": [
+            0.21971,
+            0.05283,
+            -0.39432
+          ],
+          "Rotation": [
+            0.38664,
+            -0.08894,
+            0.89443,
+            -0.20638
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt/Foot_L2_ball_jnt",
+          "Position": [
+            -0.21971,
+            0.05283,
+            -0.39432
+          ],
+          "Rotation": [
+            0.20638,
+            0.89443,
+            0.08894,
+            0.38664
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L3_0_jnt",
+          "Position": [
+            -0.35674,
+            1.37642,
+            0.30205
+          ],
+          "Rotation": [
+            0.58211,
+            0.70484,
+            -0.2064,
+            -0.34893
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt",
+          "Position": [
+            0.20001,
+            1.40898,
+            -0.35997
+          ],
+          "Rotation": [
+            0.5098,
+            -0.20784,
+            -0.62594,
+            0.55236
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt",
+          "Position": [
+            0.34979,
+            0.75327,
+            0.00669
+          ],
+          "Rotation": [
+            0.70895,
+            -0.70481,
+            0.0177,
+            -0.0178
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt",
+          "Position": [
+            0.35137,
+            0.48199,
+            0.00669
+          ],
+          "Rotation": [
+            0.70894,
+            -0.70482,
+            0.0177,
+            -0.0178
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt",
+          "Position": [
+            -0.34972,
+            0.76457,
+            0.00669
+          ],
+          "Rotation": [
+            0.01625,
+            0.01913,
+            0.64275,
+            0.76567
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt/finger_R9_1_jnt",
+          "Position": [
+            0.25455,
+            1.42911,
+            -0.18886
+          ],
+          "Rotation": [
+            -0.13939,
+            0.0333,
+            -0.40963,
+            0.90092
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt",
+          "Position": [
+            -0.34979,
+            0.75327,
+            0.00669
+          ],
+          "Rotation": [
+            0.0178,
+            0.0177,
+            0.70481,
+            0.70895
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R9_0_jnt",
+          "Position": [
+            0.20975,
+            1.46308,
+            -0.18865
+          ],
+          "Rotation": [
+            -0.13524,
+            0.04742,
+            -0.31512,
+            0.93817
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L6_0_jnt",
+          "Position": [
+            -0.21027,
+            1.36577,
+            -0.3673
+          ],
+          "Rotation": [
+            0.78988,
+            0.60263,
+            -0.07402,
+            -0.08631
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt",
+          "Position": [
+            0.17935,
+            1.44756,
+            -0.29676
+          ],
+          "Rotation": [
+            0.63982,
+            0.06333,
+            -0.60974,
+            0.4635
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt",
+          "Position": [
+            -0.20975,
+            1.46308,
+            -0.18865
+          ],
+          "Rotation": [
+            0.93817,
+            0.31512,
+            0.04742,
+            0.13524
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R2_0_jnt/finger_R2_1_jnt",
+          "Position": [
+            0.34209,
+            1.35036,
+            0.30873
+          ],
+          "Rotation": [
+            0.35902,
+            -0.18829,
+            -0.73368,
+            0.54531
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt/Leg_R1_2_jnt/Leg_R1_3_jnt/Leg_R1_4_jnt/Leg_R1_5_jnt",
+          "Position": [
+            0.35295,
+            0.2107,
+            0.00669
+          ],
+          "Rotation": [
+            0.70894,
+            -0.70482,
+            0.0177,
+            -0.0178
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L7_0_jnt/finger_L7_1_jnt/finger_L7_2_jnt",
+          "Position": [
+            -0.33855,
+            1.41467,
+            -0.01286
+          ],
+          "Rotation": [
+            0.89029,
+            0.45407,
+            -0.03343,
+            0.00939
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R1_0_jnt/Leg_R1_1_jnt",
+          "Position": [
+            0.34671,
+            0.77302,
+            0.00654
+          ],
+          "Rotation": [
+            0.81696,
+            -0.57614,
+            0.02043,
+            -0.01459
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R1_0_jnt/Arm_R1_1_jnt/Arm_R1_2_jnt/Arm_R1_3_jnt/Arm_R1_4_jnt/Arm_R1_end_jnt/finger_R5_0_jnt/finger_R5_1_jnt",
+          "Position": [
+            0.19446,
+            1.34668,
+            -0.3754
+          ],
+          "Rotation": [
+            -0.42429,
+            0.47648,
+            -0.48777,
+            0.59584
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_R7_0_jnt",
+          "Position": [
+            0.24819,
+            1.49426,
+            -0.02123
+          ],
+          "Rotation": [
+            -0.01465,
+            -0.03148,
+            -0.30463,
+            0.95184
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_R2_0_jnt/Leg_R2_1_jnt",
+          "Position": [
+            0.20339,
+            0.78745,
+            -0.36168
+          ],
+          "Rotation": [
+            0.71159,
+            -0.529,
+            -0.37313,
+            0.27309
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt/Arm_L1_1_jnt/Arm_L1_2_jnt/Arm_L1_3_jnt/Arm_L1_4_jnt/Arm_L1_end_jnt/finger_L5_0_jnt/finger_L5_1_jnt/finger_L5_2_jnt",
+          "Position": [
+            -0.19585,
+            1.32712,
+            -0.37845
+          ],
+          "Rotation": [
+            0.59584,
+            0.48777,
+            0.47648,
+            0.42429
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L4_0_jnt/finger_L4_1_jnt/finger_L4_2_jnt",
+          "Position": [
+            -0.2869,
+            1.39928,
+            0.33907
+          ],
+          "Rotation": [
+            -0.21547,
+            -0.34067,
+            0.8379,
+            0.36803
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R3_0_jnt",
+          "Position": [
+            -0.2164,
+            1.64933,
+            -0.12025
+          ],
+          "Rotation": [
+            0.00169,
+            0.5719,
+            -0.00042,
+            0.82032
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L1_0_jnt/Leg_L1_1_jnt/Leg_L1_2_jnt/Leg_L1_3_jnt/Leg_L1_4_jnt",
+          "Position": [
+            -0.35137,
+            0.48199,
+            0.00669
+          ],
+          "Rotation": [
+            0.0178,
+            0.0177,
+            0.70482,
+            0.70894
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L1_0_jnt",
+          "Position": [
+            -0.16008,
+            1.48698,
+            -0.22448
+          ],
+          "Rotation": [
+            -0.4538,
+            -0.617,
+            -0.07345,
+            0.63874
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L9_0_jnt/finger_L9_1_jnt",
+          "Position": [
+            -0.25455,
+            1.42911,
+            -0.18886
+          ],
+          "Rotation": [
+            0.90092,
+            0.40963,
+            0.0333,
+            0.13939
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt",
+          "Position": [
+            0.18129,
+            1.53,
+            0.11502
+          ],
+          "Rotation": [
+            0.09246,
+            -0.43323,
+            -0.14496,
+            0.88473
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/finger_L8_0_jnt/finger_L8_1_jnt",
+          "Position": [
+            -0.29887,
+            1.46192,
+            -0.09487
+          ],
+          "Rotation": [
+            0.92642,
+            0.36948,
+            0.07109,
+            -0.01297
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt",
+          "Position": [
+            -0.20477,
+            0.7793,
+            -0.36375
+          ],
+          "Rotation": [
+            -0.29312,
+            -0.35761,
+            0.56718,
+            0.68154
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R3_0_jnt/finger_R3_1_jnt",
+          "Position": [
+            0.35502,
+            1.35526,
+            0.29653
+          ],
+          "Rotation": [
+            0.364,
+            -0.17848,
+            -0.7482,
+            0.52521
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt",
+          "Position": [
+            -0.19173,
+            0.22464,
+            0.4231
+          ],
+          "Rotation": [
+            0.35391,
+            0.40416,
+            0.57126,
+            0.62054
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L2_0_jnt/Leg_L2_1_jnt/Leg_L2_2_jnt/Leg_L2_3_jnt/Leg_L2_4_jnt/Leg_L2_5_jnt/Leg_L2_end_jnt/Foot_L2_ball_jnt/Foot_L2_ball1_jnt",
+          "Position": [
+            -0.14248,
+            -0.0021,
+            -0.31219
+          ],
+          "Rotation": [
+            -1E-05,
+            0.91792,
+            -0.00027,
+            0.39675
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt",
+          "Position": [
+            -0,
+            1.33181,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Leg_L0_0_jnt/Leg_L0_1_jnt/Leg_L0_2_jnt/Leg_L0_3_jnt/Leg_L0_4_jnt/Leg_L0_5_jnt/Leg_L0_end_jnt/Foot_L0_ball_jnt",
+          "Position": [
+            -0.18256,
+            0.05966,
+            0.42803
+          ],
+          "Rotation": [
+            -0.20486,
+            -0.69806,
+            0.18923,
+            0.65949
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt",
+          "Position": [
+            0.25113,
+            1.48965,
+            0.2037
+          ],
+          "Rotation": [
+            0.08085,
+            -0.43554,
+            -0.12127,
+            0.88829
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_R0_0_jnt/Arm_R0_1_jnt/Arm_R0_2_jnt/Arm_R0_3_jnt/Arm_R0_4_jnt/Arm_R0_end_jnt/finger_R4_0_jnt/finger_R4_1_jnt/finger_R4_2_jnt",
+          "Position": [
+            0.2869,
+            1.39928,
+            0.33907
+          ],
+          "Rotation": [
+            -0.36803,
+            0.8379,
+            0.34067,
+            -0.21547
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt",
+          "Position": [
+            -0,
+            1.50586,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt",
+          "Position": [
+            -0.31331,
+            1.35192,
+            0.33074
+          ],
+          "Rotation": [
+            0.54471,
+            0.74231,
+            -0.25415,
+            -0.29611
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/ArmsBase_C1_0_jnt/Arm_L0_0_jnt/Arm_L0_1_jnt/Arm_L0_2_jnt/Arm_L0_3_jnt/Arm_L0_4_jnt/Arm_L0_end_jnt/finger_L2_0_jnt/finger_L2_1_jnt/finger_L2_2_jnt",
+          "Position": [
+            -0.33998,
+            1.33698,
+            0.30413
+          ],
+          "Rotation": [
+            0.54531,
+            0.73368,
+            -0.18829,
+            -0.35902
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt",
+          "Position": [
+            -0,
+            1.67991,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_R1_0_jnt",
+          "Position": [
+            -0.08405,
+            1.71571,
+            0.14289
+          ],
+          "Rotation": [
+            0.00144,
+            0.99244,
+            0.00098,
+            0.12271
+          ]
+        },
+        {
+          "Bone": "VisualRoot/VirginiaCreepyRenderRig/Root/Hips_C0_0_jnt/Spine_C0_hip_jnt/Spine_C0_0_jnt/Spine_C0_1_jnt/Spine_C0_2_jnt/Spine_C0_3_jnt/ChestA_L1_0_jnt",
+          "Position": [
+            0.08405,
+            1.71571,
+            0.14289
+          ],
+          "Rotation": [
+            0.00098,
+            0.12271,
+            0.00144,
+            0.99244
+          ]
+        }
+      ],
+      "BlendShapes": [],
+      "Materials": [
+        {
+          "Name": "VirginiaCreepy",
+          "Shader": "Sons/Characters/Skin BloodReveal DIrt Wetness",
+          "Textures": {
+            "_BaseColorMap": "VirginiaCreepyAlbedo",
+            "_MaskMap": "VirginiaCreepyMask",
+            "_NormalMap": "VirginiaCreepyNormal",
+            "_SubsurfaceMaskMap": "VirginiaCreepyScattering",
+            "_ThicknessMap": "VirginiaCreepyThickness",
+            "Texture2D_63d92e82ae274040b10c6407e7992071": "VirginiaCreepyWetnessMask",
+            "_BloodMask": "CannibalHeavyBodyBloodmask",
+            "_BloodRevealMask": "VirginiaCreepyBloodmaskLow",
+            "_DirtDetailMap": "DirtDetailMask",
+            "_WetnessNoiseMap": "Noise"
+          }
+        }
+      ]
+    }
+  ],
+  "AttachedMeshes": []
+}

@@ -41,3 +41,7 @@ Requires the .NET 8 SDK and RedLoader installed in the game folder with its inte
 ```
 .\build.ps1 -Install
 ```
+
+## Reference data
+
+`data/` holds a captured dump and `data/FINDINGS.md`, a summary of the player rig, races, clothing, rig families and female assets. Use it as a starting point before running the mod yourself.
