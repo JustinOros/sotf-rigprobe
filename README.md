@@ -22,7 +22,8 @@ Run these in the in-game console.
 | `rigprobe` | Dump the player, remote players, carry bodies, all actor prefabs and live actors, plus all loaded clips and controllers |
 | `rigprobe <filter>` | Same, limited to actor types containing the filter, e.g. `rigprobe female` |
 | `rigscene` | Dump every character in the loaded scenes (posers, cutscene characters, props with skinned meshes), one file per character |
-| `rigassets [filter]` | Dump the Addressables catalog (keys, internal ids, types), optionally filtered, e.g. `rigassets female` |
+| `rigassets [filter]` | Dump the Addressables catalog (keys, internal ids, types), optionally filtered, e.g. `rigassets female`, and resolve every race and clothing GUID |
+| `rigassets key:<key>` | Resolve a single Addressables key or GUID |
 | `rigwatch [player\|robby\|virginia]` | Log every animator state change on the target while you play |
 | `rigwatch off` | Stop watching and write a summary of every state seen |
 | `rigspawn <Type> [variation]` | Spawn an actor in front of you so its live variant gets dumped, e.g. `rigspawn Virginia` |
@@ -33,7 +34,7 @@ Written to `Sons Of The Forest\UserData\RigProbe\`:
 
 - `characters\index.tsv` one line per character with rig family and player bone match
 - `characters\clips.tsv` every loaded animation clip, `characters\controllers.tsv` every loaded animator controller and who uses it
-- `assets.tsv` or `assets_<filter>.tsv` from `rigassets`
+- `assets.tsv` or `assets_<filter>.tsv`, `assets_locators.tsv` and `assets_known.tsv` (race and clothing GUIDs resolved) from `rigassets`
 - `watch\<target>_<time>.log` and `_states.tsv` from `rigwatch`
 - `characters\rigfamilies.txt` characters grouped by shared skeleton
 - `characters\<source>_<name>.json` full data per character
