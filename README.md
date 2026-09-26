@@ -25,6 +25,10 @@ Run these in the in-game console.
 | `rigwatch [player\|robby\|virginia]` | Log every animator state change on the target while you play |
 | `rigwatch off` | Stop watching and write a summary of every state seen |
 | `rigspawn <Type> [variation]` | Spawn an actor in front of you so its live variant gets dumped, e.g. `rigspawn Virginia` |
+| `rigplay <layer> <state\|hash> [fade]` | CrossFade the local player into an animator state, fade 0 uses Play, e.g. `rigplay fullBodyActions couchIdle` |
+| `rigparam <name> [value]` | Set a local player animator parameter, e.g. `rigparam couchBool 1` |
+| `rigweight <layer> <weight>` | Set a local player animator layer weight |
+| `rignet` | Hook the `updateMecanimRemoteState` Bolt event, its receivers and any method with RemoteState or Mecanim in its name, and log every call |
 
 ## Output
 
@@ -32,7 +36,8 @@ Written to `Sons Of The Forest\UserData\RigProbe\`:
 
 - `characters\index.tsv` one line per character with rig family and player bone match
 - `characters\clips.tsv` every loaded animation clip, `characters\controllers.tsv` every loaded animator controller and who uses it
-- `watch\<target>_<time>.log` and `_states.tsv` from `rigwatch`
+- `watch\<target>_<time>.log` and `_states.tsv` from `rigwatch`. The log has a kind column: `state`, `weight` (layer weight changes), `param` (bool, int and trigger changes) and `net` (`rignet` lines while both run)
+- `net\net_<time>.log` from `rignet`
 - `characters\rigfamilies.txt` characters grouped by shared skeleton
 - `characters\<source>_<name>.json` full data per character
 - `scene\` the same layout for `rigscene`

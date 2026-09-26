@@ -1,10 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
+using HarmonyLib;
 using RedLoader;
 using RedLoader.Utils;
 using Sons.Ai.Vail;
@@ -27,8 +30,12 @@ public class RigProbe : SonsMod
     {
         "HappyThumbsUp", "ThumbsUp", "Nod", "HappyFistPump", "FistPump", "Confused", "HitHeadSmall", "HitHeadBig",
         "ShakeHead", "NoHandUp", "Sad", "Happy", "Laugh", "WagFingerNo", "SkunkReact", "OnPlayerNod",
-        "OnPlayerCrash", "OnPlayerSmallHit", "Wave", "Point", "Cheer", "Dance", "Salute", "Clap", "Shrug"
+        "OnPlayerCrash", "OnPlayerSmallHit", "Wave", "Point", "Cheer", "Dance", "Salute", "Clap", "Shrug",
+        "NodHead", "IdleScratchHead", "IdleSwatFly", "IdleLookVar1", "couchIdle", "seatedRockIdle", "injuredLoop",
+        "standUpIdle", "standup", "wakeUp", "checkArms", "coldIdleVar1", "PlayerALighterLookAt", "PlayerAAngry", "PlayerAScared"
     };
+
+    private const BindingFlags AllDeclared = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly;
 
     private static Animator _watchAnimator;
     private static string _watchTarget;
@@ -37,6 +44,17 @@ public class RigProbe : SonsMod
     private static Dictionary<int, string> _watchNames;
     private static readonly Dictionary<string, WatchEntry> WatchSeen = new();
     private static string _watchStatesPath;
+    private static float[] _watchWeights;
+    private static List<(string Name, int Hash, AnimatorControllerParameterType Type)> _watchParams;
+    private static int[] _watchParamLast;
+
+    private static bool _netHooked;
+    private static StreamWriter _netLog;
+    private static Type _netEventType;
+    private static Type _il2cppStackType;
+    private static HarmonyLib.Harmony _harmony;
+    private static Dictionary<int, string> _netNames = new();
+    private static readonly Dictionary<string, int> NetCallCounts = new();
 
     public RigProbe()
     {
@@ -45,7 +63,7 @@ public class RigProbe : SonsMod
 
     protected override void OnSdkInitialized()
     {
-        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigscene, rigwatch [player|robby|virginia|off], rigspawn <TypeName> [variation]");
+        RLog.Msg("RigProbe loaded. Commands: rigprobe [filter], rigscene, rigwatch [player|robby|virginia|off], rigspawn <TypeName> [variation], rigplay <layer> <state|hash> [fade], rigparam <name> [value], rigweight <layer> <weight>, rignet");
     }
 
     [DebugCommand("rigprobe")]
@@ -114,6 +132,166 @@ public class RigProbe : SonsMod
         catch (Exception e)
         {
             RLog.Error($"rigspawn {id} failed: {e.Message}");
+        }
+    }
+
+    [DebugCommand("rigplay")]
+    private static void PlayCommand(string args)
+    {
+        var parts = SplitArgs(args);
+        if (parts.Length < 2)
+        {
+            Say("Usage: rigplay <layer> <state|hash> [fade]  e.g. rigplay fullBodyActions couchIdle 0.25");
+            return;
+        }
+
+        try
+        {
+            var a = PlayerAnimator();
+            if (!a)
+            {
+                Say("Load into a game first");
+                return;
+            }
+
+            var layer = ResolveLayer(a, parts[0]);
+            if (layer < 0)
+            {
+                Say($"rigplay: no layer {parts[0]}");
+                return;
+            }
+
+            var ln = a.GetLayerName(layer);
+            if (!int.TryParse(parts[1], out var hash))
+            {
+                var sh = Animator.StringToHash(parts[1]);
+                var fh = Animator.StringToHash($"{ln}.{parts[1]}");
+                hash = SafeHasState(a, layer, sh) ? sh : SafeHasState(a, layer, fh) ? fh : 0;
+            }
+            if (hash == 0 || !SafeHasState(a, layer, hash))
+            {
+                Say($"rigplay: {ln} has no state {parts[1]}");
+                return;
+            }
+
+            var fade = parts.Length > 2 && float.TryParse(parts[2], NumberStyles.Float, CultureInfo.InvariantCulture, out var f) ? f : 0.25f;
+            if (fade <= 0f)
+                a.Play(hash, layer, 0f);
+            else
+                a.CrossFadeInFixedTime(hash, fade, layer);
+
+            Say($"rigplay: {ln} ({layer}) hash {hash} fade {fade:F2}, layer weight {a.GetLayerWeight(layer):F2}");
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigplay failed: {e}");
+        }
+    }
+
+    [DebugCommand("rigparam")]
+    private static void ParamCommand(string args)
+    {
+        var parts = SplitArgs(args);
+        if (parts.Length < 1)
+        {
+            Say("Usage: rigparam <name> [value]  e.g. rigparam couchBool 1");
+            return;
+        }
+
+        try
+        {
+            var a = PlayerAnimator();
+            if (!a)
+            {
+                Say("Load into a game first");
+                return;
+            }
+
+            AnimatorControllerParameter found = null;
+            foreach (var p in a.parameters)
+            {
+                if (string.Equals(p.name, parts[0], StringComparison.OrdinalIgnoreCase))
+                {
+                    found = p;
+                    break;
+                }
+            }
+            if (found is null)
+            {
+                Say($"rigparam: no parameter {parts[0]}");
+                return;
+            }
+
+            var v = parts.Length > 1 ? parts[1] : "1";
+            switch (found.type)
+            {
+                case AnimatorControllerParameterType.Trigger:
+                    a.SetTrigger(found.nameHash);
+                    break;
+                case AnimatorControllerParameterType.Bool:
+                    a.SetBool(found.nameHash, v == "1" || v.Equals("true", StringComparison.OrdinalIgnoreCase));
+                    break;
+                case AnimatorControllerParameterType.Int:
+                    a.SetInteger(found.nameHash, int.Parse(v, CultureInfo.InvariantCulture));
+                    break;
+                case AnimatorControllerParameterType.Float:
+                    a.SetFloat(found.nameHash, float.Parse(v, CultureInfo.InvariantCulture));
+                    break;
+            }
+
+            Say($"rigparam: {found.name} ({found.type}) = {ParamValue(a, found.nameHash, found.type)}");
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigparam failed: {e}");
+        }
+    }
+
+    [DebugCommand("rigweight")]
+    private static void WeightCommand(string args)
+    {
+        var parts = SplitArgs(args);
+        if (parts.Length < 2 || !float.TryParse(parts[1], NumberStyles.Float, CultureInfo.InvariantCulture, out var w))
+        {
+            Say("Usage: rigweight <layer> <weight>  e.g. rigweight fullBodyActions 1");
+            return;
+        }
+
+        try
+        {
+            var a = PlayerAnimator();
+            if (!a)
+            {
+                Say("Load into a game first");
+                return;
+            }
+
+            var layer = ResolveLayer(a, parts[0]);
+            if (layer < 0)
+            {
+                Say($"rigweight: no layer {parts[0]}");
+                return;
+            }
+
+            a.SetLayerWeight(layer, w);
+            Say($"rigweight: {a.GetLayerName(layer)} ({layer}) = {a.GetLayerWeight(layer):F2}");
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rigweight failed: {e}");
+        }
+    }
+
+    [DebugCommand("rignet")]
+    private static void NetCommand(string args)
+    {
+        try
+        {
+            HookNet();
+        }
+        catch (Exception e)
+        {
+            RLog.Error($"rignet failed: {e}");
         }
     }
 
@@ -678,31 +856,23 @@ public class RigProbe : SonsMod
         _watchAnimator = best;
         _watchTarget = target;
         _watchLast = Enumerable.Repeat(int.MinValue, best.layerCount).ToArray();
+        _watchWeights = Enumerable.Repeat(-1f, best.layerCount).ToArray();
+        _watchParams = new();
+        foreach (var p in best.parameters)
+        {
+            if (p.type != AnimatorControllerParameterType.Float)
+                _watchParams.Add((p.name, p.nameHash, p.type));
+        }
+        _watchParamLast = Enumerable.Repeat(int.MinValue, _watchParams.Count).ToArray();
         WatchSeen.Clear();
-
-        _watchNames = new Dictionary<int, string>();
-        var layerNames = Enumerable.Range(0, best.layerCount).Select(best.GetLayerName).ToList();
-        foreach (var clip in best.runtimeAnimatorController.animationClips)
-        {
-            if (!clip)
-                continue;
-            _watchNames[Animator.StringToHash(clip.name)] = clip.name;
-            foreach (var ln in layerNames)
-                _watchNames[Animator.StringToHash($"{ln}.{clip.name}")] = $"{ln}.{clip.name}";
-        }
-        foreach (var n in EmoteNames)
-        {
-            _watchNames[Animator.StringToHash(n)] = n;
-            foreach (var ln in layerNames)
-                _watchNames[Animator.StringToHash($"{ln}.{n}")] = $"{ln}.{n}";
-        }
+        _watchNames = BuildNames(best);
 
         var dir = Path.Combine(LoaderEnvironment.UserDataDirectory, "RigProbe", "watch");
         Directory.CreateDirectory(dir);
         var stamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
         _watchLog = new StreamWriter(Path.Combine(dir, $"{target}_{stamp}.log")) { AutoFlush = true };
         _watchStatesPath = Path.Combine(dir, $"{target}_{stamp}_states.tsv");
-        _watchLog.WriteLine("time\tlayer\tlayerName\tweight\tshortHash\tfullHash\tresolved\tclips");
+        _watchLog.WriteLine("time\tkind\tlayer\tlayerName\tweight\tshortHash\tfullHash\tresolved\tclips");
         Say($"rigwatch: watching {target} animator {best.name} ({best.layerCount} layers). rigwatch off to stop.");
     }
 
@@ -743,6 +913,13 @@ public class RigProbe : SonsMod
         {
             for (int i = 0; i < _watchLast.Length; i++)
             {
+                var w = a.GetLayerWeight(i);
+                if (Mathf.Abs(w - _watchWeights[i]) >= 0.25f || (w != _watchWeights[i] && (w == 0f || w == 1f)))
+                {
+                    _watchWeights[i] = w;
+                    _watchLog.WriteLine($"{Time.time:F2}\tweight\t{i}\t{a.GetLayerName(i)}\t{R(w)}");
+                }
+
                 var st = a.GetCurrentAnimatorStateInfo(i);
                 if (st.fullPathHash == _watchLast[i])
                     continue;
@@ -760,7 +937,7 @@ public class RigProbe : SonsMod
                 var resolved = _watchNames.TryGetValue(st.fullPathHash, out var fn) ? fn
                     : _watchNames.TryGetValue(st.shortNameHash, out var sn) ? sn : string.Empty;
 
-                _watchLog.WriteLine($"{Time.time:F2}\t{i}\t{layerName}\t{R(a.GetLayerWeight(i))}\t{st.shortNameHash}\t{st.fullPathHash}\t{resolved}\t{clipText}");
+                _watchLog.WriteLine($"{Time.time:F2}\tstate\t{i}\t{layerName}\t{R(a.GetLayerWeight(i))}\t{st.shortNameHash}\t{st.fullPathHash}\t{resolved}\t{clipText}");
 
                 var key = $"{i}:{st.fullPathHash}";
                 if (!WatchSeen.TryGetValue(key, out var entry))
@@ -777,6 +954,18 @@ public class RigProbe : SonsMod
                     WatchSeen[key] = entry;
                 }
                 entry.Count++;
+            }
+
+            for (int i = 0; i < _watchParams.Count; i++)
+            {
+                var p = _watchParams[i];
+                var v = p.Type == AnimatorControllerParameterType.Int ? a.GetInteger(p.Hash) : a.GetBool(p.Hash) ? 1 : 0;
+                if (v == _watchParamLast[i])
+                    continue;
+                var first = _watchParamLast[i] == int.MinValue;
+                _watchParamLast[i] = v;
+                if (!first)
+                    _watchLog.WriteLine($"{Time.time:F2}\tparam\t{p.Name}\t{p.Type}\t{v}");
             }
         }
         catch (Exception e)
@@ -1030,6 +1219,332 @@ public class RigProbe : SonsMod
         }
         parts.Reverse();
         return string.Join("/", parts);
+    }
+
+    private static void HookNet()
+    {
+        if (_netHooked)
+        {
+            Say("rignet: already hooked");
+            return;
+        }
+
+        var dir = Path.Combine(LoaderEnvironment.UserDataDirectory, "RigProbe", "net");
+        Directory.CreateDirectory(dir);
+        var path = Path.Combine(dir, $"net_{DateTime.Now:yyyyMMdd_HHmmss}.log");
+        _netLog = new StreamWriter(path) { AutoFlush = true };
+        var pa = PlayerAnimator();
+        if (pa)
+            _netNames = BuildNames(pa);
+
+        var types = GameTypes();
+        foreach (var t in types.Where(t => t.Name.IndexOf("mecanim", StringComparison.OrdinalIgnoreCase) >= 0))
+            NetLine($"type\t{t.Assembly.GetName().Name}\t{t.FullName}\t{t.BaseType?.FullName}");
+
+        _netEventType = types.FirstOrDefault(t => t.Name == "updateMecanimRemoteState");
+        if (_netEventType == null)
+        {
+            Say($"rignet: updateMecanimRemoteState not found, see {path}");
+            return;
+        }
+
+        _harmony ??= new HarmonyLib.Harmony("RigProbe.Net");
+        var patched = 0;
+
+        foreach (var p in _netEventType.GetProperties(BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+        {
+            NetLine($"prop\t{p.Name}\t{p.PropertyType.FullName}");
+            var set = p.GetSetMethod();
+            if (set != null && NetPatch(set, null, nameof(NetOnSet)))
+                patched++;
+        }
+
+        foreach (var m in _netEventType.GetMethods(AllDeclared))
+        {
+            if (m.IsSpecialName)
+                continue;
+            NetLine($"method\t{DescribeMethod(m)}");
+            if ((m.Name == "Create" || m.Name == "Send") && NetPatch(m, null, nameof(NetOnCreateOrSend)))
+                patched++;
+        }
+
+        var named = 0;
+        foreach (var t in types)
+        {
+            if (t == _netEventType || t.IsInterface)
+                continue;
+            MethodInfo[] ms;
+            try
+            {
+                ms = t.GetMethods(AllDeclared);
+            }
+            catch
+            {
+                continue;
+            }
+
+            foreach (var m in ms)
+            {
+                bool takesEvent;
+                try
+                {
+                    takesEvent = m.GetParameters().Any(p => p.ParameterType == _netEventType);
+                }
+                catch
+                {
+                    continue;
+                }
+
+                var isNamed = !m.IsSpecialName && (m.Name.IndexOf("RemoteState", StringComparison.OrdinalIgnoreCase) >= 0
+                                                   || m.Name.IndexOf("Mecanim", StringComparison.OrdinalIgnoreCase) >= 0);
+                if (!takesEvent && !isNamed)
+                    continue;
+
+                NetLine($"{(takesEvent ? "receiver" : "named")}\t{t.FullName}\t{DescribeMethod(m)}");
+                if (!takesEvent && ++named > 60)
+                    continue;
+                if (NetPatch(m, nameof(NetOnCall), null))
+                    patched++;
+            }
+        }
+
+        _netHooked = true;
+        Say($"rignet: {patched} hooks installed, log {path}");
+    }
+
+    private static bool NetPatch(MethodInfo m, string prefix, string postfix)
+    {
+        if (m.IsAbstract || m.ContainsGenericParameters)
+            return false;
+        try
+        {
+            _harmony.Patch(m,
+                prefix: prefix == null ? null : new HarmonyMethod(typeof(RigProbe).GetMethod(prefix, BindingFlags.NonPublic | BindingFlags.Static)),
+                postfix: postfix == null ? null : new HarmonyMethod(typeof(RigProbe).GetMethod(postfix, BindingFlags.NonPublic | BindingFlags.Static)));
+            return true;
+        }
+        catch (Exception e)
+        {
+            NetLine($"patchfail\t{m.DeclaringType?.FullName}.{m.Name}\t{e.Message}");
+            return false;
+        }
+    }
+
+    private static void NetOnSet(MethodBase __originalMethod, object[] __args)
+    {
+        var v = __args != null && __args.Length > 0 ? __args[0] : null;
+        var extra = v is int h && _netNames.TryGetValue(h, out var n) ? $"\t{n}" : string.Empty;
+        NetLine($"set\t{__originalMethod.Name.Substring(4)}\t{Fmt(v)}{extra}");
+    }
+
+    private static void NetOnCreateOrSend(MethodBase __originalMethod, object[] __args)
+    {
+        NetLine($"{__originalMethod.Name}\t{string.Join(", ", (__args ?? Array.Empty<object>()).Select(Fmt))}");
+        NetLine($"stack\t{Il2CppStack()}");
+    }
+
+    private static void NetOnCall(MethodBase __originalMethod, object[] __args)
+    {
+        var key = $"{__originalMethod.DeclaringType?.FullName}.{__originalMethod.Name}";
+        NetCallCounts.TryGetValue(key, out var n);
+        n++;
+        NetCallCounts[key] = n;
+        if (n > 20 && n % 200 != 0)
+            return;
+        var parts = (__args ?? Array.Empty<object>()).Select(x => x != null && _netEventType != null && _netEventType.IsInstanceOfType(x) ? DumpNetEvent(x) : Fmt(x));
+        NetLine($"call#{n}\t{key}\t{string.Join(", ", parts)}");
+    }
+
+    private static string DumpNetEvent(object e)
+    {
+        var sb = new StringBuilder("{");
+        for (var t = e.GetType(); t != null && t != typeof(object) && t.FullName != "Il2CppSystem.Object" && t.Namespace?.StartsWith("Il2CppInterop") != true; t = t.BaseType)
+        {
+            foreach (var p in t.GetProperties(BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+            {
+                if (p.GetIndexParameters().Length > 0 || p.GetGetMethod() == null)
+                    continue;
+                object v;
+                try
+                {
+                    v = p.GetValue(e);
+                }
+                catch
+                {
+                    v = "?";
+                }
+                var extra = v is int h && _netNames.TryGetValue(h, out var n) ? $"({n})" : string.Empty;
+                sb.Append($"{p.Name}={Fmt(v)}{extra} ");
+            }
+        }
+        return sb.Append('}').ToString();
+    }
+
+    private static string Il2CppStack()
+    {
+        try
+        {
+            _il2cppStackType ??= AppDomain.CurrentDomain.GetAssemblies().Select(x => x.GetType("Il2CppSystem.Diagnostics.StackTrace")).FirstOrDefault(x => x != null);
+            if (_il2cppStackType == null)
+                return "unavailable";
+            var s = Activator.CreateInstance(_il2cppStackType)?.ToString() ?? string.Empty;
+            return string.Join(" | ", s.Split('\n').Select(x => x.Trim()).Where(x => x.Length > 0).Take(15));
+        }
+        catch (Exception e)
+        {
+            return "unavailable: " + e.Message;
+        }
+    }
+
+    private static List<Type> GameTypes()
+    {
+        var list = new List<Type>();
+        foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
+        {
+            string loc;
+            try
+            {
+                loc = asm.Location;
+            }
+            catch
+            {
+                continue;
+            }
+            if (string.IsNullOrEmpty(loc) || loc.Replace('/', '\\').IndexOf(@"_RedLoader\Game", StringComparison.OrdinalIgnoreCase) < 0)
+                continue;
+            var name = asm.GetName().Name ?? string.Empty;
+            if (name.StartsWith("Il2Cppmscorlib") || name.StartsWith("Il2CppSystem") || name.StartsWith("UnityEngine") || name.StartsWith("Unity."))
+                continue;
+
+            Type[] ts;
+            try
+            {
+                ts = asm.GetTypes();
+            }
+            catch (ReflectionTypeLoadException e)
+            {
+                ts = e.Types.Where(x => x != null).ToArray();
+            }
+            catch
+            {
+                continue;
+            }
+            list.AddRange(ts);
+        }
+        return list;
+    }
+
+    private static void NetLine(string line)
+    {
+        var t = Time.time.ToString("F2", CultureInfo.InvariantCulture);
+        try
+        {
+            _netLog?.WriteLine($"{t}\t{line}");
+            _watchLog?.WriteLine($"{t}\tnet\t{line}");
+        }
+        catch
+        {
+        }
+    }
+
+    private static Dictionary<int, string> BuildNames(Animator a)
+    {
+        var map = new Dictionary<int, string>();
+        var layers = Enumerable.Range(0, a.layerCount).Select(a.GetLayerName).ToList();
+        var names = new List<string>(EmoteNames);
+        foreach (var clip in a.runtimeAnimatorController.animationClips)
+        {
+            if (clip)
+                names.Add(clip.name);
+        }
+        foreach (var n in names)
+        {
+            map[Animator.StringToHash(n)] = n;
+            foreach (var ln in layers)
+                map[Animator.StringToHash($"{ln}.{n}")] = $"{ln}.{n}";
+        }
+        return map;
+    }
+
+    private static Animator PlayerAnimator()
+    {
+        var go = LocalPlayer.GameObject;
+        if (!go)
+            return null;
+
+        var t = go.transform.Find("PlayerAnimator");
+        if (t)
+        {
+            var pa = t.GetComponent<Animator>();
+            if (pa && pa.isInitialized)
+                return pa;
+        }
+
+        Animator best = null;
+        foreach (var a in go.GetComponentsInChildren<Animator>(true))
+        {
+            if (!a || !a.isInitialized || !a.runtimeAnimatorController)
+                continue;
+            if (!best || a.layerCount > best.layerCount)
+                best = a;
+        }
+        return best;
+    }
+
+    private static int ResolveLayer(Animator a, string s)
+    {
+        if (int.TryParse(s, out var i))
+            return i >= 0 && i < a.layerCount ? i : -1;
+        for (int l = 0; l < a.layerCount; l++)
+        {
+            if (string.Equals(a.GetLayerName(l), s, StringComparison.OrdinalIgnoreCase))
+                return l;
+        }
+        return -1;
+    }
+
+    private static bool SafeHasState(Animator a, int layer, int hash)
+    {
+        try
+        {
+            return a.HasState(layer, hash);
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
+    private static string ParamValue(Animator a, int hash, AnimatorControllerParameterType type)
+    {
+        return type switch
+        {
+            AnimatorControllerParameterType.Float => a.GetFloat(hash).ToString("F3", CultureInfo.InvariantCulture),
+            AnimatorControllerParameterType.Int => a.GetInteger(hash).ToString(CultureInfo.InvariantCulture),
+            _ => a.GetBool(hash) ? "1" : "0"
+        };
+    }
+
+    private static string DescribeMethod(MethodInfo m)
+    {
+        var ps = string.Join(", ", m.GetParameters().Select(p => $"{p.ParameterType.Name} {p.Name}"));
+        return $"{(m.IsStatic ? "static " : string.Empty)}{m.ReturnType.Name} {m.Name}({ps})";
+    }
+
+    private static string Fmt(object o)
+    {
+        return o switch
+        {
+            null => "null",
+            float f => f.ToString("F3", CultureInfo.InvariantCulture),
+            UnityEngine.Object u => u ? $"{u.GetType().Name}:{u.name}" : "destroyed",
+            _ => o.ToString()
+        };
+    }
+
+    private static string[] SplitArgs(string args)
+    {
+        return (args ?? string.Empty).Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries);
     }
 
     private static void Say(string text)
